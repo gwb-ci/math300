@@ -1,0 +1,317 @@
+\documentclass[11pt]{article}
+\usepackage{graphicx}
+\usepackage{amssymb}
+\usepackage{multicol}
+\usepackage{multirow}
+\usepackage{pdflscape}
+\usepackage{calc}
+\usepackage{ifthen}
+\usepackage{tikz}
+\usepackage{pst-barcode}
+\usepackage{auto-pst-pdf} % uncomment this if used with pdflatex
+\usepackage[neverdecrease]{paralist}
+
+
+\textwidth = 6.5 in
+\textheight = 9 in
+\oddsidemargin = 0.0 in
+\evensidemargin = 0.0 in
+\topmargin = 0.0 in
+\headheight = 0.0 in
+\headsep = 0.0 in
+\parskip = 0.2in
+\parindent = 0.0in
+
+\newtheorem{theorem}{Theorem}
+\newtheorem{corollary}[theorem]{Corollary}
+\newtheorem{definition}{Definition}
+
+\newenvironment{packed_enum}{
+\begin{enumerate}
+  \setlength{\itemsep}{1pt}
+  \setlength{\parskip}{0pt}
+  \setlength{\parsep}{0pt}
+}{\end{enumerate}}
+
+\newenvironment{packed_item}{
+\begin{itemize}
+  \setlength{\itemsep}{1pt}
+  \setlength{\parskip}{0pt}
+  \setlength{\parsep}{0pt}
+}{\end{itemize}}
+
+\newcommand{\slice}[4]{
+  \pgfmathparse{0.5*#1+0.5*#2}
+  \let\midangle\pgfmathresult
+
+  % slice
+  \draw[thick,fill=black!10] (0,0) -- (#1:1) arc (#1:#2:1) -- cycle;
+
+  % outer label
+  \node[label=\midangle:#4] at (\midangle:1) {};
+
+  % inner label
+  \pgfmathparse{min((#2-#1-10)/110*(-0.3),0)}
+  \let\temp\pgfmathresult
+  \pgfmathparse{max(\temp,-0.5) + 0.8}
+  \let\innerpos\pgfmathresult
+  \node at (\midangle:\innerpos) {#3};
+}
+
+
+
+
+\begin{document}
+
+\begin{center}
+{\bf Syllabus} - Math 300-01 - Discrete Mathematics - Fall 2018
+\end{center}
+
+%\begin{multicols}{2}
+Professor: Geoffrey Buhl\\
+Email: geoffrey.buhl@csuci.edu\\ 
+%aim/gtalk: gwbuhl\\ 
+Phone: 805 437 3122\\
+Office: 2776 Bell Tower East\\
+Office hours:  TWTh 11:00am-12:00pm or  by appt.
+
+%\end{multicols}
+
+Course meetings:  Monday and Wednesday 12:00pm-1:15pm in ???\\
+Text: Anderson, A First Course in Discrete Mathematics \\
+Course website is on CI Learn
+
+%%%%%%%%%%%%%
+{\bf Why I like this course}\\
+%%%%%%%%%%%%%
+Discrete math is a fun departure from the calculus series, free from concerns about continuity and the real numbers.  We get our first chance to explore abstract structures and a first introduction to proofs in this course.  Discrete math ultimately boils down to counting, something that is tangible, comfortable, and sometimes even comforting.
+
+
+%%%%%%%%%%%%%
+{\bf How to contact me}\\
+%%%%%%%%%%%%%
+The best way to get in touch with me is in-person or by email.  In general, if you have any difficulties with the material, schedule, or anything else, get in touch with me. I'm here to help, and it's much easier to help if you are proactive.  If my office hours don't work for you email to schedule an appointment to talk with me.
+
+
+%%%%%%%%%%%%%
+{\bf Course Description}\\
+%%%%%%%%%%%%%
+Prerequisite: MATH 230 ``Logic and Mathematical Reasoning''\\
+\\
+Topics include: Sets, algebraic systems, axioms, definitions, propositions, and proofs. Combinatorics, graph theory, moduli calculus.  Coding, coding errors, and Hammang codes.  Students are expected to write mathematical proofs, and communicate mathematical ideas clearly in written and oral form.
+
+%%%%%%%%%%%%%
+{\bf Goals}\\
+%%%%%%%%%%%%%
+Upon successful completion of this course, students will be able to:
+\begin{packed_item}
+\item apply the principles of logic in a formal language,
+\item discuss the theory and use of sets,
+\item compute the number of ways complicated tasks can be performed,
+\item incorporate applied problems into graph theoretic framework and using this interpretation to solve them, and
+\item express quantitative ideas in oral and written form.
+\end{packed_item}
+
+%%%%%%%%%%%%%
+{\bf Course Workload}\\
+%%%%%%%%%%%%%
+This is a 3 credit hour course, which means that students should be prepared to spend a minimum of 9 hours a week on work related to this class.  In order to be successful students should budget 2.5 hours of time in class, 1 hour of reading, and 5.5 hours on homework each week.  Spending time throughout the week working on homework is critical for a successful learning experience.
+
+%%%%%%%%%%%%%
+{\bf Student Evaluation Structure}\\
+%%%%%%%%%%%%%
+Course grades are based on your performance on 2 midterms, 10 homework assignments, a proof portfolio, and a final exam.  Each homework assignment is out of 24.  A proof portfolio consisting of 6 proofs is due on the last day of classes; refer to the Proof Portfolio document for more details.
+
+\begin{multicols}{2}
+
+
+\begin{tabular}{lll}
+Homework & 240 \\
+Midterm 1 & 100 \\
+Midterm 2 & 100 \\
+Proof Portfolio & 60 \\
+Final Exam & 150 \\ \hline
+Total & 650
+\end{tabular}
+
+
+\begin{tabular}{|c|c|c|} \hline
+$ A \in (585,650]$  & $B \in (520,585]$  & $C \in (455,520]$\\ \hline
+  $D \in (390,455]$ & $F \in [0,390]$& \\  \hline
+\end{tabular}
+
+
+\begin{tikzpicture}[scale=1.75]
+
+\newcounter{a}
+\newcounter{b}
+\foreach \p/\t in {37/Homework, 15/Midterm 1, 15/Midterm 2,
+                   9/Proof Portfolio, 24/Final Exam}
+  {
+    \setcounter{a}{\value{b}}
+    \addtocounter{b}{\p}
+    \slice{\thea/100*360}
+          {\theb/100*360}
+          {\p\%}{\t}
+  }
+
+\end{tikzpicture}
+
+\end{multicols}
+
+The above table indicates what number of total points is needed for each grade.  I will assign + and - grades in this course at my discretion.
+
+{\bf Homework is due by noon on Fridays}.  You may submit your assignments in class, drop them off at my office in BTE 2776, or place them in my mailbox in BTE 2805.  Late assignments will not be graded.
+
+%%%%%%%%%%%%%
+%{\bf Points Tracker} \\
+%%%%%%%%%%%%%
+%I try hard to make sure that I record grades accurately, but each student should retain copies of their work and track their course point totals.  Email me at any time if you would like to make sure that you and I have the same totals recorded.
+
+%\renewcommand\arraystretch{1.5}
+%\begin{tabular*}{1\textwidth}{@{\extracolsep{\fill}}|c|c|c|c|c|c|c|c|c|c|c||c|} \hline
+%& HW1 & HW2 & HW3 & HW4 & HW5 & HW6 & HW7 & HW8 & HW9 & HW10 & Total  \\
+%\hline
+%Score  &&&&&&&&&&& \\ \hline
+%\end{tabular*}
+
+
+\begin{tabular}{|c|c|c|} \hline
+ &Score & Points\\ \hline
+Homeworks &  &240\\ \hline
+Midterm 1  &  &100\\ \hline
+Midterm 2 &   &100\\ \hline
+Proof Portfolio & & 60 \\ \hline
+Final Exam &  &150\\ \hline \hline
+Total &  &650\\ \hline
+\end{tabular}
+
+%%%%%%%%%%%%%
+{\bf Confusometer} \\
+%%%%%%%%%%%%%
+  \begin{pspicture}(1in,1in)
+    \psbarcode{https://goo.gl/forms/MOjvJzRTjpH257072}{}{qrcode}
+  \end{pspicture}
+
+
+%%%%%%%%%%%%%
+%{\bf Early Assessment} \\
+%%%%%%%%%%%%%
+%The first two homework assignments due on 9/4 and 9/11 make up the Early Assessment component of this course.  The first two homework assignments will be returned to you graded the class period after they are submitted.  The graded homework assignments will give you feedback and suggestions on step you can take to improve your performance in the course and on future assignments.  Together these first two homework assignments make up 7\% of your course grade.
+
+%%%%%%%%%%%%%
+{\bf Collaboration Policy} \\
+%%%%%%%%%%%%%
+Working in groups on the homework assignment is strongly encouraged.  However each person should individually write up their solutions, relying only on their notes about the problem.  On each homework assignment, please indicate which students you worked with.  An important part of mathematical culture and work is acknowledging the people that helped you understand and solve a problem.
+
+
+
+
+%%%%%%%%%%%%%
+{\bf What is Math 399?} \\
+%%%%%%%%%%%%%
+Students in this course are strongly encouraged to enroll in a Math 399 section. Math 399 offers problem-solving activities, hands-on instruction, and a collaborative environment for working on homework problems. It is a credit/no credit course (no letter grades) during which students work collaboratively on learning activities designed to enhance their mathematical learning and strengthen their critical-thinking and problem-solving skills. Portions of the lab meetings are set aside for the students to work on homework and/or lab assignments while having an instructor and a student assistant present for consultations. All students regularly attending and participating will earn a passing grade.
+
+%%%%%%%%%%%%%
+{\bf Other Helpful Resources} \\
+%%%%%%%%%%%%%
+There are three ways to receive additional help with learning course material outside of the classroom in addition to the Math 399 course.  These resources are office hours, tutoring at the LRC, and tutoring at STEM Center. You can come to my office hours which are posted at the top of the syllabus.  Office hours is a time when you can come to my office and ask me questions about course material.  Students who make use of office house tend to do better in college courses. There is tutoring available in the Learning Resource Center (LRC) in the Library.  (Google: csuci learning resource center.)  At the LRC you can drop in for tutoring help.  There is also  drop in tutoring available at the STEM Center in El Dorado Hall.  At both of these sites, there are math tutors that will work with you to help you learn course material.
+
+%%%%%%%%%%%%%
+{\bf Accomodations} \\
+%%%%%%%%%%%%%
+Cal State Channel Islands is committed to equal educational opportunities for qualified students with disabilities in compliance with Section 504 of the Federal Rehabilitation Act of 1973 and the Americans with Disabilities Act (ADA) of 1990. The mission of Disability Accommodation Services is to assist students with disabilities to realize their academic and personal potential. Students with physical, learning, or other disabilities are encouraged to contact the Education Access Center (EAC) office at (805) 437-3331 for personal assistance and accommodations.
+
+%%%%%%%%%%%%%
+{\bf Disclaimer on syllabus changes} \\
+%%%%%%%%%%%%%
+Information on this syllabus is subject to change. I will make such changes known in class.
+
+%%%%%%%%%%%%%
+{\bf Academic Honesty} \\
+%%%%%%%%%%%%%
+From the course catalog:
+
+{\small \it  Academic dishonesty includes such things as cheating, inventing false information or citations, plagiarism and helping someone else commit an act of academic dishonesty. It usually involves an attempt by a student to show possession of a level of knowledge or skill that he/she does not possess.}
+
+Basically what this boils down to is: the work that you submit for credit should be your own work and reflect your understanding of the course material.  Group work, collaborations, and the free exchange of ideas are fundamental aspects of an academic environment.  I encourage you all to talk and work with others in the class, as it will enhance your understanding of the material.  You must write up your assignment individually and explain solutions in your own words. It is also important to cite resources you used in work, these may include other students, books, websites, and instructors.
+
+%%%%%%%%%%%%%
+{\bf Schedule} \\
+%%%%%%%%%%%%%
+The course schedule is on the following page and may change as the semester progress. I will mention all changes in class and change the schedule on Blackboard. \\
+
+
+\clearpage
+
+\begin{landscape}
+
+\begin{tabular}{|c|c|l|l|l|l|} \hline
+Week & Date & Topics  & Chapter & Work Due  & Notes \hspace{8cm}  \\ \hline
+
+\multirow{2}{*}{1}
+& 8/27  &Course Introduction &&&  \\
+& 8/29 &Induction Proofs &&Intro Memo&\\ \hline
+
+\multirow{2}{*}{2}
+& 9/3 & {\bf Labor Day}  &&&\\ 
+& 9/5  &  Counting Techniques &1& Homework 1& \\ \hline
+
+\multirow{2}{*}{3}
+& 9/10 & Counting Techniques  &1&& \\
+& 9/12 &  Binomial Coefficients  &1&Homework 2&\\ \hline
+
+\multirow{2}{*}{4}
+& 9/17 &  Direct Proofs &1&&\\
+& 9/19 & More Selections &2& Homework 3 &\\ \hline
+
+\multirow{2}{*}{5}
+& 9/24 &  Recurrence Relations & 2&& \\
+& 9/26 &  Auxiliary Equation  & 2 & Homework 4 &\\ \hline
+
+\multirow{2}{*}{6}
+& 10/1 &  {\bf Midterm 1}  & &&\\ 
+& 10/3 & Generating Functions  & 2 &&Take home portion of Midterm 1 due   \\ \hline
+
+\multirow{2}{*}{7}
+& 10/8 & Non-Homogeneous Relations & 2& &\\ 
+& 10/10 &  Non-Homogeneous Relations & 2& Homework 5  &\\ \hline
+
+\multirow{2}{*}{8}
+& 10/15 &Catalan Numbers  &2 &&\\ 
+& 10/17 &  Graphs and Trees&3&Homework 6&\\ \hline
+
+\multirow{2}{*}{9}
+& 10/22  & Contradiction Proofs & 3&&\\
+& 10/24  & Classification of Trees &3&Homework 7&\\ \hline
+
+\multirow{2}{*}{10}
+& 10/29 &Bipartite and Planar Graphs &3&&\\
+& 10/31 &Bipartite and Planar Graphs &3&Homework 8&\\ \hline
+
+\multirow{2}{*}{11}
+& 11/5 & {\bf Midterm 2} &&&   \\ 
+& 11/7 & Graph Tours &4& & Take home portion of Midterm 2 Due  \\ \hline
+
+\multirow{2}{*}{12}
+& 11/12 & {\bf Veteran's Day}&&&\\
+& 11/14 & Partitions and Stirling Numbers&5&&\\ \hline
+
+\multirow{2}{*}{13}
+& 11/19 &Partitions and Stirling Numbers &5&&\\
+& 11/21 & Counting Functions&5&&Start working on your Proof Portfolio (PP) \\ \hline
+
+\multirow{2}{*}{14}
+& 11/26 & Inclusion Exclusion &6&&\\ 
+& 11/28 &Inclusion Exclusion &6&Homework 9 \\ \hline
+
+\multirow{2}{*}{15}
+& 12/3 & Counting Surjections &6&&\\
+& 12/5  & More Countings &6 &Homework 10 \& PP&\\ \hline
+
+& 5/15 & \multicolumn{2}{|c|}{{\bf Final Exam - 10:30AM-12:30PM}} && Final Exam covers all course material\\ \hline 
+
+\end{tabular}
+\end{landscape}
+
+\end{document}
