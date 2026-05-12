@@ -4,6 +4,7 @@ project:
 
 format:
   html:
+    theme: cosmo
     toc: true
     math: mathjax
 
@@ -14,4 +15,4 @@ website:
     - text: "Home"
       file: index.qmd
     - text: "Syllabus"
-      file: syllabus.qmd
+      file: syllabus/syllabus.qmd
