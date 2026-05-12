@@ -9,7 +9,7 @@ format:
     math: mathjax
 
 website:
-  title: "Math 393 - Abstract Algebra"
+  title: "Math 300 - Discrete Mathematics"
   sidebar:
     contents:
     - text: "Home"
