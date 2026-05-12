@@ -16,3 +16,17 @@ website:
       file: index.qmd
     - text: "Syllabus"
       file: syllabus/syllabus.qmd
+    - section: "Homework"
+      contents:
+        - homework/homeworkwk2.qmd
+        - homework/homeworkwk3.qmd
+        - homework/homeworkwk4.qmd
+        - homework/homeworkwk5.qmd
+        - homework/homeworkwk7.qmd
+        - homework/homeworkwk8.qmd
+        - homework/homeworkwk9.qmd
+        - homework/homeworkwk10.qmd
+        - homework/homeworkwk11.qmd
+        - homework/homeworkwk13.qmd
+        - homework/homeworkwk14.qmd
+        - homework/homeworkwk15.qmd

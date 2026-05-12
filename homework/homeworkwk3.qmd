@@ -119,8 +119,18 @@ Use induction to prove: $$1+5+9 + \ldots +4n-3=n(2n-1)$$
 
 ::: {.callout-note title="Proof"}
 Prove by induction:
-$\left(\begin{array}{cc}5 & -1 \\4 & 1\end{array}\right)^n=3^{n-1}\left(\begin{array}{cc}2n+3 & -n \\4n & 3-2n\end{array}\right)$
-:::
+$$
+\begin{pmatrix}
+5 & -1 \\
+4 & 1
+\end{pmatrix}^n
+=
+3^{n-1}
+\begin{pmatrix}
+2n+3 & -n \\
+4n & 3-2n
+\end{pmatrix}
+$$:::
 
 ::: {.callout-note title="Proof"}
 $\bigstar$ Use induction to prove that the $n^{th}$ derivative of
