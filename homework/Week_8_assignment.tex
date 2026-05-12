@@ -1,0 +1,191 @@
+
+\begin{exercise}
+What is Reve's Puzzle?  Describe it, and describe the Frame-Stewart Algorithm in general and using an example.
+\end{exercise}
+
+\begin{exercise}
+Use generating functions to solve:\\
+a. $a_n=6a_{n-1}-8a_{n-2}+3$ with $a_0=1$ and $a_1=0$\\
+b. $a_n=3a_{n-1}+4^{n-1}$ and $a_0=1$\\
+\end{exercise}
+
+\begin{exercise}
+Use generating functions to solve:\\
+a. $a_n=\frac{1}{2}a_{n-1}+1$ with $a_1=1$\\
+b. $b_n=4b_{n-1}-3b_{n-2}+2^n$ with $b_1=1$ and $b_2=11$
+\end{exercise}
+
+\begin{exercise}
+Find the closed form solution to $a_n=a_{n-1}+2(n-1)$ with $a_1=2$.
+\end{exercise}
+
+\begin{exercise} 
+Solve the following recurrence relations:\\
+Find a recurrence relation for the number, $t_n$ of length $n$ ternary strings with no two consecutive 1s.  What are the initial conditions?  What is the generating function for $t_n$?
+\end{exercise}
+
+\begin{exercise} 
+Solve the following recurrence relations:\\
+Find a recurrence relation for the number, $d_n$ of length $n$ ternary strings with no two consecutive 1s or no two consecutive 2s.  What are the initial conditions?  What is the generating function for $d_n$? (Though very similar to the previous problem, this version is much harder. Hint:  The solution is not $d_n=d_{n-1}+2d_{n-2}$, that is only part of the solution.)
+\end{exercise}
+
+
+
+
+\begin{exercise}
+Consider tiling a $2 \times n$ board with $2 \times 1$ and $2 \times 2$ tiles.\\
+a. Let $d_n$ count the number of tilings of where the $2 \times 1$ can only be positioned vertically and $2 \times 1$ cannot be adjacent.  Find a recursive relationship for $d_n$ and find initial conditions for $d_n$.\\
+b. Let $g_n$ count the number of tilings of where the $2 \times 1$ can only be positioned vertically and $2 \times 2$ cannot be adjacent.  Find a recursive relationship for $g_n$ and find initial conditions for $g_n$.\\
+\end{exercise}
+
+\begin{exercise}
+Let $g_n$ count the number of subsets of $\{1, 2, 3, \ldots, n\}$ containing no two consecutive integers.  For example, $g_2=3$, the empty set, $\{1\}$, and $\{2\}$.  Find a recurrence relationship and generating function for $g_n$.
+\end{exercise}
+
+%\begin{exercise}
+%From the text, Exercise 2.14.
+%\end{exercise}
+\begin{exercise}
+Solve the recurrence relation $a_n=2a_{n-1}-a_{n-2}$.
+Find the solution when $a_0=1$ and $a_1=2$.\\
+What do the initial terms need to be in order for $a_9=30$?\\
+For which $x$ are there initial terms which make $a_9=x$?\\
+\end{exercise}
+
+\begin{exercise}
+Consider the recurrence relation $a_n=4a_{n-1}-4a_{n-2}$.
+Find the general solution to the recurrence relation (beware the repeated root).\\
+Find the solution when $a_0=1$ and $a_1=2$.\\
+Find the solution when $a_0=1$ and $a_1=8$.\\
+\end{exercise}
+
+\begin{exercise}
+Define the Lucas numbers as $L_n=L_{n-1}+L_{n-2}$ with $L_1=1$ and $L_2=3$.  What is the generating function for this sequence? Find a closed from solution for $L_n$.
+\end{exercise}
+
+%\begin{exercise}
+%Find the first 5 terms of the Taylor expansion at $x=0$ of $\sqrt{1-4x}$.  By examining the pattern of coefficients find $a_n$ where $\sqrt{1-4x}=\sum_{n=0}^{\infty}a_nx^n$.
+%\end{exercise}
+
+%\begin{proofp}
+%Prove $$\frac{1\cdot 3 \cdot 5 \cdots (2n-1)}{2^n (n+1)!}4^n=\frac{1}{n+1} \binom{2n}{n}.$$
+%\end{proofp}
+
+
+ 
+
+\begin{exercise}
+Let $f_n=f_{n-1}+f_{n-2}$ with $f_0=0$ and $f_1=1$.  Define $F_n=F_{n-1}+F_{n-2}+ f_n$ for $n \ge 1$.  Express $F_n$ in terms $f_n$ and $f_{n+1}$.
+\end{exercise}
+
+%AMM Problem No. 11929
+%\begin{exercise}
+%Let $a_n$ be the number of ways in which a rectangular box that contains $6n$ square tiles in %three rows of length $2n$ can be split into two connected pieces of size $3n$ without cutting %any tiles.  One of the ways for $n=3$ is shown. Find $a_1$, $a_2$, and $a_3$.
+%
+%\begin{figure}[htp]
+%  \begin{center}
+%    \subfigure{\includegraphics[scale=.3]{knuth.pdf}}
+%  \end{center}
+%\end{figure}
+%Taking $a_0=1$, find a closed form for the generating function $A(z)=\sum^{\infty}_{n=0} %a_nz^n$.
+%\end{exercise}
+
+\begin{proofp}
+Consider the sequence $f_n=f_{n-1}+f_{n-2}$ with $f_0=0$ and $f_1=1$.  Prove $f_0+f_1+f_2+f_3 +\cdots f_n=f_{n+2}-1$.
+\end{proofp}
+
+
+
+%\begin{proofp}
+%Prove that the recurrence relationship for the maximum number of regions the plane can be divided into with $n$ circles, $a_n$ is $a_n=a_{n-1}+2(n-1)$. What is the initial condition. In addition, find the generating function for this recursion.
+%\end{proofp}
+
+
+%\begin{proofp}
+%From the text, Exercises 2.15.
+%\end{proofp}
+
+\begin{proofp}
+Consider the sequence $d_n=(n-1)(d_{n-1}+d_{n-2})$ with $d_1=0$ and $d_2=1$.  Prove that $d_n>(n-1)!$ for $n\ge 4$.
+\end{proofp}
+
+\begin{proofp}
+Prove $\sum_{k=0}^n \binom{n}{k}4^k=5^n$.
+\end{proofp}
+
+
+\begin{proofp}$\bigstar$
+Suppose that a particular real number $x$ has the property that $x+\frac{1}{x}$ is an integer. Prove that $x^n+\frac{1}{x^n}$is an integer for all natural numbers $n$.
+\end{proofp}
+
+\begin{proofp}$\bigstar$
+Let $T_n$ be the triangular numbers defined by $T_n=T_{n-1}+n$ with $T_0=0$ and $n$, $p$, and $q$ be positive integers.  Prove that if $T_n=pq$ then $T_{n+p+q}=T_{n+p}+T_{n+q}$.
+\end{proofp}
+
+\begin{proofp}$\bigstar$
+Let $T_n$ be the triangular numbers defined by $T_n=T_{n-1}+n$ with $T_0=0$ and $n$, $p$, and $q$ be positive integers.  Prove that if $T_{n+p+q}=T_{n+p}+T_{n+q}$ then  $T_n=pq$.
+\end{proofp}
+
+%\begin{proofp}$\bigstar$
+%Let $T_n$ be the triangular numbers defined by $T_n=T_{n-1}+n$ with $T_0=0$ and $n$ and $k$ be positive integers.  %Prove $T_n=3T_k$ if and only if $T_{2n+3k+2}=3T_{n+2k+1}$.
+%\end{proofp}
+
+\begin{proofp}$\bigstar$
+Consider the sequence $f_n=f_{n-1}+f_{n-2}$ with $f_1=1$ and $f_2=2$. Calculate $f_1+f_3+f_5+f_7 +\cdots +f_{2n-1}$ for small $n$ to create a hypothesis for the sum of the first $n$ odd indexed Fibonacci numbers, then prove this formula.
+\end{proofp}
+
+\begin{proofp}$\bigstar$
+Consider the sequence $f_n=f_{n-1}+f_{n-2}$ with $f_1=1$ and $f_2=2$.  Find (like the preceding problem) and prove formulas for:\\
+$f_0+f_2+f_4+f_6 +\cdots f_{2n}$\\
+\end{proofp}
+
+\begin{proofp}$\bigstar$
+Consider the sequence $f_n=f_{n-1}+f_{n-2}$ with $f_1=1$ and $f_2=2$.  Find (like the preceding problem) and prove formulas for:\\
+$f_1-f_2+f_3-f_4 +\cdots (-1)^{n-1}f_{n}$
+\end{proofp}
+
+
+\begin{proofp}$\bigstar$
+Consider the sequence $d_n=2d_{n-1}+d_{n-2}$ with $d_0=1$ and $d_1=3$.  Prove $$d_n=\sum_{i\ge0}^{}2^i\binom{n+1}{2i}$$ is a solution to this recurrence relationship.
+\end{proofp}
+
+\begin{proofp}$\bigstar$
+Using the definition for $\binom{n}{k} =\frac{n(n-1)(n-2) \cdots (n-k+1)}{k!}$ when $n<0$, prove $$\binom{-1/2}{n}=\frac{\binom{2n}{n}}{(-4)^n}$$
+\end{proofp}
+
+\begin{proofp}$\bigstar$
+Let $F_n$ be the Fibonacci sequence with $F_1=1$ and $F_2=1$.  Prove $F_n \leq (\frac{5}{3})^n$ for all positive integers.
+\end{proofp}
+
+\clearpage
+\begin{proofp} $\bigstar$
+The indicated diagonals of Pascal's triangle sum to Fibonacci numbers.  Prove this patterns continues forever.
+
+\begin{figure}[htbp] % [h]ere, [t]op, [b]ottom, [p]age
+    \centering % Centers the figure
+    \includegraphics[width=0.8\textwidth]{Pascal and Fibonacci} % Replace example-image-b with your image file name
+    \caption{Fibonacci and Pascal} % The figure caption
+    \label{fig:my_figure} % A label for referencing the figure
+\end{figure}
+
+\end{proofp}
+
+
+%\begin{proofp}$\bigstar$
+%Let $T_n$ be the triangular numbers defined by $T_n=T_{n-1}+n$ with $T_0=0$ and $n$ and $k$ be positive integers.  Prove $T_n=3k^2$ if and only if $T_{5n+12k+2}=3(2n+5k+1)^2$.
+%\end{proofp}
+
+%\begin{proofp}$\bigstar$
+%Let $T_n$ be the triangular numbers defined by $T_n=T_{n-1}+n$ with $T_0=0$ and $n$ a positive integers.  Prove $T_{4n}=4(T_{2n}-T_{n})+n+T_{2n-1}$.
+%\end{proofp}
+
+%AMM problem vol 121 no 3 pg 267  11765
+%\begin{proofp}$\bigstar$
+%Let $C_n=\frac{1}{n+1}\binom{2n}{n}$ be the $n$th Catalan number.  Prove
+%$$\sum_{n=0}^{\infty}\frac{2^n}{C_n}=5+\frac{3}{2}\pi.$$
+%\end{proofp}
+
+%\begin{proofp}$\bigstar$
+%Let $C_n=\frac{1}{n+1}\binom{2n}{n}$ be the $n$th Catalan number.  Prove
+%$$\sum_{n=0}^{\infty}\frac{3^n}{C_n}=22+8\sqrt{3}\pi.$$
+%\end{proofp}

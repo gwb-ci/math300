@@ -1,0 +1,74 @@
+---
+title: "Week 14 Homework"
+format:
+  html: default
+  pdf: default
+---
+
+Following Section 2.3 of *Discrete Mathematics, an Open Introduction*.
+Let $\{a_n\}$ be a sequence of real numbers. The **$k^{th}$ forward
+difference** of this sequence are defined recursively:\
+The **first forward difference** $\Delta a_n$ is an new sequence defined
+by:$\Delta a_n=a_{n+1}-a_{n}$.\
+The **$k$th forward difference** $\Delta^{k} a_n$ is
+$\Delta^{k} a_n=\Delta^{k-1} a_{n+1}- \Delta^{k-1}a_{n}$. So if the
+sequence for $a_n$ is $1,3,5,7,9, \ldots$ then $\Delta a_n$ is
+$3-1,5-3,7-5,9-7, \ldots= 2,2,2,2,2, \ldots$.
+
+::: {.callout-note title="Exercise"}
+Find $\Delta$ and $\Delta^2$ for the following sequences :\
+a. $2, 4, 6, 8, 10, 12, 14, \ldots$\
+b. $1, 4, 9, 16, 25, 36, 49, \ldots$
+:::
+
+::: {.callout-note title="Exercise"}
+Make up sequences that have:\
+a. 3, 3, 3, 3, ... as its second differences.\
+b. 1, 2, 3, 4, 5, ... as its third differences.\
+c. 1, 2, 4, 8, 16, ... as its fifth differences.\
+:::
+
+::: {.callout-note title="Exercise"}
+Find the closed form solution to the sequence using the using the
+polynomial fitting method for the sequence
+$0, 3, 8, 15, 24, 35, 48, 63, 80,\ldots$ which has the recurrence
+$a_n = a_{n-1} + 2n+1$ with $a_0=0$.
+:::
+
+::: {.callout-note title="Exercise"}
+Find the closed form solution to the sequence using the using the
+polynomial fitting method for the sequence
+$1, 4, 10, 20, 35, 56, 84,\ldots$ which has the recurrence
+$a_n = 4a_{n-1} - 6a_{n-2} + 4a_{n-3} - a_{n-4}$ with
+$a_1=1, a_2=4, a_3=10$ and $a_4=20$. This also happens to the be the
+sequence given by summing up the triangular numbers. That is,
+$a_n=\sum_{i=1}^n T_n$.
+:::
+
+::: {.callout-note title="Exercise"}
+Calculate $\Delta \binom{n}{4}$. Use this to rewrite
+$\Delta \binom{n}{k}$ as a binomial coefficient.
+:::
+
+::: {.callout-note title="Proof"}
+Prove $\Delta (\Delta^i a_n)=\Delta^{i+1} a_n$.
+:::
+
+::: {.callout-note title="Proof"}
+Let $b_n=n^3$. Prove $\Delta^2 b_n=6n+6$.
+:::
+
+::: {.callout-note title="Proof"}
+$\bigstar$ Let $b_n=n^k$. Prove
+$\Delta b_n=\sum_{i=0}^{k-1}\binom{k}{i}n^{i}$
+:::
+
+::: {.callout-note title="Proof"}
+$\bigstar$ Let $a_n=\alpha^n$ for $n \ge 0$ and $\alpha$ a real number.
+Prove $\Delta^k a_n=(\frac{\alpha-1}{\alpha})^k a_n$ for all $k \ge 0$.
+:::
+
+::: {.callout-note title="Proof"}
+$\bigstar$ Let $a_n$ and $b_n$ be sequences. Prove
+$\Delta (a_n\cdot b_n)=a_{n+1}\Delta b_n + b_{n}\Delta a_n$.
+:::

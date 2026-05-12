@@ -1,0 +1,98 @@
+---
+title: "Week 13 Homework"
+format:
+  html: default
+  pdf: default
+---
+
+::: {.callout-note title="Exercise"}
+Find out what the Chinese Postman Problem is. Describe it, and give
+examples. What does the Chinese Postman Problem have to do with
+Ribonucleic acid (RNA)?
+:::
+
+::: {.callout-note title="Exercise"}
+Show that if you delete any vertex and it's incident edges from the
+Petersen graph then the resulting graph is Hamiltonian.
+:::
+
+::: {.callout-note title="Exercise"}
+From the text, Exercise 4.3.
+:::
+
+::: {.callout-note title="Exercise"}
+From the text, Exercise 4.4.
+:::
+
+::: {.callout-note title="Exercise"}
+A **Hamiltonian path** is a path that begins and ends at different
+vertices but visits each vertex of a graph exactly once. If a graph has
+a Hamiltonian cycle, must it have a Hamiltonian path? Explain why or why
+not. If a graph has a Hamiltonian path must it have a Hamiltonian cycle?
+Explain why or why not.
+:::
+
+::: {.callout-note title="Exercise"}
+What are the Worpitzsky numbers? What do they count? What is the
+recursive formula for these numbers? Give an example of something they
+can be used to count.
+:::
+
+::: {.callout-note title="Exercise"}
+From the text, Exercise 5.4.
+:::
+
+::: {.callout-note title="Exercise"}
+Find the coefficient of $x$, $x^2$, $x^3$, and $x^4$ in the Taylor
+expansion of $$\frac{1}{(1-x)}\frac{1}{(1-x^2)}\frac{1}{(1-x^3)}\cdots$$
+and compare to $p(1)$, $p(2)$, $p(3)$, $p(4)$. Do you want to make a
+conjecture? (Hint: find the taylor expansion, by multiplying together
+each of the fractions Taylor expansion).
+:::
+
+::: {.callout-note title="Exercise"}
+Find the definition of Stirling numbers of the first kind. What
+recursion relationship do these numbers satisfy? Give examples of the
+permutations counted by $s(5,2)$ and $s(6,3)$, where $s(n,k)$ is a
+Stirling number of the first kind.
+:::
+
+::: {.callout-note title="Proof"}
+Let $s(n,k)$ denote the signless Stirling numbers of the first kind.
+Using the recursive formulat $s(n,k)=s(n-1,k-1)+(n-1)s(n-1,k)$, prove
+that $$s(n,n-1)=\binom{n}{2}$$.
+:::
+
+::: {.callout-note title="Proof"}
+Let $s(n,k)$ denote the signless Stirling numbers of the first kind.
+Using the recursive formulat $s(n,k)=s(n-1,k-1)+(n-1)s(n-1,k)$, prove
+that
+$$s(n,2)=(n-1)!\left( 1 + \frac{1}{2} + \frac{1}{3} + \cdots + \frac{1}{n-1} \right).$$
+:::
+
+::: {.callout-note title="Proof"}
+Prove
+$$\frac{\binom{2n}{2}\binom{2n-2}{2}\binom{2n-4}{2}\cdots\binom{2}{2}}{n!}=\frac{(2n)!}{2^n \cdot n!}$$
+:::
+
+::: {.callout-note title="Proof"}
+$\bigstar$ Prove
+$$\frac{\binom{m\cdot n}{n}\binom{(m-1)n}{n}\binom{(m-2)n}{n}\cdots\binom{n}{n}}{m!}=\frac{(m\cdot n)!}{(n!)^m \cdot m!}$$
+:::
+
+::: {.callout-note title="Proof"}
+$\bigstar$ Let $s(n,k)$ denote the signless Stirling numbers of the
+first kind. Use the recursive formula $s(n,k)=s(n-1,k-1)+(n-1)s(n-1,k)$
+to find a formula for $s(n,n-2)$ and prove it.
+:::
+
+::: {.callout-note title="Proof"}
+$\bigstar$ Suppose $G$ is a graph with $n$ vertices, each of which has
+degree $d \ge (n-1)/2$. Prove that $G$ contains a Hamiltonian path.
+Hint: Add an extra vertex to $G$ and connect it to all the other
+vertices. What does Dirac's Theorem say about this new graph.)
+:::
+
+::: {.callout-note title="Proof"}
+$\bigstar$ Prove $\sum^n_{r=0}\binom{n}{r}2^{2n-2r}=5^n$
+:::

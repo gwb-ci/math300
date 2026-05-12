@@ -1,0 +1,139 @@
+---
+title: "Week 5 Homework"
+format:
+  html: default
+  pdf: default
+---
+
+::: {.callout-note title="Exercise"}
+What is oeis.org? What information can you find about sequences there?
+How might you use this resource for this course?
+:::
+
+::: {.callout-note title="Exercise"}
+An 8-person committee is to be formed from a group of 15 women and 12
+men. In how many ways can the committee be formed if the committee must
+contain four men and four women? if there must be at least two men? if
+there must be more women than men?
+:::
+
+::: {.callout-note title="Exercise"}
+A **palindrome** is a string whose reverse is identical to the original
+string. Give examples of bit strings of length 5 and 6 that are
+palindromes. How many bit string palindromes of length $n$ are there?
+How many ternary string palindromes of length $n$ are there?
+:::
+
+::: {.callout-note title="Exercise"}
+How many strings of 6 letters of the english alphabet contain one vowel?
+exactly two vowels? at least one vowel? at least two vowels? What is
+number of strings of length $n$ with exactly $k$ vowels?
+:::
+
+::: {.callout-note title="Exercise"}
+A string that contains only 0s,1s, and 2s is called a **ternary
+string**. How many strings of 10 ternary digits (0, 1, or 2) are there
+that contain exactly two 0s, three 1s, and five 2s? Generalize this to
+the number of ternary strings of length $k$ with $a$ 0's, $b$ 1's, and
+$c$ 2's where $a+b+c=k$.
+:::
+
+::: {.callout-note title="Exercise"}
+How many integer solutions are there to the equation $x+y+z=8$ for
+which: $x,y ,z$ and are all positive?
+$x,y ,z$ and are all non-negative?
+$x,y ,z$ and are all greater than or equal to -3.
+:::
+
+::: {.callout-note title="Exercise"}
+How many ways are there to place 15 identical balls into 5 labeled
+boxes:\
+Each box has at least one ball?\
+Each box has at least two balls?\
+One box has exactly 10 balls?\
+:::
+
+::: {.callout-note title="Exercise"}
+Suppose a professor has 10 identical calculators. How many ways are
+there to give these calculators to 3 students such that:\
+there are no other conditions?\
+Each student gets 1 calculator?\
+Each student gets 2 calculators?\
+Each student gets 3 calculators?\
+:::
+
+::: {.callout-note title="Exercise"}
+Your favorite math themed fast food drive-in offers 20 flavors which can
+be added to your soda. You have enough money to buy a large soda with 4
+added flavors. How many different soda concoctions can you order if:
+
+You refuse to use any of the flavors more than once?\
+You refuse repeats but care about the order the flavors are added?\
+You allow yourself multiple shots of the same flavor?\
+You allow yourself multiple shots, and care about the order the flavors
+are added?\
+:::
+
+::: {.callout-note title="Proof"}
+Prove $\binom{n}{k}\binom{n-k}{l}=\binom{n}{l}\binom{n-l}{k}$ with
+$k+l \leq n$.
+:::
+
+::: {.callout-note title="Proof"}
+Let $m$ and $n$ be two integers. Prove that $mn+m$ is odd if and only if
+$m$ is odd and $n$ is even. Hint: You will need two subproofs. one for
+the if part and one for the only if part.
+:::
+
+::: {.callout-note title="Proof"}
+Prove that $n^2+n+1$ is odd for every integer $n$ by direct proof.
+:::
+
+::: {.callout-note title="Proof"}
+Let $n$ be a positive integer. Show that
+$\binom{2n}{n+1}+\binom{2n}{n}=\frac{1}{2}\binom{2n+2}{n+1}$.
+:::
+
+::: {.callout-note title="Proof"}
+Prove
+$$\frac{1}{1 \cdot 4}+\frac{1}{4 \cdot 7}+\frac{1}{7 \cdot 10}+ \cdots \frac{1}{(3n-2)(3n+1)}=\frac{n}{3n+1}$$
+:::
+
+::: {.callout-note title="Proof"}
+Prove the hexagon property:
+$$\binom{n-1}{k-1}\binom{n}{k+1}\binom{n+1}{k}=\binom{n-1}{k}\binom{n+1}{k+1}\binom{n}{k-1}$$
+:::
+
+::: {.callout-note title="Proof"}
+$\bigstar$ Prove
+$$\sum_{k\ge0}^{}\binom{r}{k}\binom{s}{n-k}=\binom{r+s}{n}$$ Hint: See
+Example 1.10 on page 9 of the course text.
+:::
+
+::: {.callout-note title="Proof"}
+$\bigstar$ Prove
+$$\sum_{k\ge0}^{}k\binom{m}{k}\binom{n}{k}=n\binom{m+n-1}{n}$$ Hint: See
+Example 1.10 and 1.11 on page 9 of the course text.
+:::
+
+::: {.callout-note title="Proof"}
+$\bigstar$ Use induction to prove that
+$1+\frac{1}{\sqrt{2}}+\frac{1}{\sqrt{3}}+\ldots+\frac{1}{\sqrt{n}}\leq 2 \sqrt{n}$
+for all positive integers $n$.
+:::
+
+::: {.callout-note title="Proof"}
+$\bigstar$ Using induction, prove that
+$(\cos{x}+i\sin{x})^n=\cos{nx}+i\sin{nx}$ for $n\ge0$. Hint: Use the
+angle addition formulas.
+:::
+
+::: {.callout-note title="Proof"}
+$\bigstar$ Prove
+
+$$
+\sum_{i=0}^{\lfloor n/2 \rfloor} \binom{n}{2i} = 2^{n-1}
+$$
+
+where $\lfloor x \rfloor$ is the floor function.
+:::

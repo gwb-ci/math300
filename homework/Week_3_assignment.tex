@@ -1,0 +1,127 @@
+
+
+
+\begin{exercise}
+Do research on the difference between weak induction and strong induction. Explain the difference between the two and give an example proof of strong induction and an example proof of weak induction.
+\end{exercise}
+
+\begin{exercise}
+Find and explain the flaw or flaws in the following proof:\\
+``Claim:'' For every positive integer $n$, $\sum^{n}_{i=1}i=\frac{(n+\frac{1}{2})^2}{2}$
+.\\
+Base Case: The formula is true for n=1.\\
+Inductive Step:  Suppose $\sum^{n}_{i=1}i=\frac{(n+\frac{1}{2})^2}{2}$.  Then $\sum^{n+1}_{i=1}i=(\sum^{n}_{i=1}i) + (n+1)$.  By induction hypothesis, 
+\begin{eqnarray*}
+\sum^{n+1}_{i=1}i = \frac{(n+\frac{1}{2})^2}{2} +n+1\\
+= \frac{(n^2+n+\frac{1}{4})}{2}+n+1 \\
+=  \frac{(n^2+3n+\frac{9}{4})}{2} \\
+= \frac{(n+\frac{3}{2})^2}{2} \\
+= \frac{((n+1)+\frac{1}{2})^2}{2}
+\end{eqnarray*}
+completing the induction proof.
+\end{exercise}
+
+%\begin{solution}
+%The base case is not true.  When n=1, the left hand side of the identity is 1, but the right hand side is 9/8.
+%\end{solution}
+
+%\begin{exercise}
+%Find and explain the flaw or flaws in the following proof:\\
+%``Claim:'' For every positive integer $n$, if $x$ and $y$ are positive integers such that  $\mbox{max}(x,y)=n$ then $x=y$. \\
+%Base Case: Suppose $n=1$.  If $\mbox{max}(x,y)=1$ and $x$ and $y$ are positive integers, then $x=1$ and $y=1$.  Hence $x=y$.\\
+%Inductive Step:  Let $k$ be a positive integer. Assume that whenever $\mbox{max}(x,y)=k$ with $x$ and $y$ positive integers, then $x=y$.  Now let $\mbox{max}(x,y)=k+1$ when $x$ and $y$ are positive integers.  Then $\mbox{max}(x-1,y-1)=k$, so by the inductive hypothesis $x-1=y-1$.  Hence $x=y$ completing the inductive step.
+%\end{exercise}
+
+
+\begin{exercise}
+How many strings of 2 lowercase letters have the letter \emph{x} in them? How many strings of 4 lowercase letters have the letter \emph{x} in them? How many strings of $k$ lowercase letters have the letter \emph{x} in them?
+\end{exercise}
+
+\begin{exercise}
+A small auditorium labels its seats with one of the 26 a-z letters and one of the ten digits 0-9.  How many different seat labels are possible? What is the answer if each seat is labeled with one of the letters a-z and one of the number 1-100?  What is the answer if each seat is labeled with two letters and two digits?
+\end{exercise}
+
+\begin{exercise}
+How many different decimal strings of length 2 (strings of length two where each element of the string is one of the decimal digits 0-9) are there where no digit can be repeated?  How many length 3 decimal strings are there like this.  How many length 7 decimal strings are there like this?  How many length 11 decimal strings are there like this?  Give an example, or explain why it is not possible, of one of the length 11 strings.
+%\begin{sol}
+%$10\cdot9$,$10\cdot9\cdot8$, $10\cdot9\cdots4$,0
+%\end{sol}
+\end{exercise}
+
+\begin{exercise} 
+Consider placing $n$ people around a circular table where it does not matter which seat each person is in, but it does matter who is on the right and left.  That if, if one arrangement of people can be rotated to be the same as another arrangement, then the arrangements are the same.  How many different ways can the $n$ people be placed around the table?
+\end{exercise}
+
+\begin{exercise} 
+A {\bf bit string} of length $k$ is a string of $k$ binary digits (0 or 1).  How many bit strings are there of length 6 or less?  How many bit strings of length 6 begin and end with a 1?  How many bit strings of length $k$ begin and end with a 1? How many bit strings of length $n$ have at least $k$ 1's where $k \le n$?
+\end{exercise}
+
+\begin{exercise} 
+At a CI, students are given a 9 digit student ID number.  How many different ID numbers are there?  How many read the same forward and backward?  How many contain only odd digits? How many have at least on even digit?
+\end{exercise}
+
+\begin{exercise} 
+We usually write numbers in decimal form (or base 10), meaning numbers are composed using 10 different “digits” . Sometimes though it is useful to write numbers hexadecimal or base 16. Now there are 16 distinct digits that can be used to form numbers: \break $\{0,1,2,3,4,5,6,7,8,9,A,B,C,DE,F\}$. So for example, a 3 digit hexadecimal number might be 2B8.
+
+How many 2-digit hexadecimals are there in which the first digit is E or F? Explain your answer in terms of the additive principle (using either events or sets).\\
+Explain why your answer to the previous part is correct in terms of the multiplicative principle (using either events or sets). Why do both the additive and multiplicative principles give you the same answer?\\
+How many 3-digit hexadecimals start with a letter (A-F) and end with a numeral (0-9)? Explain.\\
+How many 3-digit hexadecimals start with a letter (A-F) or end with a numeral (0-9) (or both)? Explain.
+
+\end{exercise}
+
+
+%\begin{proofp}
+%By experimenting with small values of $n$, guess a formula for the given sum,
+%$$\frac{1}{1\cdot2}+\frac{1}{2\cdot3}+\frac{1}{3\cdot4}+\cdots+\frac{1}{n(n+1)};$$
+%then use induction to prove your formula.
+%\end{proofp}
+
+\begin{proofp}
+Use induction to prove: $${1\cdot2}+{2\cdot3}+{3\cdot4}+\cdots+{n(n+1)}=\frac{n(n+1)(n+2)}{3}$$
+\end{proofp}
+
+\begin{proofp}
+Use induction to prove: $$\frac{d}{dx}x^n=n\cdot x^{n-1}$$
+\end{proofp}
+
+%\begin{proofp}
+%Use induction to prove: $$1^3+2^3+3^3 + \ldots +n^3=\frac{n^2(n+1)^2}{4}$$
+%\end{proofp}
+
+\begin{proofp}
+Use induction to prove: $$1^2+3^2+5^2 + \ldots +(2n-1)^2=\frac{4n^3-n}{3}$$
+\end{proofp}
+
+\begin{proofp}
+Use induction to prove: $$1\cdot3+2\cdot4+3\cdot5 + \ldots +n(n+2)=\frac{n(n+1)(2n+7)}{6}$$
+\end{proofp}
+
+\begin{proofp}
+Use induction to prove: $$1+5+9 + \ldots +4n-3=n(2n-1)$$
+\end{proofp}
+
+\begin{proofp}
+Prove by induction: $\left(\begin{array}{cc}5 & -1 \\4 & 1\end{array}\right)^n=3^{n-1}\left(\begin{array}{cc}2n+3 & -n \\4n & 3-2n\end{array}\right)$
+\end{proofp}
+
+\begin{proofp}$\bigstar$
+Use induction to prove that the $n^{th}$ derivative of $\ln x$ is $$f^{(n)}(x)=\frac{(-1)^{n+1}(n-1)!}{x^n}$$
+\end{proofp}
+
+\begin{proofp}$\bigstar$
+Use induction to prove that the $n^{th}$ derivative of $x e^{-x}$ is $$f^{(n)}(x)=(-1)^{n}e^{-x}(x-n)$$ for $n$ a positive integer.
+\end{proofp}
+
+\begin{proofp}$\bigstar$
+Use induction to prove for $n \ge 1$: 
+$$1+\frac{1}{\sqrt{2}}+\frac{1}{\sqrt{3}}+ \cdots +\frac{1}{\sqrt{n}}> 2(\sqrt{n+1}-1)$$
+\end{proofp}
+					
+
+
+
+
+%\begin{proofp}$\bigstar$
+%If $n\ge 2$, prove the number of prime factors of $n$ is less than $2 \ln n$.
+%\end{proofp}

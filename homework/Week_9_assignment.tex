@@ -1,0 +1,120 @@
+	%\begin{exercise}
+%Let $\{a_n\}$ be a sequence of real numbers.  The {\bf backwards differences} of this sequence are defined recursively:\\
+%The {\bf first difference} $\bigtriangledown a_n$ is an new sequence defined by:$\bigtriangledown a_n=a_n-a_{n-1}$.\\
+%The {\bf $(k+1)$st difference} $\bigtriangledown^{k+1} a_n$ is $\bigtriangledown^{k+1} a_n=\bigtriangledown^{k} a_n- \bigtriangledown^{k}a_{n-1}$.
+%Find $\bigtriangledown a_n$ and $\bigtriangledown^{2}a_n$ for $a_n=2n$ and $a_n=n^2$.
+%\end{exercise}
+
+\begin{exercise}
+Solve the recurrence relation
+$$a_n=\sqrt{\frac{a_{n-2}}{a_{n-1}}}$$
+with initial conditions $a_0=8$ and $a_1=1/(2\sqrt{2})$ by taking the logarithm of both sides and making the substitution $b_n=\log_2 a_n$.
+\end{exercise}
+
+\begin{exercise}
+Solve the recurrence relation
+$$a_n=(a_{n-1}\cdot a_{n-2})^2$$
+with initial conditions $a_0=1$ and $a_1=\sqrt{2}$ by taking the logarithm of both sides and making the substitution $b_n=\log_2 a_n$.
+\end{exercise}
+
+%\begin{exercise}
+%Solve the recurrence relation $g_n=\sum_{i=1}^n i \cdot g_{n-i}$ with $g_0=1$.
+%\end{exercise}
+
+\begin{exercise}
+Solve the recurrence relation $T(n)=n T^2(n/2)$ with initial condition $T(1)=6$.  (Hint: Let $n=2^k$ and then make the substitution $a_k= \log T(2^k)$.)
+\end{exercise}
+
+\begin{exercise}
+Convert the following non-homogeneous linear recurrence relations into homogeneous linear recurrence relations by eliminating the non-homogeneous piece.\\
+a. $a_n=2a_{n-1}+n+1$\\
+b. $b_n=3b_{n-1}-3b_{n-2}+2^n$
+\end{exercise}
+
+\begin{exercise} Find a recurrence relation for $c_n$ the number of ways to construct a $2 \times 2 \times n$ pillar out of $ 2 \times 2 \times 1$ bricks.  What are the initial conditions?
+\end{exercise}
+
+\begin{exercise} Find a recurrence relation for $b_n$ the number of ways to construct a $2 \times 2 \times n$ pillar out of $ 2 \times 1 \times 1$ bricks.  What are the initial conditions? (Though very similar to the previous problem, this version is much harder.  Hint:  The solution is not $b_n=2b_{n-1}+5b_{n-2}$, that is only part of the solution.)
+\end{exercise}
+
+\begin{exercise} Find a recurrence relation for $d_n$ the number of ways to construct a $2 \times 2 \times n$ pillar out of $ 2 \times 2 \times 1$ bricks and $ 2 \times 2 \times 2$ bricks .  What are the initial conditions?
+\end{exercise}
+
+\begin{exercise}
+Find the definition of the {\bf complement} $\bar{G}$ of a graph $G$. Give three examples of a graph and it's complement.
+\end{exercise}
+
+
+\begin{exercise}
+A tree with $n$ vertices is called {\bf graceful} if it's vertices can be labeled with the integers 1, 2 , ..., $n$ such that the absolute values of the difference of the labels of adjacent vertices are all different.  Draw and label two different graceful trees on 6 vertices.
+\end{exercise}
+
+%\begin{exercise}
+%A {\bf forest} is a simple graph where each component is a tree.  Find all the non-isomorphic forests with five vertices and two or more components.
+%\end{exercise}
+
+\begin{exercise}
+Create a graph to represent all states of the following problem where the vertices are an ordered pair of how much water is each jug (e.g (5,0) means 5 gallons in the 5 gallon jug and 0 gallons in the 3 gallon jug) and the edges represent the change levels with one pour. Problem: ``You've got to defuse a bomb by placing exactly 4 gallons of water on a sensor. The problem is, you only have a 5 gallon jug and a 3 gallon jug on hand!''
+\end{exercise}
+
+
+
+\begin{proofp}
+Prove that if there are two different paths $P_1: x, v_1, v_2, \cdots, v_k, y$ and $P_2: x, u_1, u_2, \cdots, u_l, y$  where at least one $v_i \neq u_j$ for some $i$ and $j$between vertices $x$ and $y$ in a simple graph, then there must be a cycle in the graph.
+\end{proofp}
+
+
+
+\begin{proofp}
+Prove that if a simple graph contains an odd length closed trail $v_0 \rightarrow v_1 \rightarrow v_2 \rightarrow \cdots \rightarrow v_k$ then the graph contains an odd length cycle.
+\end{proofp}
+
+
+%\begin{proofp}
+%From the description in the exercises, show $a_{n-1}=a_n - \bigtriangledown a_n$ and $a_{n-2}=a_n - 2\bigtriangledown a_n + \bigtriangledown^2 a_n$
+%\end{proofp}
+
+%\begin{proofp}
+%Prove $\bigtriangledown (\bigtriangledown^i a_n)=\bigtriangledown^{i+1} a_n$.
+%\end{proofp}
+
+\begin{proofp} \label{cproof}
+Prove  $\frac{1}{n+1}\binom{2n}{n}= \frac{2 \cdot 6\cdot 10 \cdots (4n-2)}{(n+1)!}$.  Both of these expressions are closed form solutions to the Catalan number sequence $C_n$.
+\end{proofp}
+
+\begin{proofp} \label{cproof}
+Let $C_n$ be the Catalan number sequence, prove that $(n+1)C_n=(4n-2)C_{n-1}$.
+\end{proofp}
+
+%\begin{proofp}
+%Given two sequences $a_n$ and $b_n$.  Prove $\bigtriangledown(a_n\cdot b_n)= a_n\cdot \bigtriangledown(b_n)+ \bigtriangledown(a_n)\cdot b_n$.
+%\end{proofp}
+
+%\begin{proofp}$\bigstar$
+%Prove $a_{n-k}=\sum_{i=0}^{k}\binom{k}{i}\bigtriangledown^i a_{n-1}$.
+%\end{proofp}
+
+%USAMO Problem 2 2015, Mathematics Magazine 89 (2016) No. 4 October 2016
+%\begin{proofp}$\bigstar$
+%Prove that for any positive integer $k$,
+%$$(k^2)!\cdot \prod^{k-1}_{j=0}\frac{j!}{(j+k)!}$$
+%is an integer.
+%\end{proofp}
+
+
+\begin{proofp}$\bigstar$
+Prove the sum of the first $n$ triangular numbers is $\frac{n(n+1)(n+2)}{6}$
+\end{proofp}
+
+\begin{proofp}$\bigstar$
+Prove the that the number of $n$-digit binary numbers with no consecutive 1's is the Fibonacci number $F_{n+2}$, where $F_1=1$ and $F_2=1$.
+\end{proofp}
+
+\begin{proofp}$\bigstar$
+Prove the following  statement about the Catalan numbers $C_n$ for all all positive integers $n \ge 1$: 
+$C_n \ge 2^{n-1}$  (Hint: You may want to use the last part of Proof \thehomeworkcounter.\ref{cproof}) \\ 
+\end{proofp}
+
+\begin{proofp}$\bigstar$
+Prove the following  statement about the Catalan numbers $C_n$ for all all positive integers $n \ge 1$: $C_n \ge \frac{4^{n-1}}{n^2}$ (Hint: You may want to use the last part of Proof \thehomeworkcounter.\ref{cproof}).
+\end{proofp}

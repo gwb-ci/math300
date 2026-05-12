@@ -1,5 +1,5 @@
 ---
-title: "Math 393"
+title: "Math 300 - Discrete Mathematics"
 ---
 
 ## Welcome

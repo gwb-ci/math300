@@ -1,0 +1,82 @@
+---
+title: "Week 9 Homework"
+format:
+  html: default
+  pdf: default
+---
+
+::: {.callout-note title="Exercise"}
+From the text, Exercise 3.2.
+:::
+
+::: {.callout-note title="Exercise"}
+From the text, Exercise 3.11.
+:::
+
+::: {.callout-note title="Exercise"}
+Find the definition for **isomorphic** graphs. What is the definition?
+Give an example of two graphs that are isomorphic, and give an example
+of two graphs that are not isomorphic.
+:::
+
+::: {.callout-note title="Exercise"}
+A simple graph $G$ is **self-complimentary** if $G$ and $\bar{G}$ are
+isomorphic. Find a self-complimentary graph having five vertices. Find
+another self complimentary graph with more than 1 vertex.
+:::
+
+::: {.callout-note title="Exercise"}
+A vertex $v$ in a connected graph $G$ is an **articulation point** if
+the removal of $v$ and all edges incident to $v$ disconnects $G$. Give
+an example of a graph with six vertices that has exactly two
+articulation points. Give an example of a graph on six vertices that has
+no articulation points.
+:::
+
+::: {.callout-note title="Proof"}
+Prove that if G is a simple graph with $p$ vertices, where each vertex
+has degree $\ge \frac{1}{2}(p-1)$, then $G$ must be connected. Hint: Try
+a contradiction proof, by assuming there are at least two components of
+$G$. How many vertices must each component have?
+:::
+
+::: {.callout-note title="Proof"}
+Prove the statement: In any tree there is exactly one path from any
+vertex to any other vertex. (Hint: Try contradiction. If there are two
+paths try to show there is a cycle.)
+:::
+
+::: {.callout-note title="Proof"}
+A **forest** is a simple graph where each component is a tree. Find a
+formula for the number of edges in a forest with $n$ vertices and $c$
+components. Prove your formula.
+:::
+
+::: {.callout-note title="Proof"}
+Prove the average degree in a tree is always less than 2. More
+specifically express this average as a function of the number of
+vertices in tree.
+:::
+
+::: {.callout-note title="Proof"}
+$\bigstar$ Let $v$ and $w$ be distinct vertices in the complete graph
+$K_n$ for $n \ge 2$. Prove the number of paths from $v$ to $w$ is
+$$(n-2)!\sum^{n-2}_{k=0}\frac{1}{k!}$$
+:::
+
+::: {.callout-note title="Proof"}
+$\bigstar$ Prove that a vertex $v$ in a connected graph $G$ is an
+articulation point if and only if there are vertices $w$ and $x$ in $G$
+having the property that every path from $w$ to $x$ passes through $v$.
+:::
+
+::: {.callout-note title="Proof"}
+$\bigstar$ Prove that in any simple graph with more than one vertex,
+there must be two vertices with the same degree. (Hint: Try
+contradiction.)
+:::
+
+::: {.callout-note title="Proof"}
+$\bigstar$ Prove the number of vertices of degree 1 in an tree must be
+greater than or equal to the maximum degree in the tree.
+:::

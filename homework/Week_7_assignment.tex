@@ -1,0 +1,172 @@
+
+
+%\begin{exercise}
+%Find the number of  solutions to the equation $x+y+z+w=15$\\
+%a. in non-negative integers?\\
+%b. in positive integers?\\
+%c. in integers satisfying $x>2$, $y>-2$, $z>0$, $w>-3$.
+%\end{exercise}
+
+%\begin{exercise}
+%Find the number of ways of placing 4 marbles in 10 distinguishable boxes if\\
+%a. the marbles are distinguishable, and no box can hold more than one marble; \\
+%b. the marbles are indistinguishable, and no box can hold more than one marble;\\
+%c. the marbles are distinguishable, and each box can hold any number of marbles; \\
+%d. the marbles are indistinguishable, and each box can hold any number of marbles.
+%\end{exercise}
+
+\begin{exercise}
+Find a recurrence relation for the number, $b_n$ of length $n$ binary strings with no two consecutive ones (No 11 in the string).  What are the initial conditions?  What is the closed form solution to this recurrence relationship?
+\end{exercise}
+
+\begin{exercise}
+Solve the following homogeneous recurrence relations:\\
+a. $a_n=5a_{n-1}-6a_{n-2}$ with $a_1=-1$ and $a_2=1$\\
+b. $b_n=6b_{n-1}-9b_{n-2}$ with $b_1=1$ and $b_2=9$\\
+\end{exercise}
+
+\begin{exercise}
+Solve the following homogeneous recurrence relations:\\
+a. $a_n=6a_{n-1}-8a_{n-2}$; $a_0=1$, $a_1=0$\\
+b. $a_n=2a_{n-1}+8a_{n-2}$; $a_0=4$, $a_1=10$
+\end{exercise}
+
+\begin{exercise}
+Consider tiling a $2 \times n$ board with $2 \times 1$ and $2 \times 2$ tiles.\\
+a. Let $a_n$ count the number of tilings of where the $2 \times 1$ can only be positioned vertically .  Find a recursive relationship for $a_n$. Find initial conditions for $a_n$.\\
+b. Let $b_n$ count the number of tilings of where the $2 \times 1$ can only be positioned horizontally. Find a recursive relationship for $b_n$ and find initial conditions for $b_n$.\\
+c. Let $c_n$ count the number of tilings of where the $2 \times 1$ can  be positioned horizontally or vertically.  Find a recursive relationship for $c_n$ and find initial conditions for $c_n$.
+\end{exercise}
+
+
+%\begin{exercise}
+%Consider the sequence of numbers $u(1), u(2), u(3),$ ...
+%where $u(n+1) = [u(n)^2 + 4] / [u(n) +2]$
+%As $n \rightarrow \infty$, $u(n) \rightarrow a$
+%Find $a$, and show that it's the limit. 
+%\end{exercise}
+
+%\begin{exercise}
+%Let $q_0= \alpha$, $q_1=\beta$ and $q_n=(1+q_{n-1})/q_{n-2}$. Assuming that $q_n \ne 0$ for all $n$, solve this recurrence relation. Hint: $q_4=(1 + \alpha)/\beta$
+%\end{exercise}
+
+\begin{exercise} 
+Let $s_n$ be the number of length-$n$ bit strings with no three consecutive 0s.  Find $s_1$, $s_2$, $s_3$ and find a recursive definition of this sequence.
+\end{exercise}
+
+\begin{exercise} 
+Find a closed form solution to recurrence relation $x_n=n$ for $0 \le n < m$ and $x_n=x_{n-m}+1$ for $n \ge m$.
+\end{exercise}
+
+
+\begin{exercise}
+What is dynamic programing?  Describe the basic algorithm and explain its connection to recurrence relations.
+\end{exercise}
+
+\begin{exercise}
+What is the Josephus number?  Define it and give its historical origins.  What is its connection to recurrence relations?
+\end{exercise}
+
+\begin{exercise} 
+A string that contains only 0's,1's, and 2's is called a {\bf ternary string}. Find a recurrence relation for the number of ternary strings that contain two consecutive 0s?  What are the initial conditions? Explain your answer.  What is the recursion and initial conditions for ternary strings that contain 000?
+\end{exercise}
+
+\begin{exercise}
+Each day Angela eats lunch at a deli, ordering one of the following:
+chicken salad, a tuna sandwich, or a turkey wrap. Find a recurrence
+relation for the number of ways for her to order lunch for the "n" days
+if she never orders chicken salad three days in a row. 
+\end{exercise}
+
+
+\begin{exercise}
+Find the number of non-negative integer solutions to $x+y+z+w\le6$. Generalize this to find the number of non-negative integer solutions to $x+y+z+w\le k$.
+\end{exercise}
+
+\begin{exercise}
+Let $F_{n+2}=F_{n+1}+F_{n}$ with $F_0=0$ and $F_1=1$, $L_{n+2}=L_{n+1}+L_{n}$ with $L_0=2$ and $L_1=1$.  Find a relationship between $L_n$, $F_{n-1}$, and $F_{n+1}$.
+\end{exercise}
+
+\begin{exercise}
+Find the first 5 terms of the Taylor expansion at $x=0$ of $\sqrt{1-4x}$.  By examining the pattern of coefficients find $a_n$ where $\sqrt{1-4x}=\sum_{n=0}^{\infty}a_nx^n$.
+\end{exercise}
+
+\begin{exercise}
+Use the Auxiliary Equation method to find a closes form solution to the following recurrence relations:\\
+a. $c_n=3c_{n-1}-3c_{n-2}+c_{n-3}$ with $c_0=1$, $c_1=2$, and $c_2=4$\\
+b. $x_n=5x_{n-1}-4x_{n-2}-6x_{n-3}$ with $x_0=0$, $x_1=0$, and $x_2=1$\\
+\end{exercise}
+
+
+\begin{proofp}
+Prove $$\frac{1\cdot 3 \cdot 5 \cdots (2n-1)}{2^n (n+1)!}4^n=\frac{1}{n+1} \binom{2n}{n}.$$
+\end{proofp}
+
+
+\begin{proofp}
+Prove $\binom{3n}{3}=3\binom{n}{3}+6n\binom{n}{2}+n^2\binom{n}{1}$.
+\end{proofp}
+
+\begin{proofp}
+Using induction, prove that for the sequence defined by $a_1=0$, $a_2=1/2$, and $a_{n+2}=\frac{1}{2}(a_n+a_{n+1})$ for $n \ge 1$ that  $$a_n=\frac{1}{3}\left(1-\left(-\frac{1}{2}\right)^{n-1}\right)$$ for every $n \ge 1$.
+\end{proofp}
+
+
+\begin{proofp}
+Consider the sequence defined by $a_n=\frac{1}{2}a_{n-1}+c$ where $a_1=c$.  Prove that $a_n=c(2-\frac{1}{2^{n-1}})$ using mathematical induction.
+\end{proofp}
+
+%\begin{proofp}
+%Consider the  sequence defined by $f_1=1$, $f_2=1$, and $f_n=f_{n-1}+f_{n-2}$.  Prove that
+%$$\sum^{3m+1}_{i=1} f_i$$
+%is always odd for $m$ an non negative integer.
+%\end{proofp}
+
+\begin{proofp}
+Prove $$\sum_{k\ge0}^{n}k\binom{n}{k}=n2^{n-1}$$
+\end{proofp}
+
+\begin{proofp}
+Let $T_n=\frac{n(n+1)}{2}$ be the triangular numbers and $P_n =\frac{3n^2-n}{2}$ be the pentagonal numbers. Using the direct proof method, prove $T_{5n-2}=T_{2n-2}+6P_n+3T_{n-1}$ for all $n\ge1$.
+\end{proofp}
+
+\begin{proofp}$\bigstar$
+Prove $$\sum_{i=0}^{k}(-1)^i\binom{n}{i}=(-1)^k\binom{n-1}{k}$$
+\end{proofp}
+
+\begin{proofp}$\bigstar$
+Prove  $$\sum_{k\ge0}^{}k\binom{m}{k}\binom{n}{k}=n\binom{m+n-1}{n}$$
+Hint: See Example 1.10 and 1.11 on page 9 of the course text.
+\end{proofp}
+
+\begin{proofp}$\bigstar$
+Consider the following modification of the Towers of Hanoi problem with three posts labeled A, B, and C with the added two rules 1) A disk may be moved only from a post and adjacent post, and 2) the disks must be moved from post A to post C.  Justify a recursive description of this problem, and prove by induction that the number of moves need to move $n$ disks is $3^n-1$.
+\end{proofp}
+
+
+
+%\begin{proofp}$\bigstar$
+%From the text, Exercise 1.18.
+%\end{proofp}
+
+\begin{proofp}$\bigstar$
+Let $F_{n+2}=F_{n+1}+F_{n}$ with $F_0=0$ and $F_1=1$, the Fibbonacci numbers, and $L_{n+2}=L_{n+1}+L_{n}$ with $L_0=2$ and $L_1=1$, the Lucas numbers.  Prove
+$$\sum_{k=0}^{n}2^{k}L_{k}=2^{n+1}F_{n+1}$$
+for all $n\ge 0$.
+\end{proofp}
+
+\begin{proofp}$\bigstar$
+Let $F_{n+2}=F_{n+1}+F_{n}$ with $F_0=0$ and $F_1=1$, the Fibbonacci numbers, and $L_{n+2}=L_{n+1}+L_{n}$ with $L_0=2$ and $L_1=1$, the Lucas numbers.  Prove
+$$\sum_{k=0}^{n}(-1)^k2^{n-k}L_{k+1}=(-1)^nF_{n+1}$$
+for all $n\ge 0$.
+\end{proofp}
+
+\begin{proofp}$\bigstar$
+Define $x_1=1$ and $x_2=2$ and $x_{n+2}=x_{n+1}+x_{n}$ for $n\ge 1$. Prove that $4^nx_n<7^n$ for all positive integers $n$.
+\end{proofp}
+
+\begin{proofp}$\bigstar$
+Prove $\binom{n^2}{2}=n\binom{n}{2}+n^2\binom{n}{2}$.
+\end{proofp}
+
+

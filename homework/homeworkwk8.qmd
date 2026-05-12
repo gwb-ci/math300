@@ -1,0 +1,168 @@
+---
+title: "Week 8 Homework"
+format:
+  html: default
+  pdf: default
+---
+
+::: {.callout-note title="Exercise"}
+What is Reve's Puzzle? Describe it, and describe the Frame-Stewart
+Algorithm in general and using an example.
+:::
+
+::: {.callout-note title="Exercise"}
+Use generating functions to solve:\
+a. $a_n=6a_{n-1}-8a_{n-2}+3$ with $a_0=1$ and $a_1=0$\
+b. $a_n=3a_{n-1}+4^{n-1}$ and $a_0=1$\
+:::
+
+::: {.callout-note title="Exercise"}
+Use generating functions to solve:\
+a. $a_n=\frac{1}{2}a_{n-1}+1$ with $a_1=1$\
+b. $b_n=4b_{n-1}-3b_{n-2}+2^n$ with $b_1=1$ and $b_2=11$
+:::
+
+::: {.callout-note title="Exercise"}
+Find the closed form solution to $a_n=a_{n-1}+2(n-1)$ with $a_1=2$.
+:::
+
+::: {.callout-note title="Exercise"}
+Solve the following recurrence relations:\
+Find a recurrence relation for the number, $t_n$ of length $n$ ternary
+strings with no two consecutive 1s. What are the initial conditions?
+What is the generating function for $t_n$?
+:::
+
+::: {.callout-note title="Exercise"}
+Solve the following recurrence relations:\
+Find a recurrence relation for the number, $d_n$ of length $n$ ternary
+strings with no two consecutive 1s or no two consecutive 2s. What are
+the initial conditions? What is the generating function for $d_n$?
+(Though very similar to the previous problem, this version is much
+harder. Hint: The solution is not $d_n=d_{n-1}+2d_{n-2}$, that is only
+part of the solution.)
+:::
+
+::: {.callout-note title="Exercise"}
+Consider tiling a $2 \times n$ board with $2 \times 1$ and $2 \times 2$
+tiles.\
+a. Let $d_n$ count the number of tilings of where the $2 \times 1$ can
+only be positioned vertically and $2 \times 1$ cannot be adjacent. Find
+a recursive relationship for $d_n$ and find initial conditions for
+$d_n$.\
+b. Let $g_n$ count the number of tilings of where the $2 \times 1$ can
+only be positioned vertically and $2 \times 2$ cannot be adjacent. Find
+a recursive relationship for $g_n$ and find initial conditions for
+$g_n$.\
+:::
+
+::: {.callout-note title="Exercise"}
+Let $g_n$ count the number of subsets of $\{1, 2, 3, \ldots, n\}$
+containing no two consecutive integers. For example, $g_2=3$, the empty
+set, $\{1\}$, and $\{2\}$. Find a recurrence relationship and generating
+function for $g_n$.
+:::
+
+::: {.callout-note title="Exercise"}
+Solve the recurrence relation $a_n=2a_{n-1}-a_{n-2}$. Find the solution
+when $a_0=1$ and $a_1=2$.\
+What do the initial terms need to be in order for $a_9=30$?\
+For which $x$ are there initial terms which make $a_9=x$?\
+:::
+
+::: {.callout-note title="Exercise"}
+Consider the recurrence relation $a_n=4a_{n-1}-4a_{n-2}$. Find the
+general solution to the recurrence relation (beware the repeated root).\
+Find the solution when $a_0=1$ and $a_1=2$.\
+Find the solution when $a_0=1$ and $a_1=8$.\
+:::
+
+::: {.callout-note title="Exercise"}
+Define the Lucas numbers as $L_n=L_{n-1}+L_{n-2}$ with $L_1=1$ and
+$L_2=3$. What is the generating function for this sequence? Find a
+closed from solution for $L_n$.
+:::
+
+::: {.callout-note title="Exercise"}
+Let $f_n=f_{n-1}+f_{n-2}$ with $f_0=0$ and $f_1=1$. Define
+$F_n=F_{n-1}+F_{n-2}+ f_n$ for $n \ge 1$. Express $F_n$ in terms $f_n$
+and $f_{n+1}$.
+:::
+
+::: {.callout-note title="Proof"}
+Consider the sequence $f_n=f_{n-1}+f_{n-2}$ with $f_0=0$ and $f_1=1$.
+Prove $f_0+f_1+f_2+f_3 +\cdots f_n=f_{n+2}-1$.
+:::
+
+::: {.callout-note title="Proof"}
+Consider the sequence $d_n=(n-1)(d_{n-1}+d_{n-2})$ with $d_1=0$ and
+$d_2=1$. Prove that $d_n>(n-1)!$ for $n\ge 4$.
+:::
+
+::: {.callout-note title="Proof"}
+Prove $\sum_{k=0}^n \binom{n}{k}4^k=5^n$.
+:::
+
+::: {.callout-note title="Proof"}
+$\bigstar$ Suppose that a particular real number $x$ has the property
+that $x+\frac{1}{x}$ is an integer. Prove that $x^n+\frac{1}{x^n}$is an
+integer for all natural numbers $n$.
+:::
+
+::: {.callout-note title="Proof"}
+$\bigstar$ Let $T_n$ be the triangular numbers defined by
+$T_n=T_{n-1}+n$ with $T_0=0$ and $n$, $p$, and $q$ be positive integers.
+Prove that if $T_n=pq$ then $T_{n+p+q}=T_{n+p}+T_{n+q}$.
+:::
+
+::: {.callout-note title="Proof"}
+$\bigstar$ Let $T_n$ be the triangular numbers defined by
+$T_n=T_{n-1}+n$ with $T_0=0$ and $n$, $p$, and $q$ be positive integers.
+Prove that if $T_{n+p+q}=T_{n+p}+T_{n+q}$ then $T_n=pq$.
+:::
+
+::: {.callout-note title="Proof"}
+$\bigstar$ Consider the sequence $f_n=f_{n-1}+f_{n-2}$ with $f_1=1$ and
+$f_2=2$. Calculate $f_1+f_3+f_5+f_7 +\cdots +f_{2n-1}$ for small $n$ to
+create a hypothesis for the sum of the first $n$ odd indexed Fibonacci
+numbers, then prove this formula.
+:::
+
+::: {.callout-note title="Proof"}
+$\bigstar$ Consider the sequence $f_n=f_{n-1}+f_{n-2}$ with $f_1=1$ and
+$f_2=2$. Find (like the preceding problem) and prove formulas for:\
+$f_0+f_2+f_4+f_6 +\cdots f_{2n}$\
+:::
+
+::: {.callout-note title="Proof"}
+$\bigstar$ Consider the sequence $f_n=f_{n-1}+f_{n-2}$ with $f_1=1$ and
+$f_2=2$. Find (like the preceding problem) and prove formulas for:\
+$f_1-f_2+f_3-f_4 +\cdots (-1)^{n-1}f_{n}$
+:::
+
+::: {.callout-note title="Proof"}
+$\bigstar$ Consider the sequence $d_n=2d_{n-1}+d_{n-2}$ with $d_0=1$ and
+$d_1=3$. Prove $$d_n=\sum_{i\ge0}^{}2^i\binom{n+1}{2i}$$ is a solution
+to this recurrence relationship.
+:::
+
+::: {.callout-note title="Proof"}
+$\bigstar$ Using the definition for
+$\binom{n}{k} =\frac{n(n-1)(n-2) \cdots (n-k+1)}{k!}$ when $n<0$, prove
+$$\binom{-1/2}{n}=\frac{\binom{2n}{n}}{(-4)^n}$$
+:::
+
+::: {.callout-note title="Proof"}
+$\bigstar$ Let $F_n$ be the Fibonacci sequence with $F_1=1$ and $F_2=1$.
+Prove $F_n \leq (\frac{5}{3})^n$ for all positive integers.
+:::
+
+::: {.callout-note title="Proof"}
+$\bigstar$ The indicated diagonals of Pascal's triangle sum to Fibonacci
+numbers. Prove this patterns continues forever.
+
+<figure id="fig:my_figure" data-latex-placement="htbp">
+<img src="Pascal and Fibonacci" style="width:80.0%" />
+<figcaption>Fibonacci and Pascal</figcaption>
+</figure>
+:::
