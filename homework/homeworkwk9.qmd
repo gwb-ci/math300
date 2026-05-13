@@ -1,68 +1,77 @@
 ---
 title: "Week 9 Homework"
+number-offset: 8
 format:
   html: default
   pdf: default
 ---
-::: {.callout-note title="Exercise"}
+
+# Week 9 Homework
+
+In order to receive full credit problems and solutions must be clearly written and presented neatly.  In writing up your solution, you should state the problem as explaining the solution.  Merely giving answers to exercises will is not enough to receive credit.  Your write up must show work and convince me that you understand the material.  If you need additional time to complete this assignment, please email me.  Starred ($\bigstar$) proof problems are eligible for inclusion in the proof portfolio assignment.
+
+## Exercises
+
+### Exercise
 Solve the recurrence relation $$a_n=\sqrt{\frac{a_{n-2}}{a_{n-1}}}$$
 with initial conditions $a_0=8$ and $a_1=1/(2\sqrt{2})$ by taking the
 logarithm of both sides and making the substitution $b_n=\log_2 a_n$.
-:::
 
-::: {.callout-note title="Exercise"}
+
+### Exercise
 Solve the recurrence relation $$a_n=(a_{n-1}\cdot a_{n-2})^2$$ with
 initial conditions $a_0=1$ and $a_1=\sqrt{2}$ by taking the logarithm of
 both sides and making the substitution $b_n=\log_2 a_n$.
-:::
 
-::: {.callout-note title="Exercise"}
+
+### Exercise
 Solve the recurrence relation $T(n)=n T^2(n/2)$ with initial condition
 $T(1)=6$. (Hint: Let $n=2^k$ and then make the substitution
 $a_k= \log T(2^k)$.)
-:::
 
-::: {.callout-note title="Exercise"}
+
+### Exercise
 Convert the following non-homogeneous linear recurrence relations into
 homogeneous linear recurrence relations by eliminating the
-non-homogeneous piece.\
-a. $a_n=2a_{n-1}+n+1$\
-b. $b_n=3b_{n-1}-3b_{n-2}+2^n$
-:::
+non-homogeneous piece.
 
-::: {.callout-note title="Exercise"}
+1. $a_n=2a_{n-1}+n+1$
+2. $b_n=3b_{n-1}-3b_{n-2}+2^n$
+
+
+### Exercise
 Find a recurrence relation for $c_n$ the number of ways to construct a
 $2 \times 2 \times n$ pillar out of $2 \times 2 \times 1$ bricks. What
 are the initial conditions?
-:::
 
-::: {.callout-note title="Exercise"}
+
+### Exercise
 Find a recurrence relation for $b_n$ the number of ways to construct a
 $2 \times 2 \times n$ pillar out of $2 \times 1 \times 1$ bricks. What
 are the initial conditions? (Though very similar to the previous
 problem, this version is much harder. Hint: The solution is not
 $b_n=2b_{n-1}+5b_{n-2}$, that is only part of the solution.)
-:::
 
-::: {.callout-note title="Exercise"}
+
+### Exercise
 Find a recurrence relation for $d_n$ the number of ways to construct a
 $2 \times 2 \times n$ pillar out of $2 \times 2 \times 1$ bricks and
 $2 \times 2 \times 2$ bricks . What are the initial conditions?
-:::
 
-::: {.callout-note title="Exercise"}
+
+### Exercise
 Find the definition of the **complement** $\bar{G}$ of a graph $G$. Give
 three examples of a graph and it's complement.
-:::
 
-::: {.callout-note title="Exercise"}
+
+### Exercise
 A tree with $n$ vertices is called **graceful** if it's vertices can be
 labeled with the integers 1, 2 , \..., $n$ such that the absolute values
 of the difference of the labels of adjacent vertices are all different.
 Draw and label two different graceful trees on 6 vertices.
-:::
 
-::: {.callout-note title="Exercise"}
+
+### Exercise
 Create a graph to represent all states of the following problem where
 the vertices are an ordered pair of how much water is each jug (e.g
 (5,0) means 5 gallons in the 5 gallon jug and 0 gallons in the 3 gallon
@@ -70,55 +79,54 @@ jug) and the edges represent the change levels with one pour. Problem:
 "You've got to defuse a bomb by placing exactly 4 gallons of water on a
 sensor. The problem is, you only have a 5 gallon jug and a 3 gallon jug
 on hand!"
-:::
 
-::: {.callout-note title="Proof"}
+## Proofs
+
+### Proof
 Prove that if there are two different paths
 $P_1: x, v_1, v_2, \cdots, v_k, y$ and
 $P_2: x, u_1, u_2, \cdots, u_l, y$ where at least one $v_i \neq u_j$ for
 some $i$ and $j$between vertices $x$ and $y$ in a simple graph, then
 there must be a cycle in the graph.
-:::
 
-::: {.callout-note title="Proof"}
+
+### Proof
 Prove that if a simple graph contains an odd length closed trail
 $v_0 \rightarrow v_1 \rightarrow v_2 \rightarrow \cdots \rightarrow v_k$
 then the graph contains an odd length cycle.
-:::
 
-::: {.callout-note title="Proof"}
+
+### Proof
 []{#cproof label="cproof"} Prove
 $\frac{1}{n+1}\binom{2n}{n}= \frac{2 \cdot 6\cdot 10 \cdots (4n-2)}{(n+1)!}$.
 Both of these expressions are closed form solutions to the Catalan
 number sequence $C_n$.
-:::
 
-::: {.callout-note title="Proof"}
+
+### Proof
 []{#cproof label="cproof"} Let $C_n$ be the Catalan number sequence,
 prove that $(n+1)C_n=(4n-2)C_{n-1}$.
-:::
 
-::: {.callout-note title="Proof"}
+
+### Proof
 $\bigstar$ Prove the sum of the first $n$ triangular numbers is
 $\frac{n(n+1)(n+2)}{6}$
-:::
 
-::: {.callout-note title="Proof"}
+
+### Proof
 $\bigstar$ Prove the that the number of $n$-digit binary numbers with no
 consecutive 1's is the Fibonacci number $F_{n+2}$, where $F_1=1$ and
 $F_2=1$.
-:::
 
-::: {.callout-note title="Proof"}
+
+### Proof
 $\bigstar$ Prove the following statement about the Catalan numbers $C_n$
 for all all positive integers $n \ge 1$: $C_n \ge 2^{n-1}$ (Hint: You
 may want to use the last part of Proof
 .[\[cproof\]](#cproof){reference-type="ref" reference="cproof"})\
-:::
 
-::: {.callout-note title="Proof"}
+
+### Proof
 $\bigstar$ Prove the following statement about the Catalan numbers $C_n$
-for all all positive integers $n \ge 1$: $C_n \ge \frac{4^{n-1}}{n^2}$
-(Hint: You may want to use the last part of Proof
-.[\[cproof\]](#cproof){reference-type="ref" reference="cproof"}).
-:::
+for all all positive integers $n \ge 1$: $C_n \ge \frac{4^{n-1}}{n^2}$.
+

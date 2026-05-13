@@ -1,138 +1,146 @@
 ---
 title: "Week 4 Homework"
+number-offset: 3
 format:
   html: default
   pdf: default
 ---
 
-::: {.callout-note title="Exercise"}
+# Week 4 Homework
+
+In order to receive full credit problems and solutions must be clearly written and presented neatly.  In writing up your solution, you should state the problem as explaining the solution.  Merely giving answers to exercises will is not enough to receive credit.  Your write up must show work and convince me that you understand the material.  If you need additional time to complete this assignment, please email me.  Starred ($\bigstar$) proof problems are eligible for inclusion in the proof portfolio assignment.
+
+## Exercises
+
+### Exercise
 Do research on the Pigeonhole Principle. State it, and give two examples
 of how it can be used to solve an counting problem. Are there other
 historical names for this counting principle?
-:::
 
-::: {.callout-note title="Exercise"}
+
+### Exercise
 Many ways are there for 8 different men and 5 different women to stand
 in a line so that no two women stand next to each other? What is the
 answer if there are 10 men and 6 women? What is the answer if there are
 $m$ men and $w$ women with $m\geq w$? How does the answer change if you
 cannot tell the men apart and you cannot tell the women apart, for
 example if the people were replace by mannequins.
-:::
 
-::: {.callout-note title="Exercise"}
+
+### Exercise
 A **diagonal** of a polygon is a line joining two nonadjacent vertices.
 How may diagonals does a hexagon have? What about a octogon? What about
 a $n$-gon?
-:::
 
-::: {.callout-note title="Exercise"}
+
+### Exercise
 Suppose you have 10 points in the plane with no three collinear. How
 many different line segments are formed by joining pairs of of these
 points? How many different triangles are formed by these line segments?
 If A is one of the 10 points, how many of the triangles formed by the
 line segments have A as a vertex?
-:::
 
-::: {.callout-note title="Exercise"}
+
+### Exercise
 Find the definition of a multinomial coefficient. How is it related to
 binomial coefficients? What can a multinomial coefficient be used to
 count? Give examples of counting with multinomial coefficients.
-:::
 
-::: {.callout-note title="Exercise"}
+
+### Exercise
 How many different strings can be made from the letters in the work
 PEPPERCORN when all the letters are used? How may of the strings start
 and end with the letter P? How many strings have 3 consecutive Ps?
-:::
 
-::: {.callout-note title="Exercise"}
+
+### Exercise
 How many length 9 bit strings are there which: Start with the sub-string
 101?\
 Have weight 5 (i.e., contain exactly five 1's) and start with the
 sub-string 101?\
 Have weight 5 and either start with 101 or end with 11 (or both)?\
-:::
 
-::: {.callout-note title="Exercise"}
+
+### Exercise
 How many bit strings of length 10 are there with exactly 4 ones? How
 many bit strings are there of length 13 are there with exactly 7 ones?
 How many bit strings of length $n$ are there with exactly $k$ ones?
-:::
 
-::: {.callout-note title="Proof"}
+## Proofs
+
+### Proof
 Use mathematical induction to show that 21 divides $4^{n+1}+5^{2n-1}$
 for any positive integer $n$
-:::
 
-::: {.callout-note title="Proof"}
+
+### Proof
 Geometric sequence: Use induction to prove that for any real numbers $a$
 and $r$, $$\sum_{i=0}^{n} a\cdot r^i = \frac{a(1-r^{n+1})}{1-r}.$$
-:::
 
-::: {.callout-note title="Proof"}
+
+### Proof
 Arithmetic sequence: Use induction to prove that for any real numbers
 $a$ and $r$,
 $$\sum_{i=0}^{n} (a+ i\cdot r) = \frac{n+1}{2}(2a+n\cdot r).$$
-:::
 
-::: {.callout-note title="Proof"}
+
+### Proof
 Use induction to prove that $8^n-3^n$ is divisible by 5 for all integers
 $n \ge 1$. Hint: This is equivalent to showing $8^n-3^n=5k$ for some
 integer $k$.
-:::
 
-::: {.callout-note title="Proof"}
+
+### Proof
 Use induction to prove that $n! \ge 2^{n-1}$ for for all integers
 $n \ge 1$.
-:::
 
-::: {.callout-note title="Proof"}
+
+### Proof
 Use induction to prove that $1+3+3^2+\cdots +3^n=(3^{n+1}-1)/2$.
-:::
 
-::: {.callout-note title="Proof"}
+
+### Proof
 Prove by induction that $3^n+7^n-2$ is divisible by 8 for all positive
 integers $n$. Hint: This is equivalent to showing $3^n+7^n-2=8k$ for
 some integer $k$.
-:::
 
-::: {.callout-note title="Proof"}
+
+### Proof
 Prove $2^n>n^3$ for $n \ge 10$.
-:::
 
-::: {.callout-note title="Proof"}
+
+### Proof
 Prove $n^2 \geq2n+3$ for $n \ge 3$.
-:::
 
-::: {.callout-note title="Proof"}
+
+### Proof
 Prove $2^n>n^2$ for $n \ge 5$.
-:::
 
-::: {.callout-note title="Proof"}
+
+### Proof
 By experimenting with small values of $n$, guess a formula for the given
 sum,
 $$\frac{1}{1\cdot2}+\frac{1}{2\cdot3}+\frac{1}{3\cdot4}+\cdots+\frac{1}{n(n+1)};$$
 then use induction to prove your formula.
-:::
 
-::: {.callout-note title="Proof"}
+
+### Proof
 $\bigstar$ Bernoulli's inequality: Prove that if $h>-1$, then
 $1+nh \leq  (h+1)^n$ for all non-negative integers $n$.
-:::
 
-::: {.callout-note title="Proof"}
+
+### Proof
 $\bigstar$ Use induction to prove that $n^2+n+1$ is odd for every
 integer $n$.
-:::
 
-::: {.callout-note title="Proof"}
+
+### Proof
 $\bigstar$ Prove by induction that
 $$\frac{1 \cdot 3 \cdot 5 \cdots (2n-1)}{2\cdot 4 \cdot 6 \cdots (2n)} \leq \frac{1}{\sqrt{n+1}}$$
 for $n$ a positive integer.
-:::
 
-::: {.callout-note title="Proof"}
+
+### Proof
 $\bigstar$ Prove that for $n \ge 2$, the maximum number of points of
 intersection of $n$ distinct lines in the plane is $n(n-1)/2$
-:::
+

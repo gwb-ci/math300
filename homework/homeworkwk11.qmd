@@ -1,29 +1,36 @@
 ---
 title: "Week 11 Homework"
+number-offset: 10
 format:
   html: default
   pdf: default
 ---
 
-::: {.callout-note title="Exercise"}
+# Week 11 Homework
+
+In order to receive full credit problems and solutions must be clearly written and presented neatly.  In writing up your solution, you should state the problem as explaining the solution.  Merely giving answers to exercises will is not enough to receive credit.  Your write up must show work and convince me that you understand the material.  If you need additional time to complete this assignment, please email me.  Starred ($\bigstar$) proof problems are eligible for inclusion in the proof portfolio assignment.
+
+## Exercises
+
+### Exercise
 From the text, Exercise 3.6.
-:::
 
-::: {.callout-note title="Exercise"}
+
+### Exercise
 From the text, Exercise 3.8.
-:::
 
-::: {.callout-note title="Exercise"}
+
+### Exercise
 From the text, Exercise 3.9.
-:::
 
-::: {.callout-note title="Exercise"}
+
+### Exercise
 Let $G$ be a connected 3-regular planar graph on 8 vertices. How many
 regions does $G$ have? Give an example of a 3-regular connected graph on
 8 vertices that is not planar or explain why it must be planar.
-:::
 
-::: {.callout-note title="Exercise"}
+
+### Exercise
 For the following degree sequences (list of the degrees of the vertices
 in a graph) determine if there exists a bipartite simple graph with
 these degrees. If yes construct it, if not explain why it does not
@@ -31,62 +38,63 @@ exist.\
 a. (6, 6, 4, 4, 4, 4, 4, 4, 2, 2, 2)\
 b. (4, 4, 4, 4, 4, 3, 3, 2, 2)\
 c. (5, 5, 5, 5, 5, 5, 4, 4, 4)
-:::
 
-::: {.callout-note title="Exercise"}
+
+### Exercise
 What is the smallest number of colors that can be used to color the
 vertices of a cube so that no two adjacent vertices are colored
 identically?
-:::
 
-::: {.callout-note title="Exercise"}
+
+### Exercise
 Euler's formula $v-e+f=2$ holds for all connected simple planar graphs.
 What if a graph is not connected? Suppose a planar graph has two
 components. What is the value of v-e+f now? What if it has $k$
 components?
-:::
 
-::: {.callout-note title="Proof"}
+## Proofs
+
+### Proof
 Prove the chromatic number of any tree is two. Recall, a tree is a
 connected simple graph with no cycles.
-:::
 
-::: {.callout-note title="Proof"}
+
+### Proof
 Prove that if each component of a simple graph is bipartite, then the
 entire graph is bipartite.'
-:::
 
-::: {.callout-note title="Proof"}
+
+### Proof
 Let $G$ be a connected simple graph on $n$ vertices. Prove that if
 $n \ge 11$ then either $G$ or the complement of $G$ is not planar.
-:::
 
-::: {.callout-note title="Proof"}
+
+### Proof
 Prove that if a simple connected planar graph has $e$ edges and $v$
 vertices with $v \ge 3$ and no cycles of length 3 then $e \le 2v-4$.
-:::
 
-::: {.callout-note title="Proof"}
+
+### Proof
 Prove Euler's formula using induction on the number of **edges** in the
 graph.
-:::
 
-::: {.callout-note title="Proof"}
+
+### Proof
 Prove $G$ is regular if and only if it's complement is regular.
-:::
 
-::: {.callout-note title="Proof"}
+
+### Proof
 $\bigstar$ Prove that any simple connected planar graph must have a
 vertex of degree 5 or less.
-:::
 
-::: {.callout-note title="Proof"}
+
+### Proof
 $\bigstar$ Prove that a simple graph with 17 vertices and 73 edges
 cannot be bipartite. (Hint: Break the graph up into two vertex sets and
 count the number of edges within each vertex set.)
-:::
 
-::: {.callout-note title="Proof"}
+
+### Proof
 $\bigstar$ Prove Dirac's Theorem: If $G$ is a simple graph with $p$
 vertices, each vertex having degree $\ge \frac{1}{2}p$, then $G$ is
 hamiltonian. Hint: Suppose $G$ is not hamiltonian but adding any one
@@ -94,10 +102,10 @@ edge will make $G$ hamiltonian, so $G$ has a path
 $v_1 \rightarrow v_2 \rightarrow \cdots \rightarrow v_p$ containing all
 the vertices of $G$. Show there must be a vertex adjacent to both $v_1$
 and $v_p$, and use this to create a hamiltonian cycle.
-:::
 
-::: {.callout-note title="Proof"}
+
+### Proof
 $\bigstar$ Let $G$ be a graph (not necessarily connected as in a problem
 above) on $n$ vertices. Prove that if $n \ge 11$ then either $G$ or the
 complement of $G$ is not planar.
-:::
+

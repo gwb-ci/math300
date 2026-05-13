@@ -1,53 +1,65 @@
 ---
 title: "Week 2 Homework"
+number-offset: 1
 format:
   html: default
   pdf: default
 ---
 
-::: {.callout-note title="exercise"}
+# Week 2 Homework
+
+In order to receive full credit problems and solutions must be clearly written and presented neatly.  In writing up your solution, you should state the problem as explaining the solution.  Merely giving answers to exercises will is not enough to receive credit.  Your write up must show work and convince me that you understand the material.  If you need additional time to complete this assignment, please email me.  Starred ($\bigstar$) proof problems are eligible for inclusion in the proof portfolio assignment.
+
+## Exercises
+
+### Exercise
 Sigma notation review: Write the sum in expanded form:
-a. $\sum_{i=1}^5 \sqrt{i}$
-b. $\sum_{i=1}^n i^{10}$
-c. $\sum_{j=0}^{n-1} (-1)^j$
-d. $\sum_{j=n}^{n+3} j^2$
-:::
 
-::: {.callout-note title="exercise"}
+1. $\sum_{i=1}^5 \sqrt{i}$
+2. $\sum_{i=1}^n i^{10}$
+3. $\sum_{j=0}^{n-1} (-1)^j$
+4. $\sum_{j=n}^{n+3} j^2$
+
+
+### Exercise
 Sigma notation review:Write the sum in sigma notation:
-a. $1+2+3+4+5+6+ \cdots + 10$
-b. $2+4+6+8+ \cdots +2n$
-c. $1+x+x^2 + x^3 + \cdots +x^n$
-d. $1+2x+3x^2 + 4x^3 + \cdots +nx^{n-1}$
-:::
 
-::: {.callout-note title="exercise"}
+1. $1+2+3+4+5+6+ \cdots + 10$
+2. $2+4+6+8+ \cdots +2n$
+3. $1+x+x^2 + x^3 + \cdots +x^n$
+4. $1+2x+3x^2 + 4x^3 + \cdots +nx^{n-1}$
+
+
+### Exercise
 Factorial review: What is the factorial function? What notation is used
 for this function?
-:::
 
-::: {.callout-note title="exercise"}
+
+### Exercise
 Factorial review: Calculate the following expressions using properties
 of the factorial function.
-a. $\frac{7!}{3!}$
-b. $\frac{8!}{4!4!}$
-c. $\frac{10!}{9!}$
-d. $\frac{n!}{(n-2)!}$
-:::
 
-::: {.callout-note title="exercise"}
+1. $\frac{7!}{3!}$
+2. $\frac{8!}{4!4!}$
+3. $\frac{10!}{9!}$
+4. $\frac{n!}{(n-2)!}$
+
+
+### Exercise
 Sequence Review: Write the first five terms of the following sequences:
-a. $a_1=1$, $a_{n+1}=\frac{1}{1+a_n}$
-b. $b_1=0$, $b_2=1$, $b_{n}=b_{n-1}-b_{n-2}$
-c. $c_1=1$, $c_n=c_{n-1}+n$
-d. $d_1=1$, $d_n=2d_{n-1}$
-:::
 
-::: {.callout-note title="exercise"}
+1. $a_1=1$, $a_{n+1}=\frac{1}{1+a_n}$
+2. $b_1=0$, $b_2=1$, $b_{n}=b_{n-1}-b_{n-2}$
+3. $c_1=1$, $c_n=c_{n-1}+n$
+4. $d_1=1$, $d_n=2d_{n-1}$
+
+
+### Exercise
 Sequence Review: Find a formula for the general term $a_n$ of the given
-sequence:\
-a. $\{1, 4, 7, 10, 13\cdots \}$
-b. $\{ -1, 2, -6, 24, -120 \cdots\}$
-c. $\{ 1, 4, 9,16, 25, \cdots\}$
-d. $\{ 0, 1, 3,7, 15, \cdots\}$
-:::
+sequence:
+
+1. $\{1, 4, 7, 10, 13\cdots \}$
+2. $\{ -1, 2, -6, 24, -120 \cdots\}$
+3. $\{ 1, 4, 9, 16, 25, \cdots\}$
+4. $\{ 0, 1, 3, 7, 15, \cdots\}$
+
