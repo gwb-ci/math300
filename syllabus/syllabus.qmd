@@ -4,7 +4,9 @@ format:
   html:
     toc: true
     math: mathjax
-  pdf: default
+    number-sections: false
+  pdf:
+    number-sections: false
 ---
 
 # Math 300: Discrete Mathematics
