@@ -1,0 +1,195 @@
+\documentclass{beamer}
+\usepackage{beamerthemeCambridgeUS}
+\usepackage{color}  % for \textcolor{red}{blah}
+\usepackage{graphicx}
+\usepackage{subfigure}
+\usepackage{multicol}
+\usepackage{verbatim} % for \begin{comment}
+
+
+\newenvironment{packed_enum}{
+\begin{enumerate}
+  \setlength{\itemsep}{1pt}
+  \setlength{\parskip}{0pt}
+  \setlength{\parsep}{0pt}
+}{\end{enumerate}}
+
+\newenvironment{packed_item}{
+\begin{itemize}
+  \setlength{\itemsep}{1pt}
+  \setlength{\parskip}{0pt}
+  \setlength{\parsep}{0pt}
+}{\end{itemize}}
+
+\usetheme{CambridgeUS}
+
+\title{Discrete Mathematics Course Introduction}
+\author[Geoffrey Buhl]{Geoffrey Buhl \\ \texttt{geoffrey.buhl@csuci.edu}}
+\institute[CSUCI]{California State University Channel Islands}
+\date{week 1 class 1}
+
+\def \vec{{\rm vec}}
+\newtheorem{conjecture}[theorem]{Conjecture}
+\newtheorem{explanation}[theorem]{Explanation}
+
+
+\begin{document}
+
+%\frame{\titlepage}
+
+%\section[Outline]{}
+%\frame{\tableofcontents}
+
+\section{Course Introduction}
+
+\frame
+{
+  \frametitle{Describing patterns and structure}
+
+``What humans do with the language of mathematics is to describe 
+      patterns..."  --  Lynn A. Steen, mathematician
+\vfill
+``All mathematics is is a language that is well tuned, finely honed, to describe patterns... '' - Brian Greene, physicist
+\vfill
+``Mathematics is the science of patterns, and nature exploits just about every pattern that there is.'' - Ian Stewart, mathematician
+\vfill
+``Doing mathematics should always mean finding patterns and crafting beautiful and meaningful explanations'' - Paul Lockhart, teacher
+\vfill
+``A mathematician, like a painter or poet, is a maker of patterns. If his patterns are more permanent than theirs, it is because they are made with ideas.'' - G. H. Hardy, mathematician
+
+}
+
+\frame
+{
+  \frametitle{Welcome!}
+
+
+Welcome to Math 300 Discrete Mathematics!  I am Prof. Geoffrey Buhl, and I am you instructor for this semester.
+
+\vfill
+Class Session Goals:
+\begin{packed_enum}
+\item Meet Classmates and work in small groups
+\item Learn about this course and my expectations
+\item Work on a first discrete mathematics problem
+\end{packed_enum}
+
+
+}
+
+
+
+\frame
+{
+  \frametitle{Syllabus Activity}
+
+
+Step 1: Take a few minute to introduce yourselves and share what other courses you are taking this semester.  
+
+Step 2: As a group, take 10-15 minutes to look over the syllabus and formulate four questions your group would like to ask about the course.
+
+Step 3:  As a whole class, groups will ask questions and I will answer them.
+
+}
+
+
+%\begin{comment}
+%\frame
+%{
+ % \frametitle{Envisioning success}
+
+%Having read the syllabus, as a group answer the following two questions:
+%\begin{itemize}
+%\item Individually, what does it mean to me to be successful in this course?
+%\item As a group, what do you need to do to be successful in this course?  
+%\end{itemize}
+%}
+%\end{comment}
+
+
+\frame
+{
+  \frametitle{Advice from past students}
+
+Former student's answer to the question What advice would you give students to be successful in this class?" at the end of the semester:\vfill
+
+\begin{packed_enum}
+\item Start homework early, do it consistently, and redo missed or difficult problems since homework closely matches exam questions.
+\item Attend every lecture, pay attention, take clear notes, and ask questions to fully understand concepts and proofs.
+\item Use support resources regularly, including the Learning Resource Center, office hours, review sessions, and practice exams.
+
+\end{packed_enum}
+\vfill
+}
+
+
+\frame
+{
+  \frametitle{More advice from past students}
+
+Former student's answer to the question What advice would you give students to be successful in this class?" at the end of the semester: \vfill
+
+\begin{packed_enum}
+
+\item Form study groups early, collaborate with classmates, and communicate through group chats or Discord.
+\item Practice star problems, proofs, and pretests, and build a helpful formula sheet with key concepts and examples.
+\item Take advantage of extra credit opportunities and manage your time, stress, and sleep to stay on track.
+\end{packed_enum}
+}
+\vfill
+
+
+%\frame
+%{
+%  \frametitle{The Problem with Problem Solving}
+%
+%Read "The Problem with Problem Solving" and discuss in you group what you think you are %better at:  the first part of problem solving "solving" or the second "convincing".
+%
+%
+%\begin{figure}[htp]
+ % \begin{center}
+ %   \subfigure{\includegraphics[scale=.37]{pwpsfigs1.pdf}}
+%    \subfigure{\includegraphics[scale=.4]{pwpsfigs2.pdf}}
+%  \end{center}
+%\end{figure}
+%}
+
+\frame
+{
+  \frametitle{Tiling with Triominos}
+In small groups, work on the ``Tiling with Triominos'' worksheet. The goals of this worksheet are to:
+
+\begin{packed_enum}
+\item Experience the challenge of understanding what a question is asking
+\item Practice the problem solving strategy of drawing pictures.
+\item Practice the problem solving strategy of working on ''Small n'' versions of a general problem.
+\end{packed_enum}
+
+
+\begin{figure}[h]
+  \includegraphics[scale=.85]{triomino}
+   \caption{Right triomino}
+\end{figure}
+
+
+
+
+
+}
+
+
+
+\frame
+{
+  \frametitle{Next Steps}
+
+\begin{packed_enum}
+\item Look over the "Welcome! | Students - Start Here!" Module in CI Learn
+\item Look at and work on the W1 (Week 1) Learner Survey Info Quiz on CI Learn.
+\item Look at and work on W1 Introduce yourself Assignment in CI Learn.
+\end{packed_enum}
+
+
+}
+
+\end{document}
