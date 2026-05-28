@@ -1,0 +1,202 @@
+\documentclass{beamer}
+\usepackage{beamerthemeCambridgeUS}
+\usepackage{color}  % for \textcolor{red}{blah}
+\usepackage{graphicx}
+\usepackage{subfigure}
+\usepackage{multicol}
+\usepackage{verbatim} % for \begin{comment}
+\usepackage{lipsum}
+
+
+\newcommand\Fontvi{\fontsize{6}{7.2}\selectfont}
+
+
+\newenvironment{packed_enum}{
+\begin{enumerate}
+  \setlength{\itemsep}{1pt}
+  \setlength{\parskip}{0pt}
+  \setlength{\parsep}{0pt}
+}{\end{enumerate}}
+
+\newenvironment{packed_item}{
+\begin{itemize}
+  \setlength{\itemsep}{1pt}
+  \setlength{\parskip}{0pt}
+  \setlength{\parsep}{0pt}
+}{\end{itemize}}
+
+\usetheme{CambridgeUS}
+
+\title{Discrete Mathematics}
+\author[Geoffrey Buhl]{Geoffrey Buhl \\ \texttt{geoffrey.buhl@csuci.edu}}
+\institute[CSUCI]{California State University Channel Islands}
+\date{week 4 class 2}
+
+\def \vec{{\rm vec}}
+\newtheorem{conjecture}[theorem]{Conjecture}
+\newtheorem{explanation}[theorem]{Explanation}
+
+
+\begin{document}
+
+%\frame{\titlepage}
+
+%\section[Outline]{}
+%\frame{\tableofcontents}
+
+\frame
+{
+  \frametitle{Stars and Bars Method}
+
+The stars and bars method is a technique to count the number of ways to make $k$ choices from $n$ objects where order does not matter and repetition is allowed.
+\vfill
+Class Session Goals:
+\begin{packed_enum}
+\item Understand what it means to chose $k$ times from $n$ objects with repetition allowed and where order does not matter.
+\item Present the Stars and Bars technique for counting
+\item Present how to modify Stars and Bars technique
+\item Practice Modifying the Stars and Bars technique
+\end{packed_enum}
+
+}
+
+\frame
+{
+  \frametitle{Order and Repetition}
+
+Consider making $k$ choices from a list of $n$ possible choices.  How many ways are there to do this?
+\vfill
+
+In order to be able to answer this question we need to establish some rules, and we do this by answering two questions:\\
+\vspace{.25cm}
+1. Does the order of our choices matter?\\
+\vspace{.25cm}
+2. Are choices allowed to be repeated?
+\vfill
+
+}
+
+
+\frame
+{
+  \frametitle{Order and Repetition}
+
+Order matters and repetition is allowed: $n^k$ \vfill
+
+Order matters and repetition is not allowed: $n(n-1)(n-2)\cdots(n-k+1)=\frac{n!}{(n-k)!}$\vfill
+
+Order does not matter and repetition is not allowed: $\binom{n}{k}=\frac{n!}{(n-k)!k!}$\vfill
+
+Order does not matter and repetition is allowed:  Figure it out today!
+
+}
+
+
+\section{Class 7 - Unordered selections with repetition}
+
+\frame
+{
+  \frametitle{Starter Activity}
+
+Choose some partners around you to work on one of the following questions.\vfill
+
+{\bf  Question A}: Suppose you have 3 flavors of ice cream.  How many different bowls of 2 scoops of ice cream are possible?  How does the answer change if you add a fourth flavor?
+\vfill
+
+{\bf Question B}: Suppose you have 3 boxes label 1, 2, 3 and two black balls.  How many different ways are there to place the balls in the boxes?  How does the answer change if you add a fourth box labeled 4?
+\vfill
+
+{\bf Question C}: How many solutions to the equation $x+y+z=2$ are there if $x$, $y$, and $z$  must be non-negative integers? For example the ordered triple $(x, y, z)=(1,0,1)$ is one solution. How many solutions are there to $w+x+y+z=2$ if $w$, $x$, $y$, and $z$  must be non-negative integers? 
+
+}
+
+
+\frame
+{
+  \frametitle{Stars and Bars Method}
+
+\begin{figure}[htp]
+  \begin{center}
+    \subfigure{\includegraphics[scale=.45]{s&b.png}}
+  \end{center}
+\end{figure}
+\vfill
+There is a two stage process to uniquely create stars and bars figures like this one.\vfill
+
+{\bf Step 1} Choose $k$ locations for stars * from among  $k+n-1$ locations available.\vfill
+
+{\bf Step 2} Choose $n-1$ locations for bars | from among  remaining locations available.\vfill
+
+The ``magic'' here is changing the problem into one where repetition of choices is not allowed.
+
+
+}
+
+\frame
+{
+  \frametitle{Stars and Bars Activity}
+
+In small groups, work on the ``Modifying Stars and Bars'' worksheet. The goals of this worksheet are to:
+\vfill
+\begin{packed_enum}
+\item Practice modifying the stars and bars technique to new problems
+\item Applying the stage based counting process of selecting positions for start and then bars.
+\end{packed_enum}
+
+
+}
+
+\frame
+{
+  \frametitle{Stars and Bars Answers}
+
+
+\vfill
+\begin{packed_enum}
+\item $\binom{15}{12}$ %How many ways are there to distribute 12 balls into six numbered boxes if boxes 1 and 2 must be empty?
+\item $\binom{14}{9}$ %How many ways are there to distribute 12 balls into six numbered boxes if box 1 must contain at least 1 ball and box 2 must contain at least 2 balls?
+\item $\binom{14}{12}$ %How many ways are there to distribute 12 balls into six numbered boxes if every even numbered box must be empty?
+\item $\binom{14}{9}$ %How many ways are there to distribute 12 balls into six numbered boxes if every odd numbered box must have at least one ball?
+\item $\binom{6}{2}\binom{11}{3}$ %How many ways are there to distribute 12 balls into six numbered boxes if exactly two of the boxes must be empty?
+\end{packed_enum}
+
+
+}
+
+
+\frame
+{
+  \frametitle{Order and Repetition}
+  How many ways are there to make $k$ choices from $n$ objects?
+
+If order matters and repetition is allowed: $n^k$ \vfill
+
+If order matters and repetition is not allowed: $n(n-1)(n-2)\cdots(n-k+1)=\frac{n!}{(n-k)!}$\vfill
+
+If order does not matter and repetition is not allowed: $\binom{n}{k}=\frac{n!}{(n-k)!k!}$\vfill
+
+If order does not matter and repetition is allowed:  $\binom{n-1+k}{k}$\vfill
+
+
+}
+
+\begin{comment}
+\frame
+{
+  \frametitle{Challenging counting problem}
+
+This problem draws from all of chapter 1. A candy merchant carries bubble gum balls in seven different colors.
+\vfill
+How many ways can you buy 6 bubble gum balls if each one must have a unique color?
+\vfill
+How many ways can you buy 6 bubble gum balls and distribute one each to 6 kids (Alice, Bob, Carol, Diane, Ernie, Fergie)?
+\vfill
+How many ways can you buy 6 bubble gum balls and distribute one each to 6 kids (Alice, Bob, Carol, Diane, Ernie,Fergie) so that each kid gets a different color?
+
+}
+\end{comment}
+
+
+
+\end{document}
+

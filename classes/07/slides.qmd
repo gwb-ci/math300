@@ -1,0 +1,124 @@
+---
+title: "Repetition Allowed Order Does Not Matter"
+format:
+  revealjs:
+    theme: simple
+    slide-number: true
+---
+
+## Stars and Bars Method
+
+The stars and bars method is a technique to count the number of ways to
+make $k$ choices from $n$ objects where order does not matter and
+repetition is allowed. Class Session Goals:
+
+
+1. Understand what it means to chose $k$ times from $n$ objects with
+repetition allowed and where order does not matter.
+
+2. Present the Stars and Bars technique for counting
+
+3. Present how to modify Stars and Bars technique
+
+4. Practice Modifying the Stars and Bars technique
+
+
+## Order and Repetition
+
+Consider making $k$ choices from a list of $n$ possible choices. How
+many ways are there to do this?
+
+In order to be able to answer this question we need to establish some
+rules, and we do this by answering two questions:\
+1. Does the order of our choices matter?\
+2. Are choices allowed to be repeated?
+
+## Order and Repetition
+
+Order matters and repetition is allowed: $n^k$
+
+Order matters and repetition is not allowed:
+$n(n-1)(n-2)\cdots(n-k+1)=\frac{n!}{(n-k)!}$
+
+Order does not matter and repetition is not allowed:
+$\binom{n}{k}=\frac{n!}{(n-k)!k!}$
+
+Order does not matter and repetition is allowed: Figure it out today!
+
+
+## Starter Activity
+
+Choose some partners around you to work on one of the following
+questions.
+
+**Question A**: Suppose you have 3 flavors of ice cream. How many
+different bowls of 2 scoops of ice cream are possible? How does the
+answer change if you add a fourth flavor?
+
+**Question B**: Suppose you have 3 boxes label 1, 2, 3 and two black
+balls. How many different ways are there to place the balls in the
+boxes? How does the answer change if you add a fourth box labeled 4?
+
+**Question C**: How many solutions to the equation $x+y+z=2$ are there
+if $x$, $y$, and $z$ must be non-negative integers? For example the
+ordered triple $(x, y, z)=(1,0,1)$ is one solution. How many solutions
+are there to $w+x+y+z=2$ if $w$, $x$, $y$, and $z$ must be non-negative
+integers?
+
+## Stars and Bars Method
+
+![](SnB.png){width=60% fig-align="center"}
+
+There is a two stage process to uniquely create stars and bars figures
+like this one.
+
+**Step 1** Choose $k$ locations for stars \* from among $k+n-1$
+locations available.
+
+**Step 2** Choose $n-1$ locations for bars \| from among remaining
+locations available.
+
+The "magic" here is changing the problem into one where repetition of
+choices is not allowed.
+
+## Stars and Bars Activity
+
+In small groups, work on the "Modifying Stars and Bars" worksheet. The
+goals of this worksheet are to:
+
+1. Practice modifying the stars and bars technique to new problems
+
+2. Applying the stage based counting process of selecting positions for
+stars and then bars.
+:::
+
+## Stars and Bars Answers
+
+
+1. $\binom{15}{12}$
+
+2. $\binom{14}{9}$
+
+3. $\binom{14}{12}$
+
+4. $\binom{14}{9}$
+
+5. $\binom{6}{2}\binom{11}{3}$
+
+6. 
+
+7. 1
+
+## Order and Repetition
+
+How many ways are there to make $k$ choices from $n$ objects?
+
+If order matters and repetition is allowed: $n^k$
+
+If order matters and repetition is not allowed:
+$n(n-1)(n-2)\cdots(n-k+1)=\frac{n!}{(n-k)!}$
+
+If order does not matter and repetition is not allowed:
+$\binom{n}{k}=\frac{n!}{(n-k)!k!}$
+
+If order does not matter and repetition is allowed: $\binom{n-1+k}{k}$

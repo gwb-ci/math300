@@ -1,0 +1,41 @@
+\documentclass[11pt]{amsart}
+\usepackage{geometry}                % See geometry.pdf to learn the layout options. There are lots.
+\geometry{letterpaper}                   % ... or a4paper or a5paper or ... 
+%\geometry{landscape}                % Activate for for rotated page geometry
+%\usepackage[parfill]{parskip}    % Activate to begin paragraphs with an empty line rather than an indent
+\usepackage{graphicx}
+\usepackage{subfigure}
+\usepackage{amssymb}
+\usepackage{epstopdf}
+\DeclareGraphicsRule{.tif}{png}{.png}{`convert #1 `dirname #1`/`basename #1 .tif`.png}
+
+\newenvironment{packed_enum}{
+\begin{enumerate}
+  \setlength{\itemsep}{1pt}
+  \setlength{\parskip}{0pt}
+  \setlength{\parsep}{0pt}
+}{\end{enumerate}}
+
+\title{Modifying Stars and Bars}
+\author{Math 300}
+%\date{}                                           % Activate to display a given date or no date
+
+\begin{document}
+\maketitle
+%\section{x}
+%\subsection{}
+
+
+{\bf Activity 2}: Attempt to solve following problems that will explore modifying the stars and bars counting method.\\
+
+Suppose you have 12 identical balls and 6 numbered boxes.
+
+\begin{packed_enum}
+\item How many ways are there to distribute 12 balls into six numbered boxes if boxes 1 and 2 must be empty?
+\item How many ways are there to distribute 12 balls into six numbered boxes if box 1 must contain at least 1 ball and box 2 must contain at least 2 balls?
+\item How many ways are there to distribute 12 balls into six numbered boxes if every even numbered box must be empty?
+\item How many ways are there to distribute 12 balls into six numbered boxes if every odd numbered box must have at least one ball?
+\item How many ways are there to distribute 12 balls into six numbered boxes if exactly two of the boxes must be empty?
+\end{packed_enum}
+
+\end{document}  
