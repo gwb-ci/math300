@@ -1,0 +1,74 @@
+---
+title: "Counting Tools"
+format:
+  revealjs:
+    theme: simple
+    slide-number: true
+---
+## Choosing with order not mattering and repetition not allowed
+
+Class Session Goals:
+
+
+1. Review Chapter 1 Counting Tools
+2. Practice complicated countign questions
+
+---
+
+
+
+## Order and Repetition
+
+Consider making $k$ choices from a list of $n$ possible choices. How
+many ways are there to do this?
+
+In order to be able to answer this question we need to establish some
+rules, and we do this by answering two questions:\
+1. Does the order of our choices matter?\
+2. Are choices allowed to be repeated?
+
+## Order and Repetition
+
+Order matters and repetition is allowed: $n^k$
+
+Order matters and repetition is not allowed:
+$n(n-1)(n-2)\cdots(n-k+1)=\frac{n!}{(n-k)!}$
+
+Order does not matter and repetition is not allowed:
+$\binom{n}{k}=\frac{n!}{(n-k)!k!}$
+
+Order does not matter and repetition is allowed: To be determined.
+
+## Addition Principle
+
+**Idea:** Break larger counting problem up into smaller and simpler
+counting problems then add up the results from the smaller problems.
+
+**Addition Principle**
+Suppose a set $S$ is the disjoint union of smaller sets
+$A_1, A_2, \cdots A_n$. That is $S= A_1\cup A_2\cup \cdots A_n$ and
+$A_i \cap A_j = \emptyset$ for $i \neq j$. Then
+$|S|=|A_1|+ |A_2| + \cdots + |A_n|$.
+
+The challenge and creativity of using this tool lies in choosing the
+right $A_i$ sets.
+
+## Multiplication Principle
+
+**Idea:** Create a step by step process to construct the object you are
+trying to count, and use the number of choices at each step to calculate
+the total number of different objects you can construct.
+
+**Multiplication Principle**\
+Consider a $k$-stage process that **uniquely** constructs **all** the
+elements of a set S. If $\alpha_i$ is the number of choices at stage
+$i$, then the number of elements in S is
+$|S|=\alpha_1 \cdot \alpha_2 \cdots \alpha_k$.
+
+The challenge and creativity of using this tool lies in choosing the
+correct process, making sure it constructs all the objects you want to
+count, and does so uniquely..
+
+## Order and Repetition Activity
+
+Break up into small groups and work the order and repetition activity.

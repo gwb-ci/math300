@@ -1,0 +1,49 @@
+\documentclass[11pt]{amsart}
+\usepackage{geometry}                % See geometry.pdf to learn the layout options. There are lots.
+\geometry{letterpaper}                   % ... or a4paper or a5paper or ... 
+%\geometry{landscape}                % Activate for for rotated page geometry
+%\usepackage[parfill]{parskip}    % Activate to begin paragraphs with an empty line rather than an indent
+\usepackage{graphicx}
+\usepackage{subfigure}
+\usepackage{amssymb}
+\usepackage{epstopdf}
+\DeclareGraphicsRule{.tif}{png}{.png}{`convert #1 `dirname #1`/`basename #1 .tif`.png}
+
+\title{Pascal's Triangle Activity}
+%\author{Math 300}
+%\date{}                                           % Activate to display a given date or no date
+	
+\begin{document}
+\maketitle
+%\section{x}
+%\subsection{}
+
+\begin{tabular}{rccccccccccccccccccc}
+$n=0$:&&&&&&    &    &    &    &  1\\\noalign{\smallskip\smallskip}
+$n=1$:&&&&&&   &    &    &  1 &    &  1\\\noalign{\smallskip\smallskip}
+$n=2$:&&&&&&    &    &  1 &    &  2 &    &  1\\\noalign{\smallskip\smallskip}
+$n=3$:&&&&&&    &  1 &    &  3 &    &  3 &    &  1\\\noalign{\smallskip\smallskip}
+$n=4$:&&&&& & 1 &    &  4 &    &  6 &    &  4 &    &  1\\\noalign{\smallskip\smallskip}
+$n=5$:&&&&&1&  &5 &    &  10 &    &  10 &    &  5 &    &  1\\\noalign{\smallskip\smallskip}
+$n=6$:&&&&1&  &6 &    &  15 &    &  20 &    &  15 &    &  6 &&1\\\noalign{\smallskip\smallskip}
+$n=7$:&&&1&  &7 &    &  21 &    &  35 &    &  35 &    &  21&&7&&1\\\noalign{\smallskip\smallskip}
+$n=8$:&&1&  &8&    &  28 &    &  56 &    & 70 &    &  56&&28&&8&&1\\\noalign{\smallskip\smallskip}
+$n=9$:&1&  &9&    &  36 &    &  84 &    & 126 &    &  126&&84&&36&&9&&1\\\noalign{\smallskip\smallskip}
+\end{tabular}
+
+$k=0$\\
+$k=1$\\
+$k=2$\\
+$k=3$\\
+$k=4$\\
+$k=5$\\
+$k=6$\\
+$k=7$\\
+$k=8$\\
+$k=9$\\
+
+
+
+
+
+\end{document}  

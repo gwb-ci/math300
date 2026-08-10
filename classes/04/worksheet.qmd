@@ -1,0 +1,67 @@
+---
+title: "Order and Repetition"
+format:
+  html:
+    toc: false
+    number-sections: false
+  pdf:
+    documentclass: article
+    geometry:
+      - margin=1in
+    number-sections: false
+---
+
+## **Problem 1**:
+
+For each of the below problems, first answer the
+following two questions: "Does the order of the choices matter? (Order:yes or no)" and "Is repetition of choices allowed?" (Repetition:
+yes or no) Suppose you have a *huge* box of animal crackers containing plenty of
+each of 10 different animals.
+
+1.  How many animal parades containing 6 crackers can you line up?
+    
+    - Order:yes or no 
+    - Repetition: yes or no
+
+2.  How many animal parades of 6 crackers can you line up so that the animals appear in alphabetical order? 
+    
+    - Order:yes or no
+    - Repetition: yes or no
+
+3.  How many ways could you line up 6 different animals in alphabetical order?
+    - Order:yes or no
+    - Repetition: yes or no
+
+4.  How many ways could you line up 6 different animals if they can come in any order?
+    
+    - Order:yes or no
+    - Repetition: yes or no
+
+5.  How many ways could you give 6 children one animal cracker each?
+    
+    - Order:yes or n0
+    - Repetition: yes or no\
+
+6.  How many ways could you give 6 children one animal cracker each so
+    that no two kids get the same animal?
+    
+    - Order:yes or no
+    - Repetition: yes or no
+
+7.  How many ways could you give out 6 giraffes to 10 kids?
+    - Order:yes or no
+    - Repetition: yes or no\
+
+## **Problem 2**
+
+Create a counting question where the answer is
+$8 \cdot 3 \cdot 5 \cdot 3$. Create another question where the answer is
+$8 + 3 + 5 + 3$. Create a third question where the answer is
+$(8 \cdot 3) + (5 \cdot 3)$.
+
+## **Problem 3**
+
+Suppose you own a gum ball stand that has 20 varieties of
+gum balls. Write four different questions, one for each of the four
+possibilities with order mattering (or not) and repetition allowed (or
+not), about a customer buying 7 gum balls.

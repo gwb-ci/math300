@@ -1,0 +1,107 @@
+---
+title: "Basic Counting Tools"
+format:
+  revealjs:
+    theme: simple
+    slide-number: true
+---
+
+## Unordered Selections
+
+Class Session Goals:
+
+
+1. Introduce Notation for Unordered selections and derive a formula
+2. Present the Idea of a Combinatorial Proof
+3. Work on applying the multiplication principle
+4. Present connection of 'Choose' numbers and Binomial coefficents
+
+---
+
+## Order and Repetition
+
+How many ways are the to make $k$ choices from a list of $n$
+possibilities? In order to make this a question that we can answer, we
+must answer the following two fundamental yes/no questions of Chapter 1.
+
+**Repetition** - Are we able to repeat choices? 
+
+**Order** -Does the
+order in which we make the choices matter?
+
+
+---
+
+## Some Answers
+
+**Order Matters, Repetition not allowed**:The number of ways to make $k$
+choices from $n$ where repetition is not allowed and order matters is
+$n \cdot (n-1) \cdot (n-2) \cdot (n-3) \cdots (n-k+1)=\frac{n!}{(n-k)!}$.
+
+**Order Matters, Repetition Allowed**:The number of ways to make $k$
+choices from $n$ where repetition is allowed and order matters is $n^k$.
+
+
+---
+
+## Today's Question
+
+How many ways are the to make $k$ choices from $n$ possibilities where repetition is not allowed and order does not matter?
+
+Give the answer a name: Let $\binom{n}{k}$ be the number of ways to make $k$ choices from $n$ objects where order does not matter and repetition
+is not allowed.
+
+---
+
+## Binomial Coefficients
+
+Some Answers:
+$\binom{n}{1}= n$\
+$\binom{n}{n}= 1$\
+$\binom{n}{0}= 1$\
+$\binom{n}{2}= \frac{n(n-1)}{2}$ 
+$\binom{n}{n-1}= n$ 
+
+
+## Activity
+
+Determine if order matters or if repetition is allowed for each of the following questions. Then determine the answer to each question.
+
+---
+
+## Combinatorial Proofs
+
+**Idea** Count a set $S$ in two different ways to get to different
+counting formulas. The two formulas must be equal because the are
+counting the same set. 
+
+**Combinatorial Proof Example** How many ways are
+the to select a $k$ person team from $n$ tryouts and select a captain
+for the team?\
+$$k \cdot \binom{n}{k} =n \cdot \binom{n-1}{k-1}$$ We can use this to
+create a recursive algorithm to calculate $\binom{n}{k}$.
+
+---
+
+## Unordered Selection Formula
+
+The number of ways to make $k$ choices from $n$ objects where order does
+not matter and repetition is not allowed is
+$$\binom{n}{k}=\frac{n!}{k! \cdot (n-k)!}$$ The derivation of this is
+our first example of a direct proof in this course.
+
+
+---
+
+## Revisit Degenerate Example
+
+How many balanced bit strings of length 4 (or length $n$ while were at
+it)?
+
+Two stage process: first place the 0s, second place 1s.
+
+The number of **balanced bit string** of length $2n$ is $\binom{2n}{n}$.
+
+The number of **balanced ternary strings** of length $3n$ is
+$\binom{3n}{n}\binom{2n}{n}$. Balanced ternary strings of length $3n$
+have $n$ 0s, $n$ 1s, and $n$ 2s.

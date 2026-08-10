@@ -1,0 +1,51 @@
+\documentclass[11pt]{amsart}
+\usepackage{geometry}                % See geometry.pdf to learn the layout options. There are lots.
+\geometry{letterpaper}                   % ... or a4paper or a5paper or ... 
+%\geometry{landscape}                % Activate for for rotated page geometry
+%\usepackage[parfill]{parskip}    % Activate to begin paragraphs with an empty line rather than an indent
+\usepackage{graphicx}
+\usepackage{subfigure}
+\usepackage{amssymb}
+\usepackage{epstopdf}
+\DeclareGraphicsRule{.tif}{png}{.png}{`convert #1 `dirname #1`/`basename #1 .tif`.png}
+
+\title{Pascal's Triangle Activity}
+%\author{Math 300}
+%\date{}                                           % Activate to display a given date or no date
+	
+\begin{document}
+\maketitle
+%\section{x}
+%\subsection{}
+
+\begin{tabular}{rccccccccccccccccccc}
+$n=0$:&&&&&&    &    &    &    &  1\\\noalign{\smallskip\smallskip}
+$n=1$:&&&&&&   &    &    &  1 &    &  1\\\noalign{\smallskip\smallskip}
+$n=2$:&&&&&&    &    &  1 &    &  2 &    &  1\\\noalign{\smallskip\smallskip}
+$n=3$:&&&&&&    &  1 &    &  3 &    &  3 &    &  1\\\noalign{\smallskip\smallskip}
+$n=4$:&&&&& & 1 &    &  4 &    &  6 &    &  4 &    &  1\\\noalign{\smallskip\smallskip}
+$n=5$:&&&&&1&  &5 &    &  10 &    &  10 &    &  5 &    &  1\\\noalign{\smallskip\smallskip}
+$n=6$:&&&&1&  &6 &    &  15 &    &  20 &    &  15 &    &  6 &&1\\\noalign{\smallskip\smallskip}
+$n=7$:&&&1&  &7 &    &  21 &    &  35 &    &  35 &    &  21&&7&&1\\\noalign{\smallskip\smallskip}
+$n=8$:&&1&  &8&    &  28 &    &  56 &    & 70 &    &  56&&28&&8&&1\\\noalign{\smallskip\smallskip}
+$n=9$:&1&  &9&    &  36 &    &  84 &    & 126 &    &  126&&84&&36&&9&&1\\\noalign{\smallskip\smallskip}
+\end{tabular}
+\vspace{.5cm}
+
+First add diagonal lines and labels the diagonal 'columns' with $k$-values to the above figure to make your life easier.  remember the initial diagonal column corresponds to $k=0$.\vspace{.25cm}
+
+{\bf Basic Building Formula}:  The way you construct the next line of Pascal's triangle is by adding adjacent entries and placing the sum in the line below.\vspace{.5cm} For example, the on the projection in green or in the table above that $\binom{2}{0}+\binom{2}{1}=\binom{3}{1}$.  Can you generalize this to $\binom{3}{k-1}+\binom{3}{k}=$? Can you further generalize this to $\binom{n-1}{k-1}+\binom{n-1}{k}=$?\vspace{.25cm}
+
+{\bf Left-Right Symmetry Formula}: There is a left-right symmetry of Pascal's Triangle. For example, the on the projection in blue or in the table above that $\binom{7}{2}=\binom{7}{5}$.  Can you generalize this to $\binom{7}{k}=$? Can you further generalize this to $\binom{n}{k}=$?\vspace{.25cm}
+
+{\bf Hockey Stick Formula}:Consider the following illustrated in yellow on the projection: $\binom{2}{2}+\binom{3}{2}+\binom{4}{2}=\binom{5}{3}$. Can you generalize this to $\binom{n}{n}+\binom{n+1}{n}+\binom{n+2}{n}=$?
+Can you generalize this to $\binom{n}{n}+\binom{n+1}{n}+\cdots +\binom{n+k}{n}=$? \vspace{.25cm}
+
+{\bf Sum of Rows Formula}: What is the sum of elements in a row of Pascal's triangle?  Can you find a formula for this? \vspace{.25cm}
+
+{\bf Alternating Sum of Rows Formula} What is the alternating sum of elements in a row of Pascal's triangle?  Alternating sum means the add the first, subtract the second, add the third, and so on?  For example $\binom{4}{0}-\binom{4}{1}+\binom{4}{2}-\binom{4}{3}+\binom{4}{4}=?$. What is a general formula for this for $n\ge 1$?
+
+
+
+
+\end{document}  

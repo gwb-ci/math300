@@ -1,0 +1,23 @@
+---
+title: "Order and Repetition"
+format:
+  html:
+    toc: false
+    number-sections: false
+  pdf:
+    documentclass: article
+    geometry:
+      - margin=1in
+    number-sections: false
+---
+
+## **Problem 1**:
+
+
+## **Problem 2**
+
+
+
+## **Problem 3**
+
+

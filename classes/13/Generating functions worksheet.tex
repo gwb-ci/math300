@@ -1,0 +1,45 @@
+\documentclass[11pt]{amsart}
+\usepackage{geometry}                % See geometry.pdf to learn the layout options. There are lots.
+\geometry{letterpaper}                   % ... or a4paper or a5paper or ... 
+%\geometry{landscape}                % Activate for for rotated page geometry
+%\usepackage[parfill]{parskip}    % Activate to begin paragraphs with an empty line rather than an indent
+\usepackage{graphicx}
+\usepackage{subfigure}
+\usepackage{amssymb}
+\usepackage{epstopdf}
+\DeclareGraphicsRule{.tif}{png}{.png}{`convert #1 `dirname #1`/`basename #1 .tif`.png}
+
+\newenvironment{packed_enum}{
+\begin{enumerate}
+  \setlength{\itemsep}{1pt}
+  \setlength{\parskip}{0pt}
+  \setlength{\parsep}{0pt}
+}{\end{enumerate}}
+
+\title{Generating Functions Worksheet}
+\author{Math 300}
+%\date{}                                           % Activate to display a given date or no date
+\begin{document}
+\maketitle
+%\section{x}
+%\subsection{}
+
+The goal here is to practice the new and tricky parts of the generating function method and to bypass things like partial fraction decomposition. \vspace{.25cm}
+
+{\bf  Problem 1}:  Consider the recurrence relation $a_n=3a_{n-1}+4a_{n-2}$ with $a_0=5$ and $a_1=8$.\\
+\underline{Part one}:  Set up and calculate the generating function for this recurrence.  You should get $f(x)=\frac{5-7x}{1-3x-4x^2}$\\
+\underline{Part two}:  The partial fraction decomposition of this generating function is $f(x)=\frac{13}{5} \frac{1}{1-4 x}+\frac{12}{5} \frac{1}{1+x}$.  Create and substitute in the appropriate version of the geometric series to get a Taylor series expansion for $f(x)$.  It should have the form $f(x)= \square \sum_0^\infty \square x^n +\square \sum_0^\infty \square x^n$ where the boxes need to filled in with appropriate expressions.\\
+\underline{Part three}:  Combine the two series so that you can read off a closed form solution for $a_n$.
+\vfill
+
+{\bf  Problem 2}:  Consider the recurrence relation $b_n=b_{n-1}+6b_{n-2}$ with $b_1=0$ and $b_2=1$.\\
+\underline{Part one}:  Set up and calculate the generating function for this recurrence.  You should get $f(x)=\frac{x^2
+}{1-x-6x^2}$\\
+\underline{Part two}:  The partial fraction decomposition of this generating function is $f(x)=x\left( \frac{1}{1-3 x}-\frac{1}{1+2x}\right)$.  Create and substitute in the appropriate version of the geometric series to get a Taylor series expansion for $f(x)$.  It should have the form $f(x)= \square \sum_0^\infty \square x^n +\square \sum_0^\infty \square x^n$ where the boxes need to filled in with appropriate expressions.\\
+\underline{Part three}:  Combine the two series so that you can read off a closed form solution for $a_n$.  For this one you will need to make sure you read off the coefficient of $x^n$ rather than $x^{n+1}$.
+\vfill
+
+
+
+
+\end{document}  

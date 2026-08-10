@@ -1,0 +1,125 @@
+---
+title: "Basic Counting Tools"
+format:
+  revealjs:
+    theme: simple
+    slide-number: true
+---
+
+
+## Basic Counting Tools
+
+Class Session Goals:
+
+1. Present the Multiplication Principle and Addition Principle
+2. Present role of repetition and order in counting
+3. Work on order and repetition
+4. Present order matters forumlas
+
+---
+
+## Addition Principle
+
+**Idea:** Break larger counting problem up into smaller and simpler
+counting problems then add up the results from the smaller problems.
+
+<div class="vfill"></div>
+
+**Addition Principle**\
+Suppose a set $S$ is the disjoint union of smaller sets
+$A_1, A_2, \cdots A_n$. That is $S= A_1\cup A_2\cup \cdots A_n$ and
+$A_i \cap A_j = \emptyset$ for $i \neq j$. Then
+$|S|=|A_1|+ |A_2| + \cdots + |A_n|$.
+
+
+
+---
+
+## Multiplication Principle
+
+**Idea:** Create a step by step process to construct the object you are
+trying to count, and use the number of choices at each step to calculate
+the total number of different objects you can construct.
+
+
+
+
+**Multiplication Principle**
+Consider a $k$-stage process that **uniquely** constructs **all** the
+elements of a set S. If $\alpha_i$ is the number of choices at stage
+$i$, then the number of elements in S is
+$|S|=\alpha_1 \cdot \alpha_2 \cdots \alpha_k$.
+
+
+
+## Order and Repetition
+
+Consider making $k$ choices from a list of $n$ possible choices. How
+many ways are there to do this? In order to make this a question that we
+can answer, we must answer the following two fundamental yes/no
+questions of Chapter 1.
+
+**Repetition** - Are we able to repeat choices? That is, is repetition
+of choices allowed? 
+
+**Order** -Does order matter? That is, is the order
+in which we make the choices important?
+
+
+
+---
+
+## Order and Repetition Activity
+
+In small groups, work on the "Ice Cream Parlor" worksheet. The goals of
+this worksheet are to:
+
+
+1. Explore how order and repetition affects counting
+2. Applying the multiplication principle
+3. Try to create some general formulas
+
+---
+
+## Order and Repetition Activity
+
+
+Put the QR code for the activity here.
+
+---
+
+## Applying the Multiplication Principle
+
+The number of ways to make $k$ choices from $n$ where repetition is
+allowed and order matters is:
+
+$$n^k$$
+
+The number of ways to make $k$ choices from $n$ where repetition is not
+allowed and order matters is:
+
+$$n \cdot (n-1) \cdot (n-2) \cdot (n-3) \cdots (n-k+1)=(n)_k$$
+
+---
+
+## Pathological Example
+
+**Question**: How many different bit strings of length $4$ can be
+constructed out of two 1's and two 0's?
+
+Use multiplication principle:
+
+1. Place first zero
+2. Place second zero
+3. Place first one
+4. Place second one
+
+---
+
+## Upcomming
+
+Selfie with tutor and week two assignement due this week.
+
+Next class we will explore choosing $k$ times from $n$ object where *order does not matter* and *repetition is not allowed.*
+
+---

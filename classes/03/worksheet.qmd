@@ -1,0 +1,63 @@
+---
+title: "Counting Techniques"
+format:
+  html:
+    toc: false
+    number-sections: false
+  pdf:
+    documentclass: article
+    geometry:
+      - margin=1in
+    number-sections: false
+---
+
+## **Directions**
+
+You are the proud owner of a mathematically themed ice
+cream parlor that features $n$ flavors. (I suggest playing around with
+the 'small $n$' situations to start with.). You sell both cones and
+bowls of ice cream. Note that cones and bowls provide different eating
+experiences. For cones, you must eat the scoops in order from top to
+bottom while bowls do not have this restriction.
+
+For these first sets of questions, we add the additional ice cream
+parlor rule that when a patron makes an order, they must choose
+different flavors for each scoop. We will call this the "No Boring
+Orders Rule". Later on we will remove this rule, but for the questions 1
+to 2, this rule is in effect.
+
+## **Exploration 1**
+Suppose there are 4 flavors and a patron orders two
+scoops. How many different cones of ice cream are possible? How many
+bowls of ice cream are possible? Which has more possibilities cones or
+bowls? Why? What is the answer if you have 5 flavors and 2 scoops?
+
+## **Exploration 2**
+Suppose there are 4 flavors, one of which is
+vanilla, and a patron orders two scoops. How many different cones of ice
+cream are possible with one scoop of vanilla? How many different cones
+of ice cream are possible with no scoops of vanilla? Why must the sum of
+these two answers be 12?
+
+## **Exploration 3**
+Suppose there are $n$ flavors and a patron orders $n$
+scoops. How many different cones of ice cream are possible? Try this for
+small $n$. Can you construct a stage based process to count the number
+of cones possible using the multiplication principle. Can you modify
+this stage based process to count the number of cones with $k$ scoops?
+
+Now let's remove the "No Boring Orders Rule" so that patrons can order
+multiple scoops of the same flavor.
+
+## **Exploration 4**
+Suppose there are 4 flavors and a patron orders two
+scoops. How many different cones of ice cream are possible? How many
+bowls of ice cream are possible? Which has more possibilities cones or
+bowls? Why? What is the answer if you have 5 flavors and 2 scoops?
+
+## **Exploration 5**
+Suppose there are $n$ flavors and a patron orders $n$
+scoops. How many different cones of ice cream are possible? Try this for
+small $n$. Can you construct a stage based process to count the number
+of cones possible using the multiplication principle. Can you modify
+this stage based process to count the number of cones with $k$ scoops?

@@ -31,3 +31,20 @@ website:
         - homework/homeworkwk13.qmd
         - homework/homeworkwk14.qmd
         - homework/homeworkwk15.qmd
+    - section: "Class Material"
+      contents:
+       - file: classes/01/worksheet.qmd
+       - file: classes/01/slides.qmd
+       - file: classes/02/worksheet1.qmd
+       - file: classes/02/worksheet2.qmd
+       - file: classes/02/slides.qmd
+       - file: classes/03/worksheet.qmd
+       - file: classes/03/slides.qmd
+       - file: classes/04/worksheet s.qmd
+       - file: classes/04/slides.qmd
+       - file: classes/05/worksheet.qmd
+       - file: classes/05/slides.qmd
+       - file: classes/06/worksheet.qmd
+       - file: classes/06/slides.qmd
+       - file: classes/07/worksheet.qmd
+       - file: classes/07/slides.qmd

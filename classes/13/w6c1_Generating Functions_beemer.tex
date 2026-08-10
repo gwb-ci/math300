@@ -1,0 +1,252 @@
+\documentclass{beamer}
+\usepackage{beamerthemeCambridgeUS}
+\usepackage{color}  % for \textcolor{red}{blah}
+\usepackage{graphicx}
+\usepackage{subfigure}
+\usepackage{multicol}
+\usepackage{verbatim} % for \begin{comment}
+\usepackage{lipsum}
+
+
+\newcommand\Fontvi{\fontsize{6}{7.2}\selectfont}
+
+
+\newenvironment{packed_enum}{
+\begin{enumerate}
+  \setlength{\itemsep}{1pt}
+  \setlength{\parskip}{0pt}
+  \setlength{\parsep}{0pt}
+}{\end{enumerate}}
+
+\newenvironment{packed_item}{
+\begin{itemize}
+  \setlength{\itemsep}{1pt}
+  \setlength{\parskip}{0pt}
+  \setlength{\parsep}{0pt}
+}{\end{itemize}}
+
+\usetheme{CambridgeUS}
+
+\title{Discrete Mathematics}
+\author[Geoffrey Buhl]{Geoffrey Buhl \\ \texttt{geoffrey.buhl@csuci.edu}}
+\institute[CSUCI]{California State University Channel Islands}
+\date{week 6 class 1}
+
+\def \vec{{\rm vec}}
+\newtheorem{conjecture}[theorem]{Conjecture}
+\newtheorem{explanation}[theorem]{Explanation}
+
+
+\begin{document}
+
+%\frame{\titlepage}
+
+%\section[Outline]{}
+%\frame{\tableofcontents}
+
+\section{Week 6 Class 2}
+
+\frame
+{
+  \frametitle{Solving Recurrence Relations}
+
+Today we develop a second method for solving recurrence relations, the generating function method.
+
+\vfill
+Class Session Goals:
+\begin{packed_enum}
+\item Present Generating Function method for solving recurrence relations
+\item Practice Generating Function method for solving recurrence relations
+\end{packed_enum}
+\vfill
+}
+
+\frame
+{
+  \frametitle{Taylor Series}
+
+The Taylor Series of a function $f(x)$ at $x=0$ is:\\
+
+$$f(0)+f'(0)x+\frac{f''(0)x^2}{2}+\frac{f^{(3)}(0)x^3}{3!}+\frac{f^{(4)}(0)x^4}{4!}+ \cdots=\sum^{\infty}_{n=0}\frac{f^{(n)}(0)x^n}{n!}$$
+
+where $f^{(n)}$ is the $n$th derivative of $f$ evaluated at zero.  If $f(x)$ is {\bf analytic} then $f(x)$ is equal to its Taylor series. That is, if $f$ is analytic
+
+$$f(x)=\sum^{\infty}_{n=0}\frac{f^{(n)}(0)x^n}{n!}$$
+}
+
+\frame
+{
+  \frametitle{Important Taylor Expansions}
+
+
+$$\frac{1}{1-x}=1+x+x^2+x^3+x^4+x^5+x^6+ \cdots=\sum_{n=0}^{\infty}x^n$$
+$$\frac{1}{(1-x)^2}=1+2x+3x^2+4x^3+5x^4+6x^5+ \cdots=\sum_{n=0}^{\infty}(n+1)x^n$$
+$$\frac{1}{1-\alpha x}=1+\alpha x+\alpha^2x^2+\alpha^3x^3+\alpha^4x^4+\alpha^5x^5+ \cdots=\sum_{n=0}^{\infty}\alpha^nx^n$$
+ This last series is called the {\bf Geometric Series} and it will be particularly useful to us.
+
+}
+
+\frame
+{
+  \frametitle{Taylor Series Example and IDEA!}
+You can obtain the following expansion by differentiating the Taylor Series for $\frac{1}{(1-x)^2}$ and multiplying by$\frac{x}{2}$:
+$$\frac{x}{(1-x)^3}=1x+3x^2+6x^3+10x^4+15x^5+21x^6+ \cdots=\sum_{n=1}^{\infty}\frac{n(n+1)}{2}x^n$$
+\pause AND!
+$$\frac{x}{(1-x)^3}=T_1x+T_2x^2+T_3x^3+T_4x^4+T_5x^5+T_6x^6+ \cdots=\sum_{n=1}^{\infty}T_nx^n$$
+where $T_n$ are the triangular numbers 1,3,6,10,15, $\ldots$.
+}
+
+
+
+\frame
+{
+  \frametitle{Generating Function Method Idea}
+
+{\bf Step 1} Given a sequence $a_n$, create a power series $\sum^\infty_0a_nx^n$ \vfill
+{\bf Step 2} Find a function $f(x)$ that satisfies $f(x)=\sum^\infty_0 a_n x^n$ \vfill
+{\bf Step 3} Use $f(x)$ to obtain a closed form solution for $a_n$ using known Taylor series. \vfill
+
+This is an overview.  There are many details that the next example will demonstrate.
+
+}
+
+
+\frame
+{
+  \frametitle{Generating Function Method Example}
+
+Let $a_n$ count the number of is the number of ternary sequences of length $n$ where the numbers of 0's is even and the number of 1's is odd.  Then $a_n=2a_{n-1}+3a_{n-2}$ with $a_0=0$ and $a_1=1$  (A015518). \vfill
+
+Calculation shortcuts
+Partial fractions: $\frac{x}{1-2x-3x^2}=-\frac{1}{4}\cdot\frac{1}{1+x}+\frac{1}{4}\cdot\frac{1}{1-3x}$ \vfill
+Geometric Series with $\alpha=-1$: $\frac{1}{1+x}=\sum_{n=0}^{\infty}(-1)^nx^n$\vfill
+Geometric Series with $\alpha=3$: $\frac{1}{1-3x}=\sum_{n=0}^{\infty}3^nx^n$\vfill
+\pause \underline{Closed form}\\$a_n=\frac{3^n - (-1)^n}{4}$
+
+}
+
+\frame
+{
+  \frametitle{Generating Function Method Example}
+
+Let $a_n$ count the number of $n$-jeweled necklaces with a clasp where adjacent jewels must different made out of 3 colored jewels.  Then $a_n=a_{n-1}+2a_{n-2}$ with $a_1=0$ and $a_2=6$  (A092297). \vfill
+
+\underline{Calculation shortcuts}\\
+Partial fractions: $\frac{6x}{1-x-2x^2}=\frac{2}{1-2 x}+\frac{-2}{1+x}$ \vfill
+Geometric Series with $\alpha=-1$: $\frac{1}{1+x}=\sum_{n=0}^{\infty}(-1)^nx^n$\vfill
+Geometric Series with $\alpha=2$: $\frac{1}{1+x}=\sum_{n=0}^{\infty}2^nx^n$\vfill
+\pause \underline{Closed form}\\$a_n=2^n - 2(-1)^{n-1}$
+
+}
+
+\frame
+{
+  \frametitle{Generating Function Method Activity}
+
+In small groups, work on the ``Generating Function'' worksheet. The goals of this worksheet are to:
+\vfill
+\begin{packed_enum}
+\item Practice finding the generating function of a sequence
+\item Practice obtaining a closed form solution from the Taylor series of a generating function.
+\end{packed_enum}
+\pause
+\vfill
+\underline{Problem 1 answers}\\$f(x)=\sum_{n=0}^\infty\left( \frac{13}{5}4^n+\frac{12}{5}(-1)^n\right)x^{n} $\\$a_n=\frac{1}{5}\left(12 (-1)^n+13\cdot 4^n\right).$
+\pause
+\vfill
+\underline{Problem 2 answers}\\ $f(x)=\sum_{n=0}^\infty\frac{1}{5}\left( 3^n-(-2)^n\right)x^{n+1}$\\ $b_n=\left(3^{n-1}-(-2)^{n-1}\right)$
+}
+
+\begin{comment}
+\frame
+{
+  \frametitle{We need a recurrence (or two) }
+
+\vfill
+{\bf Problem 1}: Consider tilings $a_n$ of a $1\times n$ board with $1 \times 2$ red tiles, $1 \times 2$ white tiles, $1 \times 2$ blue tiles, $1 \times 1$ orange tiles, and $1 \times 1$ cyan tiles.  What is the recurrence relationship for $a_n$ and what are the initial conditions?
+\vfill
+
+{\bf Problem 2}: Consider Problem 1 but with $r$ different colors of $1 \times 2$ tiles and $s$ different colors of $1 \times 1$ blocks.  What is the recurrence relationship to describe the number of tilings $b_n$ of a $ 1 \times n$ board?  What are the initial conditions?
+\vfill
+
+
+}
+
+
+\frame
+{
+  \frametitle{We need some recurrence relations}
+
+
+{\bf  Problem 1}: How many flags with $n$ horizontal stripes can you make with $3$ colors so that adjacent stripes are different colors and the top and bottom stripes are different?
+\vspace{.25cm}
+
+{\bf Problem 2}: How many different tiling are there of a $1\times n$ board with $1 \times 1$ white tiles, $2 \times 1$ white tiles, and $2 \times 1$ black tiles?
+\vspace{.25cm}
+
+{\bf Problem 3}: How many different tiling are there of a $2\times n$ board with $1 \times 1$  tiles, and right triominos?
+
+}
+
+\frame
+{
+  \frametitle{We need some more recurrence relations}
+
+%All Jacobsthal sequence
+
+{\bf Problem 1}: How many different tiling are there of a $1\times n$ board with $1 \times 1$ white tiles, $2 \times 1$ white tiles, and $2 \times 1$ black tiles?
+\vspace{.25cm}
+
+{\bf Problem 2}: How many different tiling are there of a $2\times n$ board with $2 \times 1$  tiles, and $2 \times 2$  tiles?
+
+{\bf Problem 3}: How many different tiling are there of a $3\times n$ board with $1 \times 1$  tiles, and $2 \times 2$  tiles?
+\vspace{.25cm}
+
+{\bf Problem 4}: How many ternary strings of length $n$ are there with no  two consecutive letters are non-zero?
+\vspace{.25cm}
+
+}
+
+
+\frame
+{
+  \frametitle{Flags}
+
+How many different flags $f_n$ with $n$ horizontal stripes can you make with $3$ colors so that adjacent stripes are different colors?  What is $f_1$, $f_2$ and $f_3$? Find a recurrence relation using the addition principle.  Find a closed form solution with the multiplication principle.
+
+  \begin{figure}[htp]
+  \begin{center}
+    \subfigure{\includegraphics[scale=.45]{flags}}
+    \end{center}
+\end{figure}
+
+}
+
+\frame
+{
+  \frametitle{Staircases and Down-Right Paths}
+
+
+
+  \begin{figure}[htp]
+  \begin{center}
+    \subfigure{\includegraphics[scale=.38]{Catalan_stairstep_5}}
+    \subfigure{\includegraphics[scale=.135]{dyck_path_5}}
+    \end{center}
+\end{figure}
+
+}
+
+\frame
+{
+  \frametitle{$n=6$ Case}
+\begin{figure}[htp]
+    \subfigure{\includegraphics[scale=.75]{66board}}
+\end{figure}
+
+}
+
+\end{comment}
+
+\end{document}
+

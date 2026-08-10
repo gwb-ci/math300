@@ -1,0 +1,93 @@
+---
+title: "Direct Proofs"
+format:
+  revealjs:
+    theme: simple
+    slide-number: true
+---
+#=## Introduction to Direct proofs
+
+Class Session Goals:
+
+1. Present Direct Proof Technique
+2. Practice Direct Proofs
+
+---
+
+## What is a Direct proof?
+
+The simplest ,from a logic perspective, style of proof is a direct
+proof. Often all that is required to prove something is a systematic
+explanation of what everything means. Direct proofs are especially
+useful when proving implications. The general format to prove that
+statement P implies statement Q is: Assume statement P is true. Explain,
+explain, ..., explain. Therefore statement Q is true. In this course
+there are two sorts of flavors of direct proof, "wordy" and
+"equation-y".
+
+---
+
+## "Equation-y" Direct Proof Example
+
+Here is a "equation-y" or symbolic manipulation direct proof of Pascal's
+Triangle Identity. **Claim:**
+$\binom{n}{k}+\binom{n}{k-1}=\binom{n+1}{k}$ **Proof:**
+$$\begin{eqnarray}
+\binom{n}{k}+\binom{n}{k-1}
+&=& \frac{n!}{k!(n-k)!}+\frac{n!}{(k-1)!((n-(k-1)!}\\
+&=& \frac{n!}{k!(n-k)!}+\frac{n!}{(k-1)!((n+1-k)!}\\
+&=& \frac{n+1-k}{n+1-k} \cdot \frac{n!}{k!(n-k)!}+\frac{k}{k} \cdot\frac{n!}{(k-1)!(n+1-k)!}\\
+&=&  \frac{(n+1-k)n!}{k!(n+1-k)!}+\frac{k\cdot n!}{k!(n+1-k)!}\\
+&=&  \frac{(n+1)n!-k\cdot n!+k\cdot n!}{k!(n+1-k)!}\\
+&=& \frac{(n+1)!}{k!(n+1-k)!}\\
+&=& \binom{n+1}{k} \square
+\end{eqnarray}$$
+
+---
+
+## Second Direct Proof Example
+
+Here is a bit of a mixture. **Claim:** If $n$ is an even integer then
+$n^2$ is even integer. **Proof:** Let $n$ be an even integer. Then
+$n=2k$ for some integer $k$. Now $n^2=(2k)^2=4k^2=2(2k^2)$ where $2k^2$
+is an integer. Hence $n^2$ is even. $\square$
+
+---
+
+## "Wordy" Direct Proof Example
+
+Here is a bit of a mixture. **Claim:**If $n^2$ is an even integer then
+$n$ is an even integer. **Proof:**
+
+Let $n$ be an integer. There are two cases for $n$ it can be odd or
+even. If $n$ is odd then $n^2$ is odd. If $n$ is even then $n^2$ is
+even. The only case where $n^2$ is even is the when $n$ is even.
+$\square$
+
+---
+
+## Activity
+
+In small groups, work on the "Direct Proofs" worksheet. The goals of
+this worksheet are to:
+
+1. Practice creating direct proofs
+
+---
+
+## "If and only if" Proofs
+
+For if any only if proofs, you need prove two parts of the proof. If you
+are trying to proof the statement: $A$ if and only if $B$. You need to
+prove: If $A$ then $B$ and If $B$ then $A$. So today we have proven:
+
+**Claim:** $n^2$ is an even integer if and only if $n$ is an even
+integer.
+
+The two separate implications are what we have shown already:
+
+**Claim:**If $n^2$ is an even integer then $n$ is an even integer.
+
+**Claim:** If $n$ is an even integer then $n^2$ is even integer.
+
+---

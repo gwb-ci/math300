@@ -1,0 +1,52 @@
+\documentclass[11pt]{amsart}
+\usepackage{geometry}                % See geometry.pdf to learn the layout options. There are lots.
+\geometry{letterpaper}                   % ... or a4paper or a5paper or ... 
+%\geometry{landscape}                % Activate for for rotated page geometry
+%\usepackage[parfill]{parskip}    % Activate to begin paragraphs with an empty line rather than an indent
+\usepackage{graphicx}
+\usepackage{subfigure}
+\usepackage{amssymb}
+\usepackage{epstopdf}
+\DeclareGraphicsRule{.tif}{png}{.png}{`convert #1 `dirname #1`/`basename #1 .tif`.png}
+
+\newenvironment{packed_enum}{
+\begin{enumerate}
+  \setlength{\itemsep}{1pt}
+  \setlength{\parskip}{0pt}
+  \setlength{\parsep}{0pt}
+}{\end{enumerate}}
+
+\title{Auxiliary Equation worksheet}
+\author{Math 300}
+%\date{}                                           % Activate to display a given date or no date
+
+\begin{document}
+\maketitle
+%\section{x}
+%\subsection{}
+
+
+{\bf Activity 1}:  In small group, work to find the initial conditions and a recurrence relation for one (or more) of the following problems.
+
+\begin{packed_enum}
+\item $a_n$ is the number of ways to tile a $3 \times n$ board with $1 \times 1$ and $ 2\times 2$ tiles. 
+\item $b_n$ is the number of length-$n$ ternary strings where no two consecutive letters are nonzero. (That is, zeros can be adjacent, non-zeros cannot be adjacent.  For example a substrings of 11, 12, 21, or 22 are not allowed.)
+\item $c_n$ is the number of ways to tile a $2 \times n$ board with $1 \times 2$ and $ 2\times 2$ tiles.
+\item $d_n$ is the number of ways to tile a $1 \times n$ board with $1 \times 1$  white tiles, $ 1\times 2$ grey tiles and $ 1\times 2$ black tiles.
+\end{packed_enum}
+
+Suggested starting points: 
+
+\pagebreak
+
+{\bf Activity 2}:  In small groups, work on the following problems sequentially.
+\begin{packed_enum}
+
+\item Find the closed solution to the recurrence relation using the auxiliary equation method $a_n=3a_{n-1}+4a_{n-2}$
+with initial terms $a_0=2$ and $a_1=3$.
+\item The recursive formula for Fibonacci's sequence is $F_n=F_{n-1}+F_{n-2}$ with $F_0=F_1=1$.  Find the auxiliary equation, roots, and general solution to this recurrence.
+\item The recursive formula for Narayana's cow sequence is $C_n=C_{n-1}+C_{n-2}+C_{n-3}$ with $C_0=C_1=C_2=1$.  Find the auxiliary equation for this recurrence.
+
+\end{packed_enum}
+
+\end{document}  

@@ -1,0 +1,151 @@
+\documentclass[xcolor=table]{beamer}
+\usepackage{beamerthemeCambridgeUS}
+\usepackage{color}  % for \textcolor{red}{blah}
+\usepackage{graphicx}
+\usepackage{array}
+\usepackage{subfigure}
+\usepackage{multicol}
+\usepackage{verbatim} % for \begin{comment}
+\usepackage{lipsum}
+
+
+\newcommand\Fontvi{\fontsize{6}{7.2}\selectfont}
+
+
+\newenvironment{packed_enum}{
+\begin{enumerate}
+  \setlength{\itemsep}{1pt}
+  \setlength{\parskip}{0pt}
+  \setlength{\parsep}{0pt}
+}{\end{enumerate}}
+
+\newenvironment{packed_item}{
+\begin{itemize}
+  \setlength{\itemsep}{1pt}
+  \setlength{\parskip}{0pt}
+  \setlength{\parsep}{0pt}
+}{\end{itemize}}
+
+\usetheme{CambridgeUS}
+
+\title{Discrete Mathematics}
+\author[Geoffrey Buhl]{Geoffrey Buhl \\ \texttt{geoffrey.buhl@csuci.edu}}
+\institute[CSUCI]{California State University Channel Islands}
+\date{week 3 class 1}
+
+\def \vec{{\rm vec}}
+\newtheorem{conjecture}[theorem]{Conjecture}
+\newtheorem{explanation}[theorem]{Explanation}
+
+
+\begin{document}
+
+%\frame{\titlepage}
+
+%\section[Outline]{}
+%\frame{\tableofcontents}
+
+\section{Week 3 Class 1 - Order and Repetition Disentanglement}
+
+
+\frame
+{
+  \frametitle{Choosing with order not mattering and repetition not allowed}
+
+Class Session Goals:
+\begin{packed_enum}
+\item Practice identifying when order does or does not matter.
+\item Practice identifying when repetition of choice is allowed or not.
+\end{packed_enum}
+
+}
+
+
+\frame
+{
+  \frametitle{Describing patterns and structure}
+
+``What humans do with the language of mathematics is to describe 
+      patterns..."  --  Lynn A. Steen, mathematician
+\vfill
+``All mathematics is is a language that is well tuned, finely honed, to describe patterns... '' - Brian Greene, physicist
+\vfill
+``Mathematics is the science of patterns, and nature exploits just about every pattern that there is.'' - Ian Stewart, mathematician
+\vfill
+``Doing mathematics should always mean finding patterns and crafting beautiful and meaningful explanations'' - Paul Lockhart, teacher
+\vfill
+``A mathematician, like a painter or poet, is a maker of patterns. If his patterns are more permanent than theirs, it is because they are made with ideas.'' - G. H. Hardy, mathematician
+
+}
+
+\frame
+{
+  \frametitle{Order and Repetition}
+
+Consider making $k$ choices from a list of $n$ possible choices.  How many ways are there to do this?
+\vfill
+
+In order to be able to answer this question we need to establish some rules, and we do this by answering two questions:\\
+\vspace{.25cm}
+1. Does the order of our choices matter?\\
+\vspace{.25cm}
+2. Are choices allowed to be repeated?
+\vfill
+
+}
+
+
+\frame
+{
+  \frametitle{Order and Repetition}
+
+Order matters and repetition is allowed: $n^k$ \vfill
+
+Order matters and repetition is not allowed: $n(n-1)(n-2)\cdots(n-k+1)=\frac{n!}{(n-k)!}$\vfill
+
+Order does not matter and repetition is not allowed: $\binom{n}{k}=\frac{n!}{(n-k)!k!}$\vfill
+
+Order does not matter and repetition is allowed:  To be determined.
+
+}
+
+
+\frame
+{
+  \frametitle{Addition Principle}
+
+{\bf Idea:}  Break larger counting problem up into smaller and simpler counting problems then add up the results from the smaller problems. \vfill
+
+
+{\bf Addition Principle}\\
+Suppose a set $S$ is the disjoint union of smaller sets $A_1, A_2, \cdots A_n$. That is $S= A_1\cup A_2\cup \cdots A_n$ and $A_i \cap A_j = \emptyset$ for $i \neq j$. Then $|S|=|A_1|+ |A_2| + \cdots + |A_n|$.
+\vfill
+
+The challenge and creativity of using this tool lies in choosing the right $A_i$ sets.
+}
+
+\frame
+{
+  \frametitle{Multiplication Principle}
+
+{\bf Idea:}  Create a step by step process to construct the object you are trying to count, and use the number of choices at each step to calculate the total number of different objects you can construct. \vfill
+
+
+{\bf Multiplication Principle}\\
+Consider a $k$-stage process that {\bf uniquely} constructs {\bf all} the elements of a set S.  If $\alpha_i$ is the number of choices at stage $i$, then the number of elements in S is $|S|=\alpha_1 \cdot \alpha_2 \cdots \alpha_k$.
+\vfill
+
+The challenge and creativity of using this tool lies in choosing the correct process, making sure it constructs all the objects you want to count, and does so uniquely..
+}
+
+\frame
+{
+  \frametitle{Order and Repetition Activity}
+
+Break up into small groups and work the order and repetition activity.
+}
+
+\end{document}
+
+
+

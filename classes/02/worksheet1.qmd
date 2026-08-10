@@ -1,0 +1,52 @@
+---
+title: "Finding and Expressing Patterns"
+format:
+  html:
+    toc: false
+    number-sections: false
+  pdf:
+    documentclass: article
+    geometry:
+      - margin=1in
+    number-sections: false
+---
+
+
+For the expressions below use the "small $n$" problem solving strategy to make a
+guess for an function of $n$ that should appear on the right hand side (RHS) of the expressions below, where the question mark is .
+
+## **Expression 1**
+What is the sum of the first $n$ odd integers or as a mathematical expression, what is $1+3+5+7+ \cdots (2n-1)=?$\
+
+For the "small $n$" strategy figure out the following:
+
+:::: center
+::: {#default}
+   n    sum    total
+  --- ------- -------
+   1     1    
+   2    1+3   
+   3   1+3+5  
+   4          
+   5          
+:::
+::::
+
+[]{#default label="default"}
+
+Can you find a pattern? Can you express that idea mathematically as an
+expression involving $n$?
+
+Repeat the same process as above for the next two expressions:
+
+## **Expression 2**
+What is the sum of the first $n+1$ powers of 2
+starting at $2^0$, or $1+2+2^2+ \cdots + 2^n=?$
+
+## **Expression 3**
+What is the sum
+$\frac{1}{1\cdot 2}+\frac{1}{2\cdot 3}+\frac{1}{3\cdot 4}+ \cdots \frac{1}{n(n+1)}=?$
+for $n \ge 1$, $n$ an integer.
+
+## **Expression 4**
+What is the sum of the first $n$ positive integers, or $1+2+3+4+ \cdots n=?$ for $n \ge 1$, $n$ an integer. (Hint: Try finding a pattern for $2+4+6+8+ \cdots$ with a little help from expression 3 above.)

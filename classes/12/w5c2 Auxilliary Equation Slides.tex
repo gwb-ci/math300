@@ -1,0 +1,183 @@
+\documentclass{beamer}
+\usepackage{beamerthemeCambridgeUS}
+\usepackage{color}  % for \textcolor{red}{blah}
+\usepackage{graphicx}
+\usepackage{subfigure}
+\usepackage{multicol}
+\usepackage{verbatim} % for \begin{comment}
+\usepackage{lipsum}
+
+
+\newcommand\Fontvi{\fontsize{6}{7.2}\selectfont}
+
+
+\newenvironment{packed_enum}{
+\begin{enumerate}
+  \setlength{\itemsep}{1pt}
+  \setlength{\parskip}{0pt}
+  \setlength{\parsep}{0pt}
+}{\end{enumerate}}
+
+\newenvironment{packed_item}{
+\begin{itemize}
+  \setlength{\itemsep}{1pt}
+  \setlength{\parskip}{0pt}
+  \setlength{\parsep}{0pt}
+}{\end{itemize}}
+
+\usetheme{CambridgeUS}
+
+\title{Discrete Mathematics}
+\author[Geoffrey Buhl]{Geoffrey Buhl \\ \texttt{geoffrey.buhl@csuci.edu}}
+\institute[CSUCI]{California State University Channel Islands}
+\date{week 5 class 2}
+
+\def \vec{{\rm vec}}
+\newtheorem{conjecture}[theorem]{Conjecture}
+\newtheorem{explanation}[theorem]{Explanation}
+
+
+\begin{document}
+
+%\frame{\titlepage}
+
+%\section[Outline]{}
+%\frame{\tableofcontents}
+
+\section{Class 9 - Auxiliary Equation Method}
+
+\frame
+{
+  \frametitle{Solving Recurrence Relations}
+
+In this course, we cover two computational techniques for solving recurrence relations:  the auxiliary equation method and the generation functions method.  To solve a recurrence relation is to obtain from the recurrence relations a closed form solution or function that generates the same sequence.  Today we focus on the auxiliary equation method.
+\vfill
+Class Session Goals:
+\begin{packed_enum}
+\item Practice creating recursive formulas for sequences
+\item Present Auxiliary Equation Method for solving recurrence relations
+\item Practice Auxiliary Equation Method for solving recurrence relations
+\end{packed_enum}
+\vfill
+}
+
+\frame
+{
+  \frametitle{Historical Recursive Problems}
+
+{\bf Fibonacci Sequence} A000045\\
+Suppose a newly-born pair of rabbits, one male, one female, are put in a field. Rabbits are able to mate at the age of one month so that at the end of its second month a female can produce another pair of rabbits. Suppose that our rabbits never die and that the female always produces one new pair (one male, one female) every month from the second month on. How many pairs will there be in one year? - Fibonacci, 1202. \vfill
+\vfill
+{\bf Narayana's Cow Sequence} A000930\\
+ A cow produces one calf every year. Beginning in its fourth year, each calf produces one calf at the beginning of each year. How many cows and calves are there altogether after 20 years? - Narayana, an Indian mathematician in the 14th century.
+
+}
+
+
+
+
+
+\frame
+{
+  \frametitle{Recurrence Activity}
+
+In small groups work, to find the initial conditions and a recurrence relation for one of the following problems.\vfill
+
+{\bf Problem 1}: $a_n$ is the number of ways to tile a $3 \times n$ board with $1 \times 1$ and $ 2\times 2$ tiles. \vfill
+
+
+{\bf Problem 2}: $b_n$ is the number of ways to tile a $2 \times n$ board with $1 \times 2$ and $ 2\times 2$ tiles.\vfill
+
+{\bf Problem 3}: $c_n$ is the number of ways to tile a $1 \times n$ board with $1 \times 1$  white tiles, $ 1\times 2$ grey tiles and $ 1\times 2$ black tiles.\vfill
+
+}
+
+\frame
+{
+  \frametitle{ Activity Answers}
+
+\begin{tabular}{lccccc}
+Sequence & n=1 & $n=2$ & $n=3$ & $n=4$& $n=5$\\ \hline
+$a_n$ & 1& 3& 5& 11& 21  \\
+$b_n$ & 1& 3& 5& 11& 21  \\
+$c_n$ & 1& 3& 5& 11& 21  \\
+\end{tabular}
+\vfill
+This is a truncated (first two terms chopped off) Jacobsthal sequence (A001045):\\
+
+$$a_n = a_{n-1} + 2a_{n-2} \mbox{ with } a_0 = 0, a_1 = 1$$
+which generates 0, 1, 1, 3, 5, 11, 21, 43, 85, 171, 341, 683, $\ldots$ .
+}
+
+\frame
+{
+  \frametitle{ Auxiliary Equation Method Idea}
+
+Exponentials functions work for first-order linear homogeneous recurrence relations.  Let's try exponentials as a solution for higher order linear homogeneous recurrence relations. \vfill
+
+Limitation:  This technique only works for linear homogeneous recurrence relations!
+
+}
+
+\frame
+{
+  \frametitle{Auxiliary Equation Method }
+
+$a_n=C_1a_{n-1}+C_2a_{n-1}$ with initial conditions $a_0$ and $a_1$\vfill
+
+{\bf Step 1} Form the Auxiliary Equation $r^2-C_1r-C_2=0$ and calculate roots $r_1$ and $r_2$.\\
+{\bf Step 2} Create the general solution $a_n=Ar_1^n+Br_2^n$ with $A$, $B$ unknown coefficients.\\
+{\bf Step 3} Use initial conditions $a_0$, $a_1$ to solve for $A$ and $B$. \\ \vfill
+
+This is an overview.  There are many details that the next example will demonstrate.
+
+}
+
+\frame
+{
+  \frametitle{Auxiliary Example}
+
+Let $a_n$ count the number is the number of ways to tile a $3 \times (n-1)$ board with $1 \times 1$ and $ 2\times 2$ tiles (among other things as well).  Then $a_n = a_{n-1} + 2a_{n-2}$ with $a_0 = 0$ and $a_1 = 1$  (A001045). \vfill
+
+
+\pause \underline{Closed form}\\$a_n=\frac{2^n - (-1)^n}{3}$
+
+}
+
+\frame
+{
+  \frametitle{Auxiliary Equation Activity}
+
+In small groups, work on the following problems.\vfill
+
+{\bf Problem 1}: Find the \underline{closed solution} to the recurrence relation using the auxiliary equation method $a_n=3a_{n-1}+4a_{n-2}$
+with initial terms $a_0=2$ and $a_1=3$.\vfill
+{\bf Problem 2}: The recursive formula for Fibonacci's sequence is $F_n=F_{n-1}+F_{n-2}$ with $F_0=F_1=1$.  Find the \underline{auxiliary equation, roots, and general solution} to this recurrence.\vfill
+{\bf Problem 3}: The recursive formula for Narayana's cow sequence is $C_n=C_{n-1}+C_{n-2}+C_{n-3}$ with $C_0=C_1=C_2=1$.  Find the \underline{auxiliary equation} for this recurrence.\vfill
+
+}
+
+\frame
+{
+  \frametitle{Auxiliary Equation Answers}
+
+Note that the roots many not be pretty or even real.\vfill
+
+{\bf Problem 1}: $a_n=4^n+(-1)^n$ \vfill
+
+{\bf Problem 2}:$r^2-r-1=0$, $r=\frac{1+\sqrt{5}}{2}$,$r=\frac{1-\sqrt{5}}{2}$, $F_n=A\frac{1+\sqrt{5}}{2}^n+B\frac{1-\sqrt{5}}{2}^n$\\
+Note that $\frac{1+\sqrt{5}}{2}$ is the golden ratio.\vfill
+
+
+{\bf Problem 3}: :$r^3-r^2-r-1=0$. $r=\frac{1}{3}\left(\sqrt[3]{3 \sqrt{33}+19}+\sqrt[3]{19-3 \sqrt{33}}+1\right)$, $r=-\frac{1}{6} \left(1+i \sqrt{3}\right) \sqrt[3]{3 \sqrt{33}+19}-\frac{1}{6} \left(1-i \sqrt{3}\right) \sqrt[3]{19-3 \sqrt{33}}+\frac{1}{3}$, $r=-\frac{1}{6} \left(1-i \sqrt{3}\right) \sqrt[3]{3 \sqrt{33}+19}-\frac{1}{6} \left(1+i \sqrt{3}\right) \sqrt[3]{19-3 \sqrt{33}}+\frac{1}{3}$\vfill
+
+
+
+}
+
+
+
+
+
+\end{document}
+

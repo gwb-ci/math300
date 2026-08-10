@@ -1,0 +1,44 @@
+\documentclass[11pt]{amsart}
+\usepackage{geometry}                % See geometry.pdf to learn the layout options. There are lots.
+\geometry{letterpaper}                   % ... or a4paper or a5paper or ... 
+%\geometry{landscape}                % Activate for for rotated page geometry
+%\usepackage[parfill]{parskip}    % Activate to begin paragraphs with an empty line rather than an indent
+\usepackage{graphicx}
+\usepackage{subfigure}
+\usepackage{amssymb}
+\usepackage{epstopdf}
+\DeclareGraphicsRule{.tif}{png}{.png}{`convert #1 `dirname #1`/`basename #1 .tif`.png}
+
+\title{Order and Repetition Activity}
+\author{Math 300}
+%\date{}                                           % Activate to display a given date or no date
+
+\begin{document}
+\maketitle
+%\section{x}
+%\subsection{}
+
+
+{\bf Problem 1}: For each of the below problems, first answer the following two questions:  ``Does the order of the choices matter? (Order:yes or no)''  and ``Is repetition of choices allowed?'' (Repetition: yes or no)\\
+
+Suppose you have a {\bf huge} box of animal crackers containing plenty of each of 10 different animals. 
+
+\begin{enumerate}
+\item  How many animal parades containing 6 crackers can you line up? Order: \framebox{yes} or no \& Repetition:  \framebox{yes} or no. $6^10$\\
+\item How many animal parades of 6 crackers can you line up so that the animals appear in alphabetical order? Order:yes or  \framebox{no} \& Repetition:  \framebox{yes} or no. Stars and Bars formula we will learn later\\
+\item  How many ways could you line up 6 different animals in alphabetical order? Order:yes or  \framebox{no} \& Repetition: yes or  \framebox{no} $\binom{10}{6}$\\
+\item  How many ways could you line up 6 different animals if they can come in any order? Order: \framebox{yes} or no \& Repetition: yes or  \framebox{no} $10\cdot 9 \cdot 8 \cdot 7 \cdot 6 \cdot 5$\\
+\item  How many ways could you give 6 children one animal cracker each? Order: \framebox{yes} or no \& Repetition:  \framebox{yes} or no $10^6$\\
+\item  How many ways could you give 6 children one animal cracker each so that no two kids get the same animal? Order: \framebox{yes} or no \& Repetition: yes or  \framebox{no} $10\cdot 9 \cdot 8 \cdot 7 \cdot 6 \cdot 5$\\
+\item  How many ways could you give out 6 giraffes to 10 kids? Order:yes or \framebox{n}o \& Repetition: \framebox{yes} or no Stars and Bars formula we will learn later\\
+\end{enumerate}
+
+\pagebreak
+
+{\bf Problem 2}: Give a counting question where the answer is $8 \cdot 3 \cdot 5 \cdot 3$. Give another question where the answer is $8 + 3 + 5 + 3$. Give another question where the answer is $(8 \cdot 3) + (5 \cdot 3)$. \\
+answers vary\vfill
+
+{\bf Problem 3}: Suppose you own a gum ball stand that has 20 varieties of gum balls.  Write four different questions, one for each of the four possibilities with order mattering (or not) and repetition allowed (or not), about a customer buying 7 gum balls.\\
+answers vary\vfill
+
+\end{document}  

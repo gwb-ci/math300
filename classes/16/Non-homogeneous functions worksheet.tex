@@ -1,0 +1,42 @@
+\documentclass[11pt]{amsart}
+\usepackage{geometry}                % See geometry.pdf to learn the layout options. There are lots.
+\geometry{letterpaper}                   % ... or a4paper or a5paper or ... 
+%\geometry{landscape}                % Activate for for rotated page geometry
+%\usepackage[parfill]{parskip}    % Activate to begin paragraphs with an empty line rather than an indent
+\usepackage{graphicx}
+\usepackage{subfigure}
+\usepackage{amssymb}
+\usepackage{epstopdf}
+\DeclareGraphicsRule{.tif}{png}{.png}{`convert #1 `dirname #1`/`basename #1 .tif`.png}
+
+\newenvironment{packed_enum}{
+\begin{enumerate}
+  \setlength{\itemsep}{1pt}
+  \setlength{\parskip}{0pt}
+  \setlength{\parsep}{0pt}
+}{\end{enumerate}}
+
+\title{Non-homogeneous recurrence relations}
+\author{Math 300}
+%\date{}                                           % Activate to display a given date or no date
+
+\begin{document}
+\maketitle
+%\section{x}
+%\subsection{}
+
+Base on the number of your groups playing cards work on one of the following problems:\\
+
+Necklace/flag problem/ternary string problem
+
+
+{\bf  Problem 1}:  How many different flags $f_n$ with $n$ horizontal stripes can you make with $3$ colors so that adjacent stripes are different colors?  What is $f_1$, $f_2$ and $f_3$? Find a recurrence relation using the addition principle.  Find a closed form solution with the multiplication principle.
+\vfill
+
+{\bf Problem 2}: There are two types of the above flags:  $d_n$ is the number above flags with $n$ horizontal stripes and the top and bottom stripe are different colors. $s_n$ is the number above flags with $n$ horizontal stripes adn the top and bottom stripes are the same color.  What are the initial conditions for $d_n$ and $s_n$?  What is the relationship between $s_n$ and $d_{n-1}$?  Why?
+\vfill
+
+{\bf Problem 3}: How many ternary strings are there with\vfill
+
+
+\end{document}  

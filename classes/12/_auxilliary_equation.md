@@ -1,0 +1,1 @@
+teach the auxillary equation for solving recurrence relations

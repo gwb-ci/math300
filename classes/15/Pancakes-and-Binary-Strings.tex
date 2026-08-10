@@ -1,0 +1,39 @@
+\documentclass[11pt]{amsart}
+\usepackage{geometry}                % See geometry.pdf to learn the layout options. There are lots.
+\geometry{letterpaper}                   % ... or a4paper or a5paper or ... 
+%\geometry{landscape}                % Activate for for rotated page geometry
+%\usepackage[parfill]{parskip}    % Activate to begin paragraphs with an empty line rather than an indent
+\usepackage{graphicx}
+\usepackage{subfigure}
+\usepackage{amssymb}
+\usepackage{epstopdf}
+\DeclareGraphicsRule{.tif}{png}{.png}{`convert #1 `dirname #1`/`basename #1 .tif`.png}
+
+\newenvironment{packed_enum}{
+\begin{enumerate}
+  \setlength{\itemsep}{1pt}
+  \setlength{\parskip}{0pt}
+  \setlength{\parsep}{0pt}
+}{\end{enumerate}}
+
+\title{Pancakes and Ternary Strings}
+\author{Math 300}
+%\date{}                                           % Activate to display a given date or no date
+
+\begin{document}
+\maketitle
+%\section{x}
+%\subsection{}
+
+
+{\bf  Problem 1}:  Lazy Caterer Problem:  Let $c_n$ denote the maximum number of pieces a circular pancake can be cut into with $n$ cuts.  What are $c_0$, $c_1$, $c_2$,$c_3$, $c_4$?  By looking at the differences $c_n-c_{n-1}$, make a hypothesis for  a recurrence relation for $c_n$. \vfill
+
+{\bf Problem 2}: How many binary strings of length $n$ that contain 00 are? Call this $b_n$. 
+\begin{packed_enum}
+\item Consider three distinct ways a length $n$ binary string could start:  1,  01, or  00.  For each of theses case, how many ways are there to fill in the rest of the $n-1$ or $n-2$ positions in the string?  
+\item One of these three cases is not like the others.  Which one?
+\item Use the above answers to write $b_n$ as a second order linear non-homogenous recurrence relation?  What are the initial conditions?
+\end{packed_enum}
+\vfill
+
+\end{document}  

@@ -1,0 +1,30 @@
+---
+title: "Base Cases and Induction Hypotheses"
+format:
+  html:
+    toc: false
+    number-sections: false
+  pdf:
+    documentclass: article
+    geometry:
+      - margin=1in
+    number-sections: false
+---
+
+
+
+
+For the following  claims, demonstrate the of the base cases, and write out the statement of the induction hypothesis. Then if you have time attempt to
+demonstrate the induction hypothesis step.
+
+## **Claim 1**
+$2^0+2^1+2^2+ \cdots + 2^n=2^{n+1}-1$ for $n \ge 0$, $n$ an integer.
+
+## **Claim 2**
+$1\cdot 1! + 2\cdot 2! + \cdots + n \cdot n!=(n+1)!-1$ for $n \ge 1$, $n$ an integer.
+
+## **Claim 3**
+$8^n-3^n$ is divisible by 5 for all integers $n \ge 1$. Hint: Another way to say "divisible by 5" is $8^n-3^n=5k$ for some integer $k$.
+
+## **Claim 4**
+$\sum^{n}_{i=1} (8i-5)=4n^2-n$

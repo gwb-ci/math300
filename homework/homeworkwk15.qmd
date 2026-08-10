@@ -96,6 +96,10 @@ empty?
 
 
 ### Exercise
+How many ways are there to place $n+k$ stars on a $2 \times n$ (two rows, $n$ columns) board with no columns having no stars?  Here $k \ge 0$.
+
+
+### Exercise
 What is the formula for the number of ways to place $n$ labeled balls
 into $k$ unlabeled boxes **without** the restriction that no box may be
 empty?

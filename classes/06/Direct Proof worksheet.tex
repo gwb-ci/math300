@@ -1,0 +1,51 @@
+\documentclass[11pt]{amsart}
+\usepackage{geometry}                % See geometry.pdf to learn the layout options. There are lots.
+\geometry{letterpaper}                   % ... or a4paper or a5paper or ... 
+%\geometry{landscape}                % Activate for for rotated page geometry
+%\usepackage[parfill]{parskip}    % Activate to begin paragraphs with an empty line rather than an indent
+\usepackage{graphicx}
+\usepackage{subfigure}
+\usepackage{amssymb}
+\usepackage{epstopdf}
+\DeclareGraphicsRule{.tif}{png}{.png}{`convert #1 `dirname #1`/`basename #1 .tif`.png}
+
+\title{Direct Proof Activity}
+\author{Math 300}
+%\date{}                                           % Activate to display a given date or no date
+
+\begin{document}
+\maketitle
+%\section{x}
+%\subsection{}
+
+
+{\bf Directions}: Attempt to prove as many of the following problem as you can using the direct proof method.\\
+
+
+{\bf Problem 1}: Show $\binom{2n}{2}=2\binom{n}{2}+n^2$ \vspace{.25cm}
+
+{\bf Problem 2}: Show $\binom{n}{1} ^2=\binom{n}{2}+ \binom{n+1}{2}$
+
+{\bf Problem 3}: Show $\binom{n}{0}+\binom{n+1}{1}+\binom{n+2}{2} =\binom{n+3}{2}$ (Hint: Is there another way to write $\binom{n}{0}$ to make the calculation easier?)\vspace{.25cm}
+
+{\bf Problem 4}: Show
+$\binom{n}{k}\binom{n-k}{l}=\binom{n}{l}\binom{n-l}{k}$ with $k+l \leq n$.
+\vspace{.25cm}
+
+{\bf Problem 5}:
+Let $n$ be a positive integer.  Show that $\binom{2n}{n+1}+\binom{2n}{n}=\frac{1}{2}\binom{2n+2}{n+1}$
+\vspace{.25cm}
+
+{\bf Problem 6}:
+If $n$ an odd integer, then $n^2$ is odd.\vspace{.25cm}
+
+{\bf Problem 7}:
+Let $n$ any integer, then $n^3-n$ is even.\vspace{.25cm}
+
+{\bf Problem 8}:
+Let $a$, $b$, and $c$ be integers. If $a$ divides $b$, and $b$ divides $c$, then $a$ divides $c$.\vspace{.25cm}
+
+{\bf Problem 9}:
+Let $a$, $b$, and $c$ be integers. If $a^2+b^2=c^2$ is even, then at least one of the integers $a$ and $b$ is even.\vspace{.25cm}
+
+\end{document}  
