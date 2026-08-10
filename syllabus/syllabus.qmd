@@ -10,12 +10,9 @@ format:
 ---
 
 # Math 300: Discrete Mathematics
+
+Professor contact information is available on CI Learn as an announcement.
  
-**Professor:** Geoffrey Buhl  
-**Email:** [geoffrey.buhl@csuci.edu](mailto:geoffrey.buhl@csuci.edu)  
-**Phone:** 805-437-3122  
-**Office:** 2324 Marin Hall  
-**Office hours:** MW 9:00–10:00am or by appointment  
 
 **Course meetings:** Monday and Wednesday, 12:00pm–1:15am  
 **Course textbook:** [A First Course in Discrete Mathematics](https://link.springer.com/book/10.1007/978-0-85729-315-2), Ian Anderson  

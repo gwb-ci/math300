@@ -4,4 +4,8 @@ title: "Math 300 - Discrete Mathematics"
 
 ## Welcome
 
-Course materials will go here.
+Welcome to Math 300!
+
+Discrete math is a fun departure from the calculus series, free from concerns about continuity and the real numbers.  We get our first chance to explore abstract structures and a first introduction to proofs in this course.  Discrete math ultimately boils down to counting, something that is tangible, comfortable, and sometimes even comforting.
+
+This website contains the syllabus, homework, lecture slides and activities in an widely accessible format.  There are additional resources available on CI Learn, including the course schedule, announcements, and grades.  Please check CI Learn regularly for updates.
