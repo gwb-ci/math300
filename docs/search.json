@@ -1290,11 +1290,11 @@
     ]
   },
   {
-    "objectID": "classes/01/slides.html#syllabus-activity-1",
-    "href": "classes/01/slides.html#syllabus-activity-1",
+    "objectID": "classes/01/slides.html#syllabus-link",
+    "href": "classes/01/slides.html#syllabus-link",
     "title": "Course Introduction",
-    "section": "Syllabus Activity",
-    "text": "Syllabus Activity\n\nQR code for syllabus",
+    "section": "Syllabus Link",
+    "text": "Syllabus Link\n\nQR code for syllabus",
     "crumbs": [
       "Class Material",
       "Course Introduction"

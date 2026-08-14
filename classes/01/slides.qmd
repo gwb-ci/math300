@@ -58,7 +58,7 @@ Class Session Goals:
 
 ---
 
-## Syllabus Activity
+## Syllabus Link
 
 ![QR code for syllabus](math300_syllabus_qr.png){width=70% fig-align="center"}
 
