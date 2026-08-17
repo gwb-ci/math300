@@ -105,6 +105,12 @@ stress, and sleep to stay on track.
 
 ## Activity: Tiling with Triominos
 
+![QR code for syllabus](math300_class01_worksheet_qr.png){width=70% fig-align="center"}
+
+---
+
+## Activity: Worksheet
+
 In small groups, work on the "Tiling with Triominos" worksheet. The
 goals of this worksheet are to:
 
