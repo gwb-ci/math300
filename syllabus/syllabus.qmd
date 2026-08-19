@@ -163,8 +163,8 @@ Information on this syllabus is subject to change. I will make such changes know
 | 12 | Nov 9 |  | **Midterm 2** |
 | 12 | Nov 13 |  | **Veterans Day** - Campus Closed  |
 | 13 | Nov 16 | 4 | Graph Tours 2 |
-| 13 | Nov 18 |  | Occupancy Problems 1  |
-| 14 | Nov 23 |  | Occupancy Problems 2  |
-| 14 | Nov 25 |  | Occupancy Problems 3  |
-| 15 | Nov 30 |  | Inclusion Exclusion 1 |
-| 15 | Dec 2 |  | Inclusion Exclusion 2  |
+| 13 | Nov 18 | 5 | Occupancy Problems 1  |
+| 14 | Nov 23 | 5 | Occupancy Problems 2  |
+| 14 | Nov 25 | 5 | Occupancy Problems 3  |
+| 15 | Nov 30 | 6 | Inclusion Exclusion 1 |
+| 15 | Dec 2 | 6 | Inclusion Exclusion 2  |
