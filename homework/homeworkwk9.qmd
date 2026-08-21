@@ -8,7 +8,7 @@ format:
 
 # Week 9 Homework
 
-In order to receive full credit problems and solutions must be clearly written and presented neatly.  In writing up your solution, you should state the problem as explaining the solution.  Merely giving answers to exercises will is not enough to receive credit.  Your write up must show work and convince me that you understand the material.  If you need additional time to complete this assignment, please email me.  Starred ($\bigstar$) proof problems are eligible for inclusion in the proof portfolio assignment.
+In order to receive full credit problems and solutions must be clearly written and presented neatly.  In writing up your solution, you should state the problem as explaining the solution.  Merely giving answers to exercises will is not enough to receive credit.  Your write up must show work and convince me that you understand the material.  If you need additional time to complete this assignment, please email me.  Starred (\*) proof problems are eligible for inclusion in the proof portfolio assignment.
 
 ## Exercises
 
@@ -109,24 +109,24 @@ prove that $(n+1)C_n=(4n-2)C_{n-1}$.
 
 
 ### Proof
-$\bigstar$ Prove the sum of the first $n$ triangular numbers is
+\* Prove the sum of the first $n$ triangular numbers is
 $\frac{n(n+1)(n+2)}{6}$
 
 
 ### Proof
-$\bigstar$ Prove the that the number of $n$-digit binary numbers with no
+\* Prove the that the number of $n$-digit binary numbers with no
 consecutive 1's is the Fibonacci number $F_{n+2}$, where $F_1=1$ and
 $F_2=1$.
 
 
 ### Proof
-$\bigstar$ Prove the following statement about the Catalan numbers $C_n$
+\* Prove the following statement about the Catalan numbers $C_n$
 for all all positive integers $n \ge 1$: $C_n \ge 2^{n-1}$ (Hint: You
 may want to use the last part of Proof
 .[\[cproof\]](#cproof){reference-type="ref" reference="cproof"})\
 
 
 ### Proof
-$\bigstar$ Prove the following statement about the Catalan numbers $C_n$
+\* Prove the following statement about the Catalan numbers $C_n$
 for all all positive integers $n \ge 1$: $C_n \ge \frac{4^{n-1}}{n^2}$.
 

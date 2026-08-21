@@ -8,7 +8,7 @@ format:
 
 # Week 5 Homework
 
-In order to receive full credit problems and solutions must be clearly written and presented neatly.  In writing up your solution, you should state the problem as explaining the solution.  Merely giving answers to exercises will is not enough to receive credit.  Your write up must show work and convince me that you understand the material.  If you need additional time to complete this assignment, please email me.  Starred ($\bigstar$) proof problems are eligible for inclusion in the proof portfolio assignment.
+In order to receive full credit problems and solutions must be clearly written and presented neatly.  In writing up your solution, you should state the problem as explaining the solution.  Merely giving answers to exercises will is not enough to receive credit.  Your write up must show work and convince me that you understand the material.  If you need additional time to complete this assignment, please email me.  Starred (\*) proof problems are eligible for inclusion in the proof portfolio assignment.
 
 ## Exercises
 
@@ -117,31 +117,31 @@ $$\binom{n-1}{k-1}\binom{n}{k+1}\binom{n+1}{k}=\binom{n-1}{k}\binom{n+1}{k+1}\bi
 
 
 ### Proof
-$\bigstar$ Prove
+\* Prove
 $$\sum_{k\ge0}^{}\binom{r}{k}\binom{s}{n-k}=\binom{r+s}{n}$$ Hint: See
 Example 1.10 on page 9 of the course text.
 
 
 ### Proof
-$\bigstar$ Prove
+\* Prove
 $$\sum_{k\ge0}^{}k\binom{m}{k}\binom{n}{k}=n\binom{m+n-1}{n}$$ Hint: See
 Example 1.10 and 1.11 on page 9 of the course text.
 
 
 ### Proof
-$\bigstar$ Use induction to prove that
+\* Use induction to prove that
 $1+\frac{1}{\sqrt{2}}+\frac{1}{\sqrt{3}}+\ldots+\frac{1}{\sqrt{n}}\leq 2 \sqrt{n}$
 for all positive integers $n$.
 
 
 ### Proof
-$\bigstar$ Using induction, prove that
+\* Using induction, prove that
 $(\cos{x}+i\sin{x})^n=\cos{nx}+i\sin{nx}$ for $n\ge0$. Hint: Use the
 angle addition formulas.
 
 
 ### Proof
-$\bigstar$ Prove
+\* Prove
 
 $$
 \sum_{i=0}^{\lfloor n/2 \rfloor} \binom{n}{2i} = 2^{n-1}

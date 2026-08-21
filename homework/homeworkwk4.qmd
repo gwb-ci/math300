@@ -8,7 +8,7 @@ format:
 
 # Week 4 Homework
 
-In order to receive full credit problems and solutions must be clearly written and presented neatly.  In writing up your solution, you should state the problem as explaining the solution.  Merely giving answers to exercises will is not enough to receive credit.  Your write up must show work and convince me that you understand the material.  If you need additional time to complete this assignment, please email me.  Starred ($\bigstar$) proof problems are eligible for inclusion in the proof portfolio assignment.
+In order to receive full credit problems and solutions must be clearly written and presented neatly.  In writing up your solution, you should state the problem as explaining the solution.  Merely giving answers to exercises will is not enough to receive credit.  Your write up must show work and convince me that you understand the material.  If you need additional time to complete this assignment, please email me.  Starred (\*) proof problems are eligible for inclusion in the proof portfolio assignment.
 
 ## Exercises
 
@@ -125,22 +125,22 @@ then use induction to prove your formula.
 
 
 ### Proof
-$\bigstar$ Bernoulli's inequality: Prove that if $h>-1$, then
+\* Bernoulli's inequality: Prove that if $h>-1$, then
 $1+nh \leq  (h+1)^n$ for all non-negative integers $n$.
 
 
 ### Proof
-$\bigstar$ Use induction to prove that $n^2+n+1$ is odd for every
+\* Use induction to prove that $n^2+n+1$ is odd for every
 integer $n$.
 
 
 ### Proof
-$\bigstar$ Prove by induction that
+\* Prove by induction that
 $$\frac{1 \cdot 3 \cdot 5 \cdots (2n-1)}{2\cdot 4 \cdot 6 \cdots (2n)} \leq \frac{1}{\sqrt{n+1}}$$
 for $n$ a positive integer.
 
 
 ### Proof
-$\bigstar$ Prove that for $n \ge 2$, the maximum number of points of
+\* Prove that for $n \ge 2$, the maximum number of points of
 intersection of $n$ distinct lines in the plane is $n(n-1)/2$
 

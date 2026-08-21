@@ -8,7 +8,7 @@ format:
 
 # Week 2 Homework
 
-In order to receive full credit problems and solutions must be clearly written and presented neatly.  In writing up your solution, you should state the problem as explaining the solution.  Merely giving answers to exercises will is not enough to receive credit.  Your write up must show work and convince me that you understand the material.  If you need additional time to complete this assignment, please email me.  Starred ($\bigstar$) proof problems are eligible for inclusion in the proof portfolio assignment.
+In order to receive full credit problems and solutions must be clearly written and presented neatly.  In writing up your solution, you should state the problem as explaining the solution.  Merely giving answers to exercises will is not enough to receive credit.  Your write up must show work and convince me that you understand the material.  If you need additional time to complete this assignment, please email me.  Starred (\*) proof problems are eligible for inclusion in the proof portfolio assignment.
 
 ## Exercises
 

@@ -8,7 +8,7 @@ format:
 
 # Week 14 Homework
 
-In order to receive full credit problems and solutions must be clearly written and presented neatly.  In writing up your solution, you should state the problem as explaining the solution.  Merely giving answers to exercises will is not enough to receive credit.  Your write up must show work and convince me that you understand the material.  If you need additional time to complete this assignment, please email me.  Starred ($\bigstar$) proof problems are eligible for inclusion in the proof portfolio assignment.
+In order to receive full credit problems and solutions must be clearly written and presented neatly.  In writing up your solution, you should state the problem as explaining the solution.  Merely giving answers to exercises will is not enough to receive credit.  Your write up must show work and convince me that you understand the material.  If you need additional time to complete this assignment, please email me.  Starred (\*) proof problems are eligible for inclusion in the proof portfolio assignment.
 
 Following Section 2.3 of *Discrete Mathematics, an Open Introduction*.Let $\{a_n\}$ be a sequence of real numbers. The **$k^{th}$ forward
 difference** of this sequence are defined recursively:\
@@ -69,16 +69,16 @@ Let $b_n=n^3$. Prove $\Delta^2 b_n=6n+6$.
 
 
 ### Proof
-$\bigstar$ Let $b_n=n^k$. Prove
+\* Let $b_n=n^k$. Prove
 $\Delta b_n=\sum_{i=0}^{k-1}\binom{k}{i}n^{i}$
 
 
 ### Proof
-$\bigstar$ Let $a_n=\alpha^n$ for $n \ge 0$ and $\alpha$ a real number.
+\* Let $a_n=\alpha^n$ for $n \ge 0$ and $\alpha$ a real number.
 Prove $\Delta^k a_n=(\frac{\alpha-1}{\alpha})^k a_n$ for all $k \ge 0$.
 
 
 ### Proof
-$\bigstar$ Let $a_n$ and $b_n$ be sequences. Prove
+\* Let $a_n$ and $b_n$ be sequences. Prove
 $\Delta (a_n\cdot b_n)=a_{n+1}\Delta b_n + b_{n}\Delta a_n$.
 

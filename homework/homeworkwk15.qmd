@@ -8,7 +8,7 @@ format:
 
 # Week 15 Homework
 
-In order to receive full credit problems and solutions must be clearly written and presented neatly.  In writing up your solution, you should state the problem as explaining the solution.  Merely giving answers to exercises will is not enough to receive credit.  Your write up must show work and convince me that you understand the material.  If you need additional time to complete this assignment, please email me.  Starred ($\bigstar$) proof problems are eligible for inclusion in the proof portfolio assignment.
+In order to receive full credit problems and solutions must be clearly written and presented neatly.  In writing up your solution, you should state the problem as explaining the solution.  Merely giving answers to exercises will is not enough to receive credit.  Your write up must show work and convince me that you understand the material.  If you need additional time to complete this assignment, please email me.  Starred (\*) proof problems are eligible for inclusion in the proof portfolio assignment.
 
 ## Exercises
 
@@ -112,7 +112,7 @@ Prove by induction $S(n,3)>3^{n-2}$ for all $n\ge 6$.
 
 
 ### Proof
-$\bigstar$Prove
+\*Prove
 $$(1-a_1)(1-a_2) \cdots (1-a_k)= 1- (a_1+a_2+ \cdots+a_k)+ (a_1a_2+\cdots +a_{k-1}a_{k})+ \cdots +(-1)^k(a_1 \cdots a_k)$$
 
 
@@ -122,39 +122,39 @@ $K_{m,n}$ as a function of $n$.
 
 
 ### Proof
-$\bigstar$ From the text, Exercise 4.6
+\* From the text, Exercise 4.6
 
 
 ### Proof
-$\bigstar$ From the text, Exercise 4.7
+\* From the text, Exercise 4.7
 
 
 ### Proof
-$\bigstar$ Let S(n,k) be the Stirling numbers of the second kind. Prove\
+\* Let S(n,k) be the Stirling numbers of the second kind. Prove\
 a. $S(n, n-1)= \binom{n}{2}$\
 b. $S(n, n-2)= \binom{n}{3}+3\binom{n}{4}$
 
 
 ### Proof
-$\bigstar$ Let S(n,k) be the Stirling numbers of the second kind. Prove
+\* Let S(n,k) be the Stirling numbers of the second kind. Prove
 $S(n,k)=\sum_{m=k-1}^{n-1} \binom{n-1}{m} S(m,k-1)$
 
 
 ### Proof
-$\bigstar$ Show that if $n$ is a positive integer, then
+\* Show that if $n$ is a positive integer, then
 $$n!=\binom{n}{0}d_n+\binom{n}{1}d_{n-1}+\binom{n}{2}d_{n-2}+ \cdots +\binom{n}{n-1}d_1 +\binom{n}{n}d_0$$
 where $d_n=(n-1)(d_{n-1}+d_{n-2})$ with $d_1=0$ and $d_2=1$ is the
 number of derangements of $n$ objects.
 
 
 ### Proof
-$\bigstar$ Let $A$ be a subset of $B$ with $|A|=m$ and $|B|=n$, and let
+\* Let $A$ be a subset of $B$ with $|A|=m$ and $|B|=n$, and let
 $r$ be an integer $m \le r \le n$. Show the number of $r$ element
 subsets of $B$ which contain $A$ as a subset is $\binom{n-m}{r-m}$.
 
 
 ### Proof
-$\bigstar$ Use the Inclusion-Exclusion Principle to show that for any
+\* Use the Inclusion-Exclusion Principle to show that for any
 non-negative integers $m,r,n$ such that $m \le r \le n$,
 
 $$\binom{n-m}{r-m}=\sum^{m}_{i=0}(-1)^i \binom{m}{i}\binom{n-i}{r}.$$

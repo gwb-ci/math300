@@ -8,7 +8,7 @@ format:
 
 # Week 8 Homework
 
-In order to receive full credit problems and solutions must be clearly written and presented neatly.  In writing up your solution, you should state the problem as explaining the solution.  Merely giving answers to exercises will is not enough to receive credit.  Your write up must show work and convince me that you understand the material.  If you need additional time to complete this assignment, please email me.  Starred ($\bigstar$) proof problems are eligible for inclusion in the proof portfolio assignment.
+In order to receive full credit problems and solutions must be clearly written and presented neatly.  In writing up your solution, you should state the problem as explaining the solution.  Merely giving answers to exercises will is not enough to receive credit.  Your write up must show work and convince me that you understand the material.  If you need additional time to complete this assignment, please email me.  Starred (\*) proof problems are eligible for inclusion in the proof portfolio assignment.
 
 ## Exercises
 
@@ -118,61 +118,61 @@ Prove $\sum_{k=0}^n \binom{n}{k}4^k=5^n$.
 
 
 ### Proof
-$\bigstar$ Suppose that a particular real number $x$ has the property
+\* Suppose that a particular real number $x$ has the property
 that $x+\frac{1}{x}$ is an integer. Prove that $x^n+\frac{1}{x^n}$is an
 integer for all natural numbers $n$.
 
 
 ### Proof
-$\bigstar$ Let $T_n$ be the triangular numbers defined by
+\* Let $T_n$ be the triangular numbers defined by
 $T_n=T_{n-1}+n$ with $T_0=0$ and $n$, $p$, and $q$ be positive integers.
 Prove that if $T_n=pq$ then $T_{n+p+q}=T_{n+p}+T_{n+q}$.
 
 
 ### Proof
-$\bigstar$ Let $T_n$ be the triangular numbers defined by
+\* Let $T_n$ be the triangular numbers defined by
 $T_n=T_{n-1}+n$ with $T_0=0$ and $n$, $p$, and $q$ be positive integers.
 Prove that if $T_{n+p+q}=T_{n+p}+T_{n+q}$ then $T_n=pq$.
 
 
 ### Proof
-$\bigstar$ Consider the sequence $f_n=f_{n-1}+f_{n-2}$ with $f_1=1$ and
+\* Consider the sequence $f_n=f_{n-1}+f_{n-2}$ with $f_1=1$ and
 $f_2=2$. Calculate $f_1+f_3+f_5+f_7 +\cdots +f_{2n-1}$ for small $n$ to
 create a hypothesis for the sum of the first $n$ odd indexed Fibonacci
 numbers, then prove this formula.
 
 
 ### Proof
-$\bigstar$ Consider the sequence $f_n=f_{n-1}+f_{n-2}$ with $f_1=1$ and
+\* Consider the sequence $f_n=f_{n-1}+f_{n-2}$ with $f_1=1$ and
 $f_2=2$. Find (like the preceding problem) and prove formulas for:\
 $f_0+f_2+f_4+f_6 +\cdots f_{2n}$\
 
 
 ### Proof
-$\bigstar$ Consider the sequence $f_n=f_{n-1}+f_{n-2}$ with $f_1=1$ and
+\* Consider the sequence $f_n=f_{n-1}+f_{n-2}$ with $f_1=1$ and
 $f_2=2$. Find (like the preceding problem) and prove formulas for:\
 $f_1-f_2+f_3-f_4 +\cdots (-1)^{n-1}f_{n}$
 
 
 ### Proof
-$\bigstar$ Consider the sequence $d_n=2d_{n-1}+d_{n-2}$ with $d_0=1$ and
+\* Consider the sequence $d_n=2d_{n-1}+d_{n-2}$ with $d_0=1$ and
 $d_1=3$. Prove $$d_n=\sum_{i\ge0}^{}2^i\binom{n+1}{2i}$$ is a solution
 to this recurrence relationship.
 
 
 ### Proof
-$\bigstar$ Using the definition for
+\* Using the definition for
 $\binom{n}{k} =\frac{n(n-1)(n-2) \cdots (n-k+1)}{k!}$ when $n<0$, prove
 $$\binom{-1/2}{n}=\frac{\binom{2n}{n}}{(-4)^n}$$
 
 
 ### Proof
-$\bigstar$ Let $F_n$ be the Fibonacci sequence with $F_1=1$ and $F_2=1$.
+\* Let $F_n$ be the Fibonacci sequence with $F_1=1$ and $F_2=1$.
 Prove $F_n \leq (\frac{5}{3})^n$ for all positive integers.
 
 
 ### Proof
-$\bigstar$ The indicated diagonals of Pascal's triangle sum to Fibonacci
+\* The indicated diagonals of Pascal's triangle sum to Fibonacci
 numbers. Prove this patterns continues forever.
 
 <figure id="fig:my_figure" data-latex-placement="htbp">

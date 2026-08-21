@@ -9,7 +9,7 @@ format:
 
 # Week 13 Homework
 
-In order to receive full credit problems and solutions must be clearly written and presented neatly.  In writing up your solution, you should state the problem as explaining the solution.  Merely giving answers to exercises will is not enough to receive credit.  Your write up must show work and convince me that you understand the material.  If you need additional time to complete this assignment, please email me.  Starred ($\bigstar$) proof problems are eligible for inclusion in the proof portfolio assignment.
+In order to receive full credit problems and solutions must be clearly written and presented neatly.  In writing up your solution, you should state the problem as explaining the solution.  Merely giving answers to exercises will is not enough to receive credit.  Your write up must show work and convince me that you understand the material.  If you need additional time to complete this assignment, please email me.  Starred (\*) proof problems are eligible for inclusion in the proof portfolio assignment.
 
 ## Exercises
 
@@ -86,23 +86,23 @@ $$\frac{\binom{2n}{2}\binom{2n-2}{2}\binom{2n-4}{2}\cdots\binom{2}{2}}{n!}=\frac
 
 
 ### Proof
-$\bigstar$ Prove
+\* Prove
 $$\frac{\binom{m\cdot n}{n}\binom{(m-1)n}{n}\binom{(m-2)n}{n}\cdots\binom{n}{n}}{m!}=\frac{(m\cdot n)!}{(n!)^m \cdot m!}$$
 
 
 ### Proof
-$\bigstar$ Let $s(n,k)$ denote the signless Stirling numbers of the
+\* Let $s(n,k)$ denote the signless Stirling numbers of the
 first kind. Use the recursive formula $s(n,k)=s(n-1,k-1)+(n-1)s(n-1,k)$
 to find a formula for $s(n,n-2)$ and prove it.
 
 
 ### Proof
-$\bigstar$ Suppose $G$ is a graph with $n$ vertices, each of which has
+\* Suppose $G$ is a graph with $n$ vertices, each of which has
 degree $d \ge (n-1)/2$. Prove that $G$ contains a Hamiltonian path.
 Hint: Add an extra vertex to $G$ and connect it to all the other
 vertices. What does Dirac's Theorem say about this new graph.)
 
 
 ### Proof
-$\bigstar$ Prove $\sum^n_{r=0}\binom{n}{r}2^{2n-2r}=5^n$
+\* Prove $\sum^n_{r=0}\binom{n}{r}2^{2n-2r}=5^n$
 

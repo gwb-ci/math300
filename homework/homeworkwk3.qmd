@@ -8,7 +8,7 @@ format:
 
 # Week 3 Homework
 
-In order to receive full credit problems and solutions must be clearly written and presented neatly.  In writing up your solution, you should state the problem as explaining the solution.  Merely giving answers to exercises will is not enough to receive credit.  Your write up must show work and convince me that you understand the material.  If you need additional time to complete this assignment, please email me.  Starred ($\bigstar$) proof problems are eligible for inclusion in the proof portfolio assignment.
+In order to receive full credit problems and solutions must be clearly written and presented neatly.  In writing up your solution, you should state the problem as explaining the solution.  Merely giving answers to exercises will is not enough to receive credit.  Your write up must show work and convince me that you understand the material.  If you need additional time to complete this assignment, please email me.  Starred (\*) proof problems are eligible for inclusion in the proof portfolio assignment.
 
 ## Exercises
 
@@ -146,17 +146,17 @@ $$
 
 
 ### Proof
-$\bigstar$ Use induction to prove that the $n^{th}$ derivative of
+\* Use induction to prove that the $n^{th}$ derivative of
 $\ln x$ is $$f^{(n)}(x)=\frac{(-1)^{n+1}(n-1)!}{x^n}$$
 
 
 ### Proof
-$\bigstar$ Use induction to prove that the $n^{th}$ derivative of
+\* Use induction to prove that the $n^{th}$ derivative of
 $x e^{-x}$ is $$f^{(n)}(x)=(-1)^{n}e^{-x}(x-n)$$ for $n$ a positive
 integer.
 
 
 ### Proof
-$\bigstar$ Use induction to prove for $n \ge 1$:
+\* Use induction to prove for $n \ge 1$:
 $$1+\frac{1}{\sqrt{2}}+\frac{1}{\sqrt{3}}+ \cdots +\frac{1}{\sqrt{n}}> 2(\sqrt{n+1}-1)$$
 

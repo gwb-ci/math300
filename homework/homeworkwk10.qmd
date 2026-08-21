@@ -8,7 +8,7 @@ format:
 
 # Week 10 Homework
 
-In order to receive full credit problems and solutions must be clearly written and presented neatly.  In writing up your solution, you should state the problem as explaining the solution.  Merely giving answers to exercises will is not enough to receive credit.  Your write up must show work and convince me that you understand the material.  If you need additional time to complete this assignment, please email me.  Starred ($\bigstar$) proof problems are eligible for inclusion in the proof portfolio assignment.
+In order to receive full credit problems and solutions must be clearly written and presented neatly.  In writing up your solution, you should state the problem as explaining the solution.  Merely giving answers to exercises will is not enough to receive credit.  Your write up must show work and convince me that you understand the material.  If you need additional time to complete this assignment, please email me.  Starred (\*) proof problems are eligible for inclusion in the proof portfolio assignment.
 
 ## Exercises
 
@@ -67,24 +67,24 @@ vertices in tree.
 
 
 ### Proof
-$\bigstar$ Let $v$ and $w$ be distinct vertices in the complete graph
+\* Let $v$ and $w$ be distinct vertices in the complete graph
 $K_n$ for $n \ge 2$. Prove the number of paths from $v$ to $w$ is
 $$(n-2)!\sum^{n-2}_{k=0}\frac{1}{k!}$$
 
 
 ### Proof
-$\bigstar$ Prove that a vertex $v$ in a connected graph $G$ is an
+\* Prove that a vertex $v$ in a connected graph $G$ is an
 articulation point if and only if there are vertices $w$ and $x$ in $G$
 having the property that every path from $w$ to $x$ passes through $v$.
 
 
 ### Proof
-$\bigstar$ Prove that in any simple graph with more than one vertex,
+\* Prove that in any simple graph with more than one vertex,
 there must be two vertices with the same degree. (Hint: Try
 contradiction.)
 
 
 ### Proof
-$\bigstar$ Prove the number of vertices of degree 1 in an tree must be
+\* Prove the number of vertices of degree 1 in an tree must be
 greater than or equal to the maximum degree in the tree.
 
