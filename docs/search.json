@@ -1,68 +1,22 @@
 [
   {
-    "objectID": "homework/homeworkwk14.html",
-    "href": "homework/homeworkwk14.html",
-    "title": "Week 14 Homework",
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Math 300 - Discrete Mathematics",
     "section": "",
-    "text": "In order to receive full credit problems and solutions must be clearly written and presented neatly. In writing up your solution, you should state the problem as explaining the solution. Merely giving answers to exercises will is not enough to receive credit. Your write up must show work and convince me that you understand the material. If you need additional time to complete this assignment, please email me. Starred (\\(\\bigstar\\)) proof problems are eligible for inclusion in the proof portfolio assignment.\nFollowing Section 2.3 of Discrete Mathematics, an Open Introduction.Let \\(\\{a_n\\}\\) be a sequence of real numbers. The \\(k^{th}\\) forward difference of this sequence are defined recursively:\nThe first forward difference \\(\\Delta a_n\\) is an new sequence defined by:\\(\\Delta a_n=a_{n+1}-a_{n}\\).\nThe \\(k\\)th forward difference \\(\\Delta^{k} a_n\\) is \\(\\Delta^{k} a_n=\\Delta^{k-1} a_{n+1}- \\Delta^{k-1}a_{n}\\). So if the sequence for \\(a_n\\) is \\(1,3,5,7,9, \\ldots\\) then \\(\\Delta a_n\\) is \\(3-1,5-3,7-5,9-7, \\ldots= 2,2,2,2,2, \\ldots\\).\n\n\n\n\nFind \\(\\Delta\\) and \\(\\Delta^2\\) for the following sequences :\n\n\\(2, 4, 6, 8, 10, 12, 14, \\ldots\\)\n\\(1, 4, 9, 16, 25, 36, 49, \\ldots\\)\n\n\n\n\nMake up sequences that have:\n\n3, 3, 3, 3, … as its second differences.\n1, 2, 3, 4, 5, … as its third differences.\n1, 2, 4, 8, 16, … as its fifth differences.\n\n\n\n\nFind the closed form solution to the sequence using the using the polynomial fitting method for the sequence \\(0, 3, 8, 15, 24, 35, 48, 63, 80,\\ldots\\) which has the recurrence \\(a_n = a_{n-1} + 2n+1\\) with \\(a_0=0\\).\n\n\n\nFind the closed form solution to the sequence using the using the polynomial fitting method for the sequence \\(1, 4, 10, 20, 35, 56, 84,\\ldots\\) which has the recurrence \\(a_n = 4a_{n-1} - 6a_{n-2} + 4a_{n-3} - a_{n-4}\\) with \\(a_1=1, a_2=4, a_3=10\\) and \\(a_4=20\\). This also happens to the be the sequence given by summing up the triangular numbers. That is, \\(a_n=\\sum_{i=1}^n T_n\\).\n\n\n\nCalculate \\(\\Delta \\binom{n}{4}\\). Use this to rewrite \\(\\Delta \\binom{n}{k}\\) as a binomial coefficient.\n\n\n\n\n\n\nProve \\(\\Delta (\\Delta^i a_n)=\\Delta^{i+1} a_n\\).\n\n\n\nLet \\(b_n=n^3\\). Prove \\(\\Delta^2 b_n=6n+6\\).\n\n\n\n\\(\\bigstar\\) Let \\(b_n=n^k\\). Prove \\(\\Delta b_n=\\sum_{i=0}^{k-1}\\binom{k}{i}n^{i}\\)\n\n\n\n\\(\\bigstar\\) Let \\(a_n=\\alpha^n\\) for \\(n \\ge 0\\) and \\(\\alpha\\) a real number. Prove \\(\\Delta^k a_n=(\\frac{\\alpha-1}{\\alpha})^k a_n\\) for all \\(k \\ge 0\\).\n\n\n\n\\(\\bigstar\\) Let \\(a_n\\) and \\(b_n\\) be sequences. Prove \\(\\Delta (a_n\\cdot b_n)=a_{n+1}\\Delta b_n + b_{n}\\Delta a_n\\).",
+    "text": "Welcome to Math 300!\nDiscrete math is a fun departure from the calculus series, free from concerns about continuity and the real numbers. We get our first chance to explore abstract structures and a first introduction to proofs in this course. Discrete math ultimately boils down to counting, something that is tangible, comfortable, and sometimes even comforting.\nThis website contains the syllabus, homework, lecture slides and activities in an widely accessible format. There are additional resources available on CI Learn, including the course schedule, announcements, and grades. Please check CI Learn regularly for updates.",
     "crumbs": [
-      "Homework",
-      "Week 14 Homework"
+      "Home"
     ]
   },
   {
-    "objectID": "homework/homeworkwk14.html#exercises",
-    "href": "homework/homeworkwk14.html#exercises",
-    "title": "Week 14 Homework",
+    "objectID": "index.html#welcome",
+    "href": "index.html#welcome",
+    "title": "Math 300 - Discrete Mathematics",
     "section": "",
-    "text": "Find \\(\\Delta\\) and \\(\\Delta^2\\) for the following sequences :\n\n\\(2, 4, 6, 8, 10, 12, 14, \\ldots\\)\n\\(1, 4, 9, 16, 25, 36, 49, \\ldots\\)\n\n\n\n\nMake up sequences that have:\n\n3, 3, 3, 3, … as its second differences.\n1, 2, 3, 4, 5, … as its third differences.\n1, 2, 4, 8, 16, … as its fifth differences.\n\n\n\n\nFind the closed form solution to the sequence using the using the polynomial fitting method for the sequence \\(0, 3, 8, 15, 24, 35, 48, 63, 80,\\ldots\\) which has the recurrence \\(a_n = a_{n-1} + 2n+1\\) with \\(a_0=0\\).\n\n\n\nFind the closed form solution to the sequence using the using the polynomial fitting method for the sequence \\(1, 4, 10, 20, 35, 56, 84,\\ldots\\) which has the recurrence \\(a_n = 4a_{n-1} - 6a_{n-2} + 4a_{n-3} - a_{n-4}\\) with \\(a_1=1, a_2=4, a_3=10\\) and \\(a_4=20\\). This also happens to the be the sequence given by summing up the triangular numbers. That is, \\(a_n=\\sum_{i=1}^n T_n\\).\n\n\n\nCalculate \\(\\Delta \\binom{n}{4}\\). Use this to rewrite \\(\\Delta \\binom{n}{k}\\) as a binomial coefficient.",
+    "text": "Welcome to Math 300!\nDiscrete math is a fun departure from the calculus series, free from concerns about continuity and the real numbers. We get our first chance to explore abstract structures and a first introduction to proofs in this course. Discrete math ultimately boils down to counting, something that is tangible, comfortable, and sometimes even comforting.\nThis website contains the syllabus, homework, lecture slides and activities in an widely accessible format. There are additional resources available on CI Learn, including the course schedule, announcements, and grades. Please check CI Learn regularly for updates.",
     "crumbs": [
-      "Homework",
-      "Week 14 Homework"
-    ]
-  },
-  {
-    "objectID": "homework/homeworkwk14.html#proofs",
-    "href": "homework/homeworkwk14.html#proofs",
-    "title": "Week 14 Homework",
-    "section": "",
-    "text": "Prove \\(\\Delta (\\Delta^i a_n)=\\Delta^{i+1} a_n\\).\n\n\n\nLet \\(b_n=n^3\\). Prove \\(\\Delta^2 b_n=6n+6\\).\n\n\n\n\\(\\bigstar\\) Let \\(b_n=n^k\\). Prove \\(\\Delta b_n=\\sum_{i=0}^{k-1}\\binom{k}{i}n^{i}\\)\n\n\n\n\\(\\bigstar\\) Let \\(a_n=\\alpha^n\\) for \\(n \\ge 0\\) and \\(\\alpha\\) a real number. Prove \\(\\Delta^k a_n=(\\frac{\\alpha-1}{\\alpha})^k a_n\\) for all \\(k \\ge 0\\).\n\n\n\n\\(\\bigstar\\) Let \\(a_n\\) and \\(b_n\\) be sequences. Prove \\(\\Delta (a_n\\cdot b_n)=a_{n+1}\\Delta b_n + b_{n}\\Delta a_n\\).",
-    "crumbs": [
-      "Homework",
-      "Week 14 Homework"
-    ]
-  },
-  {
-    "objectID": "homework/homeworkwk11.html",
-    "href": "homework/homeworkwk11.html",
-    "title": "Week 11 Homework",
-    "section": "",
-    "text": "In order to receive full credit problems and solutions must be clearly written and presented neatly. In writing up your solution, you should state the problem as explaining the solution. Merely giving answers to exercises will is not enough to receive credit. Your write up must show work and convince me that you understand the material. If you need additional time to complete this assignment, please email me. Starred (\\(\\bigstar\\)) proof problems are eligible for inclusion in the proof portfolio assignment.\n\n\n\n\nFrom the text, Exercise 3.6.\n\n\n\nFrom the text, Exercise 3.8.\n\n\n\nFrom the text, Exercise 3.9.\n\n\n\nLet \\(G\\) be a connected 3-regular planar graph on 8 vertices. How many regions does \\(G\\) have? Give an example of a 3-regular connected graph on 8 vertices that is not planar or explain why it must be planar.\n\n\n\nFor the following degree sequences (list of the degrees of the vertices in a graph) determine if there exists a bipartite simple graph with these degrees. If yes construct it, if not explain why it does not exist.\na. (6, 6, 4, 4, 4, 4, 4, 4, 2, 2, 2)\nb. (4, 4, 4, 4, 4, 3, 3, 2, 2)\nc. (5, 5, 5, 5, 5, 5, 4, 4, 4)\n\n\n\nWhat is the smallest number of colors that can be used to color the vertices of a cube so that no two adjacent vertices are colored identically?\n\n\n\nEuler’s formula \\(v-e+f=2\\) holds for all connected simple planar graphs. What if a graph is not connected? Suppose a planar graph has two components. What is the value of v-e+f now? What if it has \\(k\\) components?\n\n\n\n\n\n\nProve the chromatic number of any tree is two. Recall, a tree is a connected simple graph with no cycles.\n\n\n\nProve that if each component of a simple graph is bipartite, then the entire graph is bipartite.’\n\n\n\nLet \\(G\\) be a connected simple graph on \\(n\\) vertices. Prove that if \\(n \\ge 11\\) then either \\(G\\) or the complement of \\(G\\) is not planar.\n\n\n\nProve that if a simple connected planar graph has \\(e\\) edges and \\(v\\) vertices with \\(v \\ge 3\\) and no cycles of length 3 then \\(e \\le 2v-4\\).\n\n\n\nProve Euler’s formula using induction on the number of edges in the graph.\n\n\n\nProve \\(G\\) is regular if and only if it’s complement is regular.\n\n\n\n\\(\\bigstar\\) Prove that any simple connected planar graph must have a vertex of degree 5 or less.\n\n\n\n\\(\\bigstar\\) Prove that a simple graph with 17 vertices and 73 edges cannot be bipartite. (Hint: Break the graph up into two vertex sets and count the number of edges within each vertex set.)\n\n\n\n\\(\\bigstar\\) Prove Dirac’s Theorem: If \\(G\\) is a simple graph with \\(p\\) vertices, each vertex having degree \\(\\ge \\frac{1}{2}p\\), then \\(G\\) is hamiltonian. Hint: Suppose \\(G\\) is not hamiltonian but adding any one edge will make \\(G\\) hamiltonian, so \\(G\\) has a path \\(v_1 \\rightarrow v_2 \\rightarrow \\cdots \\rightarrow v_p\\) containing all the vertices of \\(G\\). Show there must be a vertex adjacent to both \\(v_1\\) and \\(v_p\\), and use this to create a hamiltonian cycle.\n\n\n\n\\(\\bigstar\\) Let \\(G\\) be a graph (not necessarily connected as in a problem above) on \\(n\\) vertices. Prove that if \\(n \\ge 11\\) then either \\(G\\) or the complement of \\(G\\) is not planar.",
-    "crumbs": [
-      "Homework",
-      "Week 11 Homework"
-    ]
-  },
-  {
-    "objectID": "homework/homeworkwk11.html#exercises",
-    "href": "homework/homeworkwk11.html#exercises",
-    "title": "Week 11 Homework",
-    "section": "",
-    "text": "From the text, Exercise 3.6.\n\n\n\nFrom the text, Exercise 3.8.\n\n\n\nFrom the text, Exercise 3.9.\n\n\n\nLet \\(G\\) be a connected 3-regular planar graph on 8 vertices. How many regions does \\(G\\) have? Give an example of a 3-regular connected graph on 8 vertices that is not planar or explain why it must be planar.\n\n\n\nFor the following degree sequences (list of the degrees of the vertices in a graph) determine if there exists a bipartite simple graph with these degrees. If yes construct it, if not explain why it does not exist.\na. (6, 6, 4, 4, 4, 4, 4, 4, 2, 2, 2)\nb. (4, 4, 4, 4, 4, 3, 3, 2, 2)\nc. (5, 5, 5, 5, 5, 5, 4, 4, 4)\n\n\n\nWhat is the smallest number of colors that can be used to color the vertices of a cube so that no two adjacent vertices are colored identically?\n\n\n\nEuler’s formula \\(v-e+f=2\\) holds for all connected simple planar graphs. What if a graph is not connected? Suppose a planar graph has two components. What is the value of v-e+f now? What if it has \\(k\\) components?",
-    "crumbs": [
-      "Homework",
-      "Week 11 Homework"
-    ]
-  },
-  {
-    "objectID": "homework/homeworkwk11.html#proofs",
-    "href": "homework/homeworkwk11.html#proofs",
-    "title": "Week 11 Homework",
-    "section": "",
-    "text": "Prove the chromatic number of any tree is two. Recall, a tree is a connected simple graph with no cycles.\n\n\n\nProve that if each component of a simple graph is bipartite, then the entire graph is bipartite.’\n\n\n\nLet \\(G\\) be a connected simple graph on \\(n\\) vertices. Prove that if \\(n \\ge 11\\) then either \\(G\\) or the complement of \\(G\\) is not planar.\n\n\n\nProve that if a simple connected planar graph has \\(e\\) edges and \\(v\\) vertices with \\(v \\ge 3\\) and no cycles of length 3 then \\(e \\le 2v-4\\).\n\n\n\nProve Euler’s formula using induction on the number of edges in the graph.\n\n\n\nProve \\(G\\) is regular if and only if it’s complement is regular.\n\n\n\n\\(\\bigstar\\) Prove that any simple connected planar graph must have a vertex of degree 5 or less.\n\n\n\n\\(\\bigstar\\) Prove that a simple graph with 17 vertices and 73 edges cannot be bipartite. (Hint: Break the graph up into two vertex sets and count the number of edges within each vertex set.)\n\n\n\n\\(\\bigstar\\) Prove Dirac’s Theorem: If \\(G\\) is a simple graph with \\(p\\) vertices, each vertex having degree \\(\\ge \\frac{1}{2}p\\), then \\(G\\) is hamiltonian. Hint: Suppose \\(G\\) is not hamiltonian but adding any one edge will make \\(G\\) hamiltonian, so \\(G\\) has a path \\(v_1 \\rightarrow v_2 \\rightarrow \\cdots \\rightarrow v_p\\) containing all the vertices of \\(G\\). Show there must be a vertex adjacent to both \\(v_1\\) and \\(v_p\\), and use this to create a hamiltonian cycle.\n\n\n\n\\(\\bigstar\\) Let \\(G\\) be a graph (not necessarily connected as in a problem above) on \\(n\\) vertices. Prove that if \\(n \\ge 11\\) then either \\(G\\) or the complement of \\(G\\) is not planar.",
-    "crumbs": [
-      "Homework",
-      "Week 11 Homework"
+      "Home"
     ]
   },
   {
@@ -96,39 +50,6 @@
     "crumbs": [
       "Homework",
       "Week 8 Homework"
-    ]
-  },
-  {
-    "objectID": "homework/homeworkwk13.html",
-    "href": "homework/homeworkwk13.html",
-    "title": "Week 13 Homework",
-    "section": "",
-    "text": "In order to receive full credit problems and solutions must be clearly written and presented neatly. In writing up your solution, you should state the problem as explaining the solution. Merely giving answers to exercises will is not enough to receive credit. Your write up must show work and convince me that you understand the material. If you need additional time to complete this assignment, please email me. Starred (\\(\\bigstar\\)) proof problems are eligible for inclusion in the proof portfolio assignment.\n\n\n\n\nFind out what the Chinese Postman Problem is. Describe it, and give examples. What does the Chinese Postman Problem have to do with Ribonucleic acid (RNA)?\n\n\n\nShow that if you delete any vertex and it’s incident edges from the Petersen graph then the resulting graph is Hamiltonian.\n\n\n\nFrom the text, Exercise 4.3.\n\n\n\nFrom the text, Exercise 4.4.\n\n\n\nA Hamiltonian path is a path that begins and ends at different vertices but visits each vertex of a graph exactly once. If a graph has a Hamiltonian cycle, must it have a Hamiltonian path? Explain why or why not. If a graph has a Hamiltonian path must it have a Hamiltonian cycle? Explain why or why not.\n\n\n\nWhat are the Worpitzsky numbers? What do they count? What is the recursive formula for these numbers? Give an example of something they can be used to count.\n\n\n\nFrom the text, Exercise 5.4.\n\n\n\nFind the coefficient of \\(x\\), \\(x^2\\), \\(x^3\\), and \\(x^4\\) in the Taylor expansion of \\[\\frac{1}{(1-x)}\\frac{1}{(1-x^2)}\\frac{1}{(1-x^3)}\\cdots\\] and compare to \\(p(1)\\), \\(p(2)\\), \\(p(3)\\), \\(p(4)\\). Do you want to make a conjecture? (Hint: find the taylor expansion, by multiplying together each of the fractions Taylor expansion).\n\n\n\nFind the definition of Stirling numbers of the first kind. What recursion relationship do these numbers satisfy? Give examples of the permutations counted by \\(s(5,2)\\) and \\(s(6,3)\\), where \\(s(n,k)\\) is a Stirling number of the first kind.\n\n\n\n\n\n\nLet \\(s(n,k)\\) denote the signless Stirling numbers of the first kind. Using the recursive formulat \\(s(n,k)=s(n-1,k-1)+(n-1)s(n-1,k)\\), prove that \\[s(n,n-1)=\\binom{n}{2}\\].\n\n\n\nLet \\(s(n,k)\\) denote the signless Stirling numbers of the first kind. Using the recursive formulat \\(s(n,k)=s(n-1,k-1)+(n-1)s(n-1,k)\\), prove that \\[s(n,2)=(n-1)!\\left( 1 + \\frac{1}{2} + \\frac{1}{3} + \\cdots + \\frac{1}{n-1} \\right).\\]\n\n\n\nProve \\[\\frac{\\binom{2n}{2}\\binom{2n-2}{2}\\binom{2n-4}{2}\\cdots\\binom{2}{2}}{n!}=\\frac{(2n)!}{2^n \\cdot n!}\\]\n\n\n\n\\(\\bigstar\\) Prove \\[\\frac{\\binom{m\\cdot n}{n}\\binom{(m-1)n}{n}\\binom{(m-2)n}{n}\\cdots\\binom{n}{n}}{m!}=\\frac{(m\\cdot n)!}{(n!)^m \\cdot m!}\\]\n\n\n\n\\(\\bigstar\\) Let \\(s(n,k)\\) denote the signless Stirling numbers of the first kind. Use the recursive formula \\(s(n,k)=s(n-1,k-1)+(n-1)s(n-1,k)\\) to find a formula for \\(s(n,n-2)\\) and prove it.\n\n\n\n\\(\\bigstar\\) Suppose \\(G\\) is a graph with \\(n\\) vertices, each of which has degree \\(d \\ge (n-1)/2\\). Prove that \\(G\\) contains a Hamiltonian path. Hint: Add an extra vertex to \\(G\\) and connect it to all the other vertices. What does Dirac’s Theorem say about this new graph.)\n\n\n\n\\(\\bigstar\\) Prove \\(\\sum^n_{r=0}\\binom{n}{r}2^{2n-2r}=5^n\\)",
-    "crumbs": [
-      "Homework",
-      "Week 13 Homework"
-    ]
-  },
-  {
-    "objectID": "homework/homeworkwk13.html#exercises",
-    "href": "homework/homeworkwk13.html#exercises",
-    "title": "Week 13 Homework",
-    "section": "",
-    "text": "Find out what the Chinese Postman Problem is. Describe it, and give examples. What does the Chinese Postman Problem have to do with Ribonucleic acid (RNA)?\n\n\n\nShow that if you delete any vertex and it’s incident edges from the Petersen graph then the resulting graph is Hamiltonian.\n\n\n\nFrom the text, Exercise 4.3.\n\n\n\nFrom the text, Exercise 4.4.\n\n\n\nA Hamiltonian path is a path that begins and ends at different vertices but visits each vertex of a graph exactly once. If a graph has a Hamiltonian cycle, must it have a Hamiltonian path? Explain why or why not. If a graph has a Hamiltonian path must it have a Hamiltonian cycle? Explain why or why not.\n\n\n\nWhat are the Worpitzsky numbers? What do they count? What is the recursive formula for these numbers? Give an example of something they can be used to count.\n\n\n\nFrom the text, Exercise 5.4.\n\n\n\nFind the coefficient of \\(x\\), \\(x^2\\), \\(x^3\\), and \\(x^4\\) in the Taylor expansion of \\[\\frac{1}{(1-x)}\\frac{1}{(1-x^2)}\\frac{1}{(1-x^3)}\\cdots\\] and compare to \\(p(1)\\), \\(p(2)\\), \\(p(3)\\), \\(p(4)\\). Do you want to make a conjecture? (Hint: find the taylor expansion, by multiplying together each of the fractions Taylor expansion).\n\n\n\nFind the definition of Stirling numbers of the first kind. What recursion relationship do these numbers satisfy? Give examples of the permutations counted by \\(s(5,2)\\) and \\(s(6,3)\\), where \\(s(n,k)\\) is a Stirling number of the first kind.",
-    "crumbs": [
-      "Homework",
-      "Week 13 Homework"
-    ]
-  },
-  {
-    "objectID": "homework/homeworkwk13.html#proofs",
-    "href": "homework/homeworkwk13.html#proofs",
-    "title": "Week 13 Homework",
-    "section": "",
-    "text": "Let \\(s(n,k)\\) denote the signless Stirling numbers of the first kind. Using the recursive formulat \\(s(n,k)=s(n-1,k-1)+(n-1)s(n-1,k)\\), prove that \\[s(n,n-1)=\\binom{n}{2}\\].\n\n\n\nLet \\(s(n,k)\\) denote the signless Stirling numbers of the first kind. Using the recursive formulat \\(s(n,k)=s(n-1,k-1)+(n-1)s(n-1,k)\\), prove that \\[s(n,2)=(n-1)!\\left( 1 + \\frac{1}{2} + \\frac{1}{3} + \\cdots + \\frac{1}{n-1} \\right).\\]\n\n\n\nProve \\[\\frac{\\binom{2n}{2}\\binom{2n-2}{2}\\binom{2n-4}{2}\\cdots\\binom{2}{2}}{n!}=\\frac{(2n)!}{2^n \\cdot n!}\\]\n\n\n\n\\(\\bigstar\\) Prove \\[\\frac{\\binom{m\\cdot n}{n}\\binom{(m-1)n}{n}\\binom{(m-2)n}{n}\\cdots\\binom{n}{n}}{m!}=\\frac{(m\\cdot n)!}{(n!)^m \\cdot m!}\\]\n\n\n\n\\(\\bigstar\\) Let \\(s(n,k)\\) denote the signless Stirling numbers of the first kind. Use the recursive formula \\(s(n,k)=s(n-1,k-1)+(n-1)s(n-1,k)\\) to find a formula for \\(s(n,n-2)\\) and prove it.\n\n\n\n\\(\\bigstar\\) Suppose \\(G\\) is a graph with \\(n\\) vertices, each of which has degree \\(d \\ge (n-1)/2\\). Prove that \\(G\\) contains a Hamiltonian path. Hint: Add an extra vertex to \\(G\\) and connect it to all the other vertices. What does Dirac’s Theorem say about this new graph.)\n\n\n\n\\(\\bigstar\\) Prove \\(\\sum^n_{r=0}\\binom{n}{r}2^{2n-2r}=5^n\\)",
-    "crumbs": [
-      "Homework",
-      "Week 13 Homework"
     ]
   },
   {
@@ -198,146 +119,103 @@
     ]
   },
   {
-    "objectID": "syllabus/syllabus.html",
-    "href": "syllabus/syllabus.html",
-    "title": "Math 300 Syllabus",
+    "objectID": "homework/homeworkwk15.html",
+    "href": "homework/homeworkwk15.html",
+    "title": "Week 15 Homework",
     "section": "",
-    "text": "Professor contact information is available on CI Learn as an announcement.\nCourse meetings: Monday and Wednesday, 12:00pm–1:15am\nCourse textbook: A First Course in Discrete Mathematics, Ian Anderson\nCourse website: CI Learn\n\n\n\n\nDiscrete math is a fun departure from the calculus series, free from concerns about continuity and the real numbers. We get our first chance to explore abstract structures and a first introduction to proofs in this course. Discrete math ultimately boils down to counting, something that is tangible, comfortable, and sometimes even comforting.\n\n\n\nPrerequisite: MATH 230\nTopics include: Sets, algebraic systems, axioms, definitions, propositions, and proofs. Combinatorics, graph theory, moduli calculus. Coding, coding errors, and Hammang codes. Students are expected to write mathematical proofs, and communicate mathematical ideas clearly in written and oral form.\n\n\n\nThe best way to get in touch with me is in-person or by email. In general, if you have any difficulties with the material, schedule, or anything else, get in touch with me. I’m here to help, and it’s much easier to help if you are proactive. If my office hours don’t work for you, email me and we can work out a time to me in-person or via Zoom.\n\n\n\n\nApply the principles of logic in a formal language.\nDiscuss the theory and use of sets.\nCompute the number of ways complicated tasks can be performed,\nIncorporate applied problems into graph theoretic framework and using this interpretation to solve them.\nExpress quantitative ideas in oral and written form.\n\n\n\n\nThis is a 3 credit hour course, which means that students should be prepared to spend 9 hours a week on work related to this class outside of class. Spending time throughout the week working on homework is critical for a successful learning experience.\n\n\n\n\n\n\nComponent\nPoints\n\n\n\n\nHomework\n214\n\n\nMidterm 1\n80\n\n\nMidterm 2\n80\n\n\nProof Portfolio\n60\n\n\nFinal Exam\n100\n\n\nTotal\n534\n\n\n\n\n\n\nPercent\nGrade\n\n\n\n\n100-90\nA\n\n\n89-80\nB\n\n\n79-70\nC\n\n\n69-60\nD\n\n\n59-0\nF\n\n\n\nI will assign + and - grades in this course at my discretion. The grade book on CILearn will be used to record and track your scores. There will be a few small opportunities for extra credit.\nHomework is due by 11:59pm on the Friday due date. Late homework will have the total score reduced by 2.5% for each day that the homework is late up for to 20 days. Homework that is over 20 day late will not be graded. Submit your assignments as PDFs or JPEGs through CI Learn. Please take care to write up your work clearly and to submit PDFs that are easy to read. Many students successfully use CamScanner or Adobe Scan apps for their phones to create PDFs to upload. There are nine homework scores the lowest score will be dropped.\n\n\n\nIf you have special educational opportunities, like traveling for a conference, going to Santa Rosa Island, participating in an academic competition that would cause you to miss class, I strongly encourage you to take part in these special opportunities. Please let me know in advance, and we can work together on a plan to address any missed learning.\n\n\n\nWorking in groups on the homework assignment is strongly encouraged. However each person should individually write up their solutions, relying only on their notes about the problem. On each homework assignment, please indicate which students you worked with. An important part of mathematical culture and work is acknowledging the people that helped you understand and solve a problem.\n\n\n\nOffice hours is a time when you can come to my office and ask me questions about course material. Students who make use of office hours tend to do better in college courses. You are encouraged to make early and regular use of campus tutors in the LRC. For campus tutoring locations, subjects and hours, use this link.\n\n\n\n\n\n\nDuring Week 3 of classes of each semester, you are asked to update your information in the degree planner. The degree planner is a useful tool to help you stay on track toward achieving your goal of graduation. Students can learn how to update the degree planner using information provided here.\n\n\n\nWildfires and COVID are example of big disruptions that affect us all. There are smaller ones, like the class I wasn’t able to teach because my second child was being born or when students have to help their family members.  Events big and small can affect our ability to be in class, but the goal to make sure learning keeps happening.\nSo, yes disruptions big and small happen! A disruption means you, me, or all of us cannot participate in ‘class as usual’ for a reason we could not predict at the beginning of the semester.  After COVID-19, we are well aware that disruption can happen fast. While we hope to avoid any closures due to COVID related reasons, let’s face it, disruption happens every semester. You may get sick, I may get sick, or campus may close due to a wildfire - this is California after all. Life happens!  Our goal as a learning community is to do our best to keep teaching and learning with as little interruption as possible. This page explains what you can expect from me and what I expect from you when facing disruption - small or big! \nIf I am out: If for whatever reason I am unable to be on campus, I will move lectures to a zoom format, which will be communicated by the announcement in this course.  I will record these lecture and post them as well.\nIf you are out: Be proactive and communicate!  I will always work with you to figure out how to help you keep learning!  I have old lectures and notes that are recorded that I can share, if that is what is needed.  If you just need a little extra time to get something done, let me know, I will always grant you a few more days on assignments.\nIf campus closes: If all of campus closes, which has happened at least once over the last three or more academic years,  we will move to Zoom classes which I will also record and post in the pages for each class.  I will communicate changes to the course schedule or other changes by using announcements in CILearn. More details can be found on the “Disruption Plan” page for this course on CI Learn.\n\n\n\nThe California Faculty Association (the union that represents all CSU faculty, including lecturer faculty, tenure-line faculty, coaches, counselors, and librarians) is in the midst of a difficult contract dispute with the CSU system-wide administration. In response to the CSU management’s stance, it is possible that the faculty union will call a strike or other work stoppage this term. I promise to inform the class as soon as possible of any disruption to our class meeting schedule.\n\n\n\nIf you are a student with a disability requesting reasonable accommodations in this course, please visit Disability Accommodations and Support Services (DASS) located on the second floor of Arroyo Hall, or call 805-437-3331. All requests for reasonable accommodations require registration with DASS in advance of need. You can apply for DASS services here. Faculty, students and DASS will work together regarding classroom accommodations. You are encouraged to discuss approved accommodations with your faculty.\n\n\n\nAll students, staff and faculty on our campus are expected to join in making our campus a safe space for communication and civil discourse. If you are experiencing discomfort related to the language you are hearing or seeing on campus (in or out of classes), please talk with a trusted faculty or staff member. Similarly, please consider whether the language that you are using (in person or on Canvas) respects the rights of others to engage in informed discourse and express a diversity of opinions freely and in a civil manner (language from Academic Senate Resolution SR 16-01, Commitment to Equity, Inclusion, and Civil Discourse within our Diverse Campus Community).\n\n\n\nIf you face challenges securing food, housing, or other basic needs, you are not alone, and CSUCI wants to help during this time of crisis. One helpful resource is the community of staff available through the Basic Needs Program (BNP) located on the first floor of Arroyo Hall, Room 114. Students can call 805-437-2067, email basicneeds@csuci.edu, or drop in during open hours and talk with a BNP student assistant or professional staff member for resources, ideas, and strategies connected to basic needs challenges. Students can complete a referral form to request services for themselves or others by going to www.csuci.edu/basicneeds. The BNP is known for the Dolphin Pantry located at Arroyo Hall 114, but there are other resources available and staff who can help you work through housing insecurity or displacement as well as financial insecurity. Undergraduate students living in California are especially encouraged to explore CalFresh (grocery money each month for eligible students) as a resource. Domestic undergraduate students living in California are likely to be eligible for CalFresh and BNP staff are skilled with helping students navigate this process.\n\n\n\nCAPS is pleased to provide a wide range of services to assist students in achieving their academic and personal goals. Services include confidential short-term counseling, crisis intervention, psychiatric consultation, and 24/7 phone counseling. CAPS is located in Bell Tower East, 1867 and can be reached at 805-437-2088 (select option 1 on voicemail for 24/7 phone counseling); you can also email us at caps@csuci.edu or visit our website at https://www.csuci.edu/caps.\n\n\n\nBy enrolling at CSU Channel Islands, students are responsible for upholding the University’s policies and the Student Conduct Code. Academic integrity and scholarship are values of the institution that ensure respect for the academic reputation of the University, students, faculty, and staff. Cheating, plagiarism, unauthorized collaboration with another student, knowingly furnishing false information to the University, buying, selling or stealing any material for an examination, or substituting for another person may be considered violations of the Student Conduct Code (located at http://www.csuci.edu/campuslife/student-conduct/academic-dishonesty.htm). If a student is found responsible for committing an act of academic dishonesty in this course, the student may receive academic penalties including a failing grade on an assignment or in the course, and a disciplinary referral will be made and submitted to the Dean of Students office. For additional information, please see the faculty Academic Senate Policy on Academic Dishonesty, also in the CI Catalog. Please ask about my expectations regarding academic dishonesty in this course if they are unclear.\nBasically what this boils down to is: the work that you submit for credit should be your own work and reflect your understanding of the course material. Group work, collaborations, and the free exchange of ideas are fundamental aspects of an academic environment. I encourage you all to talk and work with others in the class, as it will enhance your understanding of the material. You must write up your assignment individually and explain solutions in your own words. It is also important to cite resources you used in work, these may include other students, books, websites, and instructors.\nThere is a distinction between collaboration and copying. Collaboration is encouraged; copying solutions or assignments is not allowed. If I find copying of solutions on an assignment it will result in a score of 0 on that assignment. Multiple instances of academic dishonesty will be formally documented with the University.\nAcademic Honesty and Generative AI: I have begun to notice students submitting work generated by AI. This is copying. If I suspect AI has been used on an assignment, I will assign a score of 0, but you can present your work in office hours or by appointment to receive credit.\n\n\n\nInformation on this syllabus is subject to change. I will make such changes known in class and on CI Learn.\n\n\n\n\n\n\n\nWeek\nDate\nChapter\nNotes\n\n\n\n\n1\nAug 24\n\nCourse Introduction\n\n\n1\nAug 26\n\nInduction Proofs\n\n\n2\nAug 31\n1\nCounting Technques 1\n\n\n2\nSep 2\n1\nCounting Technques 2\n\n\n3\nSep 7\n1\nLabor Day - Campus Closed\n\n\n3\nSep 9\n1\nBinomial Coefficients\n\n\n4\nSep 14\n1\nDirect Proofs\n\n\n4\nSep 16\n1\nStars and Bars\n\n\n5\nSep 21\n2\nRecursion Relations 1\n\n\n5\nSep 23\n2\nRecursion Relations 2\n\n\n6\nSep 28\n2\nMidterm 1\n\n\n6\nSep 30\n2\nAuxiliary Equation\n\n\n7\nOct 5\n2\nGenerating Functions 1\n\n\n7\nOct 7\n2\nGenerating Functions 2\n\n\n8\nOct 12\n2\nNon-homogenous Relations\n\n\n8\nOct 14\n3\nIntroduction to Graphs\n\n\n9\nOct 19\n3\nAlgebraic Constraints and Trees\n\n\n9\nOct 21\n\nContradiction Proofs\n\n\n10\nOct 26\n3\nClassification of Trees\n\n\n10\nOct 28\n3\nPlanar and Bipartite Graphs 1\n\n\n11\nNov 2\n3\nPlanar and Bipartite Graphs 2\n\n\n11\nNov 4\n4\nGraph Tours 1\n\n\n12\nNov 9\n\nMidterm 2\n\n\n12\nNov 13\n\nVeterans Day - Campus Closed\n\n\n13\nNov 16\n4\nGraph Tours 2\n\n\n13\nNov 18\n5\nOccupancy Problems 1\n\n\n14\nNov 23\n5\nOccupancy Problems 2\n\n\n14\nNov 25\n5\nOccupancy Problems 3\n\n\n15\nNov 30\n6\nInclusion Exclusion 1\n\n\n15\nDec 2\n6\nInclusion Exclusion 2",
+    "text": "In order to receive full credit problems and solutions must be clearly written and presented neatly. In writing up your solution, you should state the problem as explaining the solution. Merely giving answers to exercises will is not enough to receive credit. Your write up must show work and convince me that you understand the material. If you need additional time to complete this assignment, please email me. Starred (\\(\\bigstar\\)) proof problems are eligible for inclusion in the proof portfolio assignment.\n\n\n\n\nIn this problem, boxes can be empty. How many ways are there to distribute 6 balls in to 3 boxes if\n\nboth the balls and boxes are labeled?\nballs are labeled, but the boxes are unlabeled?\nthe balls are unlabeled, but the boxes are labeled?\nboth the boxes and balls are unlabeled?\n\n\n\n\nIn this problem, boxes must be non-empty. How many ways are there to distribute 8 balls in to 4 boxes if\n\nboth the balls and boxes are labeled?\nballs are labeled, but the boxes are unlabeled?\nthe balls are unlabeled, but the boxes are labeled?\nboth the boxes and balls are unlabeled?\n\n\n\n\nHow many 8-bit strings begin with a 010 or begin with 11? How many 8-bit strings begin with a 010 or end with 11?\n\n\n\nFind the number of solutions to \\(x+y+z=100\\) in non-negative integer \\(x\\), \\(y\\), and \\(z\\), where \\(x \\le 50\\), \\(y \\le 40\\), and \\(z \\le 30\\).\n\n\n\nHow many permutations of the numbers 1 through 8 are there in which none of the terms 12, 34, 56, 78 appear?\n\n\n\nHow many permutations of the numbers 1 through 8 are there in which none of the even integers remain in its natural position?\n\n\n\nDo the enigma machine example from class where the number of rotors is 8, rather than 5.\n\n\n\nHow many permutations of 1,1,2,2,3,3,4,4,5,5 are there in which no two adjacent numbers are equal?\n\n\n\nSuppose you roll a 6 sided die 12 times. In how many ways can all 6 six numbers appear?\n\n\n\nHow many integers in the set of integers from 1 to 1000 are divisible by a prime number less than 10?\n\n\n\nA bridge hand consists of 13 cards from a standard 52 card deck. How many different hands contain at least on card from each of the four suits?\n\n\n\nLet \\(A=\\{1,2,3,4,5\\}\\). How many injective functions \\(f:A\\rightarrow A\\) have the property that for each \\(x\\) in \\(A\\), \\(f(x)\\ne x\\) ?\n\n\n\nSuppose you planned on giving 7 gold stars to some of the 13 star students in your class. Each student can receive at most one star. How many ways can you do this?\n\n\n\nWhat is the formula for the number of ways to place \\(n\\) unlabeled balls into \\(k\\) unlabeled boxes without the restriction that no box may be empty?\n\n\n\nHow many ways are there to place \\(n+k\\) stars on a \\(2 \\times n\\) (two rows, \\(n\\) columns) board with no columns having no stars? Here \\(k \\ge 0\\).\n\n\n\nWhat is the formula for the number of ways to place \\(n\\) labeled balls into \\(k\\) unlabeled boxes without the restriction that no box may be empty?\n\n\n\n\n\n\nProve by induction \\(S(n,3)&gt;3^{n-2}\\) for all \\(n\\ge 6\\).\n\n\n\n\\(\\bigstar\\)Prove \\[(1-a_1)(1-a_2) \\cdots (1-a_k)= 1- (a_1+a_2+ \\cdots+a_k)+ (a_1a_2+\\cdots +a_{k-1}a_{k})+ \\cdots +(-1)^k(a_1 \\cdots a_k)\\]\n\n\n\nFor fixed \\(m\\), find and prove the number of Hamiltonian Paths on on \\(K_{m,n}\\) as a function of \\(n\\).\n\n\n\n\\(\\bigstar\\) From the text, Exercise 4.6\n\n\n\n\\(\\bigstar\\) From the text, Exercise 4.7\n\n\n\n\\(\\bigstar\\) Let S(n,k) be the Stirling numbers of the second kind. Prove\na. \\(S(n, n-1)= \\binom{n}{2}\\)\nb. \\(S(n, n-2)= \\binom{n}{3}+3\\binom{n}{4}\\)\n\n\n\n\\(\\bigstar\\) Let S(n,k) be the Stirling numbers of the second kind. Prove \\(S(n,k)=\\sum_{m=k-1}^{n-1} \\binom{n-1}{m} S(m,k-1)\\)\n\n\n\n\\(\\bigstar\\) Show that if \\(n\\) is a positive integer, then \\[n!=\\binom{n}{0}d_n+\\binom{n}{1}d_{n-1}+\\binom{n}{2}d_{n-2}+ \\cdots +\\binom{n}{n-1}d_1 +\\binom{n}{n}d_0\\] where \\(d_n=(n-1)(d_{n-1}+d_{n-2})\\) with \\(d_1=0\\) and \\(d_2=1\\) is the number of derangements of \\(n\\) objects.\n\n\n\n\\(\\bigstar\\) Let \\(A\\) be a subset of \\(B\\) with \\(|A|=m\\) and \\(|B|=n\\), and let \\(r\\) be an integer \\(m \\le r \\le n\\). Show the number of \\(r\\) element subsets of \\(B\\) which contain \\(A\\) as a subset is \\(\\binom{n-m}{r-m}\\).\n\n\n\n\\(\\bigstar\\) Use the Inclusion-Exclusion Principle to show that for any non-negative integers \\(m,r,n\\) such that \\(m \\le r \\le n\\),\n\\[\\binom{n-m}{r-m}=\\sum^{m}_{i=0}(-1)^i \\binom{m}{i}\\binom{n-i}{r}.\\]",
     "crumbs": [
-      "Syllabus"
+      "Homework",
+      "Week 15 Homework"
     ]
   },
   {
-    "objectID": "syllabus/syllabus.html#math-300-specific-information",
-    "href": "syllabus/syllabus.html#math-300-specific-information",
-    "title": "Math 300 Syllabus",
+    "objectID": "homework/homeworkwk15.html#exercises",
+    "href": "homework/homeworkwk15.html#exercises",
+    "title": "Week 15 Homework",
     "section": "",
-    "text": "Discrete math is a fun departure from the calculus series, free from concerns about continuity and the real numbers. We get our first chance to explore abstract structures and a first introduction to proofs in this course. Discrete math ultimately boils down to counting, something that is tangible, comfortable, and sometimes even comforting.\n\n\n\nPrerequisite: MATH 230\nTopics include: Sets, algebraic systems, axioms, definitions, propositions, and proofs. Combinatorics, graph theory, moduli calculus. Coding, coding errors, and Hammang codes. Students are expected to write mathematical proofs, and communicate mathematical ideas clearly in written and oral form.\n\n\n\nThe best way to get in touch with me is in-person or by email. In general, if you have any difficulties with the material, schedule, or anything else, get in touch with me. I’m here to help, and it’s much easier to help if you are proactive. If my office hours don’t work for you, email me and we can work out a time to me in-person or via Zoom.\n\n\n\n\nApply the principles of logic in a formal language.\nDiscuss the theory and use of sets.\nCompute the number of ways complicated tasks can be performed,\nIncorporate applied problems into graph theoretic framework and using this interpretation to solve them.\nExpress quantitative ideas in oral and written form.\n\n\n\n\nThis is a 3 credit hour course, which means that students should be prepared to spend 9 hours a week on work related to this class outside of class. Spending time throughout the week working on homework is critical for a successful learning experience.\n\n\n\n\n\n\nComponent\nPoints\n\n\n\n\nHomework\n214\n\n\nMidterm 1\n80\n\n\nMidterm 2\n80\n\n\nProof Portfolio\n60\n\n\nFinal Exam\n100\n\n\nTotal\n534\n\n\n\n\n\n\nPercent\nGrade\n\n\n\n\n100-90\nA\n\n\n89-80\nB\n\n\n79-70\nC\n\n\n69-60\nD\n\n\n59-0\nF\n\n\n\nI will assign + and - grades in this course at my discretion. The grade book on CILearn will be used to record and track your scores. There will be a few small opportunities for extra credit.\nHomework is due by 11:59pm on the Friday due date. Late homework will have the total score reduced by 2.5% for each day that the homework is late up for to 20 days. Homework that is over 20 day late will not be graded. Submit your assignments as PDFs or JPEGs through CI Learn. Please take care to write up your work clearly and to submit PDFs that are easy to read. Many students successfully use CamScanner or Adobe Scan apps for their phones to create PDFs to upload. There are nine homework scores the lowest score will be dropped.\n\n\n\nIf you have special educational opportunities, like traveling for a conference, going to Santa Rosa Island, participating in an academic competition that would cause you to miss class, I strongly encourage you to take part in these special opportunities. Please let me know in advance, and we can work together on a plan to address any missed learning.\n\n\n\nWorking in groups on the homework assignment is strongly encouraged. However each person should individually write up their solutions, relying only on their notes about the problem. On each homework assignment, please indicate which students you worked with. An important part of mathematical culture and work is acknowledging the people that helped you understand and solve a problem.\n\n\n\nOffice hours is a time when you can come to my office and ask me questions about course material. Students who make use of office hours tend to do better in college courses. You are encouraged to make early and regular use of campus tutors in the LRC. For campus tutoring locations, subjects and hours, use this link.",
+    "text": "In this problem, boxes can be empty. How many ways are there to distribute 6 balls in to 3 boxes if\n\nboth the balls and boxes are labeled?\nballs are labeled, but the boxes are unlabeled?\nthe balls are unlabeled, but the boxes are labeled?\nboth the boxes and balls are unlabeled?\n\n\n\n\nIn this problem, boxes must be non-empty. How many ways are there to distribute 8 balls in to 4 boxes if\n\nboth the balls and boxes are labeled?\nballs are labeled, but the boxes are unlabeled?\nthe balls are unlabeled, but the boxes are labeled?\nboth the boxes and balls are unlabeled?\n\n\n\n\nHow many 8-bit strings begin with a 010 or begin with 11? How many 8-bit strings begin with a 010 or end with 11?\n\n\n\nFind the number of solutions to \\(x+y+z=100\\) in non-negative integer \\(x\\), \\(y\\), and \\(z\\), where \\(x \\le 50\\), \\(y \\le 40\\), and \\(z \\le 30\\).\n\n\n\nHow many permutations of the numbers 1 through 8 are there in which none of the terms 12, 34, 56, 78 appear?\n\n\n\nHow many permutations of the numbers 1 through 8 are there in which none of the even integers remain in its natural position?\n\n\n\nDo the enigma machine example from class where the number of rotors is 8, rather than 5.\n\n\n\nHow many permutations of 1,1,2,2,3,3,4,4,5,5 are there in which no two adjacent numbers are equal?\n\n\n\nSuppose you roll a 6 sided die 12 times. In how many ways can all 6 six numbers appear?\n\n\n\nHow many integers in the set of integers from 1 to 1000 are divisible by a prime number less than 10?\n\n\n\nA bridge hand consists of 13 cards from a standard 52 card deck. How many different hands contain at least on card from each of the four suits?\n\n\n\nLet \\(A=\\{1,2,3,4,5\\}\\). How many injective functions \\(f:A\\rightarrow A\\) have the property that for each \\(x\\) in \\(A\\), \\(f(x)\\ne x\\) ?\n\n\n\nSuppose you planned on giving 7 gold stars to some of the 13 star students in your class. Each student can receive at most one star. How many ways can you do this?\n\n\n\nWhat is the formula for the number of ways to place \\(n\\) unlabeled balls into \\(k\\) unlabeled boxes without the restriction that no box may be empty?\n\n\n\nHow many ways are there to place \\(n+k\\) stars on a \\(2 \\times n\\) (two rows, \\(n\\) columns) board with no columns having no stars? Here \\(k \\ge 0\\).\n\n\n\nWhat is the formula for the number of ways to place \\(n\\) labeled balls into \\(k\\) unlabeled boxes without the restriction that no box may be empty?",
     "crumbs": [
-      "Syllabus"
+      "Homework",
+      "Week 15 Homework"
     ]
   },
   {
-    "objectID": "syllabus/syllabus.html#csu-channel-islands-information",
-    "href": "syllabus/syllabus.html#csu-channel-islands-information",
-    "title": "Math 300 Syllabus",
+    "objectID": "homework/homeworkwk15.html#proofs",
+    "href": "homework/homeworkwk15.html#proofs",
+    "title": "Week 15 Homework",
     "section": "",
-    "text": "During Week 3 of classes of each semester, you are asked to update your information in the degree planner. The degree planner is a useful tool to help you stay on track toward achieving your goal of graduation. Students can learn how to update the degree planner using information provided here.\n\n\n\nWildfires and COVID are example of big disruptions that affect us all. There are smaller ones, like the class I wasn’t able to teach because my second child was being born or when students have to help their family members.  Events big and small can affect our ability to be in class, but the goal to make sure learning keeps happening.\nSo, yes disruptions big and small happen! A disruption means you, me, or all of us cannot participate in ‘class as usual’ for a reason we could not predict at the beginning of the semester.  After COVID-19, we are well aware that disruption can happen fast. While we hope to avoid any closures due to COVID related reasons, let’s face it, disruption happens every semester. You may get sick, I may get sick, or campus may close due to a wildfire - this is California after all. Life happens!  Our goal as a learning community is to do our best to keep teaching and learning with as little interruption as possible. This page explains what you can expect from me and what I expect from you when facing disruption - small or big! \nIf I am out: If for whatever reason I am unable to be on campus, I will move lectures to a zoom format, which will be communicated by the announcement in this course.  I will record these lecture and post them as well.\nIf you are out: Be proactive and communicate!  I will always work with you to figure out how to help you keep learning!  I have old lectures and notes that are recorded that I can share, if that is what is needed.  If you just need a little extra time to get something done, let me know, I will always grant you a few more days on assignments.\nIf campus closes: If all of campus closes, which has happened at least once over the last three or more academic years,  we will move to Zoom classes which I will also record and post in the pages for each class.  I will communicate changes to the course schedule or other changes by using announcements in CILearn. More details can be found on the “Disruption Plan” page for this course on CI Learn.\n\n\n\nThe California Faculty Association (the union that represents all CSU faculty, including lecturer faculty, tenure-line faculty, coaches, counselors, and librarians) is in the midst of a difficult contract dispute with the CSU system-wide administration. In response to the CSU management’s stance, it is possible that the faculty union will call a strike or other work stoppage this term. I promise to inform the class as soon as possible of any disruption to our class meeting schedule.\n\n\n\nIf you are a student with a disability requesting reasonable accommodations in this course, please visit Disability Accommodations and Support Services (DASS) located on the second floor of Arroyo Hall, or call 805-437-3331. All requests for reasonable accommodations require registration with DASS in advance of need. You can apply for DASS services here. Faculty, students and DASS will work together regarding classroom accommodations. You are encouraged to discuss approved accommodations with your faculty.\n\n\n\nAll students, staff and faculty on our campus are expected to join in making our campus a safe space for communication and civil discourse. If you are experiencing discomfort related to the language you are hearing or seeing on campus (in or out of classes), please talk with a trusted faculty or staff member. Similarly, please consider whether the language that you are using (in person or on Canvas) respects the rights of others to engage in informed discourse and express a diversity of opinions freely and in a civil manner (language from Academic Senate Resolution SR 16-01, Commitment to Equity, Inclusion, and Civil Discourse within our Diverse Campus Community).\n\n\n\nIf you face challenges securing food, housing, or other basic needs, you are not alone, and CSUCI wants to help during this time of crisis. One helpful resource is the community of staff available through the Basic Needs Program (BNP) located on the first floor of Arroyo Hall, Room 114. Students can call 805-437-2067, email basicneeds@csuci.edu, or drop in during open hours and talk with a BNP student assistant or professional staff member for resources, ideas, and strategies connected to basic needs challenges. Students can complete a referral form to request services for themselves or others by going to www.csuci.edu/basicneeds. The BNP is known for the Dolphin Pantry located at Arroyo Hall 114, but there are other resources available and staff who can help you work through housing insecurity or displacement as well as financial insecurity. Undergraduate students living in California are especially encouraged to explore CalFresh (grocery money each month for eligible students) as a resource. Domestic undergraduate students living in California are likely to be eligible for CalFresh and BNP staff are skilled with helping students navigate this process.\n\n\n\nCAPS is pleased to provide a wide range of services to assist students in achieving their academic and personal goals. Services include confidential short-term counseling, crisis intervention, psychiatric consultation, and 24/7 phone counseling. CAPS is located in Bell Tower East, 1867 and can be reached at 805-437-2088 (select option 1 on voicemail for 24/7 phone counseling); you can also email us at caps@csuci.edu or visit our website at https://www.csuci.edu/caps.\n\n\n\nBy enrolling at CSU Channel Islands, students are responsible for upholding the University’s policies and the Student Conduct Code. Academic integrity and scholarship are values of the institution that ensure respect for the academic reputation of the University, students, faculty, and staff. Cheating, plagiarism, unauthorized collaboration with another student, knowingly furnishing false information to the University, buying, selling or stealing any material for an examination, or substituting for another person may be considered violations of the Student Conduct Code (located at http://www.csuci.edu/campuslife/student-conduct/academic-dishonesty.htm). If a student is found responsible for committing an act of academic dishonesty in this course, the student may receive academic penalties including a failing grade on an assignment or in the course, and a disciplinary referral will be made and submitted to the Dean of Students office. For additional information, please see the faculty Academic Senate Policy on Academic Dishonesty, also in the CI Catalog. Please ask about my expectations regarding academic dishonesty in this course if they are unclear.\nBasically what this boils down to is: the work that you submit for credit should be your own work and reflect your understanding of the course material. Group work, collaborations, and the free exchange of ideas are fundamental aspects of an academic environment. I encourage you all to talk and work with others in the class, as it will enhance your understanding of the material. You must write up your assignment individually and explain solutions in your own words. It is also important to cite resources you used in work, these may include other students, books, websites, and instructors.\nThere is a distinction between collaboration and copying. Collaboration is encouraged; copying solutions or assignments is not allowed. If I find copying of solutions on an assignment it will result in a score of 0 on that assignment. Multiple instances of academic dishonesty will be formally documented with the University.\nAcademic Honesty and Generative AI: I have begun to notice students submitting work generated by AI. This is copying. If I suspect AI has been used on an assignment, I will assign a score of 0, but you can present your work in office hours or by appointment to receive credit.\n\n\n\nInformation on this syllabus is subject to change. I will make such changes known in class and on CI Learn.",
+    "text": "Prove by induction \\(S(n,3)&gt;3^{n-2}\\) for all \\(n\\ge 6\\).\n\n\n\n\\(\\bigstar\\)Prove \\[(1-a_1)(1-a_2) \\cdots (1-a_k)= 1- (a_1+a_2+ \\cdots+a_k)+ (a_1a_2+\\cdots +a_{k-1}a_{k})+ \\cdots +(-1)^k(a_1 \\cdots a_k)\\]\n\n\n\nFor fixed \\(m\\), find and prove the number of Hamiltonian Paths on on \\(K_{m,n}\\) as a function of \\(n\\).\n\n\n\n\\(\\bigstar\\) From the text, Exercise 4.6\n\n\n\n\\(\\bigstar\\) From the text, Exercise 4.7\n\n\n\n\\(\\bigstar\\) Let S(n,k) be the Stirling numbers of the second kind. Prove\na. \\(S(n, n-1)= \\binom{n}{2}\\)\nb. \\(S(n, n-2)= \\binom{n}{3}+3\\binom{n}{4}\\)\n\n\n\n\\(\\bigstar\\) Let S(n,k) be the Stirling numbers of the second kind. Prove \\(S(n,k)=\\sum_{m=k-1}^{n-1} \\binom{n-1}{m} S(m,k-1)\\)\n\n\n\n\\(\\bigstar\\) Show that if \\(n\\) is a positive integer, then \\[n!=\\binom{n}{0}d_n+\\binom{n}{1}d_{n-1}+\\binom{n}{2}d_{n-2}+ \\cdots +\\binom{n}{n-1}d_1 +\\binom{n}{n}d_0\\] where \\(d_n=(n-1)(d_{n-1}+d_{n-2})\\) with \\(d_1=0\\) and \\(d_2=1\\) is the number of derangements of \\(n\\) objects.\n\n\n\n\\(\\bigstar\\) Let \\(A\\) be a subset of \\(B\\) with \\(|A|=m\\) and \\(|B|=n\\), and let \\(r\\) be an integer \\(m \\le r \\le n\\). Show the number of \\(r\\) element subsets of \\(B\\) which contain \\(A\\) as a subset is \\(\\binom{n-m}{r-m}\\).\n\n\n\n\\(\\bigstar\\) Use the Inclusion-Exclusion Principle to show that for any non-negative integers \\(m,r,n\\) such that \\(m \\le r \\le n\\),\n\\[\\binom{n-m}{r-m}=\\sum^{m}_{i=0}(-1)^i \\binom{m}{i}\\binom{n-i}{r}.\\]",
     "crumbs": [
-      "Syllabus"
+      "Homework",
+      "Week 15 Homework"
     ]
   },
   {
-    "objectID": "syllabus/syllabus.html#class-schedule",
-    "href": "syllabus/syllabus.html#class-schedule",
-    "title": "Math 300 Syllabus",
+    "objectID": "homework/homeworkwk13.html",
+    "href": "homework/homeworkwk13.html",
+    "title": "Week 13 Homework",
     "section": "",
-    "text": "Week\nDate\nChapter\nNotes\n\n\n\n\n1\nAug 24\n\nCourse Introduction\n\n\n1\nAug 26\n\nInduction Proofs\n\n\n2\nAug 31\n1\nCounting Technques 1\n\n\n2\nSep 2\n1\nCounting Technques 2\n\n\n3\nSep 7\n1\nLabor Day - Campus Closed\n\n\n3\nSep 9\n1\nBinomial Coefficients\n\n\n4\nSep 14\n1\nDirect Proofs\n\n\n4\nSep 16\n1\nStars and Bars\n\n\n5\nSep 21\n2\nRecursion Relations 1\n\n\n5\nSep 23\n2\nRecursion Relations 2\n\n\n6\nSep 28\n2\nMidterm 1\n\n\n6\nSep 30\n2\nAuxiliary Equation\n\n\n7\nOct 5\n2\nGenerating Functions 1\n\n\n7\nOct 7\n2\nGenerating Functions 2\n\n\n8\nOct 12\n2\nNon-homogenous Relations\n\n\n8\nOct 14\n3\nIntroduction to Graphs\n\n\n9\nOct 19\n3\nAlgebraic Constraints and Trees\n\n\n9\nOct 21\n\nContradiction Proofs\n\n\n10\nOct 26\n3\nClassification of Trees\n\n\n10\nOct 28\n3\nPlanar and Bipartite Graphs 1\n\n\n11\nNov 2\n3\nPlanar and Bipartite Graphs 2\n\n\n11\nNov 4\n4\nGraph Tours 1\n\n\n12\nNov 9\n\nMidterm 2\n\n\n12\nNov 13\n\nVeterans Day - Campus Closed\n\n\n13\nNov 16\n4\nGraph Tours 2\n\n\n13\nNov 18\n5\nOccupancy Problems 1\n\n\n14\nNov 23\n5\nOccupancy Problems 2\n\n\n14\nNov 25\n5\nOccupancy Problems 3\n\n\n15\nNov 30\n6\nInclusion Exclusion 1\n\n\n15\nDec 2\n6\nInclusion Exclusion 2",
+    "text": "In order to receive full credit problems and solutions must be clearly written and presented neatly. In writing up your solution, you should state the problem as explaining the solution. Merely giving answers to exercises will is not enough to receive credit. Your write up must show work and convince me that you understand the material. If you need additional time to complete this assignment, please email me. Starred (\\(\\bigstar\\)) proof problems are eligible for inclusion in the proof portfolio assignment.\n\n\n\n\nFind out what the Chinese Postman Problem is. Describe it, and give examples. What does the Chinese Postman Problem have to do with Ribonucleic acid (RNA)?\n\n\n\nShow that if you delete any vertex and it’s incident edges from the Petersen graph then the resulting graph is Hamiltonian.\n\n\n\nFrom the text, Exercise 4.3.\n\n\n\nFrom the text, Exercise 4.4.\n\n\n\nA Hamiltonian path is a path that begins and ends at different vertices but visits each vertex of a graph exactly once. If a graph has a Hamiltonian cycle, must it have a Hamiltonian path? Explain why or why not. If a graph has a Hamiltonian path must it have a Hamiltonian cycle? Explain why or why not.\n\n\n\nWhat are the Worpitzsky numbers? What do they count? What is the recursive formula for these numbers? Give an example of something they can be used to count.\n\n\n\nFrom the text, Exercise 5.4.\n\n\n\nFind the coefficient of \\(x\\), \\(x^2\\), \\(x^3\\), and \\(x^4\\) in the Taylor expansion of \\[\\frac{1}{(1-x)}\\frac{1}{(1-x^2)}\\frac{1}{(1-x^3)}\\cdots\\] and compare to \\(p(1)\\), \\(p(2)\\), \\(p(3)\\), \\(p(4)\\). Do you want to make a conjecture? (Hint: find the taylor expansion, by multiplying together each of the fractions Taylor expansion).\n\n\n\nFind the definition of Stirling numbers of the first kind. What recursion relationship do these numbers satisfy? Give examples of the permutations counted by \\(s(5,2)\\) and \\(s(6,3)\\), where \\(s(n,k)\\) is a Stirling number of the first kind.\n\n\n\n\n\n\nLet \\(s(n,k)\\) denote the signless Stirling numbers of the first kind. Using the recursive formulat \\(s(n,k)=s(n-1,k-1)+(n-1)s(n-1,k)\\), prove that \\[s(n,n-1)=\\binom{n}{2}\\].\n\n\n\nLet \\(s(n,k)\\) denote the signless Stirling numbers of the first kind. Using the recursive formulat \\(s(n,k)=s(n-1,k-1)+(n-1)s(n-1,k)\\), prove that \\[s(n,2)=(n-1)!\\left( 1 + \\frac{1}{2} + \\frac{1}{3} + \\cdots + \\frac{1}{n-1} \\right).\\]\n\n\n\nProve \\[\\frac{\\binom{2n}{2}\\binom{2n-2}{2}\\binom{2n-4}{2}\\cdots\\binom{2}{2}}{n!}=\\frac{(2n)!}{2^n \\cdot n!}\\]\n\n\n\n\\(\\bigstar\\) Prove \\[\\frac{\\binom{m\\cdot n}{n}\\binom{(m-1)n}{n}\\binom{(m-2)n}{n}\\cdots\\binom{n}{n}}{m!}=\\frac{(m\\cdot n)!}{(n!)^m \\cdot m!}\\]\n\n\n\n\\(\\bigstar\\) Let \\(s(n,k)\\) denote the signless Stirling numbers of the first kind. Use the recursive formula \\(s(n,k)=s(n-1,k-1)+(n-1)s(n-1,k)\\) to find a formula for \\(s(n,n-2)\\) and prove it.\n\n\n\n\\(\\bigstar\\) Suppose \\(G\\) is a graph with \\(n\\) vertices, each of which has degree \\(d \\ge (n-1)/2\\). Prove that \\(G\\) contains a Hamiltonian path. Hint: Add an extra vertex to \\(G\\) and connect it to all the other vertices. What does Dirac’s Theorem say about this new graph.)\n\n\n\n\\(\\bigstar\\) Prove \\(\\sum^n_{r=0}\\binom{n}{r}2^{2n-2r}=5^n\\)",
     "crumbs": [
-      "Syllabus"
+      "Homework",
+      "Week 13 Homework"
     ]
   },
   {
-    "objectID": "classes/06/worksheet.html",
-    "href": "classes/06/worksheet.html",
-    "title": "Direct Proofs",
+    "objectID": "homework/homeworkwk13.html#exercises",
+    "href": "homework/homeworkwk13.html#exercises",
+    "title": "Week 13 Homework",
     "section": "",
-    "text": "Directions: Attempt to prove as many of the following problem as you can using the direct proof method.\nProblem 1: Show \\(\\binom{2n}{2}=2\\binom{n}{2}+n^2\\)\nProblem 2: Show \\(\\binom{n}{1} ^2=\\binom{n}{2}+ \\binom{n+1}{2}\\)\nProblem 3: Show \\(\\binom{n}{0}+\\binom{n+1}{1}+\\binom{n+2}{2} =\\binom{n+3}{2}\\) (Hint: Is there another way to write \\(\\binom{n}{0}\\) to make the calculation easier?)\nProblem 4: Show \\(\\binom{n}{k}\\binom{n-k}{l}=\\binom{n}{l}\\binom{n-l}{k}\\) with \\(k+l \\leq n\\).\nProblem 5: Let \\(n\\) be a positive integer. Show that \\(\\binom{2n}{n+1}+\\binom{2n}{n}=\\frac{1}{2}\\binom{2n+2}{n+1}\\)\nProblem 6: If \\(n\\) an odd integer, then \\(n^2\\) is odd.\nProblem 7: Let \\(n\\) any integer, then \\(n^3-n\\) is even.\nProblem 8: Let \\(a\\), \\(b\\), and \\(c\\) be integers. If \\(a\\) divides \\(b\\), and \\(b\\) divides \\(c\\), then \\(a\\) divides \\(c\\).\nProblem 9: Let \\(a\\), \\(b\\), and \\(c\\) be integers. If \\(a^2+b^2=c^2\\) is even, then at least one of the integers \\(a\\) and \\(b\\) is even.",
+    "text": "Find out what the Chinese Postman Problem is. Describe it, and give examples. What does the Chinese Postman Problem have to do with Ribonucleic acid (RNA)?\n\n\n\nShow that if you delete any vertex and it’s incident edges from the Petersen graph then the resulting graph is Hamiltonian.\n\n\n\nFrom the text, Exercise 4.3.\n\n\n\nFrom the text, Exercise 4.4.\n\n\n\nA Hamiltonian path is a path that begins and ends at different vertices but visits each vertex of a graph exactly once. If a graph has a Hamiltonian cycle, must it have a Hamiltonian path? Explain why or why not. If a graph has a Hamiltonian path must it have a Hamiltonian cycle? Explain why or why not.\n\n\n\nWhat are the Worpitzsky numbers? What do they count? What is the recursive formula for these numbers? Give an example of something they can be used to count.\n\n\n\nFrom the text, Exercise 5.4.\n\n\n\nFind the coefficient of \\(x\\), \\(x^2\\), \\(x^3\\), and \\(x^4\\) in the Taylor expansion of \\[\\frac{1}{(1-x)}\\frac{1}{(1-x^2)}\\frac{1}{(1-x^3)}\\cdots\\] and compare to \\(p(1)\\), \\(p(2)\\), \\(p(3)\\), \\(p(4)\\). Do you want to make a conjecture? (Hint: find the taylor expansion, by multiplying together each of the fractions Taylor expansion).\n\n\n\nFind the definition of Stirling numbers of the first kind. What recursion relationship do these numbers satisfy? Give examples of the permutations counted by \\(s(5,2)\\) and \\(s(6,3)\\), where \\(s(n,k)\\) is a Stirling number of the first kind.",
     "crumbs": [
-      "Class Material",
-      "Direct Proofs"
+      "Homework",
+      "Week 13 Homework"
     ]
   },
   {
-    "objectID": "classes/01/worksheet.html",
-    "href": "classes/01/worksheet.html",
-    "title": "Tiling with Triominoes",
+    "objectID": "homework/homeworkwk13.html#proofs",
+    "href": "homework/homeworkwk13.html#proofs",
+    "title": "Week 13 Homework",
     "section": "",
-    "text": "To tile a shape is to completely cover it with smaller shapes so that there is no overhang off of the larger shape and there is no overalap for the smaller shapes on top of the larger shape.\nYou are allowed to rotate the shapes as if you were playing tetris. This is a right triomino. It is constructed from three unit (\\(1 \\times 1\\)) squares.\n\n\n\nRight triomino\n\n\nConsider an \\(n \\times n\\) board. That is a square board with width \\(n\\) units and length \\(n\\) units. For example this is a \\(6 \\times 6\\) board.\n\n\n\nA 6 by 6 board\n\n\nThis worksheet is asking questions about tiling a \\(n \\times n\\) board with right triominos.",
+    "text": "Let \\(s(n,k)\\) denote the signless Stirling numbers of the first kind. Using the recursive formulat \\(s(n,k)=s(n-1,k-1)+(n-1)s(n-1,k)\\), prove that \\[s(n,n-1)=\\binom{n}{2}\\].\n\n\n\nLet \\(s(n,k)\\) denote the signless Stirling numbers of the first kind. Using the recursive formulat \\(s(n,k)=s(n-1,k-1)+(n-1)s(n-1,k)\\), prove that \\[s(n,2)=(n-1)!\\left( 1 + \\frac{1}{2} + \\frac{1}{3} + \\cdots + \\frac{1}{n-1} \\right).\\]\n\n\n\nProve \\[\\frac{\\binom{2n}{2}\\binom{2n-2}{2}\\binom{2n-4}{2}\\cdots\\binom{2}{2}}{n!}=\\frac{(2n)!}{2^n \\cdot n!}\\]\n\n\n\n\\(\\bigstar\\) Prove \\[\\frac{\\binom{m\\cdot n}{n}\\binom{(m-1)n}{n}\\binom{(m-2)n}{n}\\cdots\\binom{n}{n}}{m!}=\\frac{(m\\cdot n)!}{(n!)^m \\cdot m!}\\]\n\n\n\n\\(\\bigstar\\) Let \\(s(n,k)\\) denote the signless Stirling numbers of the first kind. Use the recursive formula \\(s(n,k)=s(n-1,k-1)+(n-1)s(n-1,k)\\) to find a formula for \\(s(n,n-2)\\) and prove it.\n\n\n\n\\(\\bigstar\\) Suppose \\(G\\) is a graph with \\(n\\) vertices, each of which has degree \\(d \\ge (n-1)/2\\). Prove that \\(G\\) contains a Hamiltonian path. Hint: Add an extra vertex to \\(G\\) and connect it to all the other vertices. What does Dirac’s Theorem say about this new graph.)\n\n\n\n\\(\\bigstar\\) Prove \\(\\sum^n_{r=0}\\binom{n}{r}2^{2n-2r}=5^n\\)",
     "crumbs": [
-      "Class Material",
-      "Tiling with Triominoes"
+      "Homework",
+      "Week 13 Homework"
     ]
   },
   {
-    "objectID": "classes/01/worksheet.html#problem-description",
-    "href": "classes/01/worksheet.html#problem-description",
-    "title": "Tiling with Triominoes",
+    "objectID": "homework/homeworkwk10.html",
+    "href": "homework/homeworkwk10.html",
+    "title": "Week 10 Homework",
     "section": "",
-    "text": "To tile a shape is to completely cover it with smaller shapes so that there is no overhang off of the larger shape and there is no overalap for the smaller shapes on top of the larger shape.\nYou are allowed to rotate the shapes as if you were playing tetris. This is a right triomino. It is constructed from three unit (\\(1 \\times 1\\)) squares.\n\n\n\nRight triomino\n\n\nConsider an \\(n \\times n\\) board. That is a square board with width \\(n\\) units and length \\(n\\) units. For example this is a \\(6 \\times 6\\) board.\n\n\n\nA 6 by 6 board\n\n\nThis worksheet is asking questions about tiling a \\(n \\times n\\) board with right triominos.",
+    "text": "In order to receive full credit problems and solutions must be clearly written and presented neatly. In writing up your solution, you should state the problem as explaining the solution. Merely giving answers to exercises will is not enough to receive credit. Your write up must show work and convince me that you understand the material. If you need additional time to complete this assignment, please email me. Starred (\\(\\bigstar\\)) proof problems are eligible for inclusion in the proof portfolio assignment.\n\n\n\n\nFrom the text, Exercise 3.2.\n\n\n\nFrom the text, Exercise 3.11.\n\n\n\nFind the definition for isomorphic graphs. What is the definition? Give an example of two graphs that are isomorphic, and give an example of two graphs that are not isomorphic.\n\n\n\nA simple graph \\(G\\) is self-complimentary if \\(G\\) and \\(\\bar{G}\\) are isomorphic. Find a self-complimentary graph having five vertices. Find another self complimentary graph with more than 1 vertex.\n\n\n\nA vertex \\(v\\) in a connected graph \\(G\\) is an articulation point if the removal of \\(v\\) and all edges incident to \\(v\\) disconnects \\(G\\). Give an example of a graph with six vertices that has exactly two articulation points. Give an example of a graph on six vertices that has no articulation points.\n\n\n\nProve that if G is a simple graph with \\(p\\) vertices, where each vertex has degree \\(\\ge \\frac{1}{2}(p-1)\\), then \\(G\\) must be connected. Hint: Try a contradiction proof, by assuming there are at least two components of \\(G\\). How many vertices must each component have?\n\n\n\n\n\n\nProve the statement: In any tree there is exactly one path from any vertex to any other vertex. (Hint: Try contradiction. If there are two paths try to show there is a cycle.)\n\n\n\nA forest is a simple graph where each component is a tree. Find a formula for the number of edges in a forest with \\(n\\) vertices and \\(c\\) components. Prove your formula.\n\n\n\nProve the average degree in a tree is always less than 2. More specifically express this average as a function of the number of vertices in tree.\n\n\n\n\\(\\bigstar\\) Let \\(v\\) and \\(w\\) be distinct vertices in the complete graph \\(K_n\\) for \\(n \\ge 2\\). Prove the number of paths from \\(v\\) to \\(w\\) is \\[(n-2)!\\sum^{n-2}_{k=0}\\frac{1}{k!}\\]\n\n\n\n\\(\\bigstar\\) Prove that a vertex \\(v\\) in a connected graph \\(G\\) is an articulation point if and only if there are vertices \\(w\\) and \\(x\\) in \\(G\\) having the property that every path from \\(w\\) to \\(x\\) passes through \\(v\\).\n\n\n\n\\(\\bigstar\\) Prove that in any simple graph with more than one vertex, there must be two vertices with the same degree. (Hint: Try contradiction.)\n\n\n\n\\(\\bigstar\\) Prove the number of vertices of degree 1 in an tree must be greater than or equal to the maximum degree in the tree.",
     "crumbs": [
-      "Class Material",
-      "Tiling with Triominoes"
+      "Homework",
+      "Week 10 Homework"
     ]
   },
   {
-    "objectID": "classes/01/worksheet.html#question-1",
-    "href": "classes/01/worksheet.html#question-1",
-    "title": "Tiling with Triominoes",
-    "section": "Question 1",
-    "text": "Question 1\nFor \\(n=1\\), 2, 3, 4, and 5, can you completely tile a \\(n \\times n\\) checkerboard with a right triomino pieces? You will have an answer for each \\(n\\).",
+    "objectID": "homework/homeworkwk10.html#exercises",
+    "href": "homework/homeworkwk10.html#exercises",
+    "title": "Week 10 Homework",
+    "section": "",
+    "text": "From the text, Exercise 3.2.\n\n\n\nFrom the text, Exercise 3.11.\n\n\n\nFind the definition for isomorphic graphs. What is the definition? Give an example of two graphs that are isomorphic, and give an example of two graphs that are not isomorphic.\n\n\n\nA simple graph \\(G\\) is self-complimentary if \\(G\\) and \\(\\bar{G}\\) are isomorphic. Find a self-complimentary graph having five vertices. Find another self complimentary graph with more than 1 vertex.\n\n\n\nA vertex \\(v\\) in a connected graph \\(G\\) is an articulation point if the removal of \\(v\\) and all edges incident to \\(v\\) disconnects \\(G\\). Give an example of a graph with six vertices that has exactly two articulation points. Give an example of a graph on six vertices that has no articulation points.\n\n\n\nProve that if G is a simple graph with \\(p\\) vertices, where each vertex has degree \\(\\ge \\frac{1}{2}(p-1)\\), then \\(G\\) must be connected. Hint: Try a contradiction proof, by assuming there are at least two components of \\(G\\). How many vertices must each component have?",
     "crumbs": [
-      "Class Material",
-      "Tiling with Triominoes"
+      "Homework",
+      "Week 10 Homework"
     ]
   },
   {
-    "objectID": "classes/01/worksheet.html#question-2",
-    "href": "classes/01/worksheet.html#question-2",
-    "title": "Tiling with Triominoes",
-    "section": "Question 2",
-    "text": "Question 2\nFor \\(n=1\\), 2, 3, 4, and 5, can you completely tile a \\(n \\times n\\) checkerboard with a right triomino pieces if one \\(1 \\times 1\\) square of the board is removed? That is if, you do not have to cover exactly one of the tiles, can you then tile the \\(n \\times n\\) board with right triominos. (Bonus Question: Does the answer depend on which tile you remove?)",
+    "objectID": "homework/homeworkwk10.html#proofs",
+    "href": "homework/homeworkwk10.html#proofs",
+    "title": "Week 10 Homework",
+    "section": "",
+    "text": "Prove the statement: In any tree there is exactly one path from any vertex to any other vertex. (Hint: Try contradiction. If there are two paths try to show there is a cycle.)\n\n\n\nA forest is a simple graph where each component is a tree. Find a formula for the number of edges in a forest with \\(n\\) vertices and \\(c\\) components. Prove your formula.\n\n\n\nProve the average degree in a tree is always less than 2. More specifically express this average as a function of the number of vertices in tree.\n\n\n\n\\(\\bigstar\\) Let \\(v\\) and \\(w\\) be distinct vertices in the complete graph \\(K_n\\) for \\(n \\ge 2\\). Prove the number of paths from \\(v\\) to \\(w\\) is \\[(n-2)!\\sum^{n-2}_{k=0}\\frac{1}{k!}\\]\n\n\n\n\\(\\bigstar\\) Prove that a vertex \\(v\\) in a connected graph \\(G\\) is an articulation point if and only if there are vertices \\(w\\) and \\(x\\) in \\(G\\) having the property that every path from \\(w\\) to \\(x\\) passes through \\(v\\).\n\n\n\n\\(\\bigstar\\) Prove that in any simple graph with more than one vertex, there must be two vertices with the same degree. (Hint: Try contradiction.)\n\n\n\n\\(\\bigstar\\) Prove the number of vertices of degree 1 in an tree must be greater than or equal to the maximum degree in the tree.",
     "crumbs": [
-      "Class Material",
-      "Tiling with Triominoes"
+      "Homework",
+      "Week 10 Homework"
     ]
-  },
-  {
-    "objectID": "classes/01/worksheet.html#question-3",
-    "href": "classes/01/worksheet.html#question-3",
-    "title": "Tiling with Triominoes",
-    "section": "Question 3",
-    "text": "Question 3\nCan you come up with a condition \\(n\\) that will ensures that you cannot tile a \\(n\\times n\\) board?",
-    "crumbs": [
-      "Class Material",
-      "Tiling with Triominoes"
-    ]
-  },
-  {
-    "objectID": "classes/01/worksheet.html#question-4",
-    "href": "classes/01/worksheet.html#question-4",
-    "title": "Tiling with Triominoes",
-    "section": "Question 4",
-    "text": "Question 4\nIs there a condition on \\(n\\) that you can come up with that ensures you can always tile \\(n \\times n\\) board if \\(n\\) satisfies the condition?",
-    "crumbs": [
-      "Class Material",
-      "Tiling with Triominoes"
-    ]
-  },
-  {
-    "objectID": "classes/01/worksheet.html#question-5",
-    "href": "classes/01/worksheet.html#question-5",
-    "title": "Tiling with Triominoes",
-    "section": "Question 5",
-    "text": "Question 5\nIs there a condition on \\(n\\) that you can come up with that ensures you can always tile \\(n \\times n\\) board with one tile removed?",
-    "crumbs": [
-      "Class Material",
-      "Tiling with Triominoes"
-    ]
-  },
-  {
-    "objectID": "classes/08/worksheet.html#problem-2",
-    "href": "classes/08/worksheet.html#problem-2",
-    "title": "Order and Repetition",
-    "section": "Problem 2",
-    "text": "Problem 2"
-  },
-  {
-    "objectID": "classes/08/worksheet.html#problem-3",
-    "href": "classes/08/worksheet.html#problem-3",
-    "title": "Order and Repetition",
-    "section": "Problem 3",
-    "text": "Problem 3"
   },
   {
     "objectID": "classes/09/slides.html#introduction-to-recursion",
@@ -431,223 +309,56 @@
     "text": "Link to Frogs and Toads Game"
   },
   {
-    "objectID": "classes/07/slides.html#stars-and-bars-method",
-    "href": "classes/07/slides.html#stars-and-bars-method",
-    "title": "Repetition Allowed Order Does Not Matter",
-    "section": "Stars and Bars Method",
-    "text": "Stars and Bars Method\nThe stars and bars method is a technique to count the number of ways to make \\(k\\) choices from \\(n\\) objects where order does not matter and repetition is allowed. Class Session Goals:\n\nUnderstand what it means to chose \\(k\\) times from \\(n\\) objects with repetition allowed and where order does not matter.\nPresent the Stars and Bars technique for counting\nPresent how to modify Stars and Bars technique\nPractice Modifying the Stars and Bars technique",
-    "crumbs": [
-      "Class Material",
-      "Repetition Allowed Order Does Not Matter"
-    ]
+    "objectID": "classes/08/slides.html#choosing-with-order-not-mattering-and-repetition-not-allowed",
+    "href": "classes/08/slides.html#choosing-with-order-not-mattering-and-repetition-not-allowed",
+    "title": "Counting Tools",
+    "section": "Choosing with order not mattering and repetition not allowed",
+    "text": "Choosing with order not mattering and repetition not allowed\nClass Session Goals:\n\nReview Chapter 1 Counting Tools\nPractice complicated countign questions"
   },
   {
-    "objectID": "classes/07/slides.html#order-and-repetition",
-    "href": "classes/07/slides.html#order-and-repetition",
-    "title": "Repetition Allowed Order Does Not Matter",
+    "objectID": "classes/08/slides.html#order-and-repetition",
+    "href": "classes/08/slides.html#order-and-repetition",
+    "title": "Counting Tools",
     "section": "Order and Repetition",
-    "text": "Order and Repetition\nConsider making \\(k\\) choices from a list of \\(n\\) possible choices. How many ways are there to do this?\nIn order to be able to answer this question we need to establish some rules, and we do this by answering two questions:\n1. Does the order of our choices matter?\n2. Are choices allowed to be repeated?",
-    "crumbs": [
-      "Class Material",
-      "Repetition Allowed Order Does Not Matter"
-    ]
+    "text": "Order and Repetition\nConsider making \\(k\\) choices from a list of \\(n\\) possible choices. How many ways are there to do this?\nIn order to be able to answer this question we need to establish some rules, and we do this by answering two questions:\n1. Does the order of our choices matter?\n2. Are choices allowed to be repeated?"
   },
   {
-    "objectID": "classes/07/slides.html#order-and-repetition-1",
-    "href": "classes/07/slides.html#order-and-repetition-1",
-    "title": "Repetition Allowed Order Does Not Matter",
+    "objectID": "classes/08/slides.html#order-and-repetition-1",
+    "href": "classes/08/slides.html#order-and-repetition-1",
+    "title": "Counting Tools",
     "section": "Order and Repetition",
-    "text": "Order and Repetition\nOrder matters and repetition is allowed: \\(n^k\\)\nOrder matters and repetition is not allowed: \\(n(n-1)(n-2)\\cdots(n-k+1)=\\frac{n!}{(n-k)!}\\)\nOrder does not matter and repetition is not allowed: \\(\\binom{n}{k}=\\frac{n!}{(n-k)!k!}\\)\nOrder does not matter and repetition is allowed: Figure it out today!",
-    "crumbs": [
-      "Class Material",
-      "Repetition Allowed Order Does Not Matter"
-    ]
+    "text": "Order and Repetition\nOrder matters and repetition is allowed: \\(n^k\\)\nOrder matters and repetition is not allowed: \\(n(n-1)(n-2)\\cdots(n-k+1)=\\frac{n!}{(n-k)!}\\)\nOrder does not matter and repetition is not allowed: \\(\\binom{n}{k}=\\frac{n!}{(n-k)!k!}\\)\nOrder does not matter and repetition is allowed: To be determined."
   },
   {
-    "objectID": "classes/07/slides.html#starter-activity",
-    "href": "classes/07/slides.html#starter-activity",
-    "title": "Repetition Allowed Order Does Not Matter",
-    "section": "Starter Activity",
-    "text": "Starter Activity\nChoose some partners around you to work on one of the following questions.\nQuestion A: Suppose you have 3 flavors of ice cream. How many different bowls of 2 scoops of ice cream are possible? How does the answer change if you add a fourth flavor?\nQuestion B: Suppose you have 3 boxes label 1, 2, 3 and two black balls. How many different ways are there to place the balls in the boxes? How does the answer change if you add a fourth box labeled 4?\nQuestion C: How many solutions to the equation \\(x+y+z=2\\) are there if \\(x\\), \\(y\\), and \\(z\\) must be non-negative integers? For example the ordered triple \\((x, y, z)=(1,0,1)\\) is one solution. How many solutions are there to \\(w+x+y+z=2\\) if \\(w\\), \\(x\\), \\(y\\), and \\(z\\) must be non-negative integers?",
-    "crumbs": [
-      "Class Material",
-      "Repetition Allowed Order Does Not Matter"
-    ]
+    "objectID": "classes/08/slides.html#addition-principle",
+    "href": "classes/08/slides.html#addition-principle",
+    "title": "Counting Tools",
+    "section": "Addition Principle",
+    "text": "Addition Principle\nIdea: Break larger counting problem up into smaller and simpler counting problems then add up the results from the smaller problems.\nAddition Principle Suppose a set \\(S\\) is the disjoint union of smaller sets \\(A_1, A_2, \\cdots A_n\\). That is \\(S= A_1\\cup A_2\\cup \\cdots A_n\\) and \\(A_i \\cap A_j = \\emptyset\\) for \\(i \\neq j\\). Then \\(|S|=|A_1|+ |A_2| + \\cdots + |A_n|\\).\nThe challenge and creativity of using this tool lies in choosing the right \\(A_i\\) sets."
   },
   {
-    "objectID": "classes/07/slides.html#stars-and-bars-method-1",
-    "href": "classes/07/slides.html#stars-and-bars-method-1",
-    "title": "Repetition Allowed Order Does Not Matter",
-    "section": "Stars and Bars Method",
-    "text": "Stars and Bars Method\n\nThere is a two stage process to uniquely create stars and bars figures like this one.\nStep 1 Choose \\(k\\) locations for stars * from among \\(k+n-1\\) locations available.\nStep 2 Choose \\(n-1\\) locations for bars | from among remaining locations available.\nThe “magic” here is changing the problem into one where repetition of choices is not allowed.",
-    "crumbs": [
-      "Class Material",
-      "Repetition Allowed Order Does Not Matter"
-    ]
+    "objectID": "classes/08/slides.html#multiplication-principle",
+    "href": "classes/08/slides.html#multiplication-principle",
+    "title": "Counting Tools",
+    "section": "Multiplication Principle",
+    "text": "Multiplication Principle\nIdea: Create a step by step process to construct the object you are trying to count, and use the number of choices at each step to calculate the total number of different objects you can construct.\nMultiplication Principle\nConsider a \\(k\\)-stage process that uniquely constructs all the elements of a set S. If \\(\\alpha_i\\) is the number of choices at stage \\(i\\), then the number of elements in S is \\(|S|=\\alpha_1 \\cdot \\alpha_2 \\cdots \\alpha_k\\).\nThe challenge and creativity of using this tool lies in choosing the correct process, making sure it constructs all the objects you want to count, and does so uniquely.."
   },
   {
-    "objectID": "classes/07/slides.html#stars-and-bars-activity",
-    "href": "classes/07/slides.html#stars-and-bars-activity",
-    "title": "Repetition Allowed Order Does Not Matter",
-    "section": "Stars and Bars Activity",
-    "text": "Stars and Bars Activity\nIn small groups, work on the “Modifying Stars and Bars” worksheet. The goals of this worksheet are to:\n\nPractice modifying the stars and bars technique to new problems\nApplying the stage based counting process of selecting positions for stars and then bars. :::",
-    "crumbs": [
-      "Class Material",
-      "Repetition Allowed Order Does Not Matter"
-    ]
+    "objectID": "classes/08/slides.html#order-and-repetition-activity",
+    "href": "classes/08/slides.html#order-and-repetition-activity",
+    "title": "Counting Tools",
+    "section": "Order and Repetition Activity",
+    "text": "Order and Repetition Activity\nBreak up into small groups and work the order and repetition activity."
   },
   {
-    "objectID": "classes/07/slides.html#stars-and-bars-answers",
-    "href": "classes/07/slides.html#stars-and-bars-answers",
-    "title": "Repetition Allowed Order Does Not Matter",
-    "section": "Stars and Bars Answers",
-    "text": "Stars and Bars Answers\n\n\\(\\binom{15}{12}\\)\n\\(\\binom{14}{9}\\)\n\\(\\binom{14}{12}\\)\n\\(\\binom{14}{9}\\)\n\\(\\binom{6}{2}\\binom{11}{3}\\)\n\n1",
-    "crumbs": [
-      "Class Material",
-      "Repetition Allowed Order Does Not Matter"
-    ]
-  },
-  {
-    "objectID": "classes/07/slides.html#order-and-repetition-2",
-    "href": "classes/07/slides.html#order-and-repetition-2",
-    "title": "Repetition Allowed Order Does Not Matter",
-    "section": "Order and Repetition",
-    "text": "Order and Repetition\nHow many ways are there to make \\(k\\) choices from \\(n\\) objects?\nIf order matters and repetition is allowed: \\(n^k\\)\nIf order matters and repetition is not allowed: \\(n(n-1)(n-2)\\cdots(n-k+1)=\\frac{n!}{(n-k)!}\\)\nIf order does not matter and repetition is not allowed: \\(\\binom{n}{k}=\\frac{n!}{(n-k)!k!}\\)\nIf order does not matter and repetition is allowed: \\(\\binom{n-1+k}{k}\\)",
-    "crumbs": [
-      "Class Material",
-      "Repetition Allowed Order Does Not Matter"
-    ]
-  },
-  {
-    "objectID": "classes/10/slides.html#introduction-to-recursion",
-    "href": "classes/10/slides.html#introduction-to-recursion",
-    "title": "Counting with Recursion",
-    "section": "Introduction to Recursion",
-    "text": "Introduction to Recursion\nChapter 2 covers using recursion to count objects. Two important questions to ask are: If I know the answer for the \\(n\\) case, what do I need to do to get the answer to the \\(n+1\\) case? Can I find a smaller versions of the problem in the problem I am working on? Class Session Goals:\n\nPresent recursion in the mathematical context\nPractice creating recursive formulas for sequences"
-  },
-  {
-    "objectID": "classes/10/slides.html#interesting-mathematical-sequences",
-    "href": "classes/10/slides.html#interesting-mathematical-sequences",
-    "title": "Counting with Recursion",
-    "section": "Interesting Mathematical Sequences",
-    "text": "Interesting Mathematical Sequences\n\n\n\nSequence\nName\nOEIS\n\n\n\n\n\\(1,2,3,4,5,6, \\ldots\\)\nCounting\nA000027\n\n\n\\(1,3,6,10,15,21, \\ldots\\)\nTriangular\nA000217\n\n\n\\(1,4,9,16,25,36, \\ldots\\)\nSquare\nA000290\n\n\n\\(1,1,2,3,5,8, \\ldots\\)\nFibbonacci\nA000045\n\n\n\\(0, 2, 5, 9, 14, 20, \\ldots\\)\n???\nA000096\n\n\n\nSequences give the answer to questions like: What is the sum of the first \\(n\\) integers? What is the sum of the first \\(n\\) odd integers? How many diagonals are there in a \\(n+2\\)-gon?"
-  },
-  {
-    "objectID": "classes/10/slides.html#recursive-and-closed-formula",
-    "href": "classes/10/slides.html#recursive-and-closed-formula",
-    "title": "Counting with Recursion",
-    "section": "Recursive and Closed Formula",
-    "text": "Recursive and Closed Formula\nWe can express sequences recursively or in a closed form. Closed form means as a function of \\(n\\).\n\n\n\nNumbers\nInitial Condition\nRecursive Relationship\nClosed Form\n\n\n\n\nCounting\n\\(c_1=1\\)\n\\(c_n=c_{n-1}+1\\)\n\\(c_n=n\\)\n\n\nTriangular\n\\(T_1=1\\)\n\\(T_n=T_{n-1}+n\\)\n\\(T_n=\\frac{n(n+1)}{2}\\)\n\n\nSquare\n\\(S_1=1\\)\n\\(S_n=S_{n-1}+2n-1\\)\n\\(S_n=n^2\\)\n\n\nFibbonacci\n\\(F_1=1,F_2=1\\)\n\\(F_n=F_{n-1}+F_{n-2}\\)\n\\(T_n=???\\)\n\n\n\\(n+2\\)-gon Diags\n\\(D_1=0\\)\n\\(D_n=???\\)\n\\(D_n=\\frac{n(n+3)}{2}\\)"
-  },
-  {
-    "objectID": "classes/10/slides.html#definitions",
-    "href": "classes/10/slides.html#definitions",
-    "title": "Counting with Recursion",
-    "section": "Definitions",
-    "text": "Definitions\nThe order of a recursive formula is the number of preceding values that are needed to calculate the next value. For example, the Fibonnacci recursion has order 2, and the Triangular number recursion has order 1.\nA recurrence is called linear if it has the form \\[a_n=c_1\\cdot a_{n-1}+c_2\\cdot a_{n-2} \\cdots + c_k\\cdot a_{n-k} +f(n)\\] where \\(c_i\\) are real numbers and \\(f(n)\\) is a function of \\(n\\)."
-  },
-  {
-    "objectID": "classes/10/slides.html#goal-for-the-next-two-classes",
-    "href": "classes/10/slides.html#goal-for-the-next-two-classes",
-    "title": "Counting with Recursion",
-    "section": "Goal for the next two classes",
-    "text": "Goal for the next two classes\nThe most challenging part of chapter 2 is going from a counting problem to a recursive representation of the problems. We will explore two ways to do this motivated the following two questions.\n\nCan I find patterns in the differences in small \\(n\\) data?\nCan I find smaller versions of my problem?"
-  },
-  {
-    "objectID": "classes/10/slides.html#recursion-activity",
-    "href": "classes/10/slides.html#recursion-activity",
-    "title": "Counting with Recursion",
-    "section": "Recursion Activity",
-    "text": "Recursion Activity\nFor the remainder of the next two classes, we will work on a number of counting problems where the goal is to find a recursive formula that gives the answers to the following counting problems. In the next few classes we will learn how to calculate a closed form solution if we have a recursive description of the solution.\n\\(H_n\\) - minimum moves needed to solve a Tower of Hanoi problem with\n\\(T_n\\) - tilings of a \\(1\\times n\\) board by \\(1 \\times 2\\) and \\(1 \\times 1\\) tiles\n\\(S_n\\) - different ascents of an \\(n\\)-stair staircase\n\\(B_n\\) - binary strings of length \\(n\\) that include 00"
-  },
-  {
-    "objectID": "classes/10/slides.html#towers-of-hanoi",
-    "href": "classes/10/slides.html#towers-of-hanoi",
-    "title": "Counting with Recursion",
-    "section": "Towers of Hanoi",
-    "text": "Towers of Hanoi\nWhat is the smallest number of moves to solve the Towers of Hanoi puzzle with \\(n\\) disks.? Let \\(H_n\\) be the minimun moves in an \\(n\\)-disk solution. What are some initial values? Can you find a recursive formulas for \\(H_n\\)? Can you find a closed form?"
-  },
-  {
-    "objectID": "classes/10/slides.html#tiling-a-sidewalk",
-    "href": "classes/10/slides.html#tiling-a-sidewalk",
-    "title": "Counting with Recursion",
-    "section": "Tiling a sidewalk",
-    "text": "Tiling a sidewalk\nHow many ways can you tile a \\(1 \\times n\\) board with a \\(1 \\times 1\\) squares and \\(2 \\times 1\\) rectangles, call this \\(T_n\\)? Can you express \\(T_n\\) as a recursion? Here are five possible tilings of a \\(1 \\times 4\\) board."
-  },
-  {
-    "objectID": "classes/10/slides.html#staircase-problem",
-    "href": "classes/10/slides.html#staircase-problem",
-    "title": "Counting with Recursion",
-    "section": "Staircase Problem",
-    "text": "Staircase Problem\nHow many ways can you walk up a staircase with \\(n\\) stairs if you can choose 1, 2, or 3 steps to ascent? Let \\(S_n\\) be the number of different ascents of a \\(n\\)-step staircase. Can you express \\(S_n\\) as a recursion? Can you find a closed form?"
-  },
-  {
-    "objectID": "classes/10/slides.html#binary-stings",
-    "href": "classes/10/slides.html#binary-stings",
-    "title": "Counting with Recursion",
-    "section": "Binary Stings",
-    "text": "Binary Stings\nHow many binary strings of length \\(n\\) are there that include a 00, i.e two adjacent zeros? Can you express \\(B_n\\) as a recursion?"
-  },
-  {
-    "objectID": "classes/10/slides.html#tiling-a-board",
-    "href": "classes/10/slides.html#tiling-a-board",
-    "title": "Counting with Recursion",
-    "section": "Tiling a board",
-    "text": "Tiling a board\nHow many ways can you tile a \\(2 \\times n\\) board with \\(1 \\times 1\\) and \\(2 \\times 1\\) tiles? The \\(2 \\times 1\\) tiles can be rotated. Can you express this sequence \\(a_n\\) as a recurrence?ß"
-  },
-  {
-    "objectID": "classes/02/worksheet2.html",
-    "href": "classes/02/worksheet2.html",
-    "title": "Base Cases and Induction Hypotheses",
+    "objectID": "classes/06/worksheet.html",
+    "href": "classes/06/worksheet.html",
+    "title": "Direct Proofs",
     "section": "",
-    "text": "For the following claims, demonstrate the of the base cases, and write out the statement of the induction hypothesis. Then if you have time attempt to demonstrate the induction hypothesis step.",
+    "text": "Directions: Attempt to prove as many of the following problem as you can using the direct proof method.\nProblem 1: Show \\(\\binom{2n}{2}=2\\binom{n}{2}+n^2\\)\nProblem 2: Show \\(\\binom{n}{1} ^2=\\binom{n}{2}+ \\binom{n+1}{2}\\)\nProblem 3: Show \\(\\binom{n}{0}+\\binom{n+1}{1}+\\binom{n+2}{2} =\\binom{n+3}{2}\\) (Hint: Is there another way to write \\(\\binom{n}{0}\\) to make the calculation easier?)\nProblem 4: Show \\(\\binom{n}{k}\\binom{n-k}{l}=\\binom{n}{l}\\binom{n-l}{k}\\) with \\(k+l \\leq n\\).\nProblem 5: Let \\(n\\) be a positive integer. Show that \\(\\binom{2n}{n+1}+\\binom{2n}{n}=\\frac{1}{2}\\binom{2n+2}{n+1}\\)\nProblem 6: If \\(n\\) an odd integer, then \\(n^2\\) is odd.\nProblem 7: Let \\(n\\) any integer, then \\(n^3-n\\) is even.\nProblem 8: Let \\(a\\), \\(b\\), and \\(c\\) be integers. If \\(a\\) divides \\(b\\), and \\(b\\) divides \\(c\\), then \\(a\\) divides \\(c\\).\nProblem 9: Let \\(a\\), \\(b\\), and \\(c\\) be integers. If \\(a^2+b^2=c^2\\) is even, then at least one of the integers \\(a\\) and \\(b\\) is even.",
     "crumbs": [
       "Class Material",
-      "Base Cases and Induction Hypotheses"
-    ]
-  },
-  {
-    "objectID": "classes/02/worksheet2.html#claim-1",
-    "href": "classes/02/worksheet2.html#claim-1",
-    "title": "Base Cases and Induction Hypotheses",
-    "section": "Claim 1",
-    "text": "Claim 1\n\\(2^0+2^1+2^2+ \\cdots + 2^n=2^{n+1}-1\\) for \\(n \\ge 0\\), \\(n\\) an integer.",
-    "crumbs": [
-      "Class Material",
-      "Base Cases and Induction Hypotheses"
-    ]
-  },
-  {
-    "objectID": "classes/02/worksheet2.html#claim-2",
-    "href": "classes/02/worksheet2.html#claim-2",
-    "title": "Base Cases and Induction Hypotheses",
-    "section": "Claim 2",
-    "text": "Claim 2\n\\(1\\cdot 1! + 2\\cdot 2! + \\cdots + n \\cdot n!=(n+1)!-1\\) for \\(n \\ge 1\\), \\(n\\) an integer.",
-    "crumbs": [
-      "Class Material",
-      "Base Cases and Induction Hypotheses"
-    ]
-  },
-  {
-    "objectID": "classes/02/worksheet2.html#claim-3",
-    "href": "classes/02/worksheet2.html#claim-3",
-    "title": "Base Cases and Induction Hypotheses",
-    "section": "Claim 3",
-    "text": "Claim 3\n\\(8^n-3^n\\) is divisible by 5 for all integers \\(n \\ge 1\\). Hint: Another way to say “divisible by 5” is \\(8^n-3^n=5k\\) for some integer \\(k\\).",
-    "crumbs": [
-      "Class Material",
-      "Base Cases and Induction Hypotheses"
-    ]
-  },
-  {
-    "objectID": "classes/02/worksheet2.html#claim-4",
-    "href": "classes/02/worksheet2.html#claim-4",
-    "title": "Base Cases and Induction Hypotheses",
-    "section": "Claim 4",
-    "text": "Claim 4\n\\(\\sum^{n}_{i=1} (8i-5)=4n^2-n\\)",
-    "crumbs": [
-      "Class Material",
-      "Base Cases and Induction Hypotheses"
+      "Direct Proofs"
     ]
   },
   {
@@ -764,6 +475,380 @@
     "crumbs": [
       "Class Material",
       "Counting Techniques"
+    ]
+  },
+  {
+    "objectID": "classes/02/worksheet2.html",
+    "href": "classes/02/worksheet2.html",
+    "title": "Base Cases and Induction Hypotheses",
+    "section": "",
+    "text": "For the following claims, demonstrate the of the base cases, and write out the statement of the induction hypothesis. Then if you have time attempt to demonstrate the induction hypothesis step.",
+    "crumbs": [
+      "Class Material",
+      "Base Cases and Induction Hypotheses"
+    ]
+  },
+  {
+    "objectID": "classes/02/worksheet2.html#claim-1",
+    "href": "classes/02/worksheet2.html#claim-1",
+    "title": "Base Cases and Induction Hypotheses",
+    "section": "Claim 1",
+    "text": "Claim 1\n\\(2^0+2^1+2^2+ \\cdots + 2^n=2^{n+1}-1\\) for \\(n \\ge 0\\), \\(n\\) an integer.",
+    "crumbs": [
+      "Class Material",
+      "Base Cases and Induction Hypotheses"
+    ]
+  },
+  {
+    "objectID": "classes/02/worksheet2.html#claim-2",
+    "href": "classes/02/worksheet2.html#claim-2",
+    "title": "Base Cases and Induction Hypotheses",
+    "section": "Claim 2",
+    "text": "Claim 2\n\\(1\\cdot 1! + 2\\cdot 2! + \\cdots + n \\cdot n!=(n+1)!-1\\) for \\(n \\ge 1\\), \\(n\\) an integer.",
+    "crumbs": [
+      "Class Material",
+      "Base Cases and Induction Hypotheses"
+    ]
+  },
+  {
+    "objectID": "classes/02/worksheet2.html#claim-3",
+    "href": "classes/02/worksheet2.html#claim-3",
+    "title": "Base Cases and Induction Hypotheses",
+    "section": "Claim 3",
+    "text": "Claim 3\n\\(8^n-3^n\\) is divisible by 5 for all integers \\(n \\ge 1\\). Hint: Another way to say “divisible by 5” is \\(8^n-3^n=5k\\) for some integer \\(k\\).",
+    "crumbs": [
+      "Class Material",
+      "Base Cases and Induction Hypotheses"
+    ]
+  },
+  {
+    "objectID": "classes/02/worksheet2.html#claim-4",
+    "href": "classes/02/worksheet2.html#claim-4",
+    "title": "Base Cases and Induction Hypotheses",
+    "section": "Claim 4",
+    "text": "Claim 4\n\\(\\sum^{n}_{i=1} (8i-5)=4n^2-n\\)",
+    "crumbs": [
+      "Class Material",
+      "Base Cases and Induction Hypotheses"
+    ]
+  },
+  {
+    "objectID": "classes/02/slides.html#todays-goals",
+    "href": "classes/02/slides.html#todays-goals",
+    "title": "Induction Proofs",
+    "section": "Today’s Goals",
+    "text": "Today’s Goals\n\nWork on finding and expressing patters skill.\nPresent the Principle of Induction.\nWork on creating base cases and induction hypotheses.\nPresent induction proofs.",
+    "crumbs": [
+      "Class Material",
+      "Induction Proofs"
+    ]
+  },
+  {
+    "objectID": "classes/02/slides.html#finding-and-expressing-patterns",
+    "href": "classes/02/slides.html#finding-and-expressing-patterns",
+    "title": "Induction Proofs",
+    "section": "Finding and Expressing Patterns",
+    "text": "Finding and Expressing Patterns\nIn this activity I will randomize you to work in small groups on Finding and Expressing Patterns Activity of Today’s worksheet. You will have about 20 minutes to work on this.\nExpression 1: \\(1+3+5+7+ \\cdots (2n-1)=n^2\\) for \\(n \\ge 1\\), \\(n\\) an integer.\nExpression 2: \\(1+2+2^2+ \\cdots + 2^n=2^{n+1}-1\\) for \\(n \\ge 0\\), \\(n\\) an integer.\nExpression 3: \\(\\frac{1}{1\\cdot 2}+\\frac{1}{2\\cdot 3}+\\frac{1}{3\\cdot 4}+ \\cdots \\frac{1}{n(n+1)}=\\frac{n}{n+1}\\)or \\(n \\ge 1\\), \\(n\\) an integer.\nExpression 4: \\(1+2+3+4+ \\cdots n=\\frac{n(n+1)}{2}\\) for \\(n \\ge 1\\), \\(n\\) an integer.\nThese are statements that we think are true. How do we prove them for all \\(n\\)?",
+    "crumbs": [
+      "Class Material",
+      "Induction Proofs"
+    ]
+  },
+  {
+    "objectID": "classes/02/slides.html#principle-of-induction",
+    "href": "classes/02/slides.html#principle-of-induction",
+    "title": "Induction Proofs",
+    "section": "Principle of Induction",
+    "text": "Principle of Induction\nThe simplest and most common form of mathematical induction proves that a statement involving a natural number n holds for all values of n. The proof consists of two steps:\n\nBase Case: showing that the statement holds when n is equal to the lowest value that n is given in the question. Usually, \\(n = 0\\) or \\(n = 1\\).\nInductive Step: showing that if the statement holds for some n, then the statement also holds when n + 1 is substituted for n.\n\nWe uses this proof technique to show infinitely manner statements are true.",
+    "crumbs": [
+      "Class Material",
+      "Induction Proofs"
+    ]
+  },
+  {
+    "objectID": "classes/02/slides.html#example-of-base-case-and-induction-hypothesis",
+    "href": "classes/02/slides.html#example-of-base-case-and-induction-hypothesis",
+    "title": "Induction Proofs",
+    "section": "Example of Base Case and Induction Hypothesis",
+    "text": "Example of Base Case and Induction Hypothesis\n\nClaim: \\(1+2+3+4+ \\cdots + n = \\frac{n(n+1)}{2}\\) for all \\(n\\ge 0\\) Base Case: \\(1=\\frac{1(1+1)}{2}\\) Induction Hypothesis: Assuming \\(1+2+3+4+ \\cdots + n = \\frac{n(n+1)}{2}\\), we want to show \\(1+2+3+4+ \\cdots + n +n+1= \\frac{(n+1)(n+2)}{2}\\).",
+    "crumbs": [
+      "Class Material",
+      "Induction Proofs"
+    ]
+  },
+  {
+    "objectID": "classes/02/slides.html#base-case-and-induction-hypothesis-activity",
+    "href": "classes/02/slides.html#base-case-and-induction-hypothesis-activity",
+    "title": "Induction Proofs",
+    "section": "Base Case and Induction Hypothesis Activity",
+    "text": "Base Case and Induction Hypothesis Activity\nIn this activity I will randomize you to work in small groups on Base Case and Induction Hypothesis Activity of Today’s worksheet. You will have about 20 minutes to work on this.\nClaim 1: \\(2^0+=2^{0+1}-1\\); Assuming \\(2^0+2^1+2^2+ \\cdots + 2^n=2^{n+1}-1\\), we want to show \\(2^0+2^1+2^2+ \\cdots + 2^n+ 2^{n+1}=2^{n+2}-1\\).\nClaim 2: \\(1\\cdot 1! =(1+1)!-1\\); Assuming \\(1\\cdot 1! + 2\\cdot 2! + \\cdots + n \\cdot n!=(n+1)!-1\\) we want to show, \\(1\\cdot 1! + 2\\cdot 2! + \\cdots + n \\cdot n!+ (n+1)((n+1)!)=(n+2)!-1\\)\nClaim 3: \\(8^1-3^1=5\\cdot1\\); Assuming \\(8^n-5^n=5k\\) for some \\(k\\), we want to show \\(8^{n+1}-5^{n+1}=5m\\) for some \\(m\\)",
+    "crumbs": [
+      "Class Material",
+      "Induction Proofs"
+    ]
+  },
+  {
+    "objectID": "classes/02/slides.html#presentation-of-induction-proofs",
+    "href": "classes/02/slides.html#presentation-of-induction-proofs",
+    "title": "Induction Proofs",
+    "section": "Presentation of Induction Proofs",
+    "text": "Presentation of Induction Proofs\nClaim 4: \\(1+2+3+4+ \\cdots + n = \\frac{n(n+1)}{2}\\) for all \\(n\\ge 0\\) Claim 2: Any \\(2^n \\times 2^n\\) grid with one square removed can be completely tiles with right triominos.\n\n\n\nRight triomino",
+    "crumbs": [
+      "Class Material",
+      "Induction Proofs"
+    ]
+  },
+  {
+    "objectID": "classes/01/slides.html#patterns",
+    "href": "classes/01/slides.html#patterns",
+    "title": "Course Introduction",
+    "section": "Patterns",
+    "text": "Patterns\nWhat humans do with the language of mathematics is to describe patterns.\nLynn A. Steen, mathematician\nAll mathematics is is a language that is well tuned, finely honed, to describe patterns\nBrian Greene, physicist",
+    "crumbs": [
+      "Class Material",
+      "Course Introduction"
+    ]
+  },
+  {
+    "objectID": "classes/01/slides.html#patterns-1",
+    "href": "classes/01/slides.html#patterns-1",
+    "title": "Course Introduction",
+    "section": "Patterns",
+    "text": "Patterns\nMathematics is the science of patterns, and nature exploits just about every pattern that there is.\nIan Stewart, mathematician\nA mathematician, like a painter or poet, is a maker of patterns. If his patterns are more permanent than theirs, it is because they are made with ideas.\nG. H. Hardy, mathematician",
+    "crumbs": [
+      "Class Material",
+      "Course Introduction"
+    ]
+  },
+  {
+    "objectID": "classes/01/slides.html#welcome-to-math-300",
+    "href": "classes/01/slides.html#welcome-to-math-300",
+    "title": "Course Introduction",
+    "section": "Welcome to Math 300",
+    "text": "Welcome to Math 300\nWelcome to Math 300 Discrete Mathematics! I am Prof. Geoffrey Buhl, and I am you instructor for this semester. Buhl rhymes with fuel.\nClass Session Goals:\n\nMeet Classmates and work in small groups.\nLearn about this course and my expectations.\nWork on a first discrete mathematics problem.",
+    "crumbs": [
+      "Class Material",
+      "Course Introduction"
+    ]
+  },
+  {
+    "objectID": "classes/01/slides.html#syllabus-activity",
+    "href": "classes/01/slides.html#syllabus-activity",
+    "title": "Course Introduction",
+    "section": "Syllabus Activity",
+    "text": "Syllabus Activity\n\nTake a few minutes to introduce yourselves and share what other courses you are taking this semester.\nAs a group, take 10–15 minutes to look over the syllabus and formulate four questions your group would like to ask about the course.\nAs a whole class, groups will ask questions and I will answer them.",
+    "crumbs": [
+      "Class Material",
+      "Course Introduction"
+    ]
+  },
+  {
+    "objectID": "classes/01/slides.html#syllabus-link",
+    "href": "classes/01/slides.html#syllabus-link",
+    "title": "Course Introduction",
+    "section": "Syllabus Link",
+    "text": "Syllabus Link\n\nQR code for syllabus",
+    "crumbs": [
+      "Class Material",
+      "Course Introduction"
+    ]
+  },
+  {
+    "objectID": "classes/01/slides.html#advice-from-past-students",
+    "href": "classes/01/slides.html#advice-from-past-students",
+    "title": "Course Introduction",
+    "section": "Advice from past students",
+    "text": "Advice from past students\nFormer student’s answer to the question “What advice would you give students to be successful in this class?” at the end of the semester:\n\nStart homework early, do it consistently, and redo missed or difficult problems since homework closely matches exam questions.\nAttend every lecture, pay attention, take clear notes, and ask questions to fully understand concepts and proofs.",
+    "crumbs": [
+      "Class Material",
+      "Course Introduction"
+    ]
+  },
+  {
+    "objectID": "classes/01/slides.html#more-advice-from-past-students",
+    "href": "classes/01/slides.html#more-advice-from-past-students",
+    "title": "Course Introduction",
+    "section": "More advice from past students",
+    "text": "More advice from past students\nFormer student’s answer to the question “What advice would you give students to be successful in this class?” at the end of the semester:\n\nUse support resources regularly, including the Learning Resource Center, office hours, review sessions, and practice exams.\nForm study groups early, collaborate with classmates, and communicate through group chats or Discord.",
+    "crumbs": [
+      "Class Material",
+      "Course Introduction"
+    ]
+  },
+  {
+    "objectID": "classes/01/slides.html#even-more-advice-from-past-students",
+    "href": "classes/01/slides.html#even-more-advice-from-past-students",
+    "title": "Course Introduction",
+    "section": "Even more advice from past students",
+    "text": "Even more advice from past students\nFormer student’s answer to the question “What advice would you give students to be successful in this class?” at the end of the semester:\n\nPractice star problems, proofs, and pretests, and build a helpful formula sheet with key concepts and examples.\nTake advantage of extra credit opportunities and manage your time, stress, and sleep to stay on track.",
+    "crumbs": [
+      "Class Material",
+      "Course Introduction"
+    ]
+  },
+  {
+    "objectID": "classes/01/slides.html#activity-tiling-with-triominos",
+    "href": "classes/01/slides.html#activity-tiling-with-triominos",
+    "title": "Course Introduction",
+    "section": "Activity: Tiling with Triominos",
+    "text": "Activity: Tiling with Triominos\n\nQR code for syllabus",
+    "crumbs": [
+      "Class Material",
+      "Course Introduction"
+    ]
+  },
+  {
+    "objectID": "classes/01/slides.html#activity-worksheet",
+    "href": "classes/01/slides.html#activity-worksheet",
+    "title": "Course Introduction",
+    "section": "Activity: Worksheet",
+    "text": "Activity: Worksheet\nIn small groups, work on the “Tiling with Triominos” worksheet. The goals of this worksheet are to:\n\nExperience the challenge of understanding what a question is asking\nPractice the problem solving strategy of drawing pictures.\nPractice the problem solving strategy of working on “Small n” versions of a general problem.\n\n\nRight triomino",
+    "crumbs": [
+      "Class Material",
+      "Course Introduction"
+    ]
+  },
+  {
+    "objectID": "classes/01/slides.html#next-steps",
+    "href": "classes/01/slides.html#next-steps",
+    "title": "Course Introduction",
+    "section": "Next Steps",
+    "text": "Next Steps\n\nLook over the “Welcome! Students - Start Here!” Module in CI Learn.\nLook at and work on the W1 (Week 1) Learner Survey Info Quiz on CI Learn.\nLook at and work on W1 Introduce yourself Assignment in CI Learn.",
+    "crumbs": [
+      "Class Material",
+      "Course Introduction"
+    ]
+  },
+  {
+    "objectID": "classes/01/worksheet.html",
+    "href": "classes/01/worksheet.html",
+    "title": "Tiling with Triominoes",
+    "section": "",
+    "text": "To tile a shape is to completely cover it with smaller shapes so that there is no overhang off of the larger shape and there is no overalap for the smaller shapes on top of the larger shape.\nYou are allowed to rotate the shapes as if you were playing tetris. This is a right triomino. It is constructed from three unit (\\(1 \\times 1\\)) squares.\n\n\n\nRight triomino\n\n\nConsider an \\(n \\times n\\) board. That is a square board with width \\(n\\) units and length \\(n\\) units. For example this is a \\(6 \\times 6\\) board.\n\n\n\nA 6 by 6 board\n\n\nThis worksheet is asking questions about tiling a \\(n \\times n\\) board with right triominos.",
+    "crumbs": [
+      "Class Material",
+      "Tiling with Triominoes"
+    ]
+  },
+  {
+    "objectID": "classes/01/worksheet.html#problem-description",
+    "href": "classes/01/worksheet.html#problem-description",
+    "title": "Tiling with Triominoes",
+    "section": "",
+    "text": "To tile a shape is to completely cover it with smaller shapes so that there is no overhang off of the larger shape and there is no overalap for the smaller shapes on top of the larger shape.\nYou are allowed to rotate the shapes as if you were playing tetris. This is a right triomino. It is constructed from three unit (\\(1 \\times 1\\)) squares.\n\n\n\nRight triomino\n\n\nConsider an \\(n \\times n\\) board. That is a square board with width \\(n\\) units and length \\(n\\) units. For example this is a \\(6 \\times 6\\) board.\n\n\n\nA 6 by 6 board\n\n\nThis worksheet is asking questions about tiling a \\(n \\times n\\) board with right triominos.",
+    "crumbs": [
+      "Class Material",
+      "Tiling with Triominoes"
+    ]
+  },
+  {
+    "objectID": "classes/01/worksheet.html#question-1",
+    "href": "classes/01/worksheet.html#question-1",
+    "title": "Tiling with Triominoes",
+    "section": "Question 1",
+    "text": "Question 1\nFor \\(n=1\\), 2, 3, 4, and 5, can you completely tile a \\(n \\times n\\) checkerboard with a right triomino pieces? You will have an answer for each \\(n\\).",
+    "crumbs": [
+      "Class Material",
+      "Tiling with Triominoes"
+    ]
+  },
+  {
+    "objectID": "classes/01/worksheet.html#question-2",
+    "href": "classes/01/worksheet.html#question-2",
+    "title": "Tiling with Triominoes",
+    "section": "Question 2",
+    "text": "Question 2\nFor \\(n=1\\), 2, 3, 4, and 5, can you completely tile a \\(n \\times n\\) checkerboard with a right triomino pieces if one \\(1 \\times 1\\) square of the board is removed? That is if, you do not have to cover exactly one of the tiles, can you then tile the \\(n \\times n\\) board with right triominos. (Bonus Question: Does the answer depend on which tile you remove?)",
+    "crumbs": [
+      "Class Material",
+      "Tiling with Triominoes"
+    ]
+  },
+  {
+    "objectID": "classes/01/worksheet.html#question-3",
+    "href": "classes/01/worksheet.html#question-3",
+    "title": "Tiling with Triominoes",
+    "section": "Question 3",
+    "text": "Question 3\nCan you come up with a condition \\(n\\) that will ensures that you cannot tile a \\(n\\times n\\) board?",
+    "crumbs": [
+      "Class Material",
+      "Tiling with Triominoes"
+    ]
+  },
+  {
+    "objectID": "classes/01/worksheet.html#question-4",
+    "href": "classes/01/worksheet.html#question-4",
+    "title": "Tiling with Triominoes",
+    "section": "Question 4",
+    "text": "Question 4\nIs there a condition on \\(n\\) that you can come up with that ensures you can always tile \\(n \\times n\\) board if \\(n\\) satisfies the condition?",
+    "crumbs": [
+      "Class Material",
+      "Tiling with Triominoes"
+    ]
+  },
+  {
+    "objectID": "classes/01/worksheet.html#question-5",
+    "href": "classes/01/worksheet.html#question-5",
+    "title": "Tiling with Triominoes",
+    "section": "Question 5",
+    "text": "Question 5\nIs there a condition on \\(n\\) that you can come up with that ensures you can always tile \\(n \\times n\\) board with one tile removed?",
+    "crumbs": [
+      "Class Material",
+      "Tiling with Triominoes"
+    ]
+  },
+  {
+    "objectID": "classes/02/worksheet1.html",
+    "href": "classes/02/worksheet1.html",
+    "title": "Finding and Expressing Patterns",
+    "section": "",
+    "text": "For the expressions below use the “small \\(n\\)” problem solving strategy to make a guess for an function of \\(n\\) that should appear on the right hand side (RHS) of the expressions below, where the question mark is .",
+    "crumbs": [
+      "Class Material",
+      "Finding and Expressing Patterns"
+    ]
+  },
+  {
+    "objectID": "classes/02/worksheet1.html#expression-1",
+    "href": "classes/02/worksheet1.html#expression-1",
+    "title": "Finding and Expressing Patterns",
+    "section": "Expression 1",
+    "text": "Expression 1\nWhat is the sum of the first \\(n\\) odd integers or as a mathematical expression, what is \\(1+3+5+7+ \\cdots (2n-1)=?\\)\n\nFor the “small \\(n\\)” strategy figure out the following:\n\n\n\n\n\nn\nsum\ntotal\n\n\n\n\n1\n1\n\n\n\n2\n1+3\n\n\n\n3\n1+3+5\n\n\n\n4\n\n\n\n\n5\n\n\n\n\n\n\n\n\nCan you find a pattern? Can you express that idea mathematically as an expression involving \\(n\\)?\nRepeat the same process as above for the next two expressions:",
+    "crumbs": [
+      "Class Material",
+      "Finding and Expressing Patterns"
+    ]
+  },
+  {
+    "objectID": "classes/02/worksheet1.html#expression-2",
+    "href": "classes/02/worksheet1.html#expression-2",
+    "title": "Finding and Expressing Patterns",
+    "section": "Expression 2",
+    "text": "Expression 2\nWhat is the sum of the first \\(n+1\\) powers of 2 starting at \\(2^0\\), or \\(1+2+2^2+ \\cdots + 2^n=?\\)",
+    "crumbs": [
+      "Class Material",
+      "Finding and Expressing Patterns"
+    ]
+  },
+  {
+    "objectID": "classes/02/worksheet1.html#expression-3",
+    "href": "classes/02/worksheet1.html#expression-3",
+    "title": "Finding and Expressing Patterns",
+    "section": "Expression 3",
+    "text": "Expression 3\nWhat is the sum \\(\\frac{1}{1\\cdot 2}+\\frac{1}{2\\cdot 3}+\\frac{1}{3\\cdot 4}+ \\cdots \\frac{1}{n(n+1)}=?\\) for \\(n \\ge 1\\), \\(n\\) an integer.",
+    "crumbs": [
+      "Class Material",
+      "Finding and Expressing Patterns"
+    ]
+  },
+  {
+    "objectID": "classes/02/worksheet1.html#expression-4",
+    "href": "classes/02/worksheet1.html#expression-4",
+    "title": "Finding and Expressing Patterns",
+    "section": "Expression 4",
+    "text": "Expression 4\nWhat is the sum of the first \\(n\\) positive integers, or \\(1+2+3+4+ \\cdots n=?\\) for \\(n \\ge 1\\), \\(n\\) an integer. (Hint: Try finding a pattern for \\(2+4+6+8+ \\cdots\\) with a little help from expression 3 above.)",
+    "crumbs": [
+      "Class Material",
+      "Finding and Expressing Patterns"
     ]
   },
   {
@@ -1086,297 +1171,6 @@
     ]
   },
   {
-    "objectID": "classes/02/worksheet1.html",
-    "href": "classes/02/worksheet1.html",
-    "title": "Finding and Expressing Patterns",
-    "section": "",
-    "text": "For the expressions below use the “small \\(n\\)” problem solving strategy to make a guess for an function of \\(n\\) that should appear on the right hand side (RHS) of the expressions below, where the question mark is .",
-    "crumbs": [
-      "Class Material",
-      "Finding and Expressing Patterns"
-    ]
-  },
-  {
-    "objectID": "classes/02/worksheet1.html#expression-1",
-    "href": "classes/02/worksheet1.html#expression-1",
-    "title": "Finding and Expressing Patterns",
-    "section": "Expression 1",
-    "text": "Expression 1\nWhat is the sum of the first \\(n\\) odd integers or as a mathematical expression, what is \\(1+3+5+7+ \\cdots (2n-1)=?\\)\n\nFor the “small \\(n\\)” strategy figure out the following:\n\n\n\n\n\nn\nsum\ntotal\n\n\n\n\n1\n1\n\n\n\n2\n1+3\n\n\n\n3\n1+3+5\n\n\n\n4\n\n\n\n\n5\n\n\n\n\n\n\n\n\nCan you find a pattern? Can you express that idea mathematically as an expression involving \\(n\\)?\nRepeat the same process as above for the next two expressions:",
-    "crumbs": [
-      "Class Material",
-      "Finding and Expressing Patterns"
-    ]
-  },
-  {
-    "objectID": "classes/02/worksheet1.html#expression-2",
-    "href": "classes/02/worksheet1.html#expression-2",
-    "title": "Finding and Expressing Patterns",
-    "section": "Expression 2",
-    "text": "Expression 2\nWhat is the sum of the first \\(n+1\\) powers of 2 starting at \\(2^0\\), or \\(1+2+2^2+ \\cdots + 2^n=?\\)",
-    "crumbs": [
-      "Class Material",
-      "Finding and Expressing Patterns"
-    ]
-  },
-  {
-    "objectID": "classes/02/worksheet1.html#expression-3",
-    "href": "classes/02/worksheet1.html#expression-3",
-    "title": "Finding and Expressing Patterns",
-    "section": "Expression 3",
-    "text": "Expression 3\nWhat is the sum \\(\\frac{1}{1\\cdot 2}+\\frac{1}{2\\cdot 3}+\\frac{1}{3\\cdot 4}+ \\cdots \\frac{1}{n(n+1)}=?\\) for \\(n \\ge 1\\), \\(n\\) an integer.",
-    "crumbs": [
-      "Class Material",
-      "Finding and Expressing Patterns"
-    ]
-  },
-  {
-    "objectID": "classes/02/worksheet1.html#expression-4",
-    "href": "classes/02/worksheet1.html#expression-4",
-    "title": "Finding and Expressing Patterns",
-    "section": "Expression 4",
-    "text": "Expression 4\nWhat is the sum of the first \\(n\\) positive integers, or \\(1+2+3+4+ \\cdots n=?\\) for \\(n \\ge 1\\), \\(n\\) an integer. (Hint: Try finding a pattern for \\(2+4+6+8+ \\cdots\\) with a little help from expression 3 above.)",
-    "crumbs": [
-      "Class Material",
-      "Finding and Expressing Patterns"
-    ]
-  },
-  {
-    "objectID": "classes/02/slides.html#todays-goals",
-    "href": "classes/02/slides.html#todays-goals",
-    "title": "Induction Proofs",
-    "section": "Today’s Goals",
-    "text": "Today’s Goals\n\nWork on finding and expressing patters skill.\nPresent the Principle of Induction.\nWork on creating base cases and induction hypotheses.\nPresent induction proofs.",
-    "crumbs": [
-      "Class Material",
-      "Induction Proofs"
-    ]
-  },
-  {
-    "objectID": "classes/02/slides.html#finding-and-expressing-patterns",
-    "href": "classes/02/slides.html#finding-and-expressing-patterns",
-    "title": "Induction Proofs",
-    "section": "Finding and Expressing Patterns",
-    "text": "Finding and Expressing Patterns\nIn this activity I will randomize you to work in small groups on Finding and Expressing Patterns Activity of Today’s worksheet. You will have about 20 minutes to work on this.\nExpression 1: \\(1+3+5+7+ \\cdots (2n-1)=n^2\\) for \\(n \\ge 1\\), \\(n\\) an integer.\nExpression 2: \\(1+2+2^2+ \\cdots + 2^n=2^{n+1}-1\\) for \\(n \\ge 0\\), \\(n\\) an integer.\nExpression 3: \\(\\frac{1}{1\\cdot 2}+\\frac{1}{2\\cdot 3}+\\frac{1}{3\\cdot 4}+ \\cdots \\frac{1}{n(n+1)}=\\frac{n}{n+1}\\)or \\(n \\ge 1\\), \\(n\\) an integer.\nExpression 4: \\(1+2+3+4+ \\cdots n=\\frac{n(n+1)}{2}\\) for \\(n \\ge 1\\), \\(n\\) an integer.\nThese are statements that we think are true. How do we prove them for all \\(n\\)?",
-    "crumbs": [
-      "Class Material",
-      "Induction Proofs"
-    ]
-  },
-  {
-    "objectID": "classes/02/slides.html#principle-of-induction",
-    "href": "classes/02/slides.html#principle-of-induction",
-    "title": "Induction Proofs",
-    "section": "Principle of Induction",
-    "text": "Principle of Induction\nThe simplest and most common form of mathematical induction proves that a statement involving a natural number n holds for all values of n. The proof consists of two steps:\n\nBase Case: showing that the statement holds when n is equal to the lowest value that n is given in the question. Usually, \\(n = 0\\) or \\(n = 1\\).\nInductive Step: showing that if the statement holds for some n, then the statement also holds when n + 1 is substituted for n.\n\nWe uses this proof technique to show infinitely manner statements are true.",
-    "crumbs": [
-      "Class Material",
-      "Induction Proofs"
-    ]
-  },
-  {
-    "objectID": "classes/02/slides.html#example-of-base-case-and-induction-hypothesis",
-    "href": "classes/02/slides.html#example-of-base-case-and-induction-hypothesis",
-    "title": "Induction Proofs",
-    "section": "Example of Base Case and Induction Hypothesis",
-    "text": "Example of Base Case and Induction Hypothesis\n\nClaim: \\(1+2+3+4+ \\cdots + n = \\frac{n(n+1)}{2}\\) for all \\(n\\ge 0\\) Base Case: \\(1=\\frac{1(1+1)}{2}\\) Induction Hypothesis: Assuming \\(1+2+3+4+ \\cdots + n = \\frac{n(n+1)}{2}\\), we want to show \\(1+2+3+4+ \\cdots + n +n+1= \\frac{(n+1)(n+2)}{2}\\).",
-    "crumbs": [
-      "Class Material",
-      "Induction Proofs"
-    ]
-  },
-  {
-    "objectID": "classes/02/slides.html#base-case-and-induction-hypothesis-activity",
-    "href": "classes/02/slides.html#base-case-and-induction-hypothesis-activity",
-    "title": "Induction Proofs",
-    "section": "Base Case and Induction Hypothesis Activity",
-    "text": "Base Case and Induction Hypothesis Activity\nIn this activity I will randomize you to work in small groups on Base Case and Induction Hypothesis Activity of Today’s worksheet. You will have about 20 minutes to work on this.\nClaim 1: \\(2^0+=2^{0+1}-1\\); Assuming \\(2^0+2^1+2^2+ \\cdots + 2^n=2^{n+1}-1\\), we want to show \\(2^0+2^1+2^2+ \\cdots + 2^n+ 2^{n+1}=2^{n+2}-1\\).\nClaim 2: \\(1\\cdot 1! =(1+1)!-1\\); Assuming \\(1\\cdot 1! + 2\\cdot 2! + \\cdots + n \\cdot n!=(n+1)!-1\\) we want to show, \\(1\\cdot 1! + 2\\cdot 2! + \\cdots + n \\cdot n!+ (n+1)((n+1)!)=(n+2)!-1\\)\nClaim 3: \\(8^1-3^1=5\\cdot1\\); Assuming \\(8^n-5^n=5k\\) for some \\(k\\), we want to show \\(8^{n+1}-5^{n+1}=5m\\) for some \\(m\\)",
-    "crumbs": [
-      "Class Material",
-      "Induction Proofs"
-    ]
-  },
-  {
-    "objectID": "classes/02/slides.html#presentation-of-induction-proofs",
-    "href": "classes/02/slides.html#presentation-of-induction-proofs",
-    "title": "Induction Proofs",
-    "section": "Presentation of Induction Proofs",
-    "text": "Presentation of Induction Proofs\nClaim 4: \\(1+2+3+4+ \\cdots + n = \\frac{n(n+1)}{2}\\) for all \\(n\\ge 0\\) Claim 2: Any \\(2^n \\times 2^n\\) grid with one square removed can be completely tiles with right triominos.\n\n\n\nRight triomino",
-    "crumbs": [
-      "Class Material",
-      "Induction Proofs"
-    ]
-  },
-  {
-    "objectID": "classes/07/worksheet.html",
-    "href": "classes/07/worksheet.html",
-    "title": "Stars and Bars",
-    "section": "",
-    "text": "Activity: Attempt to solve following problems that will explore modifying the stars and bars counting method.\nSuppose you have 12 identical balls and 6 numbered boxes.\n\nHow many ways are there to distribute 12 balls into six numbered boxes if boxes 1 and 2 must be empty?\nHow many ways are there to distribute 12 balls into six numbered boxes if box 1 must contain at least 1 ball and box 2 must contain at least 2 balls?\nHow many ways are there to distribute 12 balls into six numbered boxes if every even numbered box must be empty?\nHow many ways are there to distribute 12 balls into six numbered boxes if every odd numbered box must have at least one ball?\nHow many ways are there to distribute 12 balls into six numbered boxes if exactly two of the boxes must be empty?\nHow many ways are there to distribute 12 balls into six numbered boxes so that at least one is empty?\nHow many ways are there to distribute 12 balls into six numbered boxes so that each box has two balls?"
-  },
-  {
-    "objectID": "classes/08/slides.html#choosing-with-order-not-mattering-and-repetition-not-allowed",
-    "href": "classes/08/slides.html#choosing-with-order-not-mattering-and-repetition-not-allowed",
-    "title": "Counting Tools",
-    "section": "Choosing with order not mattering and repetition not allowed",
-    "text": "Choosing with order not mattering and repetition not allowed\nClass Session Goals:\n\nReview Chapter 1 Counting Tools\nPractice complicated countign questions"
-  },
-  {
-    "objectID": "classes/08/slides.html#order-and-repetition",
-    "href": "classes/08/slides.html#order-and-repetition",
-    "title": "Counting Tools",
-    "section": "Order and Repetition",
-    "text": "Order and Repetition\nConsider making \\(k\\) choices from a list of \\(n\\) possible choices. How many ways are there to do this?\nIn order to be able to answer this question we need to establish some rules, and we do this by answering two questions:\n1. Does the order of our choices matter?\n2. Are choices allowed to be repeated?"
-  },
-  {
-    "objectID": "classes/08/slides.html#order-and-repetition-1",
-    "href": "classes/08/slides.html#order-and-repetition-1",
-    "title": "Counting Tools",
-    "section": "Order and Repetition",
-    "text": "Order and Repetition\nOrder matters and repetition is allowed: \\(n^k\\)\nOrder matters and repetition is not allowed: \\(n(n-1)(n-2)\\cdots(n-k+1)=\\frac{n!}{(n-k)!}\\)\nOrder does not matter and repetition is not allowed: \\(\\binom{n}{k}=\\frac{n!}{(n-k)!k!}\\)\nOrder does not matter and repetition is allowed: To be determined."
-  },
-  {
-    "objectID": "classes/08/slides.html#addition-principle",
-    "href": "classes/08/slides.html#addition-principle",
-    "title": "Counting Tools",
-    "section": "Addition Principle",
-    "text": "Addition Principle\nIdea: Break larger counting problem up into smaller and simpler counting problems then add up the results from the smaller problems.\nAddition Principle Suppose a set \\(S\\) is the disjoint union of smaller sets \\(A_1, A_2, \\cdots A_n\\). That is \\(S= A_1\\cup A_2\\cup \\cdots A_n\\) and \\(A_i \\cap A_j = \\emptyset\\) for \\(i \\neq j\\). Then \\(|S|=|A_1|+ |A_2| + \\cdots + |A_n|\\).\nThe challenge and creativity of using this tool lies in choosing the right \\(A_i\\) sets."
-  },
-  {
-    "objectID": "classes/08/slides.html#multiplication-principle",
-    "href": "classes/08/slides.html#multiplication-principle",
-    "title": "Counting Tools",
-    "section": "Multiplication Principle",
-    "text": "Multiplication Principle\nIdea: Create a step by step process to construct the object you are trying to count, and use the number of choices at each step to calculate the total number of different objects you can construct.\nMultiplication Principle\nConsider a \\(k\\)-stage process that uniquely constructs all the elements of a set S. If \\(\\alpha_i\\) is the number of choices at stage \\(i\\), then the number of elements in S is \\(|S|=\\alpha_1 \\cdot \\alpha_2 \\cdots \\alpha_k\\).\nThe challenge and creativity of using this tool lies in choosing the correct process, making sure it constructs all the objects you want to count, and does so uniquely.."
-  },
-  {
-    "objectID": "classes/08/slides.html#order-and-repetition-activity",
-    "href": "classes/08/slides.html#order-and-repetition-activity",
-    "title": "Counting Tools",
-    "section": "Order and Repetition Activity",
-    "text": "Order and Repetition Activity\nBreak up into small groups and work the order and repetition activity."
-  },
-  {
-    "objectID": "classes/01/slides.html#patterns",
-    "href": "classes/01/slides.html#patterns",
-    "title": "Course Introduction",
-    "section": "Patterns",
-    "text": "Patterns\nWhat humans do with the language of mathematics is to describe patterns.\nLynn A. Steen, mathematician\nAll mathematics is is a language that is well tuned, finely honed, to describe patterns\nBrian Greene, physicist",
-    "crumbs": [
-      "Class Material",
-      "Course Introduction"
-    ]
-  },
-  {
-    "objectID": "classes/01/slides.html#patterns-1",
-    "href": "classes/01/slides.html#patterns-1",
-    "title": "Course Introduction",
-    "section": "Patterns",
-    "text": "Patterns\nMathematics is the science of patterns, and nature exploits just about every pattern that there is.\nIan Stewart, mathematician\nA mathematician, like a painter or poet, is a maker of patterns. If his patterns are more permanent than theirs, it is because they are made with ideas.\nG. H. Hardy, mathematician",
-    "crumbs": [
-      "Class Material",
-      "Course Introduction"
-    ]
-  },
-  {
-    "objectID": "classes/01/slides.html#welcome-to-math-300",
-    "href": "classes/01/slides.html#welcome-to-math-300",
-    "title": "Course Introduction",
-    "section": "Welcome to Math 300",
-    "text": "Welcome to Math 300\nWelcome to Math 300 Discrete Mathematics! I am Prof. Geoffrey Buhl, and I am you instructor for this semester. Buhl rhymes with fuel.\nClass Session Goals:\n\nMeet Classmates and work in small groups.\nLearn about this course and my expectations.\nWork on a first discrete mathematics problem.",
-    "crumbs": [
-      "Class Material",
-      "Course Introduction"
-    ]
-  },
-  {
-    "objectID": "classes/01/slides.html#syllabus-activity",
-    "href": "classes/01/slides.html#syllabus-activity",
-    "title": "Course Introduction",
-    "section": "Syllabus Activity",
-    "text": "Syllabus Activity\n\nTake a few minutes to introduce yourselves and share what other courses you are taking this semester.\nAs a group, take 10–15 minutes to look over the syllabus and formulate four questions your group would like to ask about the course.\nAs a whole class, groups will ask questions and I will answer them.",
-    "crumbs": [
-      "Class Material",
-      "Course Introduction"
-    ]
-  },
-  {
-    "objectID": "classes/01/slides.html#syllabus-link",
-    "href": "classes/01/slides.html#syllabus-link",
-    "title": "Course Introduction",
-    "section": "Syllabus Link",
-    "text": "Syllabus Link\n\nQR code for syllabus",
-    "crumbs": [
-      "Class Material",
-      "Course Introduction"
-    ]
-  },
-  {
-    "objectID": "classes/01/slides.html#advice-from-past-students",
-    "href": "classes/01/slides.html#advice-from-past-students",
-    "title": "Course Introduction",
-    "section": "Advice from past students",
-    "text": "Advice from past students\nFormer student’s answer to the question “What advice would you give students to be successful in this class?” at the end of the semester:\n\nStart homework early, do it consistently, and redo missed or difficult problems since homework closely matches exam questions.\nAttend every lecture, pay attention, take clear notes, and ask questions to fully understand concepts and proofs.",
-    "crumbs": [
-      "Class Material",
-      "Course Introduction"
-    ]
-  },
-  {
-    "objectID": "classes/01/slides.html#more-advice-from-past-students",
-    "href": "classes/01/slides.html#more-advice-from-past-students",
-    "title": "Course Introduction",
-    "section": "More advice from past students",
-    "text": "More advice from past students\nFormer student’s answer to the question “What advice would you give students to be successful in this class?” at the end of the semester:\n\nUse support resources regularly, including the Learning Resource Center, office hours, review sessions, and practice exams.\nForm study groups early, collaborate with classmates, and communicate through group chats or Discord.",
-    "crumbs": [
-      "Class Material",
-      "Course Introduction"
-    ]
-  },
-  {
-    "objectID": "classes/01/slides.html#even-more-advice-from-past-students",
-    "href": "classes/01/slides.html#even-more-advice-from-past-students",
-    "title": "Course Introduction",
-    "section": "Even more advice from past students",
-    "text": "Even more advice from past students\nFormer student’s answer to the question “What advice would you give students to be successful in this class?” at the end of the semester:\n\nPractice star problems, proofs, and pretests, and build a helpful formula sheet with key concepts and examples.\nTake advantage of extra credit opportunities and manage your time, stress, and sleep to stay on track.",
-    "crumbs": [
-      "Class Material",
-      "Course Introduction"
-    ]
-  },
-  {
-    "objectID": "classes/01/slides.html#activity-tiling-with-triominos",
-    "href": "classes/01/slides.html#activity-tiling-with-triominos",
-    "title": "Course Introduction",
-    "section": "Activity: Tiling with Triominos",
-    "text": "Activity: Tiling with Triominos\n\nQR code for syllabus",
-    "crumbs": [
-      "Class Material",
-      "Course Introduction"
-    ]
-  },
-  {
-    "objectID": "classes/01/slides.html#activity-worksheet",
-    "href": "classes/01/slides.html#activity-worksheet",
-    "title": "Course Introduction",
-    "section": "Activity: Worksheet",
-    "text": "Activity: Worksheet\nIn small groups, work on the “Tiling with Triominos” worksheet. The goals of this worksheet are to:\n\nExperience the challenge of understanding what a question is asking\nPractice the problem solving strategy of drawing pictures.\nPractice the problem solving strategy of working on “Small n” versions of a general problem.\n\n\nRight triomino",
-    "crumbs": [
-      "Class Material",
-      "Course Introduction"
-    ]
-  },
-  {
-    "objectID": "classes/01/slides.html#next-steps",
-    "href": "classes/01/slides.html#next-steps",
-    "title": "Course Introduction",
-    "section": "Next Steps",
-    "text": "Next Steps\n\nLook over the “Welcome! Students - Start Here!” Module in CI Learn.\nLook at and work on the W1 (Week 1) Learner Survey Info Quiz on CI Learn.\nLook at and work on W1 Introduce yourself Assignment in CI Learn.",
-    "crumbs": [
-      "Class Material",
-      "Course Introduction"
-    ]
-  },
-  {
     "objectID": "classes/06/slides.html#what-is-a-direct-proof",
     "href": "classes/06/slides.html#what-is-a-direct-proof",
     "title": "Direct Proofs",
@@ -1443,23 +1237,248 @@
     ]
   },
   {
-    "objectID": "index.html",
-    "href": "index.html",
-    "title": "Math 300 - Discrete Mathematics",
-    "section": "",
-    "text": "Welcome to Math 300!\nDiscrete math is a fun departure from the calculus series, free from concerns about continuity and the real numbers. We get our first chance to explore abstract structures and a first introduction to proofs in this course. Discrete math ultimately boils down to counting, something that is tangible, comfortable, and sometimes even comforting.\nThis website contains the syllabus, homework, lecture slides and activities in an widely accessible format. There are additional resources available on CI Learn, including the course schedule, announcements, and grades. Please check CI Learn regularly for updates.",
+    "objectID": "classes/07/slides.html#stars-and-bars-method",
+    "href": "classes/07/slides.html#stars-and-bars-method",
+    "title": "Repetition Allowed Order Does Not Matter",
+    "section": "Stars and Bars Method",
+    "text": "Stars and Bars Method\nThe stars and bars method is a technique to count the number of ways to make \\(k\\) choices from \\(n\\) objects where order does not matter and repetition is allowed. Class Session Goals:\n\nUnderstand what it means to chose \\(k\\) times from \\(n\\) objects with repetition allowed and where order does not matter.\nPresent the Stars and Bars technique for counting\nPresent how to modify Stars and Bars technique\nPractice Modifying the Stars and Bars technique",
     "crumbs": [
-      "Home"
+      "Class Material",
+      "Repetition Allowed Order Does Not Matter"
     ]
   },
   {
-    "objectID": "index.html#welcome",
-    "href": "index.html#welcome",
-    "title": "Math 300 - Discrete Mathematics",
-    "section": "",
-    "text": "Welcome to Math 300!\nDiscrete math is a fun departure from the calculus series, free from concerns about continuity and the real numbers. We get our first chance to explore abstract structures and a first introduction to proofs in this course. Discrete math ultimately boils down to counting, something that is tangible, comfortable, and sometimes even comforting.\nThis website contains the syllabus, homework, lecture slides and activities in an widely accessible format. There are additional resources available on CI Learn, including the course schedule, announcements, and grades. Please check CI Learn regularly for updates.",
+    "objectID": "classes/07/slides.html#order-and-repetition",
+    "href": "classes/07/slides.html#order-and-repetition",
+    "title": "Repetition Allowed Order Does Not Matter",
+    "section": "Order and Repetition",
+    "text": "Order and Repetition\nConsider making \\(k\\) choices from a list of \\(n\\) possible choices. How many ways are there to do this?\nIn order to be able to answer this question we need to establish some rules, and we do this by answering two questions:\n1. Does the order of our choices matter?\n2. Are choices allowed to be repeated?",
     "crumbs": [
-      "Home"
+      "Class Material",
+      "Repetition Allowed Order Does Not Matter"
+    ]
+  },
+  {
+    "objectID": "classes/07/slides.html#order-and-repetition-1",
+    "href": "classes/07/slides.html#order-and-repetition-1",
+    "title": "Repetition Allowed Order Does Not Matter",
+    "section": "Order and Repetition",
+    "text": "Order and Repetition\nOrder matters and repetition is allowed: \\(n^k\\)\nOrder matters and repetition is not allowed: \\(n(n-1)(n-2)\\cdots(n-k+1)=\\frac{n!}{(n-k)!}\\)\nOrder does not matter and repetition is not allowed: \\(\\binom{n}{k}=\\frac{n!}{(n-k)!k!}\\)\nOrder does not matter and repetition is allowed: Figure it out today!",
+    "crumbs": [
+      "Class Material",
+      "Repetition Allowed Order Does Not Matter"
+    ]
+  },
+  {
+    "objectID": "classes/07/slides.html#starter-activity",
+    "href": "classes/07/slides.html#starter-activity",
+    "title": "Repetition Allowed Order Does Not Matter",
+    "section": "Starter Activity",
+    "text": "Starter Activity\nChoose some partners around you to work on one of the following questions.\nQuestion A: Suppose you have 3 flavors of ice cream. How many different bowls of 2 scoops of ice cream are possible? How does the answer change if you add a fourth flavor?\nQuestion B: Suppose you have 3 boxes label 1, 2, 3 and two black balls. How many different ways are there to place the balls in the boxes? How does the answer change if you add a fourth box labeled 4?\nQuestion C: How many solutions to the equation \\(x+y+z=2\\) are there if \\(x\\), \\(y\\), and \\(z\\) must be non-negative integers? For example the ordered triple \\((x, y, z)=(1,0,1)\\) is one solution. How many solutions are there to \\(w+x+y+z=2\\) if \\(w\\), \\(x\\), \\(y\\), and \\(z\\) must be non-negative integers?",
+    "crumbs": [
+      "Class Material",
+      "Repetition Allowed Order Does Not Matter"
+    ]
+  },
+  {
+    "objectID": "classes/07/slides.html#stars-and-bars-method-1",
+    "href": "classes/07/slides.html#stars-and-bars-method-1",
+    "title": "Repetition Allowed Order Does Not Matter",
+    "section": "Stars and Bars Method",
+    "text": "Stars and Bars Method\n\nThere is a two stage process to uniquely create stars and bars figures like this one.\nStep 1 Choose \\(k\\) locations for stars * from among \\(k+n-1\\) locations available.\nStep 2 Choose \\(n-1\\) locations for bars | from among remaining locations available.\nThe “magic” here is changing the problem into one where repetition of choices is not allowed.",
+    "crumbs": [
+      "Class Material",
+      "Repetition Allowed Order Does Not Matter"
+    ]
+  },
+  {
+    "objectID": "classes/07/slides.html#stars-and-bars-activity",
+    "href": "classes/07/slides.html#stars-and-bars-activity",
+    "title": "Repetition Allowed Order Does Not Matter",
+    "section": "Stars and Bars Activity",
+    "text": "Stars and Bars Activity\nIn small groups, work on the “Modifying Stars and Bars” worksheet. The goals of this worksheet are to:\n\nPractice modifying the stars and bars technique to new problems\nApplying the stage based counting process of selecting positions for stars and then bars. :::",
+    "crumbs": [
+      "Class Material",
+      "Repetition Allowed Order Does Not Matter"
+    ]
+  },
+  {
+    "objectID": "classes/07/slides.html#stars-and-bars-answers",
+    "href": "classes/07/slides.html#stars-and-bars-answers",
+    "title": "Repetition Allowed Order Does Not Matter",
+    "section": "Stars and Bars Answers",
+    "text": "Stars and Bars Answers\n\n\\(\\binom{15}{12}\\)\n\\(\\binom{14}{9}\\)\n\\(\\binom{14}{12}\\)\n\\(\\binom{14}{9}\\)\n\\(\\binom{6}{2}\\binom{11}{3}\\)\n\n1",
+    "crumbs": [
+      "Class Material",
+      "Repetition Allowed Order Does Not Matter"
+    ]
+  },
+  {
+    "objectID": "classes/07/slides.html#order-and-repetition-2",
+    "href": "classes/07/slides.html#order-and-repetition-2",
+    "title": "Repetition Allowed Order Does Not Matter",
+    "section": "Order and Repetition",
+    "text": "Order and Repetition\nHow many ways are there to make \\(k\\) choices from \\(n\\) objects?\nIf order matters and repetition is allowed: \\(n^k\\)\nIf order matters and repetition is not allowed: \\(n(n-1)(n-2)\\cdots(n-k+1)=\\frac{n!}{(n-k)!}\\)\nIf order does not matter and repetition is not allowed: \\(\\binom{n}{k}=\\frac{n!}{(n-k)!k!}\\)\nIf order does not matter and repetition is allowed: \\(\\binom{n-1+k}{k}\\)",
+    "crumbs": [
+      "Class Material",
+      "Repetition Allowed Order Does Not Matter"
+    ]
+  },
+  {
+    "objectID": "classes/08/worksheet.html#problem-2",
+    "href": "classes/08/worksheet.html#problem-2",
+    "title": "Order and Repetition",
+    "section": "Problem 2",
+    "text": "Problem 2"
+  },
+  {
+    "objectID": "classes/08/worksheet.html#problem-3",
+    "href": "classes/08/worksheet.html#problem-3",
+    "title": "Order and Repetition",
+    "section": "Problem 3",
+    "text": "Problem 3"
+  },
+  {
+    "objectID": "classes/10/slides.html#introduction-to-recursion",
+    "href": "classes/10/slides.html#introduction-to-recursion",
+    "title": "Counting with Recursion",
+    "section": "Introduction to Recursion",
+    "text": "Introduction to Recursion\nChapter 2 covers using recursion to count objects. Two important questions to ask are: If I know the answer for the \\(n\\) case, what do I need to do to get the answer to the \\(n+1\\) case? Can I find a smaller versions of the problem in the problem I am working on? Class Session Goals:\n\nPresent recursion in the mathematical context\nPractice creating recursive formulas for sequences"
+  },
+  {
+    "objectID": "classes/10/slides.html#interesting-mathematical-sequences",
+    "href": "classes/10/slides.html#interesting-mathematical-sequences",
+    "title": "Counting with Recursion",
+    "section": "Interesting Mathematical Sequences",
+    "text": "Interesting Mathematical Sequences\n\n\n\nSequence\nName\nOEIS\n\n\n\n\n\\(1,2,3,4,5,6, \\ldots\\)\nCounting\nA000027\n\n\n\\(1,3,6,10,15,21, \\ldots\\)\nTriangular\nA000217\n\n\n\\(1,4,9,16,25,36, \\ldots\\)\nSquare\nA000290\n\n\n\\(1,1,2,3,5,8, \\ldots\\)\nFibbonacci\nA000045\n\n\n\\(0, 2, 5, 9, 14, 20, \\ldots\\)\n???\nA000096\n\n\n\nSequences give the answer to questions like: What is the sum of the first \\(n\\) integers? What is the sum of the first \\(n\\) odd integers? How many diagonals are there in a \\(n+2\\)-gon?"
+  },
+  {
+    "objectID": "classes/10/slides.html#recursive-and-closed-formula",
+    "href": "classes/10/slides.html#recursive-and-closed-formula",
+    "title": "Counting with Recursion",
+    "section": "Recursive and Closed Formula",
+    "text": "Recursive and Closed Formula\nWe can express sequences recursively or in a closed form. Closed form means as a function of \\(n\\).\n\n\n\nNumbers\nInitial Condition\nRecursive Relationship\nClosed Form\n\n\n\n\nCounting\n\\(c_1=1\\)\n\\(c_n=c_{n-1}+1\\)\n\\(c_n=n\\)\n\n\nTriangular\n\\(T_1=1\\)\n\\(T_n=T_{n-1}+n\\)\n\\(T_n=\\frac{n(n+1)}{2}\\)\n\n\nSquare\n\\(S_1=1\\)\n\\(S_n=S_{n-1}+2n-1\\)\n\\(S_n=n^2\\)\n\n\nFibbonacci\n\\(F_1=1,F_2=1\\)\n\\(F_n=F_{n-1}+F_{n-2}\\)\n\\(T_n=???\\)\n\n\n\\(n+2\\)-gon Diags\n\\(D_1=0\\)\n\\(D_n=???\\)\n\\(D_n=\\frac{n(n+3)}{2}\\)"
+  },
+  {
+    "objectID": "classes/10/slides.html#definitions",
+    "href": "classes/10/slides.html#definitions",
+    "title": "Counting with Recursion",
+    "section": "Definitions",
+    "text": "Definitions\nThe order of a recursive formula is the number of preceding values that are needed to calculate the next value. For example, the Fibonnacci recursion has order 2, and the Triangular number recursion has order 1.\nA recurrence is called linear if it has the form \\[a_n=c_1\\cdot a_{n-1}+c_2\\cdot a_{n-2} \\cdots + c_k\\cdot a_{n-k} +f(n)\\] where \\(c_i\\) are real numbers and \\(f(n)\\) is a function of \\(n\\)."
+  },
+  {
+    "objectID": "classes/10/slides.html#goal-for-the-next-two-classes",
+    "href": "classes/10/slides.html#goal-for-the-next-two-classes",
+    "title": "Counting with Recursion",
+    "section": "Goal for the next two classes",
+    "text": "Goal for the next two classes\nThe most challenging part of chapter 2 is going from a counting problem to a recursive representation of the problems. We will explore two ways to do this motivated the following two questions.\n\nCan I find patterns in the differences in small \\(n\\) data?\nCan I find smaller versions of my problem?"
+  },
+  {
+    "objectID": "classes/10/slides.html#recursion-activity",
+    "href": "classes/10/slides.html#recursion-activity",
+    "title": "Counting with Recursion",
+    "section": "Recursion Activity",
+    "text": "Recursion Activity\nFor the remainder of the next two classes, we will work on a number of counting problems where the goal is to find a recursive formula that gives the answers to the following counting problems. In the next few classes we will learn how to calculate a closed form solution if we have a recursive description of the solution.\n\\(H_n\\) - minimum moves needed to solve a Tower of Hanoi problem with\n\\(T_n\\) - tilings of a \\(1\\times n\\) board by \\(1 \\times 2\\) and \\(1 \\times 1\\) tiles\n\\(S_n\\) - different ascents of an \\(n\\)-stair staircase\n\\(B_n\\) - binary strings of length \\(n\\) that include 00"
+  },
+  {
+    "objectID": "classes/10/slides.html#towers-of-hanoi",
+    "href": "classes/10/slides.html#towers-of-hanoi",
+    "title": "Counting with Recursion",
+    "section": "Towers of Hanoi",
+    "text": "Towers of Hanoi\nWhat is the smallest number of moves to solve the Towers of Hanoi puzzle with \\(n\\) disks.? Let \\(H_n\\) be the minimun moves in an \\(n\\)-disk solution. What are some initial values? Can you find a recursive formulas for \\(H_n\\)? Can you find a closed form?"
+  },
+  {
+    "objectID": "classes/10/slides.html#tiling-a-sidewalk",
+    "href": "classes/10/slides.html#tiling-a-sidewalk",
+    "title": "Counting with Recursion",
+    "section": "Tiling a sidewalk",
+    "text": "Tiling a sidewalk\nHow many ways can you tile a \\(1 \\times n\\) board with a \\(1 \\times 1\\) squares and \\(2 \\times 1\\) rectangles, call this \\(T_n\\)? Can you express \\(T_n\\) as a recursion? Here are five possible tilings of a \\(1 \\times 4\\) board."
+  },
+  {
+    "objectID": "classes/10/slides.html#staircase-problem",
+    "href": "classes/10/slides.html#staircase-problem",
+    "title": "Counting with Recursion",
+    "section": "Staircase Problem",
+    "text": "Staircase Problem\nHow many ways can you walk up a staircase with \\(n\\) stairs if you can choose 1, 2, or 3 steps to ascent? Let \\(S_n\\) be the number of different ascents of a \\(n\\)-step staircase. Can you express \\(S_n\\) as a recursion? Can you find a closed form?"
+  },
+  {
+    "objectID": "classes/10/slides.html#binary-stings",
+    "href": "classes/10/slides.html#binary-stings",
+    "title": "Counting with Recursion",
+    "section": "Binary Stings",
+    "text": "Binary Stings\nHow many binary strings of length \\(n\\) are there that include a 00, i.e two adjacent zeros? Can you express \\(B_n\\) as a recursion?"
+  },
+  {
+    "objectID": "classes/10/slides.html#tiling-a-board",
+    "href": "classes/10/slides.html#tiling-a-board",
+    "title": "Counting with Recursion",
+    "section": "Tiling a board",
+    "text": "Tiling a board\nHow many ways can you tile a \\(2 \\times n\\) board with \\(1 \\times 1\\) and \\(2 \\times 1\\) tiles? The \\(2 \\times 1\\) tiles can be rotated. Can you express this sequence \\(a_n\\) as a recurrence?ß"
+  },
+  {
+    "objectID": "homework/homeworkwk11.html",
+    "href": "homework/homeworkwk11.html",
+    "title": "Week 11 Homework",
+    "section": "",
+    "text": "In order to receive full credit problems and solutions must be clearly written and presented neatly. In writing up your solution, you should state the problem as explaining the solution. Merely giving answers to exercises will is not enough to receive credit. Your write up must show work and convince me that you understand the material. If you need additional time to complete this assignment, please email me. Starred (\\(\\bigstar\\)) proof problems are eligible for inclusion in the proof portfolio assignment.\n\n\n\n\nFrom the text, Exercise 3.6.\n\n\n\nFrom the text, Exercise 3.8.\n\n\n\nFrom the text, Exercise 3.9.\n\n\n\nLet \\(G\\) be a connected 3-regular planar graph on 8 vertices. How many regions does \\(G\\) have? Give an example of a 3-regular connected graph on 8 vertices that is not planar or explain why it must be planar.\n\n\n\nFor the following degree sequences (list of the degrees of the vertices in a graph) determine if there exists a bipartite simple graph with these degrees. If yes construct it, if not explain why it does not exist.\na. (6, 6, 4, 4, 4, 4, 4, 4, 2, 2, 2)\nb. (4, 4, 4, 4, 4, 3, 3, 2, 2)\nc. (5, 5, 5, 5, 5, 5, 4, 4, 4)\n\n\n\nWhat is the smallest number of colors that can be used to color the vertices of a cube so that no two adjacent vertices are colored identically?\n\n\n\nEuler’s formula \\(v-e+f=2\\) holds for all connected simple planar graphs. What if a graph is not connected? Suppose a planar graph has two components. What is the value of v-e+f now? What if it has \\(k\\) components?\n\n\n\n\n\n\nProve the chromatic number of any tree is two. Recall, a tree is a connected simple graph with no cycles.\n\n\n\nProve that if each component of a simple graph is bipartite, then the entire graph is bipartite.’\n\n\n\nLet \\(G\\) be a connected simple graph on \\(n\\) vertices. Prove that if \\(n \\ge 11\\) then either \\(G\\) or the complement of \\(G\\) is not planar.\n\n\n\nProve that if a simple connected planar graph has \\(e\\) edges and \\(v\\) vertices with \\(v \\ge 3\\) and no cycles of length 3 then \\(e \\le 2v-4\\).\n\n\n\nProve Euler’s formula using induction on the number of edges in the graph.\n\n\n\nProve \\(G\\) is regular if and only if it’s complement is regular.\n\n\n\n\\(\\bigstar\\) Prove that any simple connected planar graph must have a vertex of degree 5 or less.\n\n\n\n\\(\\bigstar\\) Prove that a simple graph with 17 vertices and 73 edges cannot be bipartite. (Hint: Break the graph up into two vertex sets and count the number of edges within each vertex set.)\n\n\n\n\\(\\bigstar\\) Prove Dirac’s Theorem: If \\(G\\) is a simple graph with \\(p\\) vertices, each vertex having degree \\(\\ge \\frac{1}{2}p\\), then \\(G\\) is hamiltonian. Hint: Suppose \\(G\\) is not hamiltonian but adding any one edge will make \\(G\\) hamiltonian, so \\(G\\) has a path \\(v_1 \\rightarrow v_2 \\rightarrow \\cdots \\rightarrow v_p\\) containing all the vertices of \\(G\\). Show there must be a vertex adjacent to both \\(v_1\\) and \\(v_p\\), and use this to create a hamiltonian cycle.\n\n\n\n\\(\\bigstar\\) Let \\(G\\) be a graph (not necessarily connected as in a problem above) on \\(n\\) vertices. Prove that if \\(n \\ge 11\\) then either \\(G\\) or the complement of \\(G\\) is not planar.",
+    "crumbs": [
+      "Homework",
+      "Week 11 Homework"
+    ]
+  },
+  {
+    "objectID": "homework/homeworkwk11.html#exercises",
+    "href": "homework/homeworkwk11.html#exercises",
+    "title": "Week 11 Homework",
+    "section": "",
+    "text": "From the text, Exercise 3.6.\n\n\n\nFrom the text, Exercise 3.8.\n\n\n\nFrom the text, Exercise 3.9.\n\n\n\nLet \\(G\\) be a connected 3-regular planar graph on 8 vertices. How many regions does \\(G\\) have? Give an example of a 3-regular connected graph on 8 vertices that is not planar or explain why it must be planar.\n\n\n\nFor the following degree sequences (list of the degrees of the vertices in a graph) determine if there exists a bipartite simple graph with these degrees. If yes construct it, if not explain why it does not exist.\na. (6, 6, 4, 4, 4, 4, 4, 4, 2, 2, 2)\nb. (4, 4, 4, 4, 4, 3, 3, 2, 2)\nc. (5, 5, 5, 5, 5, 5, 4, 4, 4)\n\n\n\nWhat is the smallest number of colors that can be used to color the vertices of a cube so that no two adjacent vertices are colored identically?\n\n\n\nEuler’s formula \\(v-e+f=2\\) holds for all connected simple planar graphs. What if a graph is not connected? Suppose a planar graph has two components. What is the value of v-e+f now? What if it has \\(k\\) components?",
+    "crumbs": [
+      "Homework",
+      "Week 11 Homework"
+    ]
+  },
+  {
+    "objectID": "homework/homeworkwk11.html#proofs",
+    "href": "homework/homeworkwk11.html#proofs",
+    "title": "Week 11 Homework",
+    "section": "",
+    "text": "Prove the chromatic number of any tree is two. Recall, a tree is a connected simple graph with no cycles.\n\n\n\nProve that if each component of a simple graph is bipartite, then the entire graph is bipartite.’\n\n\n\nLet \\(G\\) be a connected simple graph on \\(n\\) vertices. Prove that if \\(n \\ge 11\\) then either \\(G\\) or the complement of \\(G\\) is not planar.\n\n\n\nProve that if a simple connected planar graph has \\(e\\) edges and \\(v\\) vertices with \\(v \\ge 3\\) and no cycles of length 3 then \\(e \\le 2v-4\\).\n\n\n\nProve Euler’s formula using induction on the number of edges in the graph.\n\n\n\nProve \\(G\\) is regular if and only if it’s complement is regular.\n\n\n\n\\(\\bigstar\\) Prove that any simple connected planar graph must have a vertex of degree 5 or less.\n\n\n\n\\(\\bigstar\\) Prove that a simple graph with 17 vertices and 73 edges cannot be bipartite. (Hint: Break the graph up into two vertex sets and count the number of edges within each vertex set.)\n\n\n\n\\(\\bigstar\\) Prove Dirac’s Theorem: If \\(G\\) is a simple graph with \\(p\\) vertices, each vertex having degree \\(\\ge \\frac{1}{2}p\\), then \\(G\\) is hamiltonian. Hint: Suppose \\(G\\) is not hamiltonian but adding any one edge will make \\(G\\) hamiltonian, so \\(G\\) has a path \\(v_1 \\rightarrow v_2 \\rightarrow \\cdots \\rightarrow v_p\\) containing all the vertices of \\(G\\). Show there must be a vertex adjacent to both \\(v_1\\) and \\(v_p\\), and use this to create a hamiltonian cycle.\n\n\n\n\\(\\bigstar\\) Let \\(G\\) be a graph (not necessarily connected as in a problem above) on \\(n\\) vertices. Prove that if \\(n \\ge 11\\) then either \\(G\\) or the complement of \\(G\\) is not planar.",
+    "crumbs": [
+      "Homework",
+      "Week 11 Homework"
+    ]
+  },
+  {
+    "objectID": "homework/homeworkwk14.html",
+    "href": "homework/homeworkwk14.html",
+    "title": "Week 14 Homework",
+    "section": "",
+    "text": "In order to receive full credit problems and solutions must be clearly written and presented neatly. In writing up your solution, you should state the problem as explaining the solution. Merely giving answers to exercises will is not enough to receive credit. Your write up must show work and convince me that you understand the material. If you need additional time to complete this assignment, please email me. Starred (\\(\\bigstar\\)) proof problems are eligible for inclusion in the proof portfolio assignment.\nFollowing Section 2.3 of Discrete Mathematics, an Open Introduction.Let \\(\\{a_n\\}\\) be a sequence of real numbers. The \\(k^{th}\\) forward difference of this sequence are defined recursively:\nThe first forward difference \\(\\Delta a_n\\) is an new sequence defined by:\\(\\Delta a_n=a_{n+1}-a_{n}\\).\nThe \\(k\\)th forward difference \\(\\Delta^{k} a_n\\) is \\(\\Delta^{k} a_n=\\Delta^{k-1} a_{n+1}- \\Delta^{k-1}a_{n}\\). So if the sequence for \\(a_n\\) is \\(1,3,5,7,9, \\ldots\\) then \\(\\Delta a_n\\) is \\(3-1,5-3,7-5,9-7, \\ldots= 2,2,2,2,2, \\ldots\\).\n\n\n\n\nFind \\(\\Delta\\) and \\(\\Delta^2\\) for the following sequences :\n\n\\(2, 4, 6, 8, 10, 12, 14, \\ldots\\)\n\\(1, 4, 9, 16, 25, 36, 49, \\ldots\\)\n\n\n\n\nMake up sequences that have:\n\n3, 3, 3, 3, … as its second differences.\n1, 2, 3, 4, 5, … as its third differences.\n1, 2, 4, 8, 16, … as its fifth differences.\n\n\n\n\nFind the closed form solution to the sequence using the using the polynomial fitting method for the sequence \\(0, 3, 8, 15, 24, 35, 48, 63, 80,\\ldots\\) which has the recurrence \\(a_n = a_{n-1} + 2n+1\\) with \\(a_0=0\\).\n\n\n\nFind the closed form solution to the sequence using the using the polynomial fitting method for the sequence \\(1, 4, 10, 20, 35, 56, 84,\\ldots\\) which has the recurrence \\(a_n = 4a_{n-1} - 6a_{n-2} + 4a_{n-3} - a_{n-4}\\) with \\(a_1=1, a_2=4, a_3=10\\) and \\(a_4=20\\). This also happens to the be the sequence given by summing up the triangular numbers. That is, \\(a_n=\\sum_{i=1}^n T_n\\).\n\n\n\nCalculate \\(\\Delta \\binom{n}{4}\\). Use this to rewrite \\(\\Delta \\binom{n}{k}\\) as a binomial coefficient.\n\n\n\n\n\n\nProve \\(\\Delta (\\Delta^i a_n)=\\Delta^{i+1} a_n\\).\n\n\n\nLet \\(b_n=n^3\\). Prove \\(\\Delta^2 b_n=6n+6\\).\n\n\n\n\\(\\bigstar\\) Let \\(b_n=n^k\\). Prove \\(\\Delta b_n=\\sum_{i=0}^{k-1}\\binom{k}{i}n^{i}\\)\n\n\n\n\\(\\bigstar\\) Let \\(a_n=\\alpha^n\\) for \\(n \\ge 0\\) and \\(\\alpha\\) a real number. Prove \\(\\Delta^k a_n=(\\frac{\\alpha-1}{\\alpha})^k a_n\\) for all \\(k \\ge 0\\).\n\n\n\n\\(\\bigstar\\) Let \\(a_n\\) and \\(b_n\\) be sequences. Prove \\(\\Delta (a_n\\cdot b_n)=a_{n+1}\\Delta b_n + b_{n}\\Delta a_n\\).",
+    "crumbs": [
+      "Homework",
+      "Week 14 Homework"
+    ]
+  },
+  {
+    "objectID": "homework/homeworkwk14.html#exercises",
+    "href": "homework/homeworkwk14.html#exercises",
+    "title": "Week 14 Homework",
+    "section": "",
+    "text": "Find \\(\\Delta\\) and \\(\\Delta^2\\) for the following sequences :\n\n\\(2, 4, 6, 8, 10, 12, 14, \\ldots\\)\n\\(1, 4, 9, 16, 25, 36, 49, \\ldots\\)\n\n\n\n\nMake up sequences that have:\n\n3, 3, 3, 3, … as its second differences.\n1, 2, 3, 4, 5, … as its third differences.\n1, 2, 4, 8, 16, … as its fifth differences.\n\n\n\n\nFind the closed form solution to the sequence using the using the polynomial fitting method for the sequence \\(0, 3, 8, 15, 24, 35, 48, 63, 80,\\ldots\\) which has the recurrence \\(a_n = a_{n-1} + 2n+1\\) with \\(a_0=0\\).\n\n\n\nFind the closed form solution to the sequence using the using the polynomial fitting method for the sequence \\(1, 4, 10, 20, 35, 56, 84,\\ldots\\) which has the recurrence \\(a_n = 4a_{n-1} - 6a_{n-2} + 4a_{n-3} - a_{n-4}\\) with \\(a_1=1, a_2=4, a_3=10\\) and \\(a_4=20\\). This also happens to the be the sequence given by summing up the triangular numbers. That is, \\(a_n=\\sum_{i=1}^n T_n\\).\n\n\n\nCalculate \\(\\Delta \\binom{n}{4}\\). Use this to rewrite \\(\\Delta \\binom{n}{k}\\) as a binomial coefficient.",
+    "crumbs": [
+      "Homework",
+      "Week 14 Homework"
+    ]
+  },
+  {
+    "objectID": "homework/homeworkwk14.html#proofs",
+    "href": "homework/homeworkwk14.html#proofs",
+    "title": "Week 14 Homework",
+    "section": "",
+    "text": "Prove \\(\\Delta (\\Delta^i a_n)=\\Delta^{i+1} a_n\\).\n\n\n\nLet \\(b_n=n^3\\). Prove \\(\\Delta^2 b_n=6n+6\\).\n\n\n\n\\(\\bigstar\\) Let \\(b_n=n^k\\). Prove \\(\\Delta b_n=\\sum_{i=0}^{k-1}\\binom{k}{i}n^{i}\\)\n\n\n\n\\(\\bigstar\\) Let \\(a_n=\\alpha^n\\) for \\(n \\ge 0\\) and \\(\\alpha\\) a real number. Prove \\(\\Delta^k a_n=(\\frac{\\alpha-1}{\\alpha})^k a_n\\) for all \\(k \\ge 0\\).\n\n\n\n\\(\\bigstar\\) Let \\(a_n\\) and \\(b_n\\) be sequences. Prove \\(\\Delta (a_n\\cdot b_n)=a_{n+1}\\Delta b_n + b_{n}\\Delta a_n\\).",
+    "crumbs": [
+      "Homework",
+      "Week 14 Homework"
     ]
   },
   {
@@ -1551,39 +1570,6 @@
     ]
   },
   {
-    "objectID": "homework/homeworkwk10.html",
-    "href": "homework/homeworkwk10.html",
-    "title": "Week 10 Homework",
-    "section": "",
-    "text": "In order to receive full credit problems and solutions must be clearly written and presented neatly. In writing up your solution, you should state the problem as explaining the solution. Merely giving answers to exercises will is not enough to receive credit. Your write up must show work and convince me that you understand the material. If you need additional time to complete this assignment, please email me. Starred (\\(\\bigstar\\)) proof problems are eligible for inclusion in the proof portfolio assignment.\n\n\n\n\nFrom the text, Exercise 3.2.\n\n\n\nFrom the text, Exercise 3.11.\n\n\n\nFind the definition for isomorphic graphs. What is the definition? Give an example of two graphs that are isomorphic, and give an example of two graphs that are not isomorphic.\n\n\n\nA simple graph \\(G\\) is self-complimentary if \\(G\\) and \\(\\bar{G}\\) are isomorphic. Find a self-complimentary graph having five vertices. Find another self complimentary graph with more than 1 vertex.\n\n\n\nA vertex \\(v\\) in a connected graph \\(G\\) is an articulation point if the removal of \\(v\\) and all edges incident to \\(v\\) disconnects \\(G\\). Give an example of a graph with six vertices that has exactly two articulation points. Give an example of a graph on six vertices that has no articulation points.\n\n\n\nProve that if G is a simple graph with \\(p\\) vertices, where each vertex has degree \\(\\ge \\frac{1}{2}(p-1)\\), then \\(G\\) must be connected. Hint: Try a contradiction proof, by assuming there are at least two components of \\(G\\). How many vertices must each component have?\n\n\n\n\n\n\nProve the statement: In any tree there is exactly one path from any vertex to any other vertex. (Hint: Try contradiction. If there are two paths try to show there is a cycle.)\n\n\n\nA forest is a simple graph where each component is a tree. Find a formula for the number of edges in a forest with \\(n\\) vertices and \\(c\\) components. Prove your formula.\n\n\n\nProve the average degree in a tree is always less than 2. More specifically express this average as a function of the number of vertices in tree.\n\n\n\n\\(\\bigstar\\) Let \\(v\\) and \\(w\\) be distinct vertices in the complete graph \\(K_n\\) for \\(n \\ge 2\\). Prove the number of paths from \\(v\\) to \\(w\\) is \\[(n-2)!\\sum^{n-2}_{k=0}\\frac{1}{k!}\\]\n\n\n\n\\(\\bigstar\\) Prove that a vertex \\(v\\) in a connected graph \\(G\\) is an articulation point if and only if there are vertices \\(w\\) and \\(x\\) in \\(G\\) having the property that every path from \\(w\\) to \\(x\\) passes through \\(v\\).\n\n\n\n\\(\\bigstar\\) Prove that in any simple graph with more than one vertex, there must be two vertices with the same degree. (Hint: Try contradiction.)\n\n\n\n\\(\\bigstar\\) Prove the number of vertices of degree 1 in an tree must be greater than or equal to the maximum degree in the tree.",
-    "crumbs": [
-      "Homework",
-      "Week 10 Homework"
-    ]
-  },
-  {
-    "objectID": "homework/homeworkwk10.html#exercises",
-    "href": "homework/homeworkwk10.html#exercises",
-    "title": "Week 10 Homework",
-    "section": "",
-    "text": "From the text, Exercise 3.2.\n\n\n\nFrom the text, Exercise 3.11.\n\n\n\nFind the definition for isomorphic graphs. What is the definition? Give an example of two graphs that are isomorphic, and give an example of two graphs that are not isomorphic.\n\n\n\nA simple graph \\(G\\) is self-complimentary if \\(G\\) and \\(\\bar{G}\\) are isomorphic. Find a self-complimentary graph having five vertices. Find another self complimentary graph with more than 1 vertex.\n\n\n\nA vertex \\(v\\) in a connected graph \\(G\\) is an articulation point if the removal of \\(v\\) and all edges incident to \\(v\\) disconnects \\(G\\). Give an example of a graph with six vertices that has exactly two articulation points. Give an example of a graph on six vertices that has no articulation points.\n\n\n\nProve that if G is a simple graph with \\(p\\) vertices, where each vertex has degree \\(\\ge \\frac{1}{2}(p-1)\\), then \\(G\\) must be connected. Hint: Try a contradiction proof, by assuming there are at least two components of \\(G\\). How many vertices must each component have?",
-    "crumbs": [
-      "Homework",
-      "Week 10 Homework"
-    ]
-  },
-  {
-    "objectID": "homework/homeworkwk10.html#proofs",
-    "href": "homework/homeworkwk10.html#proofs",
-    "title": "Week 10 Homework",
-    "section": "",
-    "text": "Prove the statement: In any tree there is exactly one path from any vertex to any other vertex. (Hint: Try contradiction. If there are two paths try to show there is a cycle.)\n\n\n\nA forest is a simple graph where each component is a tree. Find a formula for the number of edges in a forest with \\(n\\) vertices and \\(c\\) components. Prove your formula.\n\n\n\nProve the average degree in a tree is always less than 2. More specifically express this average as a function of the number of vertices in tree.\n\n\n\n\\(\\bigstar\\) Let \\(v\\) and \\(w\\) be distinct vertices in the complete graph \\(K_n\\) for \\(n \\ge 2\\). Prove the number of paths from \\(v\\) to \\(w\\) is \\[(n-2)!\\sum^{n-2}_{k=0}\\frac{1}{k!}\\]\n\n\n\n\\(\\bigstar\\) Prove that a vertex \\(v\\) in a connected graph \\(G\\) is an articulation point if and only if there are vertices \\(w\\) and \\(x\\) in \\(G\\) having the property that every path from \\(w\\) to \\(x\\) passes through \\(v\\).\n\n\n\n\\(\\bigstar\\) Prove that in any simple graph with more than one vertex, there must be two vertices with the same degree. (Hint: Try contradiction.)\n\n\n\n\\(\\bigstar\\) Prove the number of vertices of degree 1 in an tree must be greater than or equal to the maximum degree in the tree.",
-    "crumbs": [
-      "Homework",
-      "Week 10 Homework"
-    ]
-  },
-  {
     "objectID": "homework/homeworkwk9.html",
     "href": "homework/homeworkwk9.html",
     "title": "Week 9 Homework",
@@ -1614,39 +1600,6 @@
     "crumbs": [
       "Homework",
       "Week 9 Homework"
-    ]
-  },
-  {
-    "objectID": "homework/homeworkwk15.html",
-    "href": "homework/homeworkwk15.html",
-    "title": "Week 15 Homework",
-    "section": "",
-    "text": "In order to receive full credit problems and solutions must be clearly written and presented neatly. In writing up your solution, you should state the problem as explaining the solution. Merely giving answers to exercises will is not enough to receive credit. Your write up must show work and convince me that you understand the material. If you need additional time to complete this assignment, please email me. Starred (\\(\\bigstar\\)) proof problems are eligible for inclusion in the proof portfolio assignment.\n\n\n\n\nIn this problem, boxes can be empty. How many ways are there to distribute 6 balls in to 3 boxes if\n\nboth the balls and boxes are labeled?\nballs are labeled, but the boxes are unlabeled?\nthe balls are unlabeled, but the boxes are labeled?\nboth the boxes and balls are unlabeled?\n\n\n\n\nIn this problem, boxes must be non-empty. How many ways are there to distribute 8 balls in to 4 boxes if\n\nboth the balls and boxes are labeled?\nballs are labeled, but the boxes are unlabeled?\nthe balls are unlabeled, but the boxes are labeled?\nboth the boxes and balls are unlabeled?\n\n\n\n\nHow many 8-bit strings begin with a 010 or begin with 11? How many 8-bit strings begin with a 010 or end with 11?\n\n\n\nFind the number of solutions to \\(x+y+z=100\\) in non-negative integer \\(x\\), \\(y\\), and \\(z\\), where \\(x \\le 50\\), \\(y \\le 40\\), and \\(z \\le 30\\).\n\n\n\nHow many permutations of the numbers 1 through 8 are there in which none of the terms 12, 34, 56, 78 appear?\n\n\n\nHow many permutations of the numbers 1 through 8 are there in which none of the even integers remain in its natural position?\n\n\n\nDo the enigma machine example from class where the number of rotors is 8, rather than 5.\n\n\n\nHow many permutations of 1,1,2,2,3,3,4,4,5,5 are there in which no two adjacent numbers are equal?\n\n\n\nSuppose you roll a 6 sided die 12 times. In how many ways can all 6 six numbers appear?\n\n\n\nHow many integers in the set of integers from 1 to 1000 are divisible by a prime number less than 10?\n\n\n\nA bridge hand consists of 13 cards from a standard 52 card deck. How many different hands contain at least on card from each of the four suits?\n\n\n\nLet \\(A=\\{1,2,3,4,5\\}\\). How many injective functions \\(f:A\\rightarrow A\\) have the property that for each \\(x\\) in \\(A\\), \\(f(x)\\ne x\\) ?\n\n\n\nSuppose you planned on giving 7 gold stars to some of the 13 star students in your class. Each student can receive at most one star. How many ways can you do this?\n\n\n\nWhat is the formula for the number of ways to place \\(n\\) unlabeled balls into \\(k\\) unlabeled boxes without the restriction that no box may be empty?\n\n\n\nHow many ways are there to place \\(n+k\\) stars on a \\(2 \\times n\\) (two rows, \\(n\\) columns) board with no columns having no stars? Here \\(k \\ge 0\\).\n\n\n\nWhat is the formula for the number of ways to place \\(n\\) labeled balls into \\(k\\) unlabeled boxes without the restriction that no box may be empty?\n\n\n\n\n\n\nProve by induction \\(S(n,3)&gt;3^{n-2}\\) for all \\(n\\ge 6\\).\n\n\n\n\\(\\bigstar\\)Prove \\[(1-a_1)(1-a_2) \\cdots (1-a_k)= 1- (a_1+a_2+ \\cdots+a_k)+ (a_1a_2+\\cdots +a_{k-1}a_{k})+ \\cdots +(-1)^k(a_1 \\cdots a_k)\\]\n\n\n\nFor fixed \\(m\\), find and prove the number of Hamiltonian Paths on on \\(K_{m,n}\\) as a function of \\(n\\).\n\n\n\n\\(\\bigstar\\) From the text, Exercise 4.6\n\n\n\n\\(\\bigstar\\) From the text, Exercise 4.7\n\n\n\n\\(\\bigstar\\) Let S(n,k) be the Stirling numbers of the second kind. Prove\na. \\(S(n, n-1)= \\binom{n}{2}\\)\nb. \\(S(n, n-2)= \\binom{n}{3}+3\\binom{n}{4}\\)\n\n\n\n\\(\\bigstar\\) Let S(n,k) be the Stirling numbers of the second kind. Prove \\(S(n,k)=\\sum_{m=k-1}^{n-1} \\binom{n-1}{m} S(m,k-1)\\)\n\n\n\n\\(\\bigstar\\) Show that if \\(n\\) is a positive integer, then \\[n!=\\binom{n}{0}d_n+\\binom{n}{1}d_{n-1}+\\binom{n}{2}d_{n-2}+ \\cdots +\\binom{n}{n-1}d_1 +\\binom{n}{n}d_0\\] where \\(d_n=(n-1)(d_{n-1}+d_{n-2})\\) with \\(d_1=0\\) and \\(d_2=1\\) is the number of derangements of \\(n\\) objects.\n\n\n\n\\(\\bigstar\\) Let \\(A\\) be a subset of \\(B\\) with \\(|A|=m\\) and \\(|B|=n\\), and let \\(r\\) be an integer \\(m \\le r \\le n\\). Show the number of \\(r\\) element subsets of \\(B\\) which contain \\(A\\) as a subset is \\(\\binom{n-m}{r-m}\\).\n\n\n\n\\(\\bigstar\\) Use the Inclusion-Exclusion Principle to show that for any non-negative integers \\(m,r,n\\) such that \\(m \\le r \\le n\\),\n\\[\\binom{n-m}{r-m}=\\sum^{m}_{i=0}(-1)^i \\binom{m}{i}\\binom{n-i}{r}.\\]",
-    "crumbs": [
-      "Homework",
-      "Week 15 Homework"
-    ]
-  },
-  {
-    "objectID": "homework/homeworkwk15.html#exercises",
-    "href": "homework/homeworkwk15.html#exercises",
-    "title": "Week 15 Homework",
-    "section": "",
-    "text": "In this problem, boxes can be empty. How many ways are there to distribute 6 balls in to 3 boxes if\n\nboth the balls and boxes are labeled?\nballs are labeled, but the boxes are unlabeled?\nthe balls are unlabeled, but the boxes are labeled?\nboth the boxes and balls are unlabeled?\n\n\n\n\nIn this problem, boxes must be non-empty. How many ways are there to distribute 8 balls in to 4 boxes if\n\nboth the balls and boxes are labeled?\nballs are labeled, but the boxes are unlabeled?\nthe balls are unlabeled, but the boxes are labeled?\nboth the boxes and balls are unlabeled?\n\n\n\n\nHow many 8-bit strings begin with a 010 or begin with 11? How many 8-bit strings begin with a 010 or end with 11?\n\n\n\nFind the number of solutions to \\(x+y+z=100\\) in non-negative integer \\(x\\), \\(y\\), and \\(z\\), where \\(x \\le 50\\), \\(y \\le 40\\), and \\(z \\le 30\\).\n\n\n\nHow many permutations of the numbers 1 through 8 are there in which none of the terms 12, 34, 56, 78 appear?\n\n\n\nHow many permutations of the numbers 1 through 8 are there in which none of the even integers remain in its natural position?\n\n\n\nDo the enigma machine example from class where the number of rotors is 8, rather than 5.\n\n\n\nHow many permutations of 1,1,2,2,3,3,4,4,5,5 are there in which no two adjacent numbers are equal?\n\n\n\nSuppose you roll a 6 sided die 12 times. In how many ways can all 6 six numbers appear?\n\n\n\nHow many integers in the set of integers from 1 to 1000 are divisible by a prime number less than 10?\n\n\n\nA bridge hand consists of 13 cards from a standard 52 card deck. How many different hands contain at least on card from each of the four suits?\n\n\n\nLet \\(A=\\{1,2,3,4,5\\}\\). How many injective functions \\(f:A\\rightarrow A\\) have the property that for each \\(x\\) in \\(A\\), \\(f(x)\\ne x\\) ?\n\n\n\nSuppose you planned on giving 7 gold stars to some of the 13 star students in your class. Each student can receive at most one star. How many ways can you do this?\n\n\n\nWhat is the formula for the number of ways to place \\(n\\) unlabeled balls into \\(k\\) unlabeled boxes without the restriction that no box may be empty?\n\n\n\nHow many ways are there to place \\(n+k\\) stars on a \\(2 \\times n\\) (two rows, \\(n\\) columns) board with no columns having no stars? Here \\(k \\ge 0\\).\n\n\n\nWhat is the formula for the number of ways to place \\(n\\) labeled balls into \\(k\\) unlabeled boxes without the restriction that no box may be empty?",
-    "crumbs": [
-      "Homework",
-      "Week 15 Homework"
-    ]
-  },
-  {
-    "objectID": "homework/homeworkwk15.html#proofs",
-    "href": "homework/homeworkwk15.html#proofs",
-    "title": "Week 15 Homework",
-    "section": "",
-    "text": "Prove by induction \\(S(n,3)&gt;3^{n-2}\\) for all \\(n\\ge 6\\).\n\n\n\n\\(\\bigstar\\)Prove \\[(1-a_1)(1-a_2) \\cdots (1-a_k)= 1- (a_1+a_2+ \\cdots+a_k)+ (a_1a_2+\\cdots +a_{k-1}a_{k})+ \\cdots +(-1)^k(a_1 \\cdots a_k)\\]\n\n\n\nFor fixed \\(m\\), find and prove the number of Hamiltonian Paths on on \\(K_{m,n}\\) as a function of \\(n\\).\n\n\n\n\\(\\bigstar\\) From the text, Exercise 4.6\n\n\n\n\\(\\bigstar\\) From the text, Exercise 4.7\n\n\n\n\\(\\bigstar\\) Let S(n,k) be the Stirling numbers of the second kind. Prove\na. \\(S(n, n-1)= \\binom{n}{2}\\)\nb. \\(S(n, n-2)= \\binom{n}{3}+3\\binom{n}{4}\\)\n\n\n\n\\(\\bigstar\\) Let S(n,k) be the Stirling numbers of the second kind. Prove \\(S(n,k)=\\sum_{m=k-1}^{n-1} \\binom{n-1}{m} S(m,k-1)\\)\n\n\n\n\\(\\bigstar\\) Show that if \\(n\\) is a positive integer, then \\[n!=\\binom{n}{0}d_n+\\binom{n}{1}d_{n-1}+\\binom{n}{2}d_{n-2}+ \\cdots +\\binom{n}{n-1}d_1 +\\binom{n}{n}d_0\\] where \\(d_n=(n-1)(d_{n-1}+d_{n-2})\\) with \\(d_1=0\\) and \\(d_2=1\\) is the number of derangements of \\(n\\) objects.\n\n\n\n\\(\\bigstar\\) Let \\(A\\) be a subset of \\(B\\) with \\(|A|=m\\) and \\(|B|=n\\), and let \\(r\\) be an integer \\(m \\le r \\le n\\). Show the number of \\(r\\) element subsets of \\(B\\) which contain \\(A\\) as a subset is \\(\\binom{n-m}{r-m}\\).\n\n\n\n\\(\\bigstar\\) Use the Inclusion-Exclusion Principle to show that for any non-negative integers \\(m,r,n\\) such that \\(m \\le r \\le n\\),\n\\[\\binom{n-m}{r-m}=\\sum^{m}_{i=0}(-1)^i \\binom{m}{i}\\binom{n-i}{r}.\\]",
-    "crumbs": [
-      "Homework",
-      "Week 15 Homework"
     ]
   }
 ]

@@ -1,6 +1,9 @@
 project:
   type: website
   output-dir: docs
+  render:
+    - "**/*.qmd"
+    - "!syllabus/"
 
 format:
   html:
@@ -15,8 +18,6 @@ website:
     contents:
     - text: "Home"
       file: index.qmd
-    - text: "Syllabus"
-      file: syllabus/syllabus.qmd
     - section: "Homework"
       contents:
         - homework/homeworkwk2.qmd

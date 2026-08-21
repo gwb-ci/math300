@@ -81,6 +81,42 @@ Working in groups on the homework assignment is strongly encouraged.  However ea
 
 **Office hours** is a time when you can come to my office and ask me questions about course material.  Students who make use of office hours tend to do better in college courses. You are encouraged to make early and regular use of **campus tutors** in the LRC. For campus tutoring locations, subjects and hours, use [this link](http://go.csuci.edu/tutoring).
 
+### Class Schedule
+
+| Week | Date | Chapter | Notes |
+|:----:|:----:|:-------:|-------|
+| 1 | Aug 24 |  | Course Introduction |
+| 1 | Aug 26 | | Induction Proofs |
+| 2 | Aug 31 | 1 | Counting Technques 1 |
+| 2 | Sep 2 | 1 | Counting Technques 2  |
+| 3 | Sep 7 | 1 | **Labor Day** - Campus Closed|
+| 3 | Sep 9 | 1 | Binomial Coefficients  |
+| 4 | Sep 14 | 1 | Direct Proofs |
+| 4 | Sep 16 | 1 | Stars and Bars  |
+| 5 | Sep 21 | 2 | Recursion Relations 1 |
+| 5 | Sep 23 | 2 | Recursion Relations 2  |
+| 6 | Sep 28 | 2 | **Midterm 1** |
+| 6 | Sep 30 | 2 | Auxiliary Equation  |
+| 7 | Oct 5 | 2 | Generating Functions 1 |
+| 7 | Oct 7 | 2 | Generating Functions 2  |
+| 8 | Oct 12 | 2 | Non-homogenous Relations |
+| 8 | Oct 14 | 3 | Introduction to Graphs  |
+| 9 | Oct 19 | 3 | Algebraic Constraints and Trees |
+| 9 | Oct 21 |  | Contradiction Proofs  |
+| 10 | Oct 26 | 3 | Classification of Trees |
+| 10 | Oct 28 | 3 | Planar and Bipartite Graphs 1  |
+| 11 | Nov 2 | 3 | Planar and Bipartite Graphs 2 |
+| 11 | Nov 4 | 4 | Graph Tours 1  |
+| 12 | Nov 9 |  | **Midterm 2** |
+| 12 | Nov 13 |  | **Veterans Day** - Campus Closed  |
+| 13 | Nov 16 | 4 | Graph Tours 2 |
+| 13 | Nov 18 | 5 | Occupancy Problems 1  |
+| 14 | Nov 23 | 5 | Occupancy Problems 2  |
+| 14 | Nov 25 | 5 | Occupancy Problems 3  |
+| 15 | Nov 30 | 6 | Inclusion Exclusion 1 |
+| 15 | Dec 2 | 6 | Inclusion Exclusion 2  |
+|   | Dec 7 |  | **Final Exam** 	10:30AM - 12:30PM |
+
 ## CSU Channel Islands Information
 
 ### Degree Planning
@@ -134,37 +170,3 @@ There is a distinction between collaboration and copying.  Collaboration is enco
 
 Information on this syllabus is subject to change. I will make such changes known in class and on CI Learn.
 
-## Class Schedule
-
-| Week | Date | Chapter | Notes |
-|:----:|:----:|:-------:|-------|
-| 1 | Aug 24 |  | Course Introduction |
-| 1 | Aug 26 | | Induction Proofs |
-| 2 | Aug 31 | 1 | Counting Technques 1 |
-| 2 | Sep 2 | 1 | Counting Technques 2  |
-| 3 | Sep 7 | 1 | **Labor Day** - Campus Closed|
-| 3 | Sep 9 | 1 | Binomial Coefficients  |
-| 4 | Sep 14 | 1 | Direct Proofs |
-| 4 | Sep 16 | 1 | Stars and Bars  |
-| 5 | Sep 21 | 2 | Recursion Relations 1 |
-| 5 | Sep 23 | 2 | Recursion Relations 2  |
-| 6 | Sep 28 | 2 | **Midterm 1** |
-| 6 | Sep 30 | 2 | Auxiliary Equation  |
-| 7 | Oct 5 | 2 | Generating Functions 1 |
-| 7 | Oct 7 | 2 | Generating Functions 2  |
-| 8 | Oct 12 | 2 | Non-homogenous Relations |
-| 8 | Oct 14 | 3 | Introduction to Graphs  |
-| 9 | Oct 19 | 3 | Algebraic Constraints and Trees |
-| 9 | Oct 21 |  | Contradiction Proofs  |
-| 10 | Oct 26 | 3 | Classification of Trees |
-| 10 | Oct 28 | 3 | Planar and Bipartite Graphs 1  |
-| 11 | Nov 2 | 3 | Planar and Bipartite Graphs 2 |
-| 11 | Nov 4 | 4 | Graph Tours 1  |
-| 12 | Nov 9 |  | **Midterm 2** |
-| 12 | Nov 13 |  | **Veterans Day** - Campus Closed  |
-| 13 | Nov 16 | 4 | Graph Tours 2 |
-| 13 | Nov 18 | 5 | Occupancy Problems 1  |
-| 14 | Nov 23 | 5 | Occupancy Problems 2  |
-| 14 | Nov 25 | 5 | Occupancy Problems 3  |
-| 15 | Nov 30 | 6 | Inclusion Exclusion 1 |
-| 15 | Dec 2 | 6 | Inclusion Exclusion 2  |

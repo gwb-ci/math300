@@ -1,0 +1,16 @@
+project:
+  type: default
+  output-dir: _build
+  render:
+    - syllabus.qmd
+
+format:
+  html:
+    theme: cosmo
+    toc: true
+    math: mathjax
+    number-sections: true
+
+  pdf:
+    toc: true
+    number-sections: true
