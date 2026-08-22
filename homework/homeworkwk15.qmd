@@ -8,6 +8,7 @@ format:
     include-in-header:
       text: |
         \usepackage{amssymb}
+        \setcounter{section}{14}
 ---
 
 # Week 15 Homework
