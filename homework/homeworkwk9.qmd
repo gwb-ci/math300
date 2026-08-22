@@ -1,9 +1,13 @@
 ---
 title: "Week 9 Homework"
+number-sections: true
 number-offset: 8
 format:
   html: default
-  pdf: default
+  pdf:
+    include-in-header:
+      text: |
+        \usepackage{amssymb}
 ---
 
 # Week 9 Homework
@@ -108,25 +112,25 @@ number sequence $C_n$.
 prove that $(n+1)C_n=(4n-2)C_{n-1}$.
 
 
-### Proof
-\* Prove the sum of the first $n$ triangular numbers is
+### Proof \*
+Prove the sum of the first $n$ triangular numbers is
 $\frac{n(n+1)(n+2)}{6}$
 
 
-### Proof
-\* Prove the that the number of $n$-digit binary numbers with no
+### Proof \*
+Prove the that the number of $n$-digit binary numbers with no
 consecutive 1's is the Fibonacci number $F_{n+2}$, where $F_1=1$ and
 $F_2=1$.
 
 
-### Proof
-\* Prove the following statement about the Catalan numbers $C_n$
+### Proof \*
+Prove the following statement about the Catalan numbers $C_n$
 for all all positive integers $n \ge 1$: $C_n \ge 2^{n-1}$ (Hint: You
 may want to use the last part of Proof
 .[\[cproof\]](#cproof){reference-type="ref" reference="cproof"})\
 
 
-### Proof
-\* Prove the following statement about the Catalan numbers $C_n$
+### Proof \*
+Prove the following statement about the Catalan numbers $C_n$
 for all all positive integers $n \ge 1$: $C_n \ge \frac{4^{n-1}}{n^2}$.
 

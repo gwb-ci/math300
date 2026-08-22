@@ -1,9 +1,13 @@
 ---
 title: "Week 2 Homework"
+number-sections: true
 number-offset: 1
 format:
   html: default
-  pdf: default
+  pdf:
+    include-in-header:
+      text: |
+        \usepackage{amssymb}
 ---
 
 # Week 2 Homework

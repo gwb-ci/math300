@@ -1,9 +1,13 @@
 ---
 title: "Week 7 Homework"
+number-sections: true
 number-offset: 6
 format:
   html: default
-  pdf: default
+  pdf:
+    include-in-header:
+      text: |
+        \usepackage{amssymb}
 ---
 
 # Week 7 Homework
@@ -144,19 +148,19 @@ $P_n =\frac{3n^2-n}{2}$ be the pentagonal numbers. Using the direct
 proof method, prove $T_{5n-2}=T_{2n-2}+6P_n+3T_{n-1}$ for all $n\ge1$.
 
 
-### Proof
-\* Prove
+### Proof \*
+Prove
 $$\sum_{i=0}^{k}(-1)^i\binom{n}{i}=(-1)^k\binom{n-1}{k}$$
 
 
-### Proof
-\* Prove
+### Proof \*
+Prove
 $$\sum_{k\ge0}^{}k\binom{m}{k}\binom{n}{k}=n\binom{m+n-1}{n}$$ Hint: See
 Example 1.10 and 1.11 on page 9 of the course text.
 
 
-### Proof
-\* Consider the following modification of the Towers of Hanoi
+### Proof \*
+Consider the following modification of the Towers of Hanoi
 problem with three posts labeled A, B, and C with the added two rules 1)
 A disk may be moved only from a post and adjacent post, and 2) the disks
 must be moved from post A to post C. Justify a recursive description of
@@ -164,25 +168,25 @@ this problem, and prove by induction that the number of moves need to
 move $n$ disks is $3^n-1$.
 
 
-### Proof
-\* Let $F_{n+2}=F_{n+1}+F_{n}$ with $F_0=0$ and $F_1=1$, the
+### Proof \*
+Let $F_{n+2}=F_{n+1}+F_{n}$ with $F_0=0$ and $F_1=1$, the
 Fibbonacci numbers, and $L_{n+2}=L_{n+1}+L_{n}$ with $L_0=2$ and
 $L_1=1$, the Lucas numbers. Prove
 $$\sum_{k=0}^{n}2^{k}L_{k}=2^{n+1}F_{n+1}$$ for all $n\ge 0$.
 
 
-### Proof
-\* Let $F_{n+2}=F_{n+1}+F_{n}$ with $F_0=0$ and $F_1=1$, the
+### Proof \*
+Let $F_{n+2}=F_{n+1}+F_{n}$ with $F_0=0$ and $F_1=1$, the
 Fibbonacci numbers, and $L_{n+2}=L_{n+1}+L_{n}$ with $L_0=2$ and
 $L_1=1$, the Lucas numbers. Prove
 $$\sum_{k=0}^{n}(-1)^k2^{n-k}L_{k+1}=(-1)^nF_{n+1}$$ for all $n\ge 0$.
 
 
-### Proof
-\* Define $x_1=1$ and $x_2=2$ and $x_{n+2}=x_{n+1}+x_{n}$ for
+### Proof \*
+Define $x_1=1$ and $x_2=2$ and $x_{n+2}=x_{n+1}+x_{n}$ for
 $n\ge 1$. Prove that $4^nx_n<7^n$ for all positive integers $n$.
 
 
-### Proof
-\* Prove $\binom{n^2}{2}=n\binom{n}{2}+n^2\binom{n}{2}$.
+### Proof \*
+Prove $\binom{n^2}{2}=n\binom{n}{2}+n^2\binom{n}{2}$.
 

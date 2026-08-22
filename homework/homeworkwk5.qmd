@@ -1,9 +1,13 @@
 ---
 title: "Week 5 Homework"
+number-sections: true
 number-offset: 4
 format:
   html: default
-  pdf: default
+  pdf:
+    include-in-header:
+      text: |
+        \usepackage{amssymb}
 ---
 
 # Week 5 Homework
@@ -116,32 +120,32 @@ Prove the hexagon property:
 $$\binom{n-1}{k-1}\binom{n}{k+1}\binom{n+1}{k}=\binom{n-1}{k}\binom{n+1}{k+1}\binom{n}{k-1}$$
 
 
-### Proof
-\* Prove
+### Proof \*
+Prove
 $$\sum_{k\ge0}^{}\binom{r}{k}\binom{s}{n-k}=\binom{r+s}{n}$$ Hint: See
 Example 1.10 on page 9 of the course text.
 
 
-### Proof
-\* Prove
+### Proof \*
+Prove
 $$\sum_{k\ge0}^{}k\binom{m}{k}\binom{n}{k}=n\binom{m+n-1}{n}$$ Hint: See
 Example 1.10 and 1.11 on page 9 of the course text.
 
 
-### Proof
-\* Use induction to prove that
+### Proof \*
+Use induction to prove that
 $1+\frac{1}{\sqrt{2}}+\frac{1}{\sqrt{3}}+\ldots+\frac{1}{\sqrt{n}}\leq 2 \sqrt{n}$
 for all positive integers $n$.
 
 
-### Proof
-\* Using induction, prove that
+### Proof \*
+Using induction, prove that
 $(\cos{x}+i\sin{x})^n=\cos{nx}+i\sin{nx}$ for $n\ge0$. Hint: Use the
 angle addition formulas.
 
 
-### Proof
-\* Prove
+### Proof \*
+Prove
 
 $$
 \sum_{i=0}^{\lfloor n/2 \rfloor} \binom{n}{2i} = 2^{n-1}

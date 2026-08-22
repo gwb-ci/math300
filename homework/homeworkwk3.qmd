@@ -1,9 +1,13 @@
 ---
 title: "Week 3 Homework"
+number-sections: true
 number-offset: 2
 format:
   html: default
-  pdf: default
+  pdf:
+    include-in-header:
+      text: |
+        \usepackage{amssymb}
 ---
 
 # Week 3 Homework
@@ -145,18 +149,18 @@ $$
 $$
 
 
-### Proof
-\* Use induction to prove that the $n^{th}$ derivative of
+### Proof \*
+Use induction to prove that the $n^{th}$ derivative of
 $\ln x$ is $$f^{(n)}(x)=\frac{(-1)^{n+1}(n-1)!}{x^n}$$
 
 
-### Proof
-\* Use induction to prove that the $n^{th}$ derivative of
+### Proof \*
+Use induction to prove that the $n^{th}$ derivative of
 $x e^{-x}$ is $$f^{(n)}(x)=(-1)^{n}e^{-x}(x-n)$$ for $n$ a positive
 integer.
 
 
-### Proof
-\* Use induction to prove for $n \ge 1$:
+### Proof \*
+Use induction to prove for $n \ge 1$:
 $$1+\frac{1}{\sqrt{2}}+\frac{1}{\sqrt{3}}+ \cdots +\frac{1}{\sqrt{n}}> 2(\sqrt{n+1}-1)$$
 

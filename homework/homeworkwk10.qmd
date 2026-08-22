@@ -1,9 +1,13 @@
 ---
 title: "Week 10 Homework"
+number-sections: true
 number-offset: 9
 format:
   html: default
-  pdf: default
+  pdf:
+    include-in-header:
+      text: |
+        \usepackage{amssymb}
 ---
 
 # Week 10 Homework
@@ -66,25 +70,25 @@ specifically express this average as a function of the number of
 vertices in tree.
 
 
-### Proof
-\* Let $v$ and $w$ be distinct vertices in the complete graph
+### Proof \*
+Let $v$ and $w$ be distinct vertices in the complete graph
 $K_n$ for $n \ge 2$. Prove the number of paths from $v$ to $w$ is
 $$(n-2)!\sum^{n-2}_{k=0}\frac{1}{k!}$$
 
 
-### Proof
-\* Prove that a vertex $v$ in a connected graph $G$ is an
+### Proof \*
+Prove that a vertex $v$ in a connected graph $G$ is an
 articulation point if and only if there are vertices $w$ and $x$ in $G$
 having the property that every path from $w$ to $x$ passes through $v$.
 
 
-### Proof
-\* Prove that in any simple graph with more than one vertex,
+### Proof \*
+Prove that in any simple graph with more than one vertex,
 there must be two vertices with the same degree. (Hint: Try
 contradiction.)
 
 
-### Proof
-\* Prove the number of vertices of degree 1 in an tree must be
+### Proof \*
+Prove the number of vertices of degree 1 in an tree must be
 greater than or equal to the maximum degree in the tree.
 

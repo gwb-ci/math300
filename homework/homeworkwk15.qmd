@@ -1,9 +1,13 @@
 ---
 title: "Week 15 Homework"
+number-sections: true
 number-offset: 14
 format:
   html: default
-  pdf: default
+  pdf:
+    include-in-header:
+      text: |
+        \usepackage{amssymb}
 ---
 
 # Week 15 Homework
@@ -121,40 +125,40 @@ For fixed $m$, find and prove the number of Hamiltonian Paths on on
 $K_{m,n}$ as a function of $n$.
 
 
-### Proof
-\* From the text, Exercise 4.6
+### Proof \*
+From the text, Exercise 4.6
 
 
-### Proof
-\* From the text, Exercise 4.7
+### Proof \*
+From the text, Exercise 4.7
 
 
-### Proof
-\* Let S(n,k) be the Stirling numbers of the second kind. Prove\
+### Proof \*
+Let S(n,k) be the Stirling numbers of the second kind. Prove\
 a. $S(n, n-1)= \binom{n}{2}$\
 b. $S(n, n-2)= \binom{n}{3}+3\binom{n}{4}$
 
 
-### Proof
-\* Let S(n,k) be the Stirling numbers of the second kind. Prove
+### Proof \*
+Let S(n,k) be the Stirling numbers of the second kind. Prove
 $S(n,k)=\sum_{m=k-1}^{n-1} \binom{n-1}{m} S(m,k-1)$
 
 
-### Proof
-\* Show that if $n$ is a positive integer, then
+### Proof \*
+Show that if $n$ is a positive integer, then
 $$n!=\binom{n}{0}d_n+\binom{n}{1}d_{n-1}+\binom{n}{2}d_{n-2}+ \cdots +\binom{n}{n-1}d_1 +\binom{n}{n}d_0$$
 where $d_n=(n-1)(d_{n-1}+d_{n-2})$ with $d_1=0$ and $d_2=1$ is the
 number of derangements of $n$ objects.
 
 
-### Proof
-\* Let $A$ be a subset of $B$ with $|A|=m$ and $|B|=n$, and let
+### Proof \*
+Let $A$ be a subset of $B$ with $|A|=m$ and $|B|=n$, and let
 $r$ be an integer $m \le r \le n$. Show the number of $r$ element
 subsets of $B$ which contain $A$ as a subset is $\binom{n-m}{r-m}$.
 
 
-### Proof
-\* Use the Inclusion-Exclusion Principle to show that for any
+### Proof \*
+Use the Inclusion-Exclusion Principle to show that for any
 non-negative integers $m,r,n$ such that $m \le r \le n$,
 
 $$\binom{n-m}{r-m}=\sum^{m}_{i=0}(-1)^i \binom{m}{i}\binom{n-i}{r}.$$

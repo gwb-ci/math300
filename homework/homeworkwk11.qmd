@@ -1,9 +1,13 @@
 ---
 title: "Week 11 Homework"
+number-sections: true
 number-offset: 10
 format:
   html: default
-  pdf: default
+  pdf:
+    include-in-header:
+      text: |
+        \usepackage{amssymb}
 ---
 
 # Week 11 Homework
@@ -83,19 +87,19 @@ graph.
 Prove $G$ is regular if and only if it's complement is regular.
 
 
-### Proof
-\* Prove that any simple connected planar graph must have a
+### Proof \*
+Prove that any simple connected planar graph must have a
 vertex of degree 5 or less.
 
 
-### Proof
-\* Prove that a simple graph with 17 vertices and 73 edges
+### Proof \*
+Prove that a simple graph with 17 vertices and 73 edges
 cannot be bipartite. (Hint: Break the graph up into two vertex sets and
 count the number of edges within each vertex set.)
 
 
-### Proof
-\* Prove Dirac's Theorem: If $G$ is a simple graph with $p$
+### Proof \*
+Prove Dirac's Theorem: If $G$ is a simple graph with $p$
 vertices, each vertex having degree $\ge \frac{1}{2}p$, then $G$ is
 hamiltonian. Hint: Suppose $G$ is not hamiltonian but adding any one
 edge will make $G$ hamiltonian, so $G$ has a path
@@ -104,8 +108,8 @@ the vertices of $G$. Show there must be a vertex adjacent to both $v_1$
 and $v_p$, and use this to create a hamiltonian cycle.
 
 
-### Proof
-\* Let $G$ be a graph (not necessarily connected as in a problem
+### Proof \*
+Let $G$ be a graph (not necessarily connected as in a problem
 above) on $n$ vertices. Prove that if $n \ge 11$ then either $G$ or the
 complement of $G$ is not planar.
 

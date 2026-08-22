@@ -1,9 +1,13 @@
 ---
 title: "Week 13 Homework"
+number-sections: true
 number-offset: 12
 format:
   html: default
-  pdf: default
+  pdf:
+    include-in-header:
+      text: |
+        \usepackage{amssymb}
 ---
 
 
@@ -85,24 +89,24 @@ Prove
 $$\frac{\binom{2n}{2}\binom{2n-2}{2}\binom{2n-4}{2}\cdots\binom{2}{2}}{n!}=\frac{(2n)!}{2^n \cdot n!}$$
 
 
-### Proof
-\* Prove
+### Proof \*
+Prove
 $$\frac{\binom{m\cdot n}{n}\binom{(m-1)n}{n}\binom{(m-2)n}{n}\cdots\binom{n}{n}}{m!}=\frac{(m\cdot n)!}{(n!)^m \cdot m!}$$
 
 
-### Proof
-\* Let $s(n,k)$ denote the signless Stirling numbers of the
+### Proof \*
+Let $s(n,k)$ denote the signless Stirling numbers of the
 first kind. Use the recursive formula $s(n,k)=s(n-1,k-1)+(n-1)s(n-1,k)$
 to find a formula for $s(n,n-2)$ and prove it.
 
 
-### Proof
-\* Suppose $G$ is a graph with $n$ vertices, each of which has
+### Proof \*
+Suppose $G$ is a graph with $n$ vertices, each of which has
 degree $d \ge (n-1)/2$. Prove that $G$ contains a Hamiltonian path.
 Hint: Add an extra vertex to $G$ and connect it to all the other
 vertices. What does Dirac's Theorem say about this new graph.)
 
 
-### Proof
-\* Prove $\sum^n_{r=0}\binom{n}{r}2^{2n-2r}=5^n$
+### Proof \*
+Prove $\sum^n_{r=0}\binom{n}{r}2^{2n-2r}=5^n$
 
